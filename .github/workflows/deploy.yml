@@ -11,6 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
-      - run: npm install
-      - run: git config user.name "$GITHUB_ACTOR" && git config user.email "$GITHUB_ACTOR@github-deploy.com"
-      - run: npm run deploy
+      - name: Install dependencies
+        run: npm install
+      - name: Build application for deployment
+          npm run build:gh-pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
