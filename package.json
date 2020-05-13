@@ -19,7 +19,7 @@
       "publicUrl": "./"
     },
     "gh-pages": {
-      "publicUrl": "."
+      "publicUrl": "/carleton-web-dev/"
     }
   },
   "author": "Minivera",
