@@ -28,7 +28,7 @@ export const Footer = ({ count, completedCount, nowShowing, setNowShowing, clear
         <li>
           <a
             onClick={() => setNowShowing(ALL_TODOS)}
-            className={classNames({selected: nowShowing === ALL_TODOS})}>
+            className={classNames({ selected: nowShowing === ALL_TODOS })}>
             All
           </a>
         </li>
@@ -36,7 +36,7 @@ export const Footer = ({ count, completedCount, nowShowing, setNowShowing, clear
         <li>
           <a
             onClick={() => setNowShowing(ACTIVE_TODOS)}
-            className={classNames({selected: nowShowing === ACTIVE_TODOS})}>
+            className={classNames({ selected: nowShowing === ACTIVE_TODOS })}>
             Active
           </a>
         </li>
@@ -44,7 +44,7 @@ export const Footer = ({ count, completedCount, nowShowing, setNowShowing, clear
         <li>
           <a
             onClick={() => setNowShowing(COMPLETED_TODOS)}
-            className={classNames({selected: nowShowing === COMPLETED_TODOS})}>
+            className={classNames({ selected: nowShowing === COMPLETED_TODOS })}>
             Completed
           </a>
         </li>
