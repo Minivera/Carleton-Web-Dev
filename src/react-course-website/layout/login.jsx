@@ -9,18 +9,17 @@ export const Login = ({ handleLogin }) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
-  const handleSubmit = async () => {
+  const handleSubmit = () => {
     setLoading(true);
 
-    try {
-      const user = await loginUser(username);
-
+    // Using promises here as async functions were bugging out the build
+    loginUser(username).then(user => {
       setLoading(false);
       handleLogin(user);
-    } catch (e) {
+    }).catch(reason => {
       setLoading(false);
-      setError(e.message);
-    }
+      setError(reason.message);
+    });
   };
 
   return (
