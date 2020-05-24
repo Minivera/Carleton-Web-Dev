@@ -33,12 +33,19 @@ export const removeForumTopic = 'REMOVE_TOPIC';
 export const addForumTopicComment = 'ADD_TOPIC_COMMENT';
 export const removeForumTopicComment = 'REMOVE_TOPIC_COMMENT';
 
-export const editSingle = (id, callback) => el => {
+const editSingle = (id, callback) => el => {
   if (el.id === id) {
     return callback(el);
   }
   return el;
 };
+
+// Since we rely on the length to create new ids, let's simplify our lives by resetting all ids
+// to their index when we remove elements from lists.
+const resetIds = (element, index) => ({
+  ...element,
+  id: index,
+});
 
 export const reducer = (state, action) => {
   switch (action.type) {
@@ -54,7 +61,7 @@ export const reducer = (state, action) => {
     case removeLecture:
       return {
         ...state,
-        lectures: state.lectures.filter(lecture => lecture.id !== action.id),
+        lectures: state.lectures.filter(lecture => lecture.id !== action.id).map(resetIds),
       };
     case addAssignment:
       return {
@@ -68,7 +75,7 @@ export const reducer = (state, action) => {
     case removeAssignment:
       return {
         ...state,
-        assignments: state.assignments.filter(assignment => assignment.id !== action.id),
+        assignments: state.assignments.filter(assignment => assignment.id !== action.id).map(resetIds),
       };
     case addTutorial:
       return {
@@ -82,7 +89,7 @@ export const reducer = (state, action) => {
     case removeTutorial:
       return {
         ...state,
-        tutorials: state.tutorials.filter(tutorial => tutorial.id !== action.id),
+        tutorials: state.tutorials.filter(tutorial => tutorial.id !== action.id).map(resetIds),
       };
     case addForumTopic:
       return {
@@ -107,7 +114,7 @@ export const reducer = (state, action) => {
         ...state,
         forums: state.forums.map(editSingle(action.id, forum => ({
           ...forum,
-          topics: forum.topics.filter(topic => topic.id !== action.topicId),
+          topics: forum.topics.filter(topic => topic.id !== action.topicId).map(resetIds),
         }))),
       };
     case addForumTopicComment:
@@ -132,7 +139,7 @@ export const reducer = (state, action) => {
           ...forum,
           topics: forum.topics.map(editSingle(action.topicId, topic => ({
             ...topic,
-            comments: topic.comments.filter(comment => comment.id !== action.commentId),
+            comments: topic.comments.filter(comment => comment.id !== action.commentId).map(resetIds),
           }))),
         }))),
       };
