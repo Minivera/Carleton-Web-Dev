@@ -5,5 +5,5 @@ import { App } from './components/app';
 
 ReactDOM.render(
   <App />,
-  document.querySelector('.todoapp')
+  document.querySelector('#app')
 );

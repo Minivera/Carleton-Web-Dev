@@ -1,0 +1,465 @@
+[
+	{
+		"unit": "Introduction to Javascript",
+		"slides": [
+			{
+				"title": "Introduction to Javascript",
+				"url": "/slides/01-Introduction to Javascript.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Intro to Javascript Part 1 (Fall 2019)",
+				"url": "https://mediaspace.carleton.ca/media/2406b-sept6/1_tdi9wkpi"
+			},
+			{
+				"title": "Intro to Javascript Part 2 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-jan14/1_ic9zk1je"
+			}
+		],
+		"code": [
+			{
+				"title": "Intro to Javascript Code",
+				"url": "/code/Intro to Javascript Code.zip"
+			}
+		]
+	}, 
+	
+	
+	{
+		"unit": "Javascript and the Document Object Model",
+		"slides": [
+			{
+				"title": "Javascript and the Document Object Model",
+				"url": "/slides/02-Javascript and the Document Object Model.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Javascript and the DOM Part 1 (starts around 36:30) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-jan14/1_ic9zk1je"
+			},
+			{
+				"title": "Javascript and the DOM Part 2 + tutorial #2 discussion (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-jan16/1_kndl42yy"
+			}
+		],
+		"code": [
+			{
+				"title": "Javascript and the DOM Code",
+				"url": "/code/Javascript and the DOM Code.zip"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"unit": "Intro to Web Apps and HTTP",
+		"slides": [
+			{
+				"title": "Intro to Web Apps and HTTP",
+				"url": "/slides/03-Intro to Web Apps and HTTP.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Intro to Web Apps and HTTP Part 1 (and Assignment #1 demo) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/1_58d67hpu"
+			},
+			{
+				"title": "Intro to Web Apps and HTTP Part 2 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/t/1_9jzumk00"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"unit": "AJAX",
+		"slides": [
+			{
+				"title": "AJAX",
+				"url": "/slides/04-AJAX.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "AJAX (starts around 19:30) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/t/1_9jzumk00"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"unit": "Client-Server Achitecture",
+		"slides": [
+			{
+				"title": "Client-Server Achitecture",
+				"url": "/slides/05-Client-Server Architecture.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Client-Server Architecture Part 1 (starts at 1:06:00) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/t/1_9jzumk00"
+			},
+			{
+				"title": "Client Server Architecture Part 2 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/1_ogn5rof5"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"unit": "Intro to Node.js",
+		"slides": [
+			{
+				"title": "Intro to Node.js",
+				"url": "/slides/06-Intro to Node.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Intro to Node Part 1 (starts at 43:50) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/1_ogn5rof5"
+			},
+			{
+				"title": "Intro to Node Part 2 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-jan30/1_1amuu28j"
+			},
+			{
+				"title": "Intro to Node Part 3 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-feb4/1_in4w4w16"
+			}
+		],
+		"code": [
+			{
+				"title": "Intro to Node Code",
+				"url": "/code/Intro to Node Code.zip"
+			},
+			{
+				"title": "Iterating Object Keys and Retrieving Event Sources Code",
+				"url": "/code/Iterating Object Keys and Retrieving Event Sources Code-20200512.zip"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"unit": "Node Package Manager (NPM)",
+		"slides": [
+			{
+				"title": "07-Intro to NPM",
+				"url": "/slides/07-Intro to NPM.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Intro to NPM (starts at 16:40) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-feb4/1_in4w4w16"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"unit": "Template Engines",
+		"slides": [
+			{
+				"title": "Template Engines",
+				"url": "/slides/08-Template Engines.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Template Engines Part 1 (starts at 40:00) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-feb4/1_in4w4w16"
+			},
+			{
+				"title": "Template Engines Part 2 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/1_w2sshyc6"
+			},
+			{
+				"title": "Template Engines Part 3 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/1_85to4kgx"
+			}
+		],
+		"code": [
+			{
+				"title": "Template Engine Code",
+				"url": "/code/Template-Engine-Code.zip"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"unit": "RESTful Web Design",
+		"slides": [
+			{
+				"title": "RESTful Web Design",
+				"url": "/slides/09-RESTful Web Design.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "RESTful Web Design Part 1 (starts at 54:00) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/1_85to4kgx"
+			},
+			{
+				"title": "RESTful Web Design Part 2 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-feb13/1_gckubhrr"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"unit": "Middleware and Connect",
+		"slides": [
+			{
+				"title": "Middleware and Connect",
+				"url": "/slides/10-Middleware and Connect.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Middleware and Connect Part 1 (starts at 47:00) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-feb13/1_gckubhrr"
+			},
+			{
+				"title": "Middleware and Connect Part 2 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-feb25/1_r4pin9f2"
+			}
+		],
+		"code": [
+			{
+				"title": "Middleware and Connect Code",
+				"url": "/code/Middleware-and-Connect-Code.zip"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"unit": "Express",
+		"slides": [
+			{
+				"title": "Intro to Express",
+				"url": "/slides/11-Express.pdf"
+			},
+			{
+				"title": "More Express",
+				"url": "/slides/12-More Express.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Express Part 1 (starts at 35:15) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-feb25/1_r4pin9f2"
+			},
+			{
+				"title": "Express Part 2 (and A3 demonstration) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/1_egqto831"
+			},
+			{
+				"title": "Express Part 3 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-mar5/1_v2zwb13t"
+			},
+			{
+				"title": "Express Part 4 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-mar10/1_enbl9gs4"
+			}			
+		],
+		"code": [
+			{
+				"title": "Intro to Express Code",
+				"url": "/code/Express-Code.zip"
+			},
+			{
+				"title": "More Express Base Code",
+				"url": "/code/More-Express-Base-Code.zip"
+			},
+			{
+				"title": "More Express Completed Code",
+				"url": "/code/More-Express-Completed-Code.zip"
+			}
+		]
+	},
+	
+	
+	
+	
+	{
+		"unit": "MongoDB",
+		"slides": [
+			{
+				"title": "Intro to MongoDB",
+				"url": "/slides/13-Intro to MongoDB.pdf"
+			},
+			{
+				"title": "MongoDB and Node.js",
+				"url": "/slides/14-MongoDB and Node.pdf"
+			}
+			,
+			{
+				"title": "MongoDB and Node.js (Fall 2019)",
+				"url": "/slides/Mongo and Node-Fall2019.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "MongoDB Part 1 (starts at 29:00) (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/2406-mar10/1_enbl9gs4"
+			},
+			{
+				"title": "MongoDB Part 2 (Winter 2020)",
+				"url": "https://mediaspace.carleton.ca/media/1_yuqceu1t"
+			},
+			{
+				"title": "MongoDB (Fall 2019)",
+				"url": "https://mediaspace.carleton.ca/media/1_wlnax17h"
+			}
+		],
+		"code": [
+			{
+				"title": "MongoDB Code (Winter 2020)",
+				"url": "/code/MongoDB-Code.zip"
+			},
+			{
+				"title": "MongoDB Code (Fall 2019)",
+				"url": "/code/Mongo and Node Code.zip"
+			}
+		]
+	},
+	
+	{
+		"unit": "Mongoose",
+		"slides": [
+			{
+				"title": "Introduction to Mongoose",
+				"url": "/slides/Introduction to Mongoose.pdf"
+			},
+			{
+				"title": "More Mongoose",
+				"url": "/slides/More Mongoose.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Intro to Mongoose (Fall 2019)",
+				"url": "https://mediaspace.carleton.ca/media/2406-nov13/1_228yxe1o"
+			},
+			{
+				"title": "More Mongoose (Fall 2019)",
+				"url": "https://mediaspace.carleton.ca/media/1_uoqvgdh4"
+			},
+			{
+				"title": "Mongoose Wrap-up (Fall 2019)",
+				"url": "https://mediaspace.carleton.ca/media/2406-nov20/1_a6stgob0"
+			}
+		],
+		"code": [
+			{
+				"title": "Intro to Mongoose Code",
+				"url": "/code/Intro-to-Mongoose-Code.zip"
+			},
+			{
+				"title": "More Mongoose Code",
+				"url": "/code/More-Mongoose-Code.zip"
+			}
+		]
+	},
+	
+	{
+		"unit": "Authentication, Authorization, and Sessions",
+		"slides": [
+			{
+				"title": "Authentication Authorization and Sessions",
+				"url": "/slides/Authentication Authorization and Sessions.pdf"
+			},
+			{
+				"title": "HTTPS",
+				"url": "/slides/HTTPS.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Authentication, Authorization, Sessions Part 1 (starts at 8:00) (Fall 2019)",
+				"url": "https://mediaspace.carleton.ca/media/2406-nov20/1_a6stgob0"
+			},
+			{
+				"title": "Authentication, Authorization, Sessions Part 2 (Fall 2019)",
+				"url": "https://mediaspace.carleton.ca/media/2406-nov22/1_4c8rnv58"
+			}
+		],
+		"code": [
+			{
+				"title": "Authentication, Authorization, and Sessions Code",
+				"url": "/code/Authentication Authorization Sessions Code.zip"
+			},
+			{
+				"title": "HTTPS Server",
+				"url": "/code/HTTPS-Server.zip"
+			}
+		]
+	},
+	
+	{
+		"unit": "Web Sockets and Socket.io",
+		"slides": [
+			{
+				"title": "Web Sockets and Socket.io",
+				"url": "/slides/07-Socket IO.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Socket.io (Fall 2019)",
+				"url": "https://mediaspace.carleton.ca/media/2406-SEPT27/1_5jwqqfio"
+			}
+		],
+		"code": [
+			{
+				"title": "Socket.io Chat Code",
+				"url": "/code/SocketIO-ChatServerCode.zip"
+			}
+		]
+	},
+	
+	{
+		"unit": "Git and Heroku",
+		"slides": [
+			{
+				"title": "Git and Heroku",
+				"url": "/slides/Heroku and Git.pdf"
+			}
+		],
+		"recordings": [
+			{
+				"title": "Git and Heroku (Fall 2019)",
+				"url": "https://mediaspace.carleton.ca/media/1_u3xnndw1"
+			}
+		]
+	}	
+]

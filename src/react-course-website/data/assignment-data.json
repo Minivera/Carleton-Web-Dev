@@ -1,0 +1,217 @@
+[
+	{
+		"name": "Assignment #1 - Client-side programming with Javascript",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-F20-A1 Specification",
+				"url": "/assignments/winter2020/a1/COMP2406-F20-A1 Specification.pdf"
+			},
+		"resources": [
+			{
+				"title": "client.js",
+				"url": "/assignments/winter2020/a1/client.js"
+			},
+			{
+				"title": "add.jpg",
+				"url": "/assignments/winter2020/a1/add.jpg"
+			},
+			{
+				"title": "remove.jpg",
+				"url": "/assignments/winter2020/a1/remove.jpg"
+			},
+			{
+				"title": "example-menu-data.txt",
+				"url": "/assignments/winter2020/a1/example-menu-data.txt"
+			},
+			{
+				"title": "COMP2406-W20-A1 Marking Scheme",
+				"url": "/assignments/winter2020/a1/COMP2406-W20-A1 Marking Scheme.txt"
+			}			
+		]
+	},
+	
+	{
+		"name": "Assignment #2 - Server-side programming and AJAX",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-A2 Specification",
+				"url": "/assignments/winter2020/a2/COMP2406-W20-A2 Specification.pdf"
+			},
+		"resources": [
+			{
+				"title": "assignment2-basecode.zip",
+				"url": "/assignments/winter2020/a2/assignment2-basecode.zip"
+			},
+			{
+				"title": "COMP2406-W20-A2 Marking Scheme.txt",
+				"url": "/assignments/winter2020/a2/COMP2406-W20-A2 Marking Scheme.txt"
+			}
+		]
+	},
+	
+	{
+		"name": "Assignment #3 - Express Restaurant Manager",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-A3 Specification",
+				"url": "/assignments/winter2020/a3/COMP2406-W20-A3 Specification.pdf"
+			},
+		"resources": [
+			{
+				"title": "A3-Data.zip",
+				"url": "/assignments/winter2020/a3/A3-Data.zip"
+			},
+			{
+				"title": "COMP2406-W20-A3 Marking Scheme.txt",
+				"url": "/assignments/winter2020/a3/COMP2406-W20-A3 Marking Scheme.txt"
+			}
+		]
+	},
+	
+	{
+		"name": "Assignment #4 - MongoDB and Sessions",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-A4 Specification",
+				"url": "/assignments/winter2020/a4/COMP2406-W20-A4 Specification.pdf"
+			},
+		"resources": [
+			{
+				"title": "A4-Data.zip",
+				"url": "/assignments/winter2020/a4/A4-Data.zip"
+			},
+			{
+				"title": "A4 Demo Video",
+				"url": "https://mediaspace.carleton.ca/media/1_ym36jqpv"
+			},
+			{
+				"title": "COMP2406-W20-A4 Marking Scheme.txt",
+				"url": "/assignments/winter2020/a4/COMP2406-W20-A4 Marking Scheme.txt"
+			}
+		]
+	},
+	
+	{
+		"name": "Final Assessment - Card Game Trading",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-A5 Specification",
+				"url": "/assignments/winter2020/a5/COMP2406-W20-A5 Specification.pdf"
+			},
+		"resources": [
+			{
+				"title": "database-initializer.js",
+				"url": "/assignments/winter2020/a5/database-initializer.js"
+			},
+			{
+				"title": "A5 Demo Video",
+				"url": "https://mediaspace.carleton.ca/media/1_a68wh0k1"
+			},
+			{
+				"title": "COMP2406-W20-A5 Marking Scheme.txt",
+				"url": "/assignments/winter2020/a5/COMP2406-W20-A5 Marking Scheme.txt"
+			}
+		]
+	},
+	
+	{
+		"name": "Assignment #1 - Client-side programming with Javascript",
+		"term": "Fall 2019",
+		"specfile": {
+				"title": "COMP2406-F19-A1 Specification",
+				"url": "/assignments/fall2019/a1/COMP2406-F19-A1 Specification.pdf"
+			},
+		"resources": [
+			{
+				"title": "trivia.js",
+				"url": "/assignments/fall2019/a1/trivia.js"
+			},
+			{
+				"title": "check.png",
+				"url": "/assignments/fall2019/a1/check.png"
+			},
+			{
+				"title": "x.png",
+				"url": "/assignments/fall2019/a1/x.png"
+			},
+			{
+				"title": "COMP2406-F19-A1 Marking Scheme.txt",
+				"url": "/assignments/fall2019/a1/COMP2406-F19-A1 Marking Scheme.txt"
+			}
+		]
+	},
+	
+	{
+		"name": "Assignment #2 - Real-time communication using Socket.io",
+		"term": "Fall 2019",
+		"specfile": {
+				"title": "COMP2406-F19-A2 Specification.pdf",
+				"url": "/assignments/fall2019/a2/COMP2406-F19-A2 Specification.pdf"
+			},
+		"resources": [
+			{
+				"title": "COMP2406-F19-A2 Marking Scheme.pdf",
+				"url": "/assignments/fall2019/a2/COMP2406-F19-A2 Marking Scheme.pdf"
+			}
+		]
+	},
+	
+	{
+		"name": "Assignment #3 - Trivia Question Web Service",
+		"term": "Fall 2019",
+		"specfile": {
+				"title": "COMP2406-F19-A3 Specification",
+				"url": "/assignments/fall2019/a3/COMP2406-F19-A3 Specification.pdf"
+			},
+		"resources": [
+			{
+				"title": "A3-Resources.zip",
+				"url": "/assignments/fall2019/a3/A3-Resources.zip"
+			},
+			{
+				"title": "marking scheme.txt",
+				"url": "/assignments/fall2019/a3/marking scheme.txt"
+			}
+		]
+	},
+	
+	{
+		"name": "Assignment #4 - Trivia Quiz Builder Using MongoDB",
+		"term": "Fall 2019",
+		"specfile": {
+				"title": "COMP2406-F19-A4 Specification",
+				"url": "/assignments/fall2019/a4/COMP2406-F19-A4 Specification.pdf"
+			},
+		"resources": [
+			{
+				"title": "database-initializer.js",
+				"url": "/assignments/fall2019/a4/database-initializer.js"
+			},
+			{
+				"title": "COMP2406-F19-A4 Marking Scheme.txt",
+				"url": "/assignments/fall2019/a4/COMP2406-F19-A4 Marking Scheme.txt"
+			}
+		]
+	},
+	
+	{
+		"name": "Assignment #5 - Sessions and User Profiles",
+		"term": "Fall 2019",
+		"specfile": {
+				"title": "COMP2406-F19-A5-Specification",
+				"url": "/assignments/fall2019/a5/COMP2406-F19-A5-Specification.pdf"
+			},
+		"resources": [
+			{
+				"title": "A5-BaseCode.zip",
+				"url": "/assignments/fall2019/a5/A5-BaseCode.zip"
+			},
+			{
+				"title": "COMP2406-F19-A5 Marking Scheme.txt",
+				"url": "/assignments/fall2019/a5/COMP2406-F19-A5 Marking Scheme.txt"
+			}
+		]
+	}
+	
+	
+]
