@@ -8,27 +8,23 @@ export const AddCourseElement = ({ content, dispatch }) => {
   const history = useHistory();
   const [newElement, setNewElement] = useState('');
 
-  let name = '';
   let singularType = '';
   let actionType = '';
   let newId = 0;
   switch (type) {
     case 'lectures': {
-      name = 'Lectures';
       singularType = 'lecture';
       actionType = addLecture;
       newId = content.lectures.length;
       break;
     }
     case 'tutorials': {
-      name = 'Tutorials';
       singularType = 'tutorial';
       actionType = addTutorial;
       newId = content.tutorials.length;
       break;
     }
     case 'assignments': {
-      name = 'Assignments';
       singularType = 'assignment';
       actionType = addAssignment;
       newId = content.assignments.length;
