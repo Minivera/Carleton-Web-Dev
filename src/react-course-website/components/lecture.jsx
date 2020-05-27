@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -8,7 +9,13 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import { removeLecture } from '../data/courseContent';
+import { LectureType, UserType } from '../types/proptypes';
 
+/**
+ * A Bulma panel that describes a specific lecture with its slices, recordings and code files.
+ *
+ * See also: [Bulma Panel](https://bulma.io/documentation/components/panel/).
+ */
 export const Lecture = ({ lecture, user, dispatch }) => (
   <nav className="panel is-primary" key={lecture.id}>
     <div className="panel-heading">
@@ -50,3 +57,26 @@ export const Lecture = ({ lecture, user, dispatch }) => (
     ))}
   </nav>
 );
+
+Lecture.propTypes = {
+  /**
+   * The lecture to display.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  lecture: LectureType.isRequired,
+
+  /**
+   * The user currently logged into the application.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  user: UserType.isRequired,
+
+  /**
+   * The dispatch function to send events to the state machine.
+   *
+   * See the course content documentation for more details.
+   */
+  dispatch: PropTypes.func.isRequired,
+};

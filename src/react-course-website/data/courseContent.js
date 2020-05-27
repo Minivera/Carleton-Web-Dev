@@ -2,8 +2,10 @@ import lectures from './lecture-data.json';
 import assignments from './assignment-data.json';
 import tutorials from './tutorial-data.json';
 
+// Adds IDs to our JSON elements based on the index.
 const createIdedElement = (el, index) => ({ ...el, id: index });
 
+// This will be the base state inside our application.
 export const initialState = {
   lectures: lectures.map(createIdedElement),
   assignments: assignments.map(createIdedElement),
@@ -22,6 +24,7 @@ export const initialState = {
   ],
 };
 
+// This is all the actions we can send to our state machine for changing the state.
 export const addLecture = 'ADD_LECTURE';
 export const removeLecture = 'REMOVE_LECTURE';
 export const addAssignment = 'ADD_ASSIGNMENT';
@@ -33,6 +36,8 @@ export const removeForumTopic = 'REMOVE_TOPIC';
 export const addForumTopicComment = 'ADD_TOPIC_COMMENT';
 export const removeForumTopicComment = 'REMOVE_TOPIC_COMMENT';
 
+// Edit a single element inside of a map. Will trigger the callback if the element's id is the same as the
+// provided id.
 const editSingle = (id, callback) => el => {
   if (el.id === id) {
     return callback(el);
@@ -47,9 +52,14 @@ const resetIds = (element, index) => ({
   id: index,
 });
 
+// A reducer is a special kind of state machine tha works using the reducer pattern.
+// Essentially, the state machine will take the given state and a received action when the dispatch function is called
+// and call the following function. The switch allows us to change the state based on that action's type and then return
+// the changed state. No mutations happen, it's all immutable.
 export const reducer = (state, action) => {
   switch (action.type) {
     case addLecture:
+      // Add a lecture element when this action is called. It copies the content of the first lecture for now.
       return {
         ...state,
         lectures: [].concat(state.lectures, {
@@ -59,6 +69,7 @@ export const reducer = (state, action) => {
         }),
       };
     case removeLecture:
+      // Removes the lecture using a filter and the provided id.
       return {
         ...state,
         lectures: state.lectures.filter(lecture => lecture.id !== action.id).map(resetIds),
@@ -92,6 +103,8 @@ export const reducer = (state, action) => {
         tutorials: state.tutorials.filter(tutorial => tutorial.id !== action.id).map(resetIds),
       };
     case addForumTopic:
+      // Adds a topic to one of the forum categories. The first comment will be created
+      // using the passed description and username.
       return {
         ...state,
         forums: state.forums.map(editSingle(action.id, forum => ({
@@ -110,6 +123,7 @@ export const reducer = (state, action) => {
         }))),
       };
     case removeForumTopic:
+      // Removes a forum topic using a filter.
       return {
         ...state,
         forums: state.forums.map(editSingle(action.id, forum => ({
@@ -118,6 +132,7 @@ export const reducer = (state, action) => {
         }))),
       };
     case addForumTopicComment:
+      // Adds a comment to a specific topic using the given ids, description and username.
       return {
         ...state,
         forums: state.forums.map(editSingle(action.id, forum => ({
@@ -133,6 +148,7 @@ export const reducer = (state, action) => {
         }))),
       };
     case removeForumTopicComment:
+      // Removes a comment from a specific topic using a filter.
       return {
         ...state,
         forums: state.forums.map(editSingle(action.id, forum => ({
@@ -144,6 +160,7 @@ export const reducer = (state, action) => {
         }))),
       };
     default:
+      // If the action in unkown, we throw an error.
       throw new Error('Unknown action');
   }
 };

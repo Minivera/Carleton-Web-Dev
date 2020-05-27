@@ -4,7 +4,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 import { CollapsibleMenu } from './collapsibleMenu';
+import { CourseContentType, UserType } from '../types/proptypes';
 
+/**
+ * An activity bulma menu to render on the side of the page.
+ *
+ * This menu will show all the possible content inside of the page as well as commands to create new content if
+ * the user is an administrator.
+ *
+ * See also: [Bulma Menu](https://bulma.io/documentation/components/menu/).
+ */
 export const Activities = ({ content, user }) => (
   <aside className="menu">
     <p className="menu-label">
@@ -89,3 +98,19 @@ export const Activities = ({ content, user }) => (
     )}
   </aside>
 );
+
+Activities.propTypes = {
+  /**
+   * The user currently logged into the application.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  user: UserType.isRequired,
+
+  /**
+   * The course content available on the website.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  content: CourseContentType.isRequired,
+};

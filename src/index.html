@@ -17,8 +17,21 @@
                 <li>
                     <a href="react-course-website/index.html">React course website - Assigment 1</a>
                 </li>
+                <li id="documentation-link" />
             </ul>
         </div>
         <script src="./index.js"></script>
+        <script>
+            // This function exists to inject the storybook link after it was built. Since parcel resolves the
+            // HTML links during the build, it wouldn't find the storybook code since we build it after the fact.
+            // This link won't work in dev.
+            (function() {
+                const anchor = document.createElement('a');
+                anchor.href = 'storybook/index.html';
+                anchor.innerText = 'React course website - Assigment 1 - Documentation';
+
+                document.querySelector('#documentation-link').appendChild(anchor);
+            })();
+        </script>
     </body>
 </html>

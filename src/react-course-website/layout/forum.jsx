@@ -1,13 +1,29 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { Link, Redirect, useParams, useHistory } from 'react-router-dom';
 
 import { Activities } from '../components/activities';
 import { addForumTopic, removeForumTopic } from '../data/courseContent';
 import { getUser } from '../data/users';
+import { CourseContentType, UserType } from '../types/proptypes';
 
+/**
+ * Page for displaying a forum category, hosted under the route `/forums/:id`.
+ *
+ * The _:id_ parameter in the route should be a number and will make the application fetch the given
+ * element inside the course content.
+ *
+ * If none of those parameters are valid, it will redirect to the home page.
+ *
+ * Will display the page as two tiles, one with the forum categories and one with the activities sub menu.
+ *
+ * See also: [Bulma Tiles](https://bulma.io/documentation/layout/tiles/)<br />
+ * See also: <a data-sb-kind="Components/Activities menu">Activities sub menu</a>
+ */
 export const ForumPage = ({ content, user, dispatch }) => {
   const { id } = useParams();
   const history = useHistory();
+  // These states hook will give us the ability to create new forum topics
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
 
@@ -25,6 +41,7 @@ export const ForumPage = ({ content, user, dispatch }) => {
       title,
       description,
     });
+    // Redirect to the newly added forum element.
     history.push(`/forums/${forum.id}/topics/${forum.topics.length}`);
   };
 
@@ -135,4 +152,27 @@ export const ForumPage = ({ content, user, dispatch }) => {
       </div>
     </div>
   );
+};
+
+ForumPage.propTypes = {
+  /**
+   * The course content inside the application.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  content: CourseContentType.isRequired,
+
+  /**
+   * The user currently logged into the application.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  user: UserType.isRequired,
+
+  /**
+   * The dispatch function to send events to the state machine.
+   *
+   * See the course content documentation for more details.
+   */
+  dispatch: PropTypes.func.isRequired,
 };

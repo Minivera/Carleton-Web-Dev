@@ -1,7 +1,15 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
+/**
+ * A collapsible container to hide content on demand. When rendered, it will create a level bulma element
+ * with the title on the left and a button on the right to hide or show the children. The children are visible
+ * by default.
+ *
+ * See also: [Bulma Level](https://bulma.io/documentation/layout/level/).
+ */
 export const CollapsibleContent = ({ title, children }) => {
   const [opened, setOpened] = useState(true);
 
@@ -36,4 +44,19 @@ export const CollapsibleContent = ({ title, children }) => {
       </div>
     </div>
   );
+};
+
+CollapsibleContent.propTypes = {
+  /**
+   * The title so display for this container.
+   */
+  title: PropTypes.node.isRequired,
+
+  /**
+   * The children to render inside of the collapsible content.
+   */
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]).isRequired
 };

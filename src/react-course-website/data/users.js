@@ -17,6 +17,8 @@ export const users = [
 
 export const getUser = username => users.find(user => user.name === username);
 
+// Function that returns a promise to log-in a user based on a fake timeout. We could potentially
+// connect this to a real server in the future.
 export const loginUser = username => new Promise((resolve, reject) => {
   const found = users.find(user => user.email === username);
 

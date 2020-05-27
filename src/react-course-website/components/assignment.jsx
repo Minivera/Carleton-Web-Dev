@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -7,7 +8,13 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import { removeAssignment } from '../data/courseContent';
+import { AssignmentType, UserType } from '../types/proptypes';
 
+/**
+ * A Bulma panel that describes a specific assignment with its specification file and resources.
+ *
+ * See also: [Bulma Panel](https://bulma.io/documentation/components/panel/).
+ */
 export const Assignment = ({ assignment, user, dispatch }) => (
   <nav className="panel is-success" key={assignment.id}>
     <div className="panel-heading">
@@ -41,3 +48,26 @@ export const Assignment = ({ assignment, user, dispatch }) => (
     ))}
   </nav>
 );
+
+Assignment.propTypes = {
+  /**
+   * The assignment to display.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  assignment: AssignmentType.isRequired,
+
+  /**
+   * The user currently logged into the application.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  user: UserType.isRequired,
+
+  /**
+   * The dispatch function to send events to the state machine.
+   *
+   * See the course content documentation for more details.
+   */
+  dispatch: PropTypes.func.isRequired,
+};

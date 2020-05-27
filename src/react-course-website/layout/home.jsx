@@ -1,11 +1,28 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { Lectures } from '../components/lectures';
 import { Tutorials } from '../components/tutorials';
 import { Assignments } from '../components/assignments';
 import { Activities } from '../components/activities';
 import { Forums } from '../components/forums';
+import { CourseContentType, UserType } from '../types/proptypes';
 
+/**
+ * Home page of the application hosted under `/`.
+ *
+ * This page displays all of the list components to show all the available content inside of the course. It uses
+ * a suite of bulma components to make the page look great.
+ *
+ * See also: [Bulma](https://bulma.io/documentation)<br />
+ * See also: <a data-sb-kind="Components/Header">Header component</a><br />
+ * See also: <a data-sb-kind="Components/Lectures">Lectures list</a><br />
+ * See also: <a data-sb-kind="Components/Tutorials">Tutorials list</a><br />
+ * See also: <a data-sb-kind="Components/Assignments">Assignments list</a><br />
+ * See also: <a data-sb-kind="Components/Forums">Forums categories</a><br />
+ * See also: <a data-sb-kind="Components/Footer">Footer component</a><br />
+ * See also: <a data-sb-kind="Components/Activities menu">Activities sub menu</a>
+ */
 export const Home = ({ content, user, dispatch }) => {
   return (
     <div className="tile is-ancestor">
@@ -96,4 +113,27 @@ export const Home = ({ content, user, dispatch }) => {
       </div>
     </div>
   );
+};
+
+Home.propTypes = {
+  /**
+   * The course content inside the application.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  content: CourseContentType.isRequired,
+
+  /**
+   * The user currently logged into the application.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  user: UserType.isRequired,
+
+  /**
+   * The dispatch function to send events to the state machine.
+   *
+   * See the course content documentation for more details.
+   */
+  dispatch: PropTypes.func.isRequired,
 };

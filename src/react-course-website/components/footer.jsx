@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+/**
+ * This component display a styled footer using the bulma footer component.
+ *
+ * See also: [Bulma footer](https://bulma.io/documentation/layout/footer/).
+ */
 export const Footer = () => (
   <footer className="footer">
     <div className="content has-text-centered">

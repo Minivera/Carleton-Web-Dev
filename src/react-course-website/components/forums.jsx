@@ -1,10 +1,17 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments } from '@fortawesome/free-solid-svg-icons';
 
 import { CollapsibleContent } from './collapsibleContent';
+import { ForumType } from '../types/proptypes';
 
+/**
+ * A list of forum categories inside of a collapsible content. Forums are shown in their own page.
+ *
+ * See also: <a data-sb-kind="Components/Collapsible content">Collapsible content component</a>
+ */
 export const Forums = ({ forums }) => (
   <CollapsibleContent title="Discussion boards">
     {forums.map(forum => (
@@ -22,3 +29,12 @@ export const Forums = ({ forums }) => (
     ))}
   </CollapsibleContent>
 );
+
+Forums.propTypes = {
+  /**
+   * The forums to display.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  forums: PropTypes.arrayOf(ForumType).isRequired,
+};

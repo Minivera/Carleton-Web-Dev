@@ -1,15 +1,27 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
 import { loginUser } from '../data/users';
 
+/**
+ * Login page to be used when the user is not logged in the application.
+ *
+ * While considered a page, this page is loaded like a normal component under any url if the user is not logged
+ * in. It will allow the user to log in the application using the users defined in the users store.
+ *
+ * See the <a data-sb-kind="Pages/Logged-in page">LoggedIn</a> component documentation for more details on the
+ * user store.
+ */
 export const Login = ({ handleLogin }) => {
+  // We create some state to store the username the user enters and shows some loading/error state
   const [username, setUsername] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   const handleSubmit = () => {
+    // Sets the loading state to true before starting the promise.
     setLoading(true);
 
     // Using promises here as async functions were bugging out the build
@@ -17,6 +29,7 @@ export const Login = ({ handleLogin }) => {
       setLoading(false);
       handleLogin(user);
     }).catch(reason => {
+      // This will trigger if an error is thrown in the promise.
       setLoading(false);
       setError(reason.message);
     });
@@ -71,4 +84,13 @@ export const Login = ({ handleLogin }) => {
       </div>
     </section>
   );
+};
+
+Login.propTypes = {
+  /**
+   * Function that is to be called when the user clicks on the submit button. Excepts a user object to log
+   * that user inside of the state.
+   * @param {Object} user - User to log into the application. Should be fetched from the user store.
+   */
+  handleLogin: PropTypes.func.isRequired,
 };

@@ -1,8 +1,20 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { useParams, useHistory } from 'react-router-dom';
 
 import { addLecture, addTutorial, addAssignment } from '../data/courseContent';
+import { CourseContentType } from '../types/proptypes';
 
+/**
+ * Generic page for adding a new course element, hosted under the route `/:type/+`.
+ *
+ * The _:type_ parameter in the route should be one of `lecture|tutorials|assignments` and will decide which
+ * element is to be added.
+ *
+ * The component displays the list of elements based on the type as well as a Bulma modal.
+ *
+ * See also: [Bulma Modal](https://bulma.io/documentation/components/modal/).
+ */
 export const AddCourseElement = ({ content, dispatch }) => {
   const { type } = useParams();
   const history = useHistory();
@@ -11,6 +23,7 @@ export const AddCourseElement = ({ content, dispatch }) => {
   let singularType = '';
   let actionType = '';
   let newId = 0;
+  // Select which type to display
   switch (type) {
     case 'lectures': {
       singularType = 'lecture';
@@ -70,4 +83,20 @@ export const AddCourseElement = ({ content, dispatch }) => {
       <button className="modal-close is-large" aria-label="close" onClick={() => history.goBack()} />
     </div>
   );
+};
+
+AddCourseElement.propTypes = {
+  /**
+   * The course content inside the application.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  content: CourseContentType.isRequired,
+
+  /**
+   * The dispatch function to send events to the state machine.
+   *
+   * See the course content documentation for more details.
+   */
+  dispatch: PropTypes.func.isRequired,
 };

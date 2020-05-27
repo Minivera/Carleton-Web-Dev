@@ -1,8 +1,18 @@
 import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook, faFlask, faLaptopHouse, faPlus, faComments } from '@fortawesome/free-solid-svg-icons';
 
+import { CourseContentType, UserType } from '../types/proptypes';
+
+/**
+ * This component display a styled header using the bulma navbar component.
+ *
+ * The Header will display more commands if the user is identified as an admin user.
+ *
+ * See also: [Bulma Navbar](https://bulma.io/documentation/components/navbar/).
+ */
 export const Header = ({ user, content, handleLogout }) => (
   <header>
     <nav className="navbar has-shadow is-light" role="navigation" aria-label="main navigation">
@@ -138,3 +148,24 @@ export const Header = ({ user, content, handleLogout }) => (
     </nav>
   </header>
 );
+
+Header.propTypes = {
+  /**
+   * The user currently logged into the application.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  user: UserType.isRequired,
+
+  /**
+   * The course content available on the website.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  content: CourseContentType.isRequired,
+
+  /**
+   * Function that will be called when a User wants to log out.
+   */
+  handleLogout: PropTypes.func.isRequired,
+};

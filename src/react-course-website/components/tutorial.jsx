@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -7,7 +8,13 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import { removeTutorial } from '../data/courseContent';
+import { TutorialType, UserType } from '../types/proptypes';
 
+/**
+ * A Bulma panel that describes a specific tutorial with its specification file and resources.
+ *
+ * See also: [Bulma Panel](https://bulma.io/documentation/components/panel/).
+ */
 export const Tutorial = ({ tutorial, user, dispatch }) => (
   <nav className="panel is-info" key={tutorial.id}>
     <div className="panel-heading">
@@ -41,3 +48,26 @@ export const Tutorial = ({ tutorial, user, dispatch }) => (
     ))}
   </nav>
 );
+
+Tutorial.propTypes = {
+  /**
+   * The tutorial to display.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  tutorial: TutorialType.isRequired,
+
+  /**
+   * The user currently logged into the application.
+   *
+   * See the <a data-sb-kind="Components/Complete application">App</a> component documentation for more details.
+   */
+  user: UserType.isRequired,
+
+  /**
+   * The dispatch function to send events to the state machine.
+   *
+   * See the course content documentation for more details.
+   */
+  dispatch: PropTypes.func.isRequired,
+};

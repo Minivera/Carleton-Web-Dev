@@ -4,8 +4,10 @@
   "description": "Repository that contains the various projects and assignments for my Directed Studies on Web Development at Carleton University.",
   "scripts": {
     "start": "parcel serve src/index.html -p 3000",
+    "start:storybook": "start-storybook",
     "build": "parcel build src/index.html",
-    "build:gh-pages": "parcel build src/index.html --target gh-pages",
+    "build:storybook": "build-storybook .storybook -o dist/storybook",
+    "build:gh-pages": "parcel build src/index.html --target gh-pages && npm run build:storybook",
     "lint": "eslint 'src/**/*.{js,jsx}'",
     "deploy": "npm run build:gh-pages && gh-pages -d dist",
     "clean": "git clean -fdX ."
@@ -22,6 +24,9 @@
       "publicUrl": "/carleton-web-dev/"
     }
   },
+  "externals": {
+    "storybook/index.html": false
+  },
   "author": "Minivera",
   "license": "ISC",
   "bugs": {
@@ -32,13 +37,23 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
+    "bulma": "^0.8.2",
     "classnames": "^2.2.6",
     "gravatar": "^1.8.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-docs": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addon-notes": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-config-react": "^1.1.7",
@@ -51,6 +66,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
     "parcel": "^2.0.0-alpha.3.2",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "storybook-react-router": "^1.0.8"
   }
 }

@@ -1,7 +1,16 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
+/**
+ * A collapsible menu to be added inside of a bulma menu element.
+ *
+ * When used inside of a menu, this component will render a submenu that can be collapsed ot hide its elements. The
+ * menu is collapsed by default.
+ *
+ * See also: [Bulma Menu](https://bulma.io/documentation/components/menu/).
+ */
 export const CollapsibleMenu = ({ title, children }) => {
   const [opened, setOpened] = useState(false);
 
@@ -26,4 +35,19 @@ export const CollapsibleMenu = ({ title, children }) => {
       </ul>
     </li>
   );
+};
+
+CollapsibleMenu.propTypes = {
+  /**
+   * The title so display for this menu element.
+   */
+  title: PropTypes.node.isRequired,
+
+  /**
+   * The children to render inside of the collapsible menu.
+   */
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]).isRequired
 };
