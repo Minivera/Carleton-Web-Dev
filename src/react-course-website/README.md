@@ -71,10 +71,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';  
   
 const App = ({ message }) => (
-	<div>
+  <div>
     <h1>Hello, world!</h1>
     <p>{message}</p>
-	</div>
+  </div>
 );
   
 ReactDOM.render(  
@@ -94,7 +94,7 @@ You may have noticed that we used a strange syntax to declare the `App` componen
 ```javascript
 const App = (props) => {
   const message = props.message;
-	// Could also do, const { message } = props;, which is also an example of deconstructing the object.
+  // Could also do, const { message } = props;, which is also an example of deconstructing the object.
 };
 ```
 
@@ -112,9 +112,9 @@ Now that we have everything set-up, we can start building a real application. Le
 import React from 'react';  
 
 export const App = () => (
-	<div>
+  <div>
     <h1>Hello, world!</h1>
-	</div>
+  </div>
 );
 ```
 
@@ -143,22 +143,22 @@ Now that we have a file for the `App` component, let's start adding some behavio
 import React, { useState } from 'react';  
 
 export const App = () => {
-	const [loading, setLoading] = useState(false);
-	const [user, setUser] = useState({
+  const [loading, setLoading] = useState(false);
+  const [user, setUser] = useState({
     id: 1,
     email: "test@test.com",
     name: "test"
-	});
-    
-	return loading ? (
+  });
+
+  return loading ? (
     <div>
       	loading...
     </div>
-	) : (
-    	<div>
-       {user.name} 
+  ) : (
+    <div>
+      {user.name} 
     </div>
-	);
+  );
 };
 ```
 
@@ -173,7 +173,7 @@ import React, { useState, useEffect } from 'react';
 export const App = () => {  
   const [loading, setLoading] = useState(true);  
   const [user, setUser] = useState(null);  
-  
+
   useEffect(() => {  
     fetch("https://jsonplaceholder.typicode.com/users/1").then(result => {
       return result.json();
@@ -182,7 +182,7 @@ export const App = () => {
       setUser(JSON.parse(jsonResult));  
     });   
   });  
-  
+
   // rest of file ommited for brievty 
 }
 ```
@@ -256,15 +256,15 @@ import React, { useState, useEffect } from 'react';
 import { Home } from './home';
 
 export const App = () => {
-	// omitted for brievty
-    
+  // omitted for brievty
+  
 	return loading ? (
     <div>
-      	loading...
+      loading...
     </div>
-	) : (
+  ) : (
     <Home user={user} />
-	);
+  );
 };
 ```
 
@@ -391,7 +391,7 @@ import { Post } from './post';
   
 export const SinglePost = ({ postId }) => {  
   const [loading, post] = useJsonPlaceholder("https://jsonplaceholder.typicode.com/posts/" + postId);  
-  
+
   return loading ? null : <Post post={post} />;  
 };
 ```
@@ -442,8 +442,8 @@ export const Home = ({ user }) => {
             <Post key={post.id} post={post} onClick={post => setSelected(post)} />  
           ))}  
         </ul>  
-      )}  
-    </div>  
+      )}
+    </div>
   );  
 };
 ```
@@ -474,7 +474,7 @@ import { Post } from './post';
 export const SinglePost = () => {  
   const { id } = useParams();  
   const [loading, post] = useJsonPlaceholder("https://jsonplaceholder.typicode.com/posts/" + id);  
-  
+
   return loading ? null : <Post post={post} />;  
 };
 ```
@@ -489,10 +489,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
   
 export const Post = ({ post, onClick }) => (  
-  <li>  
+  <li>
     <Link to={"/post/" + post.id}>{post.title}</Link>  
     <p>{post.body}</p>  
-  </li>  
+  </li>
 );
 ```
 
