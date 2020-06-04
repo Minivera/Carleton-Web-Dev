@@ -71,10 +71,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';  
   
 const App = ({ message }) => (
-	<div>
+  <div>
     <h1>Hello, world!</h1>
     <p>{message}</p>
-	</div>
+  </div>
 );
   
 ReactDOM.render(  
@@ -94,7 +94,7 @@ You may have noticed that we used a strange syntax to declare the `App` componen
 ```javascript
 const App = (props) => {
   const message = props.message;
-	// Could also do, const { message } = props;, which is also an example of deconstructing the object.
+  // Could also do, const { message } = props;, which is also an example of deconstructing the object.
 };
 ```
 
@@ -112,9 +112,9 @@ Now that we have everything set-up, we can start building a real application. Le
 import React from 'react';  
 
 export const App = () => (
-	<div>
+  <div>
     <h1>Hello, world!</h1>
-	</div>
+  </div>
 );
 ```
 
@@ -142,52 +142,76 @@ Now that we have a file for the `App` component, let's start adding some behavio
 // src/app.jsx
 import React, { useState } from 'react';  
 
-export const App = () => {
-	const [loading, setLoading] = useState(false);
-	const [user, setUser] = useState({
-    id: 1,
+export const App = ({ userId }) => {
+  const [loading, setLoading] = useState(false);
+  const [user, setUser] = useState({
+    id: userId,
     email: "test@test.com",
     name: "test"
-	});
+  });
     
-	return loading ? (
+  return loading ? (
     <div>
-      	loading...
+      loading...
     </div>
-	) : (
-    	<div>
-       {user.name} 
+  ) : (
+    <div>
+      {user.name} 
     </div>
-	);
+  );
 };
 ```
 
 What is this `useState` business here? In React, you can use these functions called hooks to insert state management inside of your components. For example, here we define two variables - called `loading` and `user` -  by deconstructing the array returned by the `useState` hook. Since state is meant to change and be tracked throughout the lifetime of our application - in the case of web applications, this means until the page is refreshed - the hook also provides us with a `set` function to update the state on demand. Whenever one of these functions is called, React will rerender itself by executing our components again. The value of the set state element will be updated and we will be able to react to state changes, like for the `loading` variable above.
 
-Let's introduce a second hook into this mix to fetch the user from `jsonplaceholder`.
+Before we move forward, you might have noticed that we introduced a property in the `App` component called `userId`. We need to make sure to provide this property when we create the component in `index.jsx`. In our scenario, this ID would be given by our external log-in page.
+
+```jsx
+// src/index.jsx
+import React from 'react';  
+import ReactDOM from 'react-dom';  
+  
+import { App } from './app';
+  
+ReactDOM.render(  
+  <App userId={1} />, // Added this property here
+  document.querySelector('#app')  
+);
+```
+
+Unfortunately, out user is not hardcoded. We don't want that, we want to fetch it from an API and display its information dynamically. Let's introduce a second hook into this mix to fetch the user from `jsonplaceholder`.
 
 ```jsx
 // src/app.jsx
 import React, { useState, useEffect } from 'react';  
 
-export const App = () => {  
+export const App = ({ userId }) => {  
   const [loading, setLoading] = useState(true);  
   const [user, setUser] = useState(null);  
   
   useEffect(() => {  
-    fetch("https://jsonplaceholder.typicode.com/users/1").then(result => {
+    fetch("https://jsonplaceholder.typicode.com/users/" + userId).then(result => {
       return result.json();
-    }).then(jsonResult => {  
-      setLoading(false);  
-      setUser(JSON.parse(jsonResult));  
+    }).then(jsonResult => {   
+      setUser(jsonResult); 
+      setLoading(false);
     });   
-  });  
+  }, [userId]);  
   
-  // rest of file ommited for brievty 
+  // This stays the same
+  return loading ? (
+    <div>
+      loading...
+    </div>
+  ) : (
+    <div>
+      {user.name} 
+    </div>
+  );
 }
 ```
 
-Using the [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), we send a request to `jsonplaceholder` and once it has been completely processed, we stop the loading and set the user's data. Try the application now to see the result. `useEffect` is another hook that will trigger the function we give in arguments _only once_. This is very useful in this case as we only want to fetch the user data at the start of the application and store it in state.
+Using the [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), we send a request to `jsonplaceholder` and once it has been completely processed, we stop the loading and set the user's data. Try the application now to see the result. `useEffect` is another hook that will trigger the function we give as the first argument depending on its second argument. Every time the component function is executed, React will look in the array we provided as the second parameter to see if anything in there changed. For example, if we ever changed the userId, the `useEffect` function would execute again, fetching the new user. This is very useful in this case as we only want to fetch the user data at the start of the application and store it in state.
 
 ### Showing posts
 Let's now create content for the user to view when they'll have logged-in the application. Create a new file inside the `src` folder called `home.jsx` and create a skeleton component called `Home`.
@@ -208,22 +232,38 @@ export const Home = ({ user }) => {
 Now add the following code to fetch a list of posts from `jsonplaceholder` using the technique we used in the application component.
 
 ```jsx
-const [loading, setLoading] = useState(true);  
-const [posts, setPosts] = useState(null);  
+// src/home.jsx
+import React, { useState, useEffect } from 'react';
 
-useEffect(() => {  
-  fetch("https://jsonplaceholder.typicode.com/posts").then(result => {
-    return result.json();
-  }).then(jsonResult => {  
-    setLoading(false);  
-    setPosts(JSON.parse(jsonResult));  
-  });   
-}); 
+export const Home = ({ user }) => {
+  // We're adding these hooks here
+  const [loading, setLoading] = useState(true);  
+  const [posts, setPosts] = useState(null);  
+    
+  useEffect(() => {  
+    fetch("https://jsonplaceholder.typicode.com/posts").then(result => {
+      return result.json();
+    }).then(jsonResult => {  
+      setPosts(jsonResult);
+      setLoading(false);  
+    });   
+  }, []);
+
+  // This stays the same
+  return (
+    <div>
+      <h1>Welcome {user.name}</h1>
+    </div>
+  );
+};
 ```
+
+Why did we only provide an empty array to the `useEffect` hook this time? In the case of this URL, we have no "parameter" per say. However, we still want React to only execute this function once and then keep the result. By providing this empty array, we tell React that we have no dependencies, so it doesn't need to watch for changes. If we didn't give this array, it would crete an infinite loop where fetching would cause the `Home` component to be executed again which would trigger another fetch until your computer died. 
 
 Next, we modify the returned JSX to render all the posts we received. To do this, we will use the `map` function on arrays and return an array of JSX nodes. React is able to translate that array into a list of HTML nodes and show it properly. Let's write that code.
 
 ```jsx
+// Change the previously returned JSX to this
 return (
   <div>
     <h1>Welcome {user.name}</h1>
@@ -256,15 +296,15 @@ import React, { useState, useEffect } from 'react';
 import { Home } from './home';
 
 export const App = () => {
-	// omitted for brievty
-    
-	return loading ? (
+  // Hooks omitted for brevity
+
+  return loading ? (
     <div>
-      	loading...
+      loading...
     </div>
-	) : (
+  ) : (
     <Home user={user} />
-	);
+  );
 };
 ```
 
@@ -274,26 +314,29 @@ Try this new change in your browser to see the posts appear after a few seconds 
 You might have noticed that we have used almost the same code twice for loading the users and posts. Is there a way to merge these two and stop duplicate it? The answer to that is a resounding yes! React allows you to create custom hooks for these purposes, let's create one together. Create a file called `useJsonPlaceholder.js` (notice this is a raw `js` file and not a `jsx` file.) in the `src` folder and let's copy the two hooks from `app.jsx` in there.
 
 ```javascript
+// src/useJsonPlaceholder.js
 import { useState, useEffect } from 'react';  
   
 export const useJsonPlaceholder = (path) => {  
   const [loading, setLoading] = useState(true);  
   const [data, setData] = useState(null);  
-  
+
   useEffect(() => {  
     fetch(path).then(result => {  
       return result.json();  
     }).then(jsonResult => {  
-      setLoading(false);  
-      setData(JSON.parse(jsonResult));  
+      setData(jsonResult);
+      setLoading(false);
     });  
-  });  
-  
+  }, [path]);  
+
   return [loading, data];  
 };
 ```
 
-We added a path parameter to the exported function to be able to pass which URL to fetch and then added a `return` statement to return the `loading` and `data` variables, but the code code is almost identical.
+We added a `path` parameter to the exported function to be able to pass which URL to fetch and then added a `return` statement to return the `loading` and `data` variables, but the code is almost identical.
+
+Also note that we now provide the `path` parameter as the dependency for the `useEffect` hook, ensuring that if the path changes (For example, if we changed the user ID), the hook will be executed again.
 
 However, thanks to this reuse, we can shorten the code in `app.jsx` and `home.jsx` quite significantly. Let's do this now.
 
@@ -304,8 +347,8 @@ import React from 'react'; // We can remove the unused imports!
 import { useJsonPlaceholder } from './useJsonPlaceholder';  
 import { Home } from './home';  
   
-export const App = () => {  
-  const [loading, user] = useJsonPlaceholder("https://jsonplaceholder.typicode.com/users/1");  
+export const App = ({ userId }) => {  
+  const [loading, user] = useJsonPlaceholder("https://jsonplaceholder.typicode.com/users/" + userId);  
   
   return loading ? (  
     <div>  
@@ -361,21 +404,30 @@ export const Post = ({ post }) => (
 You will notice that the key attribute is gone from the `li` element. That is because this attribute will be moved to the `Post` component creation when we finish this refactoring. React doesn't really differentiate between HTML elements and components we we write JSX code. Let's see that now by changing the JSX code from `home.jsx`.
 
 ```jsx
-return (  
-  <div>  
-    <h1>Welcome {user.name}</h1>  
-    {loading ? null : (  
-      <ul>  
-        {posts.map(post => (  
-          <Post key={post.id} post={post} />  
-        ))}  
-      </ul>  
-    )}  
-  </div>  
-);
-```
+// src/home.jsx  
+import React from 'react';  
 
-Don't forget to add `import { Post } from './post';` at the top of the file.
+import { Post } from './post';
+import { useJsonPlaceholder } from './useJsonPlaceholder';  
+  
+export const Home = ({ user }) => {  
+  const [loading, posts] = useJsonPlaceholder("https://jsonplaceholder.typicode.com/posts");  
+  
+  return (
+    <div>
+      <h1>Welcome {user.name}</h1>
+      {loading ? null : (
+        <ul>
+          {/* This has become a little bit shorter */}
+          {posts.map(post => (
+            <Post key={post.id} post={post} />
+          ))}
+        </ul>
+      )}
+    </div>
+  );  
+};
+```
 
 ### Showing a single post
 We now have a way to load a user and a list of posts. But what about loading a single post for a user to view? Imagine that a user clicks one one of the titles for the posts, we would likely like to be able to show the post by itself with more details if we had access to more. Let's try coding that with the component we extracted in the last section.
@@ -417,7 +469,8 @@ React handles events a little differently from what we would expect normal HTML 
 Now that we have modified our post, let's add some state to the `Home` component to show the `SinglePost` when a user clicks on a post.
 
 ```jsx
-// src/home.jsx import React, { useState } from 'react';  
+// src/home.jsx
+import React, { useState } from 'react';  
   
 import { useJsonPlaceholder } from './useJsonPlaceholder';  
 import { Post } from './post';  
@@ -488,7 +541,7 @@ Let's now look at the `post.jsx` file again and change the code to use react-rou
 import React from 'react';
 import { Link } from 'react-router-dom';
   
-export const Post = ({ post, onClick }) => (  
+export const Post = ({ post }) => (  
   <li>  
     <Link to={"/post/" + post.id}>{post.title}</Link>  
     <p>{post.body}</p>  
@@ -501,7 +554,8 @@ In this new code, we import the `Link` component from react-router instead of re
 Finally, we will modify the `App` component in the `app.jsx` to provide us the routing capabilities of react-router. Open that file and copy the following code into it.
 
 ```jsx
-// src/app.jsx import React from 'react';  
+// src/app.jsx
+import React from 'react';  
 import { BrowserRouter, Switch, Route } from 'react-router-dom';  
   
 import { useJsonPlaceholder } from './useJsonPlaceholder';  
@@ -509,30 +563,30 @@ import { Home } from './home';
 import { SinglePost } from './singlePost';  
   
 export const App = () => {  
-  const [loading, user] = useJsonPlaceholder("https://jsonplaceholder.typicode.com/users/1");  
-  
-  return loading ? (  
-    <div>  
-      loading...  
-    </div>  
-  ) : (  
-    <BrowserRouter>  
-      <Switch>  
-        <Route path="/post/:id">  
-          <SinglePost />  
-        </Route>  
-        <Route path="/">  
-          <Home user={user} />  
-        </Route>  
-      </Switch>  
-    </BrowserRouter>  
-  );  
+  const [loading, user] = useJsonPlaceholder("https://jsonplaceholder.typicode.com/users/1");
+
+  return loading ? (
+    <div>
+      loading...
+    </div>
+  ) : (
+    <BrowserRouter>
+      <Switch>
+        <Route path="/post/:id">
+          <SinglePost />
+        </Route>
+        <Route path="/">
+          <Home user={user} />
+        </Route>
+      </Switch>
+    </BrowserRouter>
+  );
 };
 ```
 
 We've added a lot. Let's look at each element in order. First, we've imported and added a `BrowserRouter` component from `react-router`. This component is what provides react-router with the history API and must be one of the first component in your application. React-router will trigger many warning if you add anything from react-router outside of the children of the `BrowserRouter`, so make sure you remember to always have it as up the tree as possible.
 
-Next, we we've imported and added the `Switch` component. This component acts just like a normal JavaScript switch statement. The first `Route` that matches the URL will be rendered and the other ignored. We'll see how that works in the next paragraph.
+Next, we've imported and added the `Switch` component. This component acts just like a normal JavaScript switch statement. The first `Route` that matches the URL will be rendered and the other ignored. We'll see how that works in the next paragraph.
 
 Finally, we create two `Route` components, `<Route path="/post/:id">` and `<Route path="/">`. A route is like an if statement. It will look at the current URL and see if the path it is given matches the URL in question. For example, if we provided the `/post/1` route in the URL, both routes would match as `/` and `/post/:id` are contained in the URL and thus, both of the route's children would be rendered (Where the `/post` URL would not render the `/post/:id` route). We obviously only want one component rendered at a time, so we use a `Switch` component to prevent that.
 
