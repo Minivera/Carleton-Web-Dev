@@ -16,17 +16,19 @@ npm --version
 6.14.5
 ```
 
-You will also need a comptent text editor or, better yet, an IDE. I can recommend Atom as a text editor and Visual Studio Code as an IDE.
+You will also need a competent text editor or, better yet, an IDE. I can recommend Atom as a text editor and Visual Studio Code as an IDE.
 
 ## Getting started
-To get started with the tutorial, we need to install React, React-router and a tool called a bundler to enable us to compile and test the code. We use NPM to install those dependencies.
+To get started with the tutorial, we need to install React, React-router and a tool called parcel to enable us to compile and test the code. We use NPM to install those dependencies.
 
-Before we start, create a folder where you want to have this project live, for example `mkdir ~/js/COMP2406/tutorial` and move into that folder. Once in there, run `npm init -y`. This command will have created a `package.json` file inside the directory where you ran it. We are not ready to install the dependencies.
+Before we start, create a folder where you want to have this project live, for example `mkdir ~/js/COMP2406/tutorial` and move into that folder. Once in there, run `npm init -y`. This command will have created a `package.json` file inside the directory where you ran it. We are now ready to install the dependencies.
 
 ```
 npm install --save-dev parcel
 npm install --save react react-dom react-router-dom
 ```
+
+What is the difference between those two commands? NPM has the concept of dependencies and dev dependencies. The dependencies are always installed and are what is **required** for the application to run on other machines or the browser. Think things like code librairies or CSS files. Dev dependencies, on the other hand, are dependencies that are only needed when actively developing the application. Think developer tools or IDE plugins. When we use automated tools to deploy our application on a server, these tools will use the command `npm install --only=prod` to only install the dependencies and ignore the dev dependencies. You can read more on the subject [here](https://medium.com/@dylanavery720/npmmmm-1-dev-dependencies-dependencies-8931c2583b0c).
 
 Parcel is our bundler. Since we only need it during the development process, it is a good practice to save it as a development dependency. This way, a person or a tool installing dependencies can specify to only install the production dependencies and save themselves the many seconds needed to download and install parcel.
 
@@ -60,7 +62,7 @@ This command will execute parcel on the `src/index.html` and, once it has proper
 </html>
 ```
 
-With this HTML file created, we can test the command we added earlier in the `package.json` file. Run `npm start` in your command line terminal. Parcel will do its thing then let you know that the application has been successfully built. Once that's done, navigate to http://localhost:3000 to see the application. it should show you an empty page, but this is fine, we'll be adding content later. You can keep parcel running in the background while doing this tutorial, parcel watches your files for changes, so anytime you modify one, it will automatically rebuild and refresh the page with your changes.
+With this HTML file created, we can test the command we added earlier in the `package.json` file. Run `npm start` in your command line terminal. Parcel will do its thing then let you know that the application has been successfully built. Once that's done, navigate to http://localhost:3000 to see the application. it should show you an empty page, but this is fine, we'll be adding content later. You can keep parcel running in the background while doing this tutorial. Parcel watches your files for changes, so anytime you modify one, it will automatically rebuild and refresh the page with your changes.
 
 ## Hello, world!
 Before we dive into the application, a "Hello, world!" example is in order. Start by creating a `index.jsx` file at the root of the `src` folder and add the following code to it:
@@ -89,7 +91,9 @@ Next, we import two modules `React` and `ReactDOM`. `React` is the code of the R
 
 We then create what is called a component. A component is a function or a class that contains reusable behavior. For example, here the `App` component will create a `div` tag and add a `h1` and `p` tag to this `div`. Components are very powerful in React as they allow you to modularize your code and prevent code duplication, they're also far easier to manage and to test than huge, bulky files. Throughout this tutorial, you will create multiple components and combine them together to create a complex application. 
 
-You may have noticed that we used a strange syntax to declare the `App` component. `const App = ({ message }) => (`. The `() =>` syntax is called an arrow function. It's a shortened version of the normal `function` declaration with some added benefits. Check the [excellent documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) for more information on arrow functions. The other strange syntax `({ message })` is called object deconstruction. Every component takes a single object parameter called the props. These props are what is given when the component is added to the application, think attributes on DOM nodes. Here, we deconstruct this props parameter to extract the `message` key from it, which can contain a small message that can be parameterized. The following code would be equivalent if we didn't want to use object deconstruction.
+This tutorial will be mainly using function components as they tend to be easier to reason with. Class components use a more object oriented syntax to achieve pretty much the same behavior as function components. You can read a lot more on the differences and features of each in this [excellent article](https://www.robinwieruch.de/react-function-component#react-function-component-vs-class-component).
+
+You may have noticed that we used a strange syntax to declare the `App` component. `const App = ({ message }) => (`. The `() =>` syntax is called an arrow function. It's a shortened version of the normal `function` declaration with some added benefits. Check the [excellent documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) for more information on arrow functions. The other strange syntax `({ message })` is called object deconstruction. Every functional component in React takes a single object parameter called the props. These props are what is given when the component is added to the application, think attributes on DOM nodes. Here, we deconstruct this props parameter to extract the `message` key from it, which can contain a small message that can be parameterized. The following code would be equivalent if we didn't want to use object deconstruction.
 
 ```javascript
 const App = (props) => {
@@ -98,11 +102,11 @@ const App = (props) => {
 };
 ```
 
-We then return the JSX structure to render. You will notice that, to print the message, we use the `{}` notation and write the message variable inside of it. In JSX, whenever you use `{}`, is tells the compiler to execute whatever JavaScript code is in these brackets. In this case, "executing" a variable means printing it inside of the HTML structure.
+We then return the JSX structure to render. You will notice that, to print the message, we use the `{}` notation and write the message variable inside of it. In JSX, whenever you use `{}`, it tells the compiler to evaluation the JavaScript expression is in these brackets. In this case, "evaluating" a variable means printing it inside of the HTML structure.
 
-Finally, we use `ReactDOM.render` to render the application component into the `#app` div inside our HTML file. In JSX, components are created exactly like normal HTML nodes. By writing `<App message="Hello from React" />`, we tell React to execute the `App` function created above an pass the attribute `message` with any value we want. Anything we add inside the HTML-like syntax will be given to the `props` parameter of the `App` function. We can also very easily pass JavaScript code by using the `{}`, like we'll see later.
+Finally, we use `ReactDOM.render` to render the application component into the `#app` div inside our HTML file. In JSX, components are created exactly like normal HTML nodes. By writing `<App message="Hello from React" />`, we tell React to execute the `App` function created above and pass the attribute `message` with any value we want. Any `key={value}` pair we add inside the HTML-like syntax will be given to the `props` parameter of the `App` function. We can also very easily pass JavaScript code by using the `{}`, like we'll see later.
 
-Save the `index.jsx` file and then add `<script src="./index.jsx"></script>` at the end of the body tag to tell parcel to load that file. After a few seconds, the application should update with a "Hello, World!" and the message rendered on the screen. Feel free to play around with this example until you're familiar with how it works, then we can switch to the next part.
+Save the `index.jsx` file and then add `<script src="./index.jsx"></script>` at the end of the body tag in `index.html` to tell parcel to load that file. After a few seconds, the application should update with a "Hello, World!" and the message rendered on the screen. Feel free to play around with this example by changing the provided message or adding some HTML tags until you're familiar with how it works, then we can switch to the next part.
 
 ## Real application
 Now that we have everything set-up, we can start building a real application. Let's create a `app.jsx` file inside the `src` folder and copy the `App` component there, like this:
@@ -118,7 +122,7 @@ export const App = () => (
 );
 ```
 
-We added the `export` keyword before the fonction declaration to tell JavaScript to export that variable for other files. We can then rewrite the `index.jsx` to take advantage of this like this:
+We added the `export` keyword before the function declaration to tell JavaScript to export that variable for other files. This transforms the `app.jsx` file into a module that can be reused throughout the codebase. It is a good practice to separate your components into unique files, like you would for classes in Java. Generally, one file should export a single component to make the file system more manageable. We can then rewrite the `index.jsx` to take advantage of this like this:
 
 ```jsx
 // src/index.jsx
@@ -133,10 +137,8 @@ ReactDOM.render(
 );
 ```
 
-It is a good practice to separate your components into unique files, like you would for class in Java. Generally, one file should export a single component to make the file system more manageable.
-
 ### User management
-Now that we have a file for the `App` component, let's start adding some behavior in there. We will use [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/) as our API, but a real world application would likely use a more real API. The first thing we want in our application is user management. Let's imagine that our users have access to an external log-in page and, once logged in, we are given enough information to fetch the user's data from the API. Let's add this to our component.
+Now that we have a file for the `App` component, let's start adding some behavior in there. We will use [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/) as our API, but a real world application would likely involve a more useful API. The first thing we want in our application is user management. Let's imagine that our users have access to an external log-in page and, once logged in, we are given enough information to fetch the user's data from the API. Let's add this to our component.
 
 ```jsx
 // src/app.jsx
@@ -162,7 +164,9 @@ export const App = ({ userId }) => {
 };
 ```
 
-What is this `useState` business here? In React, you can use these functions called hooks to insert state management inside of your components. For example, here we define two variables - called `loading` and `user` -  by deconstructing the array returned by the `useState` hook. Since state is meant to change and be tracked throughout the lifetime of our application - in the case of web applications, this means until the page is refreshed - the hook also provides us with a `set` function to update the state on demand. Whenever one of these functions is called, React will rerender itself by executing our components again. The value of the set state element will be updated and we will be able to react to state changes, like for the `loading` variable above.
+What is this `useState` business here? In React, you can use these functions called **hooks** to insert state management inside of your components. For example, here we define two variables - called `loading` and `user` -  by deconstructing the array returned by the `useState` **hook**. This array contains two elements, the variable containing the state itself and a function to `set` the state on demand. Since state is meant to change and be tracked throughout the lifetime of our application - in the case of web applications, this means until the page is refreshed - the **hook** also provides us with a `set` function to update the state on demand. Whenever one of these functions is called, React will rerender each of our components by executing them again. The value of the set state element will be updated and we will be able to react to state changes, like for the `loading` variable above.
+
+Let's take an example to explain how `setState` saves and updates the state. When executing `useState`, React returns an array that looks something like this: `[false /* The value we provided as the "default" state */, (newValue) => { /* Some code that will change the state when we give it a new value */ }]`. We deconstruct that array into two variables, `loading` and `setLoading`. If, at any point, we execute `setLoading(true)`, then React will save the new value internally and execute our components again. This means that `useState` will be executed, but now it will return `[true /* the new value we gave it */, (newValue) => { /* Some code */ }]`. Is we ever execute `setLoading(false)`, then the same process will happen with a new render process and a changed value for the loading variable. This means that we can write code that takes advantage of those possible states, like our ternary operation on `loading`.
 
 Before we move forward, you might have noticed that we introduced a property in the `App` component called `userId`. We need to make sure to provide this property when we create the component in `index.jsx`. In our scenario, this ID would be given by our external log-in page.
 
@@ -179,7 +183,7 @@ ReactDOM.render(
 );
 ```
 
-Unfortunately, out user is not hardcoded. We don't want that, we want to fetch it from an API and display its information dynamically. Let's introduce a second hook into this mix to fetch the user from `jsonplaceholder`.
+Unfortunately, our user is hardcoded. We don't want that, we want to fetch it from an API and display its information dynamically. Let's introduce a second **hook** into this mix to fetch the user from `jsonplaceholder`.
 
 ```jsx
 // src/app.jsx
@@ -211,10 +215,10 @@ export const App = ({ userId }) => {
 }
 ```
 
-Using the [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), we send a request to `jsonplaceholder` and once it has been completely processed, we stop the loading and set the user's data. Try the application now to see the result. `useEffect` is another hook that will trigger the function we give as the first argument depending on its second argument. Every time the component function is executed, React will look in the array we provided as the second parameter to see if anything in there changed. For example, if we ever changed the userId, the `useEffect` function would execute again, fetching the new user. This is very useful in this case as we only want to fetch the user data at the start of the application and store it in state.
+Using the [fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API), we send a request to `jsonplaceholder` and once it has been completely processed, we stop the loading and set the user's data. Try the application now to see the result. `useEffect` is another **hook** that will trigger the function we give as the first argument depending on its second argument. Every time the component function is executed, React will look in the array we provided as the second parameter to see if anything in there changed. For example, if we ever changed the userId, the `useEffect` function would execute again, fetching the new user. This is very useful in this case as we only want to fetch the user data at the start of the application and store it in state. The fetch API uses promise based callback, which are behind the `.then` calls we use. If you are not familliar with promises, you can read more about them [here](https://web.dev/promises/).
 
 ### Showing posts
-Let's now create content for the user to view when they'll have logged-in the application. Create a new file inside the `src` folder called `home.jsx` and create a skeleton component called `Home`.
+Let's now create content for the user to view when once they have logged-in the application. Create a new file inside the `src` folder called `home.jsx` and create a skeleton component called `Home`.
 
 ```jsx
 // src/home.jsx
@@ -258,7 +262,7 @@ export const Home = ({ user }) => {
 };
 ```
 
-Why did we only provide an empty array to the `useEffect` hook this time? In the case of this URL, we have no "parameter" per say. However, we still want React to only execute this function once and then keep the result. By providing this empty array, we tell React that we have no dependencies, so it doesn't need to watch for changes. If we didn't give this array, it would crete an infinite loop where fetching would cause the `Home` component to be executed again which would trigger another fetch until your computer died. 
+Why did we only provide an empty array to the `useEffect` **hook** this time? In the case of this URL, we have no "parameter" per-se. However, we still want React to only execute this function once and then keep the result. By providing this empty array, we tell React that we have no dependencies, so it doesn't need to watch for changes. If we didn't give this array, it would crete an infinite loop where fetching would cause the `Home` component to be executed again which would trigger another fetch until your computer died. 
 
 Next, we modify the returned JSX to render all the posts we received. To do this, we will use the `map` function on arrays and return an array of JSX nodes. React is able to translate that array into a list of HTML nodes and show it properly. Let's write that code.
 
@@ -283,9 +287,9 @@ return (
 
 That's a lot of code, let's break it down.
 
-The `{loading ? null : ()}` ternary operation will be executed (remember that code in brackets is executed like JS code) and return `null` is the application is loading. When receiving `null`, React will do nothing and ignore that value, allowing us to do nothing when the posts are loading. Once loaded, we render a `ul` element and then map over the posts.
+The `{loading ? null : ()}` ternary operation will be executed (remember that code in brackets is executed like JS code) and return `null` if the `loading` variable is set to `true`. When receiving `null`, React will do nothing and ignore that value, allowing us to do nothing when the posts are loading. Once loaded - I.E. `loading` is set to `false` - we render a `ul` element and then map over the posts.
 
-The `key` prop in `<li key={post.id}>` is needed by React when using a map like this. The reason for that is that React will remember the order in which we add those elements using that key. If we ever change the order or change the elements, React is able to use those keys to optimize how it will update the list. It's important to always remember to add a key when giving an array to React, so important in fact, that React will nag you with console errors if you don't.
+The `key` prop in `<li key={post.id}>` is needed by React when using a map like this. The reason for that is that React will remember the order in which we add those elements using that key. If we ever change the order or change the elements, React is able to use those keys to optimize how it will update the list. It's important to always remember to add a key when giving an array to React. So important in fact, that React will nag you with console errors if you don't.
 
 Finally, we can go back to the `app.jsx` file and modify it to use this newly create component.
 
@@ -311,7 +315,7 @@ export const App = () => {
 Try this new change in your browser to see the posts appear after a few seconds and render inside a list.
 
 ### Adding some code reuse
-You might have noticed that we have used almost the same code twice for loading the users and posts. Is there a way to merge these two and stop duplicate it? The answer to that is a resounding yes! React allows you to create custom hooks for these purposes, let's create one together. Create a file called `useJsonPlaceholder.js` (notice this is a raw `js` file and not a `jsx` file.) in the `src` folder and let's copy the two hooks from `app.jsx` in there.
+You might have noticed that we have used almost the same code twice for loading the users and posts. Is there a way to merge these two and stop duplicate it? The answer to that is a resounding yes! React allows you to create custom **hooks** for these purposes, let's create one together. Create a file called `useJsonPlaceholder.js` (notice this is a raw `js` file and not a `jsx` file.) in the `src` folder and let's copy the two hooks from `app.jsx` in there.
 
 ```javascript
 // src/useJsonPlaceholder.js
@@ -336,7 +340,7 @@ export const useJsonPlaceholder = (path) => {
 
 We added a `path` parameter to the exported function to be able to pass which URL to fetch and then added a `return` statement to return the `loading` and `data` variables, but the code is almost identical.
 
-Also note that we now provide the `path` parameter as the dependency for the `useEffect` hook, ensuring that if the path changes (For example, if we changed the user ID), the hook will be executed again.
+Also note that we now provide the `path` parameter as the dependency for the `useEffect` **hook**, ensuring that if the path changes (For example, if we changed the user ID), the **hook** will be executed again.
 
 However, thanks to this reuse, we can shorten the code in `app.jsx` and `home.jsx` quite significantly. Let's do this now.
 
@@ -448,7 +452,7 @@ export const SinglePost = ({ postId }) => {
 };
 ```
 
-Again using our generic hook, we fetch the post and display it using our `Post` component. Notice how we do not need to provide the key here, since we do not use arrays, React does not need the key property to order anything.
+Again using our generic **hook**, we fetch the post and display it using our `Post` component. Notice how we do not need to provide the key here, since we do not use arrays, React does not need the key property to order anything.
 
 Next, let's modify the `home.jsx` file to be able to show either the post list, or the single post. To do so, we also need to modify the `post.jsx` file to add some click functionality. We want to trigger some function when the title is clicked, so we will need to receive a prop to do so and handle the `onclick` event of the title node.
 
@@ -510,7 +514,7 @@ Now, we can already see that we will likely want some way to go back to the list
 ### Routing to the rescue
 Let's revert back to the code we created in the [Adding some code reuse](#adding-some-code-reuse) section and see how we could achieve the same functionality using react-router instead.
 
-React-router is a routing solution for React. Using the provided components and hooks, we are able to control the browser URL without ever needing to refresh the page. For example, let's imagine that, instead of using some state to store the selected post, we instead reverted to a more common method which is to use the URL as our selection. In a more traditional application, clicking on the `a` element containing the title would send the user to the `/post/1` path of the application for the post with id 1. A server would then serve us some HTML containing the content of this post and reverting would again refresh the page to show us the list. Suddenly, we have implemented all the functionalities we wanted from the previous section with very little effort.
+React-router is a routing solution for React. Using the provided components and **hooks**, we are able to control the browser URL without ever needing to refresh the page. For example, let's imagine that, instead of using some state to store the selected post, we instead reverted to a more common method which is to use the URL as our selection. In a more traditional application, clicking on the `a` element containing the title would send the user to the `/post/1` path of the application for the post with id 1. A server would then serve us some HTML containing the content of this post and reverting would again refresh the page to show us the list. Suddenly, we have implemented all the functionalities we wanted from the previous section with very little effort.
 
 One of the big advantages of using a client framework like React is to make pages more dynamic - more reactive if you will - by removing all those calls to the server and page refreshes. Instead, the user is never forcefully kicked out of the application for the next page to load from a server, they are always able to interact with the application until they refresh it. But how can we use the URL to store our selected post without requiring any refresh?
 
@@ -532,7 +536,7 @@ export const SinglePost = () => {
 };
 ```
 
-Rather than use a prop to get the post id, we instead use the hook from `react-router` called `useParams`. What this hook allows us to do is extract parameters from the path. For example, it would extract the id 1 from the path `/post/1`, giving us the ability to extract the right post for the URL. We will see later how to configure these parameters.
+Rather than use a prop to get the post id, we instead use the **hook** from `react-router` called `useParams`. What this **hook** allows us to do is extract parameters from the path. For example, it would extract the id 1 from the path `/post/1`, giving us the ability to extract the right post for the URL. We will see later how to configure these parameters.
 
 Let's now look at the `post.jsx` file again and change the code to use react-router.
 
@@ -595,6 +599,6 @@ We glossed over the `/post/:id` path and mentioned that it would match for `/pos
 Try the application in your browser after parcel has built it. You will see we have access to the same level of functionality as the previous section, but it is far more robust and easy to work with.
 
 ## Conclusion
-Today we discovered React and the component model, saw how to use those concepts to create a real-ish application, and discovered the possibilities that hooks, state management, and routing brings to the table. With this tutorial completed, you now have the tools to be able to go through the application in this repository and reuse the knowledge you have gained to build your own applications!
+Today we discovered React and the component model, saw how to use those concepts to create a real-ish application, and discovered the possibilities that **hooks**, state management, and routing brings to the table. With this tutorial completed, you now have the tools to be able to go through the application in this repository and reuse the knowledge you have gained to build your own applications!
 
 Happy hacking.
