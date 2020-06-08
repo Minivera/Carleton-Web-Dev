@@ -1,5 +1,7 @@
 # Creating a React application with React-router
-This tutorial will guide you in building your first React application using a variety of tools. You will learn the basics of NPM and bundling, how to structure a simple React application, how to handle routing with React router and how to manage complex state with reducers. Together, we will build a simple application using a remote JSON api.
+This tutorial will guide you in building your first React application using a variety of tools. You will learn the basics of NPM and bundling, how to structure a simple React application, how to handle routing with React router and how to manage complex state with reducers.
+
+Together, we will build a simple application using a remote JSON api. This application will be a simple blog-like application where your users will be able to see their user profile, get greeted by a home page, see a list of psots, and lick on specific posts to view them in full.
 
 Note that familiarity with Node.js, JavaScript and NPM (Node Package Manager) is expected in this tutorial. Note also that all commands throughout this tutorial are written in Linux bash. If working on an OSX machine, this is supported by default in the terminal app. For Windows user, you will need to use the [ubuntu shell for windows](https://ubuntu.com/tutorials/tutorial-ubuntu-on-windows#1-overview) or an equivalent.
 
@@ -262,7 +264,7 @@ export const Home = ({ user }) => {
 };
 ```
 
-Why did we only provide an empty array to the `useEffect` **hook** this time? In the case of this URL, we have no "parameter" per-se. However, we still want React to only execute this function once and then keep the result. By providing this empty array, we tell React that we have no dependencies, so it doesn't need to watch for changes. If we didn't give this array, it would crete an infinite loop where fetching would cause the `Home` component to be executed again which would trigger another fetch until your computer died. 
+Why did we only provide an empty array to the `useEffect` **hook** this time? In the case of this URL, we have no "parameter" per-se. However, we still want React to only execute this function once and then keep the result. By providing this empty array, we tell React that we have no dependencies, so it doesn't need to watch for changes. If we didn't give this array, it would create an infinite loop where fetching would cause the `Home` component to be executed again which would trigger another fetch until your computer died. 
 
 Next, we modify the returned JSX to render all the posts we received. To do this, we will use the `map` function on arrays and return an array of JSX nodes. React is able to translate that array into a list of HTML nodes and show it properly. Let's write that code.
 
@@ -405,7 +407,7 @@ export const Post = ({ post }) => (
 );
 ```
 
-You will notice that the key attribute is gone from the `li` element. That is because this attribute will be moved to the `Post` component creation when we finish this refactoring. React doesn't really differentiate between HTML elements and components we we write JSX code. Let's see that now by changing the JSX code from `home.jsx`.
+You will notice that the key attribute is gone from the `li` element. That is because this attribute will be moved to the `Post` component creation when we finish this refactoring. React doesn't really differentiate between HTML elements and components we write JSX code. Let's see that now by changing the JSX code from `home.jsx`.
 
 ```jsx
 // src/home.jsx  
@@ -434,7 +436,7 @@ export const Home = ({ user }) => {
 ```
 
 ### Showing a single post
-We now have a way to load a user and a list of posts. But what about loading a single post for a user to view? Imagine that a user clicks one one of the titles for the posts, we would likely like to be able to show the post by itself with more details if we had access to more. Let's try coding that with the component we extracted in the last section.
+We now have a way to load a user and a list of posts. But what about loading a single post for a user to view? Imagine that a user clicks one of the titles for the posts, we would like to be able to show the post by itself with more details if we had access to more information about the post. Let's try coding that with the component we extracted in the last section.
 
 First, let's create a new component to show a single post. To do so, create a file named `singlePost.jsx` in the `src` folder and add the following code to enable fetching that post.
 
@@ -460,7 +462,7 @@ Next, let's modify the `home.jsx` file to be able to show either the post list, 
 // src/post.jsx
 import React from 'react';  
   
-export const Post = ({ post, onClick }) => (  
+export const Post = ({ post, onClick = () => {} }) => (  
   <li>  
     <a onClick={() => onClick(post)}>{post.title}</a>  
     <p>{post.body}</p>  
@@ -468,7 +470,9 @@ export const Post = ({ post, onClick }) => (
 );
 ```
 
-React handles events a little differently from what we would expect normal HTML node. The biggest difference is that is uses camelCase rather than all lowercase for event names. You can read more about the differences in [the docs](https://reactjs.org/docs/events.html). In this case, we ignore most of the differences and use a simple function to call the `onClick` prop with the selected post.
+What is this assignment to `onClick` in the object deconstruction? This is called a default value. If `onClick` happens to not exist in the `props` object when deconstructing, this default value will be used instead. In this case, we never want to not have a `onClick` function, so we assign an empty function as the default value. This is especially useful since, in the above `src/singlePost.jsx`, we do not assign any `onClick` property to the create `Post` component. With this default value, we can be sure that React will not throw any error because `onClick` is undefined.
+
+React handles events a little differently from the browser events. React overrides the normal `addEventListener` calls and instead provides us with a similar system that requires less overhead to set-up. The biggest difference is that is uses camelCase rather than all lowercase for event names. You can read more about the differences in [the docs](https://reactjs.org/docs/events.html). In this case, we ignore most of the differences and use a simple function to call the `onClick` prop with the selected post.
 
 Now that we have modified our post, let's add some state to the `Home` component to show the `SinglePost` when a user clicks on a post.
 
@@ -505,9 +509,11 @@ export const Home = ({ user }) => {
 };
 ```
 
-With this code added, we can not keep in state the selected post when a user clicks on a title. Using a function that we pass to the `onClick` property of the `Post` component, we can use the state setter to select a post. When the component function will be executed again, `selected` will have a value and render a `SinglePost` instead of the usual list.
+With this code added, we can keep in state the selected post when a user clicks on a title. Using a function that we pass to the `onClick` property of the `Post` component, we use the state setter to select a post. When the component function will be executed again, `selected` will have a value and render a `SinglePost` instead of the usual list.
 
 As usual, wait some time for parcel to build your changes and try them for yourself in your browser.
+
+Try adding a `console.log()` call inside of the `if (selected)` code block with a small message. You will notice that, when you click the header of any post, that message appears in the console and the UI is rerendered to show a single post. Refresh the page and that message will not be displayed. That is because we pass the arrow function `post => setSelected(post)` as the `onClick` property on the `Post` component, which is then assigned on the header click as we've seen in the `src/post.jsx` file. When you click on the header, the `() => onClick(post)` function from the `src/post.jsx`'s code is executed, which in turn executes the `onClick` function from `Home` that we just described and sets the state. Try adding more `console.log()` and make sure you are familliar with the function flow of the application. This kind of "event chaining" is very common in React applications.
 
 Now, we can already see that we will likely want some way to go back to the list and clear the state. Another functionality we'll likely want is to be able to save which post is selected so that when a user refreshes the page, they still see the post they selected. Feel free to play with this version of the tutorial and try to implement those features yourself. However, you will notice that this gets very heavy and tedious. When you are ready, jump to the next section to see how we can solve those issues.
 
@@ -596,7 +602,7 @@ Finally, we create two `Route` components, `<Route path="/post/:id">` and `<Rout
 
 We glossed over the `/post/:id` path and mentioned that it would match for `/post/id` without explaining why it does match even though both are clearly different. This is because everything starting with a colon ":" in a path for a route is considered a parameter. Internally, react-router will allow anything to match a parameter and it will store that value internally, which can then be accessed by `useParams` as we've seen in the `SinglePost` component. For example, if we have the path `/:type/:id/comment/:commentId` and the URL `/post/1/comment/3`, react-router will match and save `post` for the value of `type`, `1` for the value of `id`, and `3` for the value of `commentId`. You can look at the [official documentation](https://reacttraining.com/react-router/web/example/url-params) for more information on the syntax for parameters.
 
-Try the application in your browser after parcel has built it. You will see we have access to the same level of functionality as the previous section, but it is far more robust and easy to work with.
+Try the application in your browser after parcel has built it. You will see we have access to the same level of functionality as the previous section, but it is far more robust and easy to work with. In particular, try to play around witht eh back and froward button of your browser, you will notice that the application doesn't refresh and that react-router takes over the navigation.
 
 ## Conclusion
 Today we discovered React and the component model, saw how to use those concepts to create a real-ish application, and discovered the possibilities that **hooks**, state management, and routing brings to the table. With this tutorial completed, you now have the tools to be able to go through the application in this repository and reuse the knowledge you have gained to build your own applications!
