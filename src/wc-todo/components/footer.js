@@ -7,7 +7,6 @@ const ACTIVE_TODOS = 'active';
 const COMPLETED_TODOS = 'completed';
 
 function Footer({ count, completedCount, nowShowing }) {
-  console.log(this);
   const activeTodoWord = count > 0 ? 'items' : 'item';
 
   const handleClear = () => {
