@@ -1,0 +1,79 @@
+<template id="activities">
+  <aside class="menu">
+    <p class="menu-label">
+      List of activities
+    </p>
+    <ul class="menu-list">
+      <collapsible-menu>
+        <span slot="title">Lecture</span>
+        <div data-list="lectures">
+          <template data-element="single-lecture">
+            <li>
+              <a data-element="title"></a>
+            </li>
+          </template>
+        </div>
+      </collapsible-menu>
+      <collapsible-menu>
+        <span slot="title">Tutorials</span>
+        <div data-list="tutorials">
+          <template data-element="single-tutorial">
+            <li>
+              <a data-element="title"></a>
+            </li>
+          </template>
+        </div>
+      </collapsible-menu>
+      <collapsible-menu>
+        <span slot="title">Assignments</span>
+        <div data-list="assignments">
+          <template data-element="single-assignment">
+            <li>
+              <a data-element="title"></a>
+            </li>
+          </template>
+        </div>
+      </collapsible-menu>
+    </ul>
+    <p class="menu-label">
+      Discussion boards
+    </p>
+    <ul class="menu-list" data-list="forums">
+      <template data-element="single-forum">
+        <li class="is-flex">
+          <a data-element="title" style="flex: 1;"></a>
+          <span class="tag is-info" data-element="topic-count"></span>
+        </li>
+      </template>
+    </ul>
+    <p class="menu-label">
+      Instructor options
+    </p>
+    <ul class="menu-list">
+      <li>
+        <a href="/wc-course-website/lectures/index.html?new">
+          <span class="icon is-small">
+            <i class="fas fa-plus"/>
+          </span>
+          Add a new lecture
+        </a>
+      </li>
+      <li>
+        <a href="/wc-course-website/tutorials/index.html?new">
+          <span class="icon is-small">
+            <i class="fas fa-plus"/>
+          </span>
+          Add a new tutorial
+        </a>
+      </li>
+      <li>
+        <a href="/wc-course-website/assignments/index.html?new">
+          <span class="icon is-small">
+            <i class="fas fa-plus"/>
+          </span>
+          Add a new assignment
+        </a>
+      </li>
+    </ul>
+  </aside>
+</template>

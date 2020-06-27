@@ -1,0 +1,12 @@
+import './components/navbar';
+import './components/contentCount';
+import './components/collapsibleContent';
+import './components/collapsibleMenu';
+import './components/lecture';
+import './components/lectures';
+import './components/tutorial';
+import './components/tutorials';
+import './components/assignment';
+import './components/assignments';
+import './components/forums';
+import './components/activities';

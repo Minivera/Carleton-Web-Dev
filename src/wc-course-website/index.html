@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css" data-carry/>
+  <title>Web components • Course website</title>
+</head>
+<body>
+  <include src="wc-course-website/components/navbar/index.html"></include>
+  <include src="wc-course-website/components/lecture/index.html"></include>
+  <include src="wc-course-website/components/lectures/index.html"></include>
+  <include src="wc-course-website/components/tutorial/index.html"></include>
+  <include src="wc-course-website/components/tutorials/index.html"></include>
+  <include src="wc-course-website/components/assignment/index.html"></include>
+  <include src="wc-course-website/components/assignments/index.html"></include>
+  <include src="wc-course-website/components/forums/index.html"></include>
+  <include src="wc-course-website/components/activities/index.html"></include>
+  <include src="wc-course-website/components/collapsibleContent/index.html"></include>
+  <include src="wc-course-website/components/collapsibleMenu/index.html"></include>
+  <header>
+    <nav-bar></nav-bar>
+  </header>
+  <section class="section">
+    <div class="container">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-vertical notification is-primary" style="padding-top: 40px; padding-bottom: 40px;">
+                <h1 class="title">Welcome to COMP2406</h1>
+                <h2 class="subtitle">
+                  The course covers the principles involved in the design and implementation of web applications.
+                  Our primary programming language in this offering will be Javascript (on both client and server
+                  side). The course will examine programming concepts as they relate to building web applications
+                  and will emphasize the computer science fundamentals.
+                </h2>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child">
+              <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                  <li><a>Home</a></li>
+                  <li class="is-active"><a>COMP2406</a></li>
+                </ul>
+              </nav>
+              <h1 class="title">COMP2406 - Fundamentals of Web Applications</h1>
+              <div class="content">
+                <nav class="level">
+                  <div class="level-item has-text-centered">
+                    <div>
+                      <p class="heading">Lectures</p>
+                      <p class="title">
+                        <content-count source="lectures"></content-count>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <div>
+                      <p class="heading">Tutorials</p>
+                      <p class="title">
+                        <content-count source="tutorials"></content-count>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <div>
+                      <p class="heading">Assignments</p>
+                      <p class="title">
+                        <content-count source="assignments"></content-count>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="level-item has-text-centered">
+                    <div>
+                      <p class="heading">Forum topics</p>
+                      <p class="title">
+                        <content-count source="forums"></content-count>
+                      </p>
+                    </div>
+                  </div>
+                </nav>
+                <hr />
+                <h2>Topics Covered</h2>
+                <p>
+                  Here is a list of the main topics covered:
+                </p>
+                <ul>
+                  <li>Web Concepts, HTTP</li>
+                  <li>Javascript</li>
+                  <li>Markup Languages (HTML, CSS)</li>
+                  <li>Client and Server side coding (in javascript)</li>
+                  <li>Javascript execution environments: Browser, Node.js, and Express.js</li>
+                  <li>Node.js and NPM</li>
+                  <li>Functional Programming and Closures</li>
+                  <li>Synchronous and Asynchronous programming</li>
+                  <li>JSON databases (using MongoDB)</li>
+                  <li>Server side templating (using Pug)</li>
+                  <li>Sessions, Cookies, Ajax, and Web Sockets</li>
+                </ul>
+                <lectures-list></lectures-list>
+                <tutorials-list></tutorials-list>
+                <assignments-list></assignments-list>
+                <forums-list></forums-list>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title">Activities</p>
+            <p class="subtitle">Quick access to class activities</p>
+            <activities-aside></activities-aside>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <div class="columns">
+        <div class="column">
+          <a href="/wc-course-website/lectures/index.html">
+            Lectures
+          </a>
+        </div>
+        <div class="column">
+          <a href="/wc-course-website/tutorials/index.html">
+            Tutorials
+          </a>
+        </div>
+        <div class="column">
+          <a href="/wc-course-website/assignments/index.html">
+            Assignments
+          </a>
+        </div>
+        <div class="column">
+          <a href="/wc-course-website/forums/index.html">
+            Discussion boards
+          </a>
+        </div>
+      </div>
+      <p>
+        Built with <strong>Bulma</strong>.
+      </p>
+    </div>
+  </footer>
+  <div style="display: none;">
+    <!-- These links exist only to force parcel to include the HTML files. You would not have this in production. -->
+    <a href="/wc-course-website/lecture/index.html"></a>
+    <a href="/wc-course-website/tutorial/index.html"></a>
+    <a href="/wc-course-website/assignment/index.html"></a>
+    <a href="/wc-course-website/forum/index.html"></a>
+    <a href="/wc-course-website/forum/topic/index.html"></a>
+  </div>
+  <script src="./index.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" data-auto-replace-svg="nest" data-carry></script>
+</body>
+</html>

@@ -42,6 +42,7 @@
     "gravatar": "^1.8.0",
     "haunted": "^4.7.0",
     "lit-html": "^1.2.1",
+    "lokijs": "^1.5.8",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -68,6 +69,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
     "parcel": "^2.0.0-alpha.3.2",
+    "posthtml-include": "^1.4.3",
     "prettier": "^2.0.5",
     "storybook-react-router": "^1.0.8"
   }

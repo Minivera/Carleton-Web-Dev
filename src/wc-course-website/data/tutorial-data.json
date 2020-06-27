@@ -1,0 +1,135 @@
+
+[
+	{
+		"name": "Tutorial 1",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-T01",
+				"url": "/tutorials/winter2020/t1/COMP2406-W20-T01.pdf"
+			},
+		"resources": [
+			{
+				"title": "stringproblems.js",
+				"url": "/tutorials/winter2020/t1/stringproblems.js"
+			},
+			{
+				"title": "students.js",
+				"url": "/tutorials/winter2020/t1/students.js"
+			}
+		]
+	},
+	
+	{
+		"name": "Tutorial 2",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-T02.pdf",
+				"url": "/tutorials/winter2020/t2/COMP2406-W20-T02.pdf"
+			}
+	},
+	
+	{
+		"name": "Tutorial 3",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-T3.pdf",
+				"url": "/tutorials/winter2020/t3/COMP2406-W20-T3.pdf"
+			}
+	},
+	
+	{
+		"name": "Tutorial 4",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-F19-T04",
+				"url": "/tutorials/winter2020/t4/COMP2406-F19-T04.pdf"
+			},
+		"resources": [
+			{
+				"title": "todo-server.zip",
+				"url": "/tutorials/winter2020/t4/todo-server.zip"
+			}
+		]
+	},
+	
+	{
+		"name": "Tutorial 5",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-F20-T05",
+				"url": "/tutorials/winter2020/t5/COMP2406-F20-T05.pdf"
+			},
+		"resources": [
+			{
+				"title": "server.js",
+				"url": "/tutorials/winter2020/t5/server.js"
+			},
+			{
+				"title": "cards.json",
+				"url": "/tutorials/winter2020/t5/cards.json"
+			}
+		]
+	},
+	
+	{
+		"name": "Tutorials 6 and 7",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-T0607",
+				"url": "/tutorials/winter2020/t6t7/COMP2406-W20-T0607.pdf"
+			},
+		"resources": [
+			{
+				"title": "T6-T7-BaseCode.zip",
+				"url": "/tutorials/winter2020/t6t7/T6-T7-BaseCode.zip"
+			}
+		]
+	},
+	
+	{
+		"name": "Tutorial 8",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-T08",
+				"url": "/tutorials/winter2020/t8/COMP2406-W20-T08.pdf"
+			},
+		"resources": [
+			{
+				"title": "T08-BaseCode.zip",
+				"url": "/tutorials/winter2020/t8/T08-BaseCode.zip"
+			}
+		]
+	},
+	
+	{
+		"name": "Tutorial 9",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-T09",
+				"url": "/tutorials/winter2020/t9/COMP2406-W20-T09.pdf"
+			},
+		"resources": [
+			{
+				"title": "T09-BaseCode.zip",
+				"url": "/tutorials/winter2020/t9/T09-BaseCode.zip"
+			}
+		]
+	},
+	
+	{
+		"name": "Tutorial 10",
+		"term": "Winter 2020",
+		"specfile": {
+				"title": "COMP2406-W20-T10",
+				"url": "/tutorials/winter2020/t10/COMP2406-W20-T10.pdf"
+			},
+		"resources": [
+			{
+				"title": "T10-Base-Code.zip",
+				"url": "/tutorials/winter2020/t10/T10-Base-Code.zip"
+			}
+		]
+	}
+	
+	
+]

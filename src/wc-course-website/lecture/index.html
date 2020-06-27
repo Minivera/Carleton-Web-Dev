@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css" data-carry/>
+  <title>Web components • Course website</title>
+</head>
+<body>
+<include src="wc-course-website/components/navbar/index.html"></include>
+<include src="wc-course-website/components/lecture/index.html"></include>
+<include src="wc-course-website/components/activities/index.html"></include>
+<include src="wc-course-website/components/collapsibleContent/index.html"></include>
+<include src="wc-course-website/components/collapsibleMenu/index.html"></include>
+<header>
+  <nav-bar></nav-bar>
+</header>
+<section class="section">
+  <div class="container">
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-8">
+        <div class="tile is-parent">
+          <article class="tile is-child">
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+              <ul>
+                <li><a>Home</a></li>
+                <li>
+                  <a href="/wc-course-website/index.html">COMP2406</a>
+                </li>
+                <li>
+                  <a href="/wc-course-website/lectures/index.html">Lectures</a>
+                </li>
+                <li class="is-active">
+                  <a>
+                    <content-name source="lectures"></content-name>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div is="single-lecture" delete-path="/wc-course-website/lectures/index.html"></div>
+          </article>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Activities</p>
+          <p class="subtitle">Quick access to class activities</p>
+          <activities-aside></activities-aside>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <div class="columns">
+      <div class="column">
+        <a href="/wc-course-website/lectures/index.html">
+          Lectures
+        </a>
+      </div>
+      <div class="column">
+        <a href="/wc-course-website/tutorials/index.html">
+          Tutorials
+        </a>
+      </div>
+      <div class="column">
+        <a href="/wc-course-website/assignments/index.html">
+          Assignments
+        </a>
+      </div>
+      <div class="column">
+        <a href="/wc-course-website/forums/index.html">
+          Discussion boards
+        </a>
+      </div>
+    </div>
+    <p>
+      Built with <strong>Bulma</strong>.
+    </p>
+  </div>
+</footer>
+<script src="./index.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js" data-auto-replace-svg="nest" data-carry></script>
+</body>
+</html>
