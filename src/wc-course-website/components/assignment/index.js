@@ -1,56 +1,40 @@
 import { databaseManager } from '../../database';
+import { DatabaseConsumer } from '../base/databaseConsumer';
+import { createUrl } from '../../utilities/createUrl';
 
-class Assignment extends window.HTMLDivElement {
+export class Assignment extends DatabaseConsumer(window.HTMLDivElement) {
   constructor() {
     super();
 
     this.assignmentTemplateId = '#single-assignment';
 
-    this.unsuscriber = null;
+    this.assignmentData = null;
+  }
+
+  notified() {
     this.render();
   }
 
-  connectedCallback() {
-    if (this.isConnected) {
-      this.unsuscriber = databaseManager.subscribe(this.render.bind(this));
-    }
-  }
-
-  disconnectedCallback() {
-    if (this.unsuscriber) {
-      this.unsuscriber();
-    }
-  }
-
-  static get observedAttributes() {
-    return ['assignment-id'];
-  }
-
-  attributeChangedCallback(name, oldValue, newValue) {
-    if (name === 'assignment-id' && oldValue !== newValue) {
-      this.render();
-    }
+  set assignment(assignment) {
+    this.assignmentData = assignment;
+    this.render();
   }
 
   render() {
-    if (!databaseManager.ready) {
-      return;
-    }
-
     this.classList.add('panel');
     this.classList.add('is-success');
 
-    let assignmentId = null;
+    let assignment = null;
     const query = new window.URL(window.location.toString());
-    if (this.hasAttribute('assignment-id')) {
-      assignmentId = this.getAttribute('assignment-id');
+    if (this.assignmentData) {
+      assignment = this.assignmentData;
     } else if (query.searchParams.has('assignment')) {
-      assignmentId = query.searchParams.get('assignment');
+      const assignmentId = query.searchParams.get('assignment');
+      assignment = databaseManager.getAssignment(assignmentId);
     } else {
       return;
     }
 
-    const assignment = databaseManager.getAssignment(assignmentId);
     if (!assignment) {
       return;
     }
@@ -59,7 +43,7 @@ class Assignment extends window.HTMLDivElement {
     const assignmentNode = assignmentTemplate.cloneNode(true);
 
     const title = assignmentNode.querySelector('[data-element="title-link"]');
-    title.href = `/wc-course-website/assignment/index.html?assignment=${assignment.$loki}`;
+    title.href = createUrl('assignment', assignment.$loki);
     title.innerText = assignment.name;
 
     const deletePath = this.getAttribute('delete-path');

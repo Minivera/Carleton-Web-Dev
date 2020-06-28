@@ -1,56 +1,40 @@
 import { databaseManager } from '../../database';
+import { DatabaseConsumer } from '../base/databaseConsumer';
+import { createUrl } from '../../utilities/createUrl';
 
-class Tutorial extends window.HTMLDivElement {
+export class Tutorial extends DatabaseConsumer(window.HTMLDivElement) {
   constructor() {
     super();
 
     this.tutorialTemplateId = '#single-tutorial';
 
-    this.unsuscriber = null;
+    this.tutorialData = null;
+  }
+
+  notified() {
     this.render();
   }
 
-  connectedCallback() {
-    if (this.isConnected) {
-      this.unsuscriber = databaseManager.subscribe(this.render.bind(this));
-    }
-  }
-
-  disconnectedCallback() {
-    if (this.unsuscriber) {
-      this.unsuscriber();
-    }
-  }
-
-  static get observedAttributes() {
-    return ['tutorial-id'];
-  }
-
-  attributeChangedCallback(name, oldValue, newValue) {
-    if (name === 'tutorial-id' && oldValue !== newValue) {
-      this.render();
-    }
+  set tutorial(tutorial) {
+    this.tutorialData = tutorial;
+    this.render();
   }
 
   render() {
-    if (!databaseManager.ready) {
-      return;
-    }
-
     this.classList.add('panel');
     this.classList.add('is-info');
 
-    let tutorialId = null;
+    let tutorial = null;
     const query = new window.URL(window.location.toString());
-    if (this.hasAttribute('tutorial-id')) {
-      tutorialId = this.getAttribute('tutorial-id');
+    if (this.tutorialData) {
+      tutorial = this.tutorialData;
     } else if (query.searchParams.has('tutorial')) {
-      tutorialId = query.searchParams.get('tutorial');
+      const tutorialId = query.searchParams.get('tutorial');
+      tutorial = databaseManager.getTutorials(tutorialId);
     } else {
       return;
     }
 
-    const tutorial = databaseManager.getTutorial(tutorialId);
     if (!tutorial) {
       return;
     }
@@ -59,7 +43,7 @@ class Tutorial extends window.HTMLDivElement {
     const tutorialNode = tutorialTemplate.cloneNode(true);
 
     const title = tutorialNode.querySelector('[data-element="title-link"]');
-    title.href = `/wc-course-website/tutorial/index.html?tutorial=${tutorial.$loki}`;
+    title.href = createUrl('tutorial', tutorial.$loki);
     title.innerText = tutorial.name;
 
     const deletePath = this.getAttribute('delete-path');

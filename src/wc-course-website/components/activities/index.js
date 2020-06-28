@@ -1,32 +1,19 @@
 import { databaseManager } from '../../database';
+import { DatabaseConsumer } from '../base/databaseConsumer';
+import { createUrl } from '../../utilities/createUrl';
 
-class Activities extends window.HTMLElement {
+export class Activities extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();
 
     this.activitiesTemplateId = '#activities';
+  }
 
-    this.unsuscriber = null;
+  notified() {
     this.render();
   }
 
-  connectedCallback() {
-    if (this.isConnected) {
-      this.unsuscriber = databaseManager.subscribe(this.render.bind(this));
-    }
-  }
-
-  disconnectedCallback() {
-    if (this.unsuscriber) {
-      this.unsuscriber();
-    }
-  }
-
   render() {
-    if (!databaseManager.ready) {
-      return;
-    }
-
     const lectures = databaseManager.getLectures();
     const assignments = databaseManager.getTutorials();
     const tutorials = databaseManager.getTutorials();
@@ -39,7 +26,7 @@ class Activities extends window.HTMLElement {
     lectures.forEach(lecture => {
       const node = lectureTemplate.cloneNode(true);
       const anchor = node.querySelector('[data-element="title"]');
-      anchor.href = `/wc-course-website/lecture/index.html?lecture=${lecture.$loki}`;
+      anchor.href = createUrl('lecture', lecture.$loki);
       anchor.innerText = lecture.unit;
       activitiesNode.querySelector('[data-list="lectures"]').appendChild(node);
     });
@@ -48,7 +35,7 @@ class Activities extends window.HTMLElement {
     tutorials.forEach(tutorial => {
       const node = tutorialTemplate.cloneNode(true);
       const anchor = node.querySelector('[data-element="title"]');
-      anchor.href = `/wc-course-website/tutorial/index.html?tutorial=${tutorial.$loki}`;
+      anchor.href = createUrl('tutorial', tutorial.$loki);
       anchor.innerText = tutorial.name;
       activitiesNode.querySelector('[data-list="tutorials"]').appendChild(node);
     });
@@ -57,7 +44,7 @@ class Activities extends window.HTMLElement {
     assignments.forEach(assignment => {
       const node = assignmentTemplate.cloneNode(true);
       const anchor = node.querySelector('[data-element="title"]');
-      anchor.href = `/wc-course-website/assignment/index.html?assignment=${assignment.$loki}`;
+      anchor.href = createUrl('assignment', assignment.$loki);
       anchor.innerText = assignment.name;
       activitiesNode.querySelector('[data-list="assignments"]').appendChild(node);
     });
@@ -66,7 +53,7 @@ class Activities extends window.HTMLElement {
     forums.forEach(forum => {
       const node = forumsTemplate.cloneNode(true);
       const anchor = node.querySelector('[data-element="title"]');
-      anchor.href = `/wc-course-website/forum/index.html?forum=${forum.$loki}`;
+      anchor.href = createUrl('forum', forum.$loki);
       anchor.innerText = forum.title;
       node.querySelector('[data-element="topic-count"]').innerText = forum.topics.length;
       activitiesNode.querySelector('[data-list="forums"]').appendChild(node);

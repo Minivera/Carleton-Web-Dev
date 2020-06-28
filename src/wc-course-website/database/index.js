@@ -14,8 +14,6 @@ const databaseManager = {
       persistenceMethod: 'localStorage',
       autoload: true,
       autoloadCallback: this.initalState.bind(this),
-      autosave: true,
-      autosaveInterval: 4000
     });
   },
 
@@ -46,6 +44,7 @@ const databaseManager = {
       this.content.addCollection('topicComments');
     }
 
+    this.content.saveDatabase();
     this.ready = true;
     this.notify();
   },
@@ -72,12 +71,14 @@ const databaseManager = {
 
   insertElement(collection, element) {
     const doc = this.content.getCollection(collection).insert(element);
+    this.content.saveDatabase();
     this.notify();
     return doc;
   },
 
   deleteElement(collection, element) {
     this.content.getCollection(collection).remove(element);
+    this.content.saveDatabase();
     this.notify();
   },
 
@@ -159,6 +160,7 @@ const databaseManager = {
       content,
     });
 
+    this.content.saveDatabase();
     return {
       ...topic,
       comments: [comment],
@@ -166,16 +168,19 @@ const databaseManager = {
   },
 
   addTopicComment(id, user, content) {
-    this.insertElement('topicComments', {
+    const comment = this.insertElement('topicComments', {
       topicId: id,
       user,
       content,
     });
+    this.content.saveDatabase();
+    return comment;
   },
 
   deleteForumTopic(topic) {
     this.deleteElement('forumTopics', topic);
     this.content.getCollection('topicComments').removeWhere(obj => obj.topicId === topic.id);
+    this.content.saveDatabase();
   },
 
   deleteTopicComment(comment) {

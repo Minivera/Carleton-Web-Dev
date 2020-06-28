@@ -1,56 +1,40 @@
 import { databaseManager } from '../../database';
+import { DatabaseConsumer } from '../base/databaseConsumer';
+import { createUrl } from '../../utilities/createUrl';
 
-class Lecture extends window.HTMLDivElement {
+export class Lecture extends DatabaseConsumer(HTMLDivElement) {
   constructor() {
     super();
 
     this.lectureTemplateId = '#single-lecture';
 
-    this.unsuscriber = null;
+    this.lectureData = null;
+  }
+
+  notified() {
     this.render();
   }
 
-  connectedCallback() {
-    if (this.isConnected) {
-      this.unsuscriber = databaseManager.subscribe(this.render.bind(this));
-    }
-  }
-
-  disconnectedCallback() {
-    if (this.unsuscriber) {
-      this.unsuscriber();
-    }
-  }
-
-  static get observedAttributes() {
-    return ['lecture-id'];
-  }
-
-  attributeChangedCallback(name, oldValue, newValue) {
-    if (name === 'lecture-id' && oldValue !== newValue) {
-      this.render();
-    }
+  set lecture(lecture) {
+    this.lectureData = lecture;
+    this.render();
   }
 
   render() {
-    if (!databaseManager.ready) {
-      return;
-    }
-
     this.classList.add('panel');
     this.classList.add('is-primary');
 
-    let lectureId = null;
+    let lecture = null;
     const query = new window.URL(window.location.toString());
-    if (this.hasAttribute('lecture-id')) {
-      lectureId = this.getAttribute('lecture-id');
+    if (this.lectureData) {
+      lecture = this.lectureData;
     } else if (query.searchParams.has('lecture')) {
-      lectureId = query.searchParams.get('lecture');
+      const lectureId = query.searchParams.get('lecture');
+      lecture = databaseManager.getLecture(lectureId);
     } else {
       return;
     }
 
-    const lecture = databaseManager.getLecture(lectureId);
     if (!lecture) {
       return;
     }
@@ -59,7 +43,7 @@ class Lecture extends window.HTMLDivElement {
     const lectureNode = lectureTemplate.cloneNode(true);
 
     const title = lectureNode.querySelector('[data-element="title-link"]');
-    title.href = `/wc-course-website/lecture/index.html?lecture=${lecture.$loki}`;
+    title.href = createUrl('lecture', lecture.$loki);
     title.innerText = lecture.unit;
 
     const deletePath = this.getAttribute('delete-path');

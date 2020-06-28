@@ -1,6 +1,8 @@
 import { databaseManager } from '../../database';
+import { DatabaseConsumer } from '../base/databaseConsumer';
+import { createUrl } from '../../utilities/createUrl';
 
-class NavBar extends window.HTMLElement {
+export class NavBar extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();
 
@@ -10,26 +12,13 @@ class NavBar extends window.HTMLElement {
     this.navbarDividerTemplateId = '#navbar-divider';
 
     this.unsuscriber = null;
+  }
+
+  notified() {
     this.render();
   }
 
-  connectedCallback() {
-    if (this.isConnected) {
-      this.unsuscriber = databaseManager.subscribe(this.render.bind(this));
-    }
-  }
-
-  disconnectedCallback() {
-    if (this.unsuscriber) {
-      this.unsuscriber();
-    }
-  }
-
   render() {
-    if (!databaseManager.ready) {
-      return;
-    }
-
     const lectures = databaseManager.getLectures();
     const tutorials = databaseManager.getTutorials();
     const assignments = databaseManager.getAssignments();
@@ -46,7 +35,7 @@ class NavBar extends window.HTMLElement {
     lectures.forEach(lecture => {
       const node = navbarItemTemplate.cloneNode(true);
       const anchor = node.querySelector('a');
-      anchor.href = `/wc-course-website/lecture/index.html?lecture=${lecture.$loki}`;
+      anchor.href = createUrl('lecture', lecture.$loki);
       anchor.innerText = lecture.unit;
       lecturesNode.appendChild(node);
     });
@@ -55,7 +44,7 @@ class NavBar extends window.HTMLElement {
 
     const addLecture = navbarAddTemplate.cloneNode(true);
     const addLectureAnchor = addLecture.querySelector('a');
-    addLectureAnchor.href = '/wc-course-website/lectures/index.html?new';
+    addLectureAnchor.href = `${createUrl('lectures')}?new`;
     addLectureAnchor.querySelector('.text').innerText = 'Add a new lecture';
     lecturesNode.appendChild(addLecture);
 
@@ -63,7 +52,7 @@ class NavBar extends window.HTMLElement {
     assignments.forEach(assignment => {
       const node = navbarItemTemplate.cloneNode(true);
       const anchor = node.querySelector('a');
-      anchor.href = `/wc-course-website/assignment/index.html?assignment=${assignment.$loki}`;
+      anchor.href = createUrl('assignment', assignment.$loki);
       anchor.innerText = assignment.name;
       assignmentsNode.appendChild(node);
     });
@@ -72,7 +61,7 @@ class NavBar extends window.HTMLElement {
 
     const addAssignment = navbarAddTemplate.cloneNode(true);
     const addAssignmentAnchor = addAssignment.querySelector('a');
-    addAssignmentAnchor.href = '/wc-course-website/assignments/index.html?new';
+    addAssignmentAnchor.href = `${createUrl('assignments')}?new`;
     addAssignmentAnchor.querySelector('.text').innerText = 'Add a new assignment';
     assignmentsNode.appendChild(addAssignment);
 
@@ -80,7 +69,7 @@ class NavBar extends window.HTMLElement {
     tutorials.forEach(tutorial => {
       const node = navbarItemTemplate.cloneNode(true);
       const anchor = node.querySelector('a');
-      anchor.href = `/wc-course-website/tutorial/index.html?tutorial=${tutorial.$loki}`;
+      anchor.href = createUrl('tutorial', tutorial.$loki);
       anchor.innerText = tutorial.name;
       tutorialsNode.appendChild(node);
     });
@@ -89,7 +78,7 @@ class NavBar extends window.HTMLElement {
 
     const addTutorial = navbarAddTemplate.cloneNode(true);
     const addTutorialAnchor = addTutorial.querySelector('a');
-    addTutorialAnchor.href = '/wc-course-website/tutorials/index.html?new';
+    addTutorialAnchor.href = `${createUrl('tutorials')}?new`;
     addTutorialAnchor.querySelector('.text').innerText = 'Add a new tutorial';
     tutorialsNode.appendChild(addTutorial);
 
@@ -97,7 +86,7 @@ class NavBar extends window.HTMLElement {
     forums.forEach(forum => {
       const node = navbarItemTemplate.cloneNode(true);
       const anchor = node.querySelector('a');
-      anchor.href = `/wc-course-website/forum/index.html?forum=${forum.$loki}`;
+      anchor.href = createUrl('forum', forum.$loki);
       anchor.innerText = forum.title;
       forumsNode.appendChild(node);
     });

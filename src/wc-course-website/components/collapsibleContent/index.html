@@ -3,20 +3,15 @@
     <div class="level">
       <div class="level-left">
         <div class="level-item">
-          <h3 class="title is-4">
-            <slot name="title"></slot>
+          <h3 class="title is-4" data-element="title">
           </h3>
         </div>
       </div>
       <div class="level-right">
         <div class="level-item">
           <span class="icon is-medium" style="cursor: pointer;" data-element="icon-button">
-            <template data-element="opened">
-              <i class="fas fa-chevron-up"></i>
-            </template>
-            <template data-element="closed">
-              <i class="fas fa-chevron-down"></i>
-            </template>
+            <i class="fas fa-chevron-up" data-element="opened"></i>
+            <i class="fas fa-chevron-down" data-element="closed"></i>
           </span>
         </div>
       </div>
@@ -25,8 +20,6 @@
     <div
       style="overflow-y: hidden; padding-left: 20px; padding-right: 20px; margin-left: -20px; margin-right: -20px;"
       data-element="inner"
-    >
-      <slot></slot>
-    </div>
+    ></div>
   </div>
 </template>

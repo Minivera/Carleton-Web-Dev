@@ -1,33 +1,19 @@
 import { databaseManager } from '../../database';
 import { users, getUser } from '../../data/users';
+import { DatabaseConsumer } from '../base/databaseConsumer';
 
-class ForumTopic extends window.HTMLElement {
+export class ForumTopic extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();
 
     this.forumTopicTemplateId = '#forum-topic';
+  }
 
-    this.unsuscriber = null;
+  notified() {
     this.render();
   }
 
-  connectedCallback() {
-    if (this.isConnected) {
-      this.unsuscriber = databaseManager.subscribe(this.render.bind(this));
-    }
-  }
-
-  disconnectedCallback() {
-    if (this.unsuscriber) {
-      this.unsuscriber();
-    }
-  }
-
   render() {
-    if (!databaseManager.ready) {
-      return;
-    }
-
     let topicId = null;
     const query = new window.URL(window.location.toString());
     if (query.searchParams.has('topic')) {

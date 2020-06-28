@@ -1,23 +1,9 @@
 import { databaseManager } from '../database';
+import { DatabaseConsumer } from './base/databaseConsumer';
 
-class ContentName extends window.HTMLElement {
-  constructor() {
-    super();
-
-    this.unsuscriber = null;
+class ContentName extends DatabaseConsumer(window.HTMLElement) {
+  notified() {
     this.render();
-  }
-
-  connectedCallback() {
-    if (this.isConnected) {
-      this.unsuscriber = databaseManager.subscribe(this.render.bind(this));
-    }
-  }
-
-  disconnectedCallback() {
-    if (this.unsuscriber) {
-      this.unsuscriber();
-    }
   }
 
   getId(source) {

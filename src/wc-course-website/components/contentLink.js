@@ -1,23 +1,10 @@
 import { databaseManager } from '../database';
+import { DatabaseConsumer } from './base/databaseConsumer';
+import { createUrl } from '../utilities/createUrl';
 
-class ContentLink extends window.HTMLElement {
-  constructor() {
-    super();
-
-    this.unsuscriber = null;
+class ContentLink extends DatabaseConsumer(window.HTMLElement) {
+  notified() {
     this.render();
-  }
-
-  connectedCallback() {
-    if (this.isConnected) {
-      this.unsuscriber = databaseManager.subscribe(this.render.bind(this));
-    }
-  }
-
-  disconnectedCallback() {
-    if (this.unsuscriber) {
-      this.unsuscriber();
-    }
   }
 
   getId(source) {
@@ -31,33 +18,23 @@ class ContentLink extends window.HTMLElement {
   }
 
   render() {
-    if (!databaseManager.ready) {
-      return;
-    }
-
     let url = null;
     const attr = this.getAttribute('source');
     switch (attr) {
       case 'lectures': {
-        url = `/wc-course-website/lecture/index.html?lecture=${
-          databaseManager.getLecture(this.getId('lecture')).$loki
-        }`;
+        url = createUrl('lecture', databaseManager.getLecture(this.getId('lecture')).$loki);
         break;
       }
       case 'tutorials': {
-        url = `/wc-course-website/tutorial/index.html?tutorial=${
-          databaseManager.getTutorial(this.getId('tutorial')).$loki
-        }`;
+        url = createUrl('tutorial', databaseManager.getTutorial(this.getId('tutorial')).$loki);
         break;
       }
       case 'assignments': {
-        url = `/wc-course-website/assignment/index.html?assignment=${
-          databaseManager.getAssignment(this.getId('assignment')).$loki
-        }`;
+        url = createUrl('assignment', databaseManager.getAssignment(this.getId('assignment')).$loki);
         break;
       }
       case 'forums': {
-        url = `/wc-course-website/forum/index.html?forum=${databaseManager.getForum(this.getId('forum')).$loki}`;
+        url = createUrl('forum', databaseManager.getForum(this.getId('forum')).$loki);
         break;
       }
       default:

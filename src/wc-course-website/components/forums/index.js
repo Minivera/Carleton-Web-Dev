@@ -1,32 +1,19 @@
 import { databaseManager } from '../../database';
+import { DatabaseConsumer } from '../base/databaseConsumer';
+import { createUrl } from '../../utilities/createUrl';
 
-class Forums extends window.HTMLElement {
+export class Forums extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();
 
     this.forumsTemplateId = '#forums-list';
+  }
 
-    this.unsuscriber = null;
+  notified() {
     this.render();
   }
 
-  connectedCallback() {
-    if (this.isConnected) {
-      this.unsuscriber = databaseManager.subscribe(this.render.bind(this));
-    }
-  }
-
-  disconnectedCallback() {
-    if (this.unsuscriber) {
-      this.unsuscriber();
-    }
-  }
-
   render() {
-    if (!databaseManager.ready) {
-      return;
-    }
-
     const forums = databaseManager.getForums();
 
     const forumsTemplate = document.querySelector(this.forumsTemplateId).content;
@@ -37,7 +24,7 @@ class Forums extends window.HTMLElement {
     forums.forEach(forum => {
       const node = singleForumTemplate.cloneNode(true);
       const title = node.querySelector('[data-element="title"]');
-      title.href = `/wc-course-website/forum/index.html?forum=${forum.$loki}`;
+      title.href = createUrl('forum', forum.$loki);
       title.innerText = `${forum.title} - ${forum.topics.length} topics`;
       container.appendChild(node);
     });

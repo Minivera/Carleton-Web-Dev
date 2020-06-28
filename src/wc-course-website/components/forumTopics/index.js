@@ -1,33 +1,20 @@
 import { databaseManager } from '../../database';
 import { users, getUser } from '../../data/users';
+import { createUrl } from '../../utilities/createUrl';
+import { DatabaseConsumer } from '../base/databaseConsumer';
 
-class ForumTopics extends window.HTMLElement {
+export class ForumTopics extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();
 
     this.forumTopicsTemplateId = '#forum-topics';
+  }
 
-    this.unsuscriber = null;
+  notified() {
     this.render();
   }
 
-  connectedCallback() {
-    if (this.isConnected) {
-      this.unsuscriber = databaseManager.subscribe(this.render.bind(this));
-    }
-  }
-
-  disconnectedCallback() {
-    if (this.unsuscriber) {
-      this.unsuscriber();
-    }
-  }
-
   render() {
-    if (!databaseManager.ready) {
-      return;
-    }
-
     let forumId = null;
     const query = new window.URL(window.location.toString());
     if (this.hasAttribute('forum-id')) {
@@ -56,7 +43,7 @@ class ForumTopics extends window.HTMLElement {
         avatar.alt = currentUser.name;
 
         const title = topicNode.querySelector('[data-element="title"]');
-        title.href = `/wc-course-website/forum/topic/index.html?forum=${forum.$loki}&topic=${topic.$loki}`;
+        title.href = createUrl('topic', forum.$loki, topic.$loki);
         title.innerText = topic.title;
 
         topicNode.querySelector('[data-element="author-name"]').innerText = currentUser.name;
@@ -84,7 +71,8 @@ class ForumTopics extends window.HTMLElement {
       const name = event.target.querySelector('[data-element="topic-name"]').value;
       const content = event.target.querySelector('[data-element="topic-content"]').value;
 
-      databaseManager.addForumTopic(forum.$loki, name, users[0].name, content);
+      const topic = databaseManager.addForumTopic(forum.$loki, name, users[0].name, content);
+      window.location.href = createUrl('topic', forum.$loki, topic.$loki);
     };
 
     this.innerHTML = '';
