@@ -1,5 +1,5 @@
 module.exports = {
-  stories: ['../src/react-course-website/stories/**/*.stories.(js|jsx|ts|tsx|mdx)'],
+  stories: ['../stories/**/*.stories.(js|jsx|ts|tsx|mdx)'],
   addons: [
     "@storybook/addon-actions",
     {
