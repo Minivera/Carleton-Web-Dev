@@ -2,6 +2,16 @@ import { databaseManager } from '../../database';
 import { DatabaseConsumer } from '../base/databaseConsumer';
 import { createUrl } from '../../utilities/createUrl';
 
+/**
+ * A component that will render a single tutorial's panel. Will render the tutorial passed trough properties or
+ * through the `tutorial` search param. All events are handled internally through the database manager.
+ *
+ * This element extends the base div element and will need to created as `<div is="single-tutorial">`
+ *
+ * @prop {Tutorial} tutorial - Write only tutorial property to define which tutorial to render.
+ *
+ * @element single-tutorial
+ */
 export class Tutorial extends DatabaseConsumer(window.HTMLDivElement) {
   constructor() {
     super();

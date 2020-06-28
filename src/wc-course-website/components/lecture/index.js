@@ -2,7 +2,17 @@ import { databaseManager } from '../../database';
 import { DatabaseConsumer } from '../base/databaseConsumer';
 import { createUrl } from '../../utilities/createUrl';
 
-export class Lecture extends DatabaseConsumer(HTMLDivElement) {
+/**
+ * A component that will render a single lectures's panel. Will render the lecture passed trough properties or
+ * through the `lecture` search param. All events are handled internally through the database manager.
+ *
+ * This element extends the base div element and will need to created as `<div is="single-lecture">`
+ *
+ * @prop {Lecture} lecture - Write only lecture property to define which lecture to render.
+ *
+ * @element single-lecture
+ */
+export class Lecture extends DatabaseConsumer(window.HTMLDivElement) {
   constructor() {
     super();
 

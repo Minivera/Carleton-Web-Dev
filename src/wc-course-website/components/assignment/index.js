@@ -2,6 +2,16 @@ import { databaseManager } from '../../database';
 import { DatabaseConsumer } from '../base/databaseConsumer';
 import { createUrl } from '../../utilities/createUrl';
 
+/**
+ * A component that will render a single assignment's panel. Will render the assignment passed trough properties or
+ * through the `assignment` search param. All events are handled internally through the database manager.
+ *
+ * This element extends the base div element and will need to created as `<div is="single-assignment">`
+ *
+ * @prop {Assignment} assignment - Write only assignment property to define which assignment to render.
+ *
+ * @element single-assignment
+ */
 export class Assignment extends DatabaseConsumer(window.HTMLDivElement) {
   constructor() {
     super();

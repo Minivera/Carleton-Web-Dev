@@ -1,5 +1,10 @@
 import { databaseManager } from '../../database';
 
+/**
+ * utility web component that allows its child classes to be notified when the database is valid and has
+ * changed. Notification is handled through the `notified` method and will only happen if the database
+ * is ready.
+ */
 export const DatabaseConsumer = (base = window.HTMLElement) => class extends base {
   constructor() {
     super();
@@ -10,6 +15,10 @@ export const DatabaseConsumer = (base = window.HTMLElement) => class extends bas
   connectedCallback() {
     if (this.isConnected) {
       this.unsuscriber = databaseManager.subscribe(this.triggerNotified.bind(this));
+    }
+
+    if (databaseManager.ready) {
+      this.render();
     }
   }
 
@@ -29,4 +38,6 @@ export const DatabaseConsumer = (base = window.HTMLElement) => class extends bas
   }
 
   notified() {}
+
+  render() {}
 };

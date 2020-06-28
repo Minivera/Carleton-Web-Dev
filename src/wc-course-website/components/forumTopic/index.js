@@ -2,27 +2,46 @@ import { databaseManager } from '../../database';
 import { users, getUser } from '../../data/users';
 import { DatabaseConsumer } from '../base/databaseConsumer';
 
+/**
+ * A specific topic from a forum. Will render all the comments for that topic as a discussion with the
+ * ability to delete comments.  Will render the topic passed trough properties or through the `topic` search param.
+ * All events are handled internally through the database manager.
+ *
+ * The component expects the forum search param to also be passed to identify which forum owns this topic.
+ *
+ * @prop {Topic} topic - Write only topic property to define which topic to render.
+ *
+ * @element forum-topic
+ */
 export class ForumTopic extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();
 
     this.forumTopicTemplateId = '#forum-topic';
+
+    this.topicData = null;
   }
 
   notified() {
     this.render();
   }
 
+  set topic(topic) {
+    this.topicData = topic;
+    this.render();
+  }
+
   render() {
-    let topicId = null;
+    let topic = null;
     const query = new window.URL(window.location.toString());
-    if (query.searchParams.has('topic')) {
-      topicId = query.searchParams.get('topic');
+    if (this.topicData) {
+      topic = this.topicData;
+    } else if (query.searchParams.has('topic')) {
+      const topicId = query.searchParams.get('topic');
+      topic = databaseManager.getForumTopic(topicId);
     } else {
       return;
     }
-
-    const topic = databaseManager.getForumTopic(topicId);
 
     const topicTemplate = document.querySelector(this.forumTopicTemplateId).content;
     const topicNode = topicTemplate.cloneNode(true);

@@ -3,6 +3,11 @@ import { DatabaseConsumer } from '../base/databaseConsumer';
 import { Assignment } from '../assignment';
 import { createUrl } from '../../utilities/createUrl';
 
+/**
+ * List of assignments from the database. Will render all assignments without any filtering or sorting.
+ *
+ * @element assignments-list
+ */
 export class Assignments extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();

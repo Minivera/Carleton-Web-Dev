@@ -4,12 +4,15 @@
   "description": "Repository that contains the various projects and assignments for my Directed Studies on Web Development at Carleton University.",
   "scripts": {
     "start": "parcel serve src/index.html -p 3000",
-    "start:storybook": "start-storybook",
+    "start:storybook:react": "start-storybook -c src/react-course-website/.storybook",
+    "start:storybook:wc": "start-storybook -c src/wc-course-website/.storybook",
     "build": "parcel build src/index.html",
-    "build:storybook": "build-storybook .storybook -o dist/storybook",
-    "build:gh-pages": "parcel build src/index.html --target gh-pages && npm run build:storybook",
+    "build:storybook:react": "build-storybook src/react-course-website/.storybook -o dist/react-storybook",
+    "build:storybook:wc": "build-storybook src/wc-course-website/.storybook -o dist/wc-storybook",
+    "build:gh-pages": "parcel build src/index.html --target gh-pages && npm run build:storybook:react && npm run build:storybook:wc",
     "lint": "eslint 'src/**/*.{js,jsx}'",
     "deploy": "npm run build:gh-pages && gh-pages -d dist",
+    "generate:wc-json": "wca analyze 'src/wc-course-website/**/*.js' --format json --outFile src/wc-course-website/custom-elements.json",
     "clean": "git clean -fdX ."
   },
   "repository": {
@@ -56,6 +59,7 @@
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addon-notes": "^5.3.19",
     "@storybook/react": "^5.3.19",
+    "@storybook/web-components": "^5.3.19",
     "babel-loader": "^8.1.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
@@ -68,9 +72,11 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.1",
     "gh-pages": "^2.2.0",
+    "html-loader": "^1.1.0",
     "parcel": "^2.0.0-alpha.3.2",
     "posthtml-include": "^1.4.3",
     "prettier": "^2.0.5",
-    "storybook-react-router": "^1.0.8"
+    "storybook-react-router": "^1.0.8",
+    "web-component-analyzer": "^1.0.3"
   }
 }

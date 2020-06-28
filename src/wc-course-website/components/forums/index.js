@@ -2,6 +2,12 @@ import { databaseManager } from '../../database';
 import { DatabaseConsumer } from '../base/databaseConsumer';
 import { createUrl } from '../../utilities/createUrl';
 
+/**
+ * List of forums from the database. Will render all forums without any filtering or sorting. Only renders the forums
+ * titles and their topic counts, and will ignore the topics.
+ *
+ * @element forums-list
+ */
 export class Forums extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();

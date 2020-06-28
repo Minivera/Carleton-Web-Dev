@@ -2,6 +2,17 @@ import { databaseManager } from '../database';
 import { DatabaseConsumer } from './base/databaseConsumer';
 import { createUrl } from '../utilities/createUrl';
 
+/**
+ * Component that will render an anchor with the URL to a specific type in the database. Will find the
+ * element using the attribute `element-id` or with a search param equal to the source attribute.
+ *
+ * @attr {lectures|tutorials|assignments|forums} source - What element to source from the database. Will trigger
+ * an error if the source is not one of the valid values.
+ *
+ * @attr {String} element-id - Id of the element to render the name for.
+ *
+ * @element content-link
+ */
 class ContentLink extends DatabaseConsumer(window.HTMLElement) {
   notified() {
     this.render();
@@ -22,19 +33,19 @@ class ContentLink extends DatabaseConsumer(window.HTMLElement) {
     const attr = this.getAttribute('source');
     switch (attr) {
       case 'lectures': {
-        url = createUrl('lecture', databaseManager.getLecture(this.getId('lecture')).$loki);
+        url = createUrl('lecture', this.getId('lecture'));
         break;
       }
       case 'tutorials': {
-        url = createUrl('tutorial', databaseManager.getTutorial(this.getId('tutorial')).$loki);
+        url = createUrl('tutorial', this.getId('tutorial'));
         break;
       }
       case 'assignments': {
-        url = createUrl('assignment', databaseManager.getAssignment(this.getId('assignment')).$loki);
+        url = createUrl('assignment', this.getId('assignment'));
         break;
       }
       case 'forums': {
-        url = createUrl('forum', databaseManager.getForum(this.getId('forum')).$loki);
+        url = createUrl('forum', this.getId('forum'));
         break;
       }
       default:

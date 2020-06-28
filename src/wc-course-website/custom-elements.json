@@ -1,0 +1,332 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "nav-bar",
+      "path": "./components/navbar/index.js",
+      "description": "Navbar component that render the top navbar for the application. Render links for\nall the course content as well as link to create more content.",
+      "properties": [
+        {
+          "name": "navbarTemplateId",
+          "type": "string",
+          "default": "\"#navbar\""
+        },
+        {
+          "name": "navbarItemTemplateId",
+          "type": "string",
+          "default": "\"#navbar-item\""
+        },
+        {
+          "name": "navbarAddTemplateId",
+          "type": "string",
+          "default": "\"#navbar-add\""
+        },
+        {
+          "name": "navbarDividerTemplateId",
+          "type": "string",
+          "default": "\"#navbar-divider\""
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "content-count",
+      "path": "./components/contentCount.js",
+      "description": "Component that will render the number of elements of a specific type in the database.",
+      "attributes": [
+        {
+          "name": "source",
+          "description": "What element to count from the database. Will trigger\nan error if the source is not one of the valid values.",
+          "type": "lectures|tutorials|assignments|forums"
+        }
+      ],
+      "properties": [
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "collapsible-content",
+      "path": "./components/collapsibleContent/index.js",
+      "description": "Collapsible content that renders its content with the ability to click a chevron icon\nto collapse or expand it. Expanded by default.",
+      "attributes": [
+        {
+          "name": "title",
+          "description": "title to display next to the icon and above the content.",
+          "type": "String"
+        }
+      ],
+      "properties": [
+        {
+          "name": "contentTemplateId",
+          "default": "\"templateId\""
+        },
+        {
+          "name": "opened",
+          "type": "boolean",
+          "default": "\"defaultValue\""
+        }
+      ]
+    },
+    {
+      "name": "collapsible-menu",
+      "path": "./components/collapsibleMenu/index.js",
+      "description": "Collapsible menu that will render as a list item with a sub-list that can be hidden or expanded through\na chevron icon button. Hidden by default.",
+      "attributes": [
+        {
+          "name": "title",
+          "description": "title to display next to the icon and above the content.",
+          "type": "String"
+        }
+      ],
+      "properties": [
+        {
+          "name": "contentTemplateId",
+          "default": "\"templateId\""
+        },
+        {
+          "name": "opened",
+          "type": "boolean",
+          "default": "\"defaultValue\""
+        }
+      ]
+    },
+    {
+      "name": "single-lecture",
+      "path": "./components/lecture/index.js",
+      "description": "A component that will render a single lectures's panel. Will render the lecture passed trough properties or\nthrough the `lecture` search param. All events are handled internally through the database manager.\n\nThis element extends the base div element and will need to created as `<div is=\"single-lecture\">`",
+      "properties": [
+        {
+          "name": "lecture",
+          "description": "Write only lecture property to define which lecture to render.",
+          "type": "Lecture"
+        },
+        {
+          "name": "lectureTemplateId",
+          "type": "string",
+          "default": "\"#single-lecture\""
+        },
+        {
+          "name": "lectureData"
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "lectures-list",
+      "path": "./components/lectures/index.js",
+      "description": "List of lectures from the database. Will render all lectures without any filtering or sorting.",
+      "properties": [
+        {
+          "name": "lecturesTemplateId",
+          "type": "string",
+          "default": "\"#lectures-list\""
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "single-tutorial",
+      "path": "./components/tutorial/index.js",
+      "description": "A component that will render a single tutorial's panel. Will render the tutorial passed trough properties or\nthrough the `tutorial` search param. All events are handled internally through the database manager.\n\nThis element extends the base div element and will need to created as `<div is=\"single-tutorial\">`",
+      "properties": [
+        {
+          "name": "tutorial",
+          "description": "Write only tutorial property to define which tutorial to render.",
+          "type": "Tutorial"
+        },
+        {
+          "name": "tutorialTemplateId",
+          "type": "string",
+          "default": "\"#single-tutorial\""
+        },
+        {
+          "name": "tutorialData"
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "tutorials-list",
+      "path": "./components/tutorials/index.js",
+      "description": "List of tutorials from the database. Will render all tutorials without any filtering or sorting.",
+      "properties": [
+        {
+          "name": "tutorialsTemplateId",
+          "type": "string",
+          "default": "\"#tutorials-list\""
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "single-assignment",
+      "path": "./components/assignment/index.js",
+      "description": "A component that will render a single assignment's panel. Will render the assignment passed trough properties or\nthrough the `assignment` search param. All events are handled internally through the database manager.\n\nThis element extends the base div element and will need to created as `<div is=\"single-assignment\">`",
+      "properties": [
+        {
+          "name": "assignment",
+          "description": "Write only assignment property to define which assignment to render.",
+          "type": "Assignment"
+        },
+        {
+          "name": "assignmentTemplateId",
+          "type": "string",
+          "default": "\"#single-assignment\""
+        },
+        {
+          "name": "assignmentData"
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "assignments-list",
+      "path": "./components/assignments/index.js",
+      "description": "List of assignments from the database. Will render all assignments without any filtering or sorting.",
+      "properties": [
+        {
+          "name": "assignmentsTemplateId",
+          "type": "string",
+          "default": "\"#assignments-list\""
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "forums-list",
+      "path": "./components/forums/index.js",
+      "description": "List of forums from the database. Will render all forums without any filtering or sorting. Only renders the forums\ntitles and their topic counts, and will ignore the topics.",
+      "properties": [
+        {
+          "name": "forumsTemplateId",
+          "type": "string",
+          "default": "\"#forums-list\""
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "activities-aside",
+      "path": "./components/activities/index.js",
+      "description": "The activities side menu available on most pages. Is generated from the database and will rerender\ncompletely when the database is updated.",
+      "properties": [
+        {
+          "name": "activitiesTemplateId",
+          "type": "string",
+          "default": "\"#activities\""
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "content-link",
+      "path": "./components/contentLink.js",
+      "description": "Component that will render an anchor with the URL to a specific type in the database. Will find the\nelement using the attribute `element-id` or with a search param equal to the source attribute.",
+      "attributes": [
+        {
+          "name": "source",
+          "description": "What element to source from the database. Will trigger\nan error if the source is not one of the valid values.",
+          "type": "lectures|tutorials|assignments|forums"
+        },
+        {
+          "name": "element-id",
+          "description": "Id of the element to render the name for.",
+          "type": "String"
+        }
+      ],
+      "properties": [
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "content-name",
+      "path": "./components/contentName.js",
+      "description": "Component that will render the name of a specific element of a specific type in the database. Will find the\nelement using the attribute `element-id` or with a search param equal to the source attribute.",
+      "attributes": [
+        {
+          "name": "source",
+          "description": "What element to source from the database. Will trigger\nan error if the source is not one of the valid values.",
+          "type": "lectures|tutorials|assignments|forums|topics"
+        },
+        {
+          "name": "element-id",
+          "description": "Id of the element to render the name for.",
+          "type": "String"
+        }
+      ],
+      "properties": [
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "forum-topic",
+      "path": "./components/forumTopic/index.js",
+      "description": "A specific topic from a forum. Will render all the comments for that topic as a discussion with the\nability to delete comments.  Will render the topic passed trough properties or through the `topic` search param.\nAll events are handled internally through the database manager.\n\nThe component expects the forum search param to also be passed to identify which forum owns this topic.",
+      "properties": [
+        {
+          "name": "topic",
+          "description": "Write only topic property to define which topic to render.",
+          "type": "Topic"
+        },
+        {
+          "name": "forumTopicTemplateId",
+          "type": "string",
+          "default": "\"#forum-topic\""
+        },
+        {
+          "name": "topicData"
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    },
+    {
+      "name": "forum-topics",
+      "path": "./components/forumTopics/index.js",
+      "description": "List of forum topics for a specific forum. Will render all the topics without any ability for filtering or sorting.\nWill render the forum passed trough properties or through the `forum` search param. All events are handled\ninternally through the database manager.",
+      "properties": [
+        {
+          "name": "forum",
+          "description": "Write only forum property to define which forum to render.",
+          "type": "Forum"
+        },
+        {
+          "name": "forumTopicsTemplateId",
+          "type": "string",
+          "default": "\"#forum-topics\""
+        },
+        {
+          "name": "forumData"
+        },
+        {
+          "name": "unsuscriber"
+        }
+      ]
+    }
+  ]
+}

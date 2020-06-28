@@ -1,6 +1,17 @@
 import { databaseManager } from '../database';
 import { DatabaseConsumer } from './base/databaseConsumer';
 
+/**
+ * Component that will render the name of a specific element of a specific type in the database. Will find the
+ * element using the attribute `element-id` or with a search param equal to the source attribute.
+ *
+ * @attr {lectures|tutorials|assignments|forums|topics} source - What element to source from the database. Will trigger
+ * an error if the source is not one of the valid values.
+ *
+ * @attr {String} element-id - Id of the element to render the name for.
+ *
+ * @element content-name
+ */
 class ContentName extends DatabaseConsumer(window.HTMLElement) {
   notified() {
     this.render();
@@ -17,39 +28,34 @@ class ContentName extends DatabaseConsumer(window.HTMLElement) {
   }
 
   render() {
-    if (!databaseManager.ready) {
-      return;
-    }
-
-    let node = null;
+    let text = null;
     const attr = this.getAttribute('source');
     switch (attr) {
       case 'lectures': {
-        node = document.createTextNode(databaseManager.getLecture(this.getId('lecture')).unit);
+        text = databaseManager.getLecture(this.getId('lecture')).unit;
         break;
       }
       case 'tutorials': {
-        node = document.createTextNode(databaseManager.getTutorial(this.getId('tutorial')).name);
+        text = databaseManager.getTutorial(this.getId('tutorial')).name;
         break;
       }
       case 'assignments': {
-        node = document.createTextNode(databaseManager.getAssignment(this.getId('assignment')).name);
+        text = databaseManager.getAssignment(this.getId('assignment')).name;
         break;
       }
       case 'forums': {
-        node = document.createTextNode(databaseManager.getForum(this.getId('forum')).title);
+        text = databaseManager.getForum(this.getId('forum')).title;
         break;
       }
       case 'topics': {
-        node = document.createTextNode(databaseManager.getForumTopic(this.getId('topic')).title);
+        text = databaseManager.getForumTopic(this.getId('topic')).title;
         break;
       }
       default:
         throw new Error(`Unknown course content type ${attr}`);
     }
 
-    this.innerHTML = '';
-    this.appendChild(node);
+    this.innerText = text;
   }
 }
 

@@ -1,6 +1,14 @@
 import { databaseManager } from '../database';
 import { DatabaseConsumer } from './base/databaseConsumer';
 
+/**
+ * Component that will render the number of elements of a specific type in the database.
+ *
+ * @attr {lectures|tutorials|assignments|forums} source - What element to count from the database. Will trigger
+ * an error if the source is not one of the valid values.
+ *
+ * @element content-count
+ */
 class ContentCount extends DatabaseConsumer(window.HTMLElement) {
   notified() {
     this.render();

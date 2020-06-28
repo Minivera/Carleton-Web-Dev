@@ -2,6 +2,12 @@ import { databaseManager } from '../../database';
 import { DatabaseConsumer } from '../base/databaseConsumer';
 import { createUrl } from '../../utilities/createUrl';
 
+/**
+ * Navbar component that render the top navbar for the application. Render links for
+ * all the course content as well as link to create more content.
+ *
+ * @element nav-bar
+ */
 export class NavBar extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();

@@ -2,6 +2,12 @@ import { databaseManager } from '../../database';
 import { DatabaseConsumer } from '../base/databaseConsumer';
 import { createUrl } from '../../utilities/createUrl';
 
+/**
+ * The activities side menu available on most pages. Is generated from the database and will rerender
+ * completely when the database is updated.
+ *
+ * @element activities-aside
+ */
 export class Activities extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();

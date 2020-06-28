@@ -3,6 +3,11 @@ import { DatabaseConsumer } from '../base/databaseConsumer';
 import { Tutorial } from '../tutorial';
 import { createUrl } from '../../utilities/createUrl';
 
+/**
+ * List of tutorials from the database. Will render all tutorials without any filtering or sorting.
+ *
+ * @element tutorials-list
+ */
 export class Tutorials extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();

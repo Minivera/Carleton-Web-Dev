@@ -17,13 +17,14 @@
                 <li>
                     <a href="react-course-website/index.html">React course website - Assigment 1</a>
                 </li>
-                <li id="documentation-link" />
+                <li id="documentation-react-link" />
                 <li>
                     <a href="wc-todo/index.html">Web Component Todo list</a>
                 </li>
                 <li>
                     <a href="wc-course-website/index.html">Web Component course website - Assignment 2</a>
                 </li>
+                <li id="documentation-wc-link" />
             </ul>
         </div>
         <script src="./index.js"></script>
@@ -33,10 +34,18 @@
             // This link won't work in dev.
             (function() {
                 const anchor = document.createElement('a');
-                anchor.href = 'storybook/index.html';
-                anchor.innerText = 'React course website - Assigment 1 - Documentation';
+                anchor.href = 'react-storybook/index.html';
+                anchor.innerText = 'React course website - Assignment 1 - Documentation';
 
-                document.querySelector('#documentation-link').appendChild(anchor);
+                document.querySelector('#documentation-react-link').appendChild(anchor);
+            })();
+            // Same function as above, but for web components
+            (function() {
+                const anchor = document.createElement('a');
+                anchor.href = 'wc-storybook/index.html';
+                anchor.innerText = 'Web Components course website - Assignment 2 - Documentation';
+
+                document.querySelector('#documentation-wc-link').appendChild(anchor);
             })();
         </script>
     </body>

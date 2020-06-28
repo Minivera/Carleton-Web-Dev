@@ -2,8 +2,12 @@ import { databaseManager } from '../../database';
 import { DatabaseConsumer } from '../base/databaseConsumer';
 import { Lecture } from '../lecture';
 import { createUrl } from '../../utilities/createUrl';
-import { users } from '../../data/users';
 
+/**
+ * List of lectures from the database. Will render all lectures without any filtering or sorting.
+ *
+ * @element lectures-list
+ */
 export class Lectures extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();

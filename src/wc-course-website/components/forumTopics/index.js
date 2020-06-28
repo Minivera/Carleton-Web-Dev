@@ -3,29 +3,48 @@ import { users, getUser } from '../../data/users';
 import { createUrl } from '../../utilities/createUrl';
 import { DatabaseConsumer } from '../base/databaseConsumer';
 
+/**
+ * List of forum topics for a specific forum. Will render all the topics without any ability for filtering or sorting.
+ * Will render the forum passed trough properties or through the `forum` search param. All events are handled
+ * internally through the database manager.
+ *
+ * @prop {Forum} forum - Write only forum property to define which forum to render.
+ *
+ * @element forum-topics
+ */
 export class ForumTopics extends DatabaseConsumer(window.HTMLElement) {
   constructor() {
     super();
 
     this.forumTopicsTemplateId = '#forum-topics';
+
+    this.forumData = null;
   }
 
   notified() {
     this.render();
   }
 
+  set forum(forum) {
+    this.forumData = forum;
+    this.render();
+  }
+
   render() {
-    let forumId = null;
+    let forum = null;
     const query = new window.URL(window.location.toString());
-    if (this.hasAttribute('forum-id')) {
-      forumId = this.getAttribute('forum-id');
+    if (this.forumData) {
+      forum = this.forumData;
     } else if (query.searchParams.has('forum')) {
-      forumId = query.searchParams.get('forum');
+      const forumId = query.searchParams.get('forum');
+      forum = databaseManager.getForum(forumId);
     } else {
       return;
     }
 
-    const forum = databaseManager.getForum(forumId);
+    if (!forum) {
+      return;
+    }
 
     const forumTopicsTemplate = document.querySelector(this.forumTopicsTemplateId).content;
     const forumTopicsNode = forumTopicsTemplate.cloneNode(true);
