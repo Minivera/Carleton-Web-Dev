@@ -15,6 +15,10 @@ jobs:
         run: npm install
       - name: Build application for deployment
         run: npm run build:gh-pages
+      - name: Build react storybook
+        run: npm run build:storybook:react
+      - name: Build react web components
+        run: npm run build:storybook:wc
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

@@ -9,7 +9,7 @@
     "build": "parcel build src/index.html",
     "build:storybook:react": "build-storybook -c src/react-course-website/.storybook -o dist/react-storybook",
     "build:storybook:wc": "build-storybook -c src/wc-course-website/.storybook -o dist/wc-storybook",
-    "build:gh-pages": "parcel build src/index.html --target gh-pages && npm run build:storybook:react && npm run build:storybook:wc",
+    "build:gh-pages": "parcel build src/index.html --target gh-pages",
     "lint": "eslint 'src/**/*.{js,jsx}'",
     "deploy": "npm run build:gh-pages && gh-pages -d dist",
     "generate:wc-json": "wca analyze 'src/wc-course-website/**/*.js' --format json --outFile src/wc-course-website/custom-elements.json",
