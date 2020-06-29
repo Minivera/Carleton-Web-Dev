@@ -40,7 +40,7 @@ export class Tutorial extends DatabaseConsumer(window.HTMLDivElement) {
       tutorial = this.tutorialData;
     } else if (query.searchParams.has('tutorial')) {
       const tutorialId = query.searchParams.get('tutorial');
-      tutorial = databaseManager.getTutorials(tutorialId);
+      tutorial = databaseManager.getTutorial(tutorialId);
     } else {
       return;
     }
