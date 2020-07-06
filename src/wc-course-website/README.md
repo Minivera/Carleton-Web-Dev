@@ -7,19 +7,19 @@ Thankfully though, browsers have been evolving to bring the React-like experienc
  modular apps with components to developers without the need for libraries. The experience has evolved into the [web
  components standard](https://github.com/w3c/webcomponents) and it has since been [adopted in some form by more than
  74% of browsers, including most modern browsers](https://caniuse.com/#search=custom%20elements).
-   
+
 In this second tutorial, we will be discovering web components by recreating the application from the previous
  tutorial with this new technology.
- 
+
 While not required, this tutorial expects you to have completed the previous tutorial.
 
 ## What are web components?
 Web components are a new API available to JavaScript developers that allow them to create custom HTML tags, extend
  existing HTML tags, or even extend other web components found on the web. By creating those custom HTML tags, called
  custom elements, we create reusable components that can be dropped in any HTML file where our JavaScript scripts
- are included. This makes web components far more portable that React components as any developer can simply import
+ are included. This makes web components far more portable than React components as any developer can simply import
  our scripts and use the components directly without needing any base framework. While React components can also be
- considered portable, you do need React installed to use them. Even more impressive, web components ca be used as
+ considered portable, you do need React installed to use them. Even more impressive, web components can be used as
  tags in React!
 
 ## Prerequisites?
@@ -28,11 +28,11 @@ Contrary to React, web components do not require any library to be used. In fact
 
 In our case, we will be creating a few script files that we will include as modules in the HTML file. To be able to
  load all those files locally in our browsers, we still need some sort of web server to serve those files to us
- . Enter `serve`, a small tool that generate a web server to serve HTML files on localhost. 
+ . Enter `serve`, a small tool that generate a web server to serve HTML files on localhost.
 
 To install `serve`, run `npm install -g serve`. The `-g` flag means that NPM will install this package globally
 , making it available anywhere on your computer. Simply typing `serve` in a terminal will transform the working
- directory into a web server. 
+ directory into a web server.
 
 ## Getting started
 To get started, create a folder for this tutorial on your computer. Make sure to have a terminal open and navigate to
@@ -88,8 +88,7 @@ customElements.define(
 ```
 
 `customElements` is the namespace we use to define and access custom elements (The custom tags that power web
- components). By calling `customElements.define`, we tell the browser that there is now a tag a developer can use
- name after the first argument. The second argument can either be a class or a function, but as [most browsers now
+ components). By calling `customElements.define`, we tell the browser that there is now a tag a developer can use with the name `user-posts`. The name of the tag is taken from the first argument. The second argument can either be a class or a function, but as [most browsers now
  support classes](https://caniuse.com/#feat=es6-class), we will use classes since they make the logic far easier to
  code. Our class _must_ extend the [`HTMLElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) base class from the global namespace.
 
@@ -153,8 +152,7 @@ Go back to our `index.js` file and add this line at the top: `import './userPost
  should see the component render the loading, then loaded text.
 
 ## More components!
-When the user will be loaded, we want to show a welcome title and the a list of posts this user would have access to
-. Let's start with the welcome title. Create a `userWelcome.js` file and copy this code in there.
+Once the user is loaded, we want to show a welcome title and a list of posts this user would have access to. Let's start with the welcome title. Create a `userWelcome.js` file and copy this code in there.
 
 ```js
 // userWelcome.js
@@ -192,19 +190,19 @@ What exactly is happening here? Let's first start by explaining what attributes 
  `<img src="some_file.jpg" alt="alternative text">`. Here, the `src` and `alt` values are attributes. Attributes can
   only be given primitive types (String, number, booleans).
 
-You might also have noticed that, if you go on any page and change the URL of a `img` tag through the developer's
+You might also have noticed that, if you go on any page and change the URL of an `img` tag through the developer's
  console, that image will change to the new image you added. That's possible because the `img` element listens for
  any change to the `src` attribute and rerenders when it changes. We can do the same through the `observedAttributes
  ` read-only getter and the `attributeChangedCallback` lifecycle method.
 
-The `observedAttributes` getter must return an array givin the names of all the attributes that are to be actively
+The `observedAttributes` getter must return an array containing the names of all the attributes that are to be actively
  watched by the element. When an attribute in that array changes, it triggers the `attributeChangedCallback` method
  with the name of the attribute, and the old and new values. In our case, we want to watch for the user's name to
  render the welcome title when it is set.
 
-Finally, the render method check if the attribute for the user name exists and renders a `h1` title if it does. Here
+Finally, the render method checks if the attribute for the user name exists and renders a `h1` title if it does. Here
  we make use of `innerHTML`'s ability to take any HTML string and render it into valid HTML nodes. By combining this
- with JavaScript teplate literals, we can very easily render this node with an almost JSX API.
+ with JavaScript template literals, we can very easily render this node with an almost JSX API.
 
 Next, we will want to render a list of posts. Create a `postList.js` file an copy the following code into it.
 
@@ -258,9 +256,9 @@ Let's now change the render method of the `userPost.js` file to create those two
 
 ```js
 // index.js
-import "./userWelcome";
-import "./postList";
-import "./userPosts";
+import "./userWelcome.js";
+import "./postList.js";
+import "./userPosts.js";
 ```
 
 The order is important as we need to define the tags we will be using in `userPosts` before we create that class.
@@ -290,7 +288,7 @@ You can see how we use the attribute to our advantage here. Refresh the page and
 When we created the `postList` component, we decided to create a `li` node for each entry post fetched from the API
 . To add content in there, we could add more logic to the `postList` render method, but creating a specific component
  for that purpose gives us more freedom to change the implementation later. We do run into a small issue by creating
- a new component thought. To describe that issue, let's look at the final HTML created in the web page. Open the
+ a new component though. To describe that issue, let's look at the final HTML created in the web page. Open the
  debugging tools of your browser and inspect the HTML, you should see something like this:
 
 ```html
@@ -311,9 +309,9 @@ When we created the `postList` component, we decided to create a `li` node for e
 ```
 
 As you can see, the tags for our custom elements are added into the HTML structure. As we said earlier, web
- components are custom HTML tags the browser can render using our we component code. This means they cat like normal
+ components are custom HTML tags the browser can render using our web component code. This means they act like normal
  tags and can be styled or have attributes. Let's imagine that we create a `post-element` custom element and we have
- the `forEach` loop in `postList` render that, then we,d end up with this HTML:
+ the `forEach` loop in `postList` render that, then we'd end up with this HTML:
 
 ```html
 <post-list>
@@ -363,12 +361,12 @@ We've changed the base class we're extending to `HTMLLIElement` and added a simp
  `li` element. Unfortunately, the browser cannot tell what we're extending only from the class, so we have to give it a
  little push through this third parameter.
 
-You might also have noticed that we are using `this.post` rather than a attribute. This is called a property. The
- difference between properties and attributes it that attributes can be added in the HTML structure an must only
+You might also have noticed that we are using `this.post` rather than an attribute. This is called a property. The
+ difference between properties and attributes it that attributes can be added in the HTML structure and must only
  contain the primitive types. Properties are more permissive, but can only be set through JavaScript. We can set them
  to anything, but we have to use the `node.property` notation to do so, which makes them a bit harder to work with.
 
-We now have a custom element that will, for all intent and purposes, act like an `li` element when added to the HTML
+We now have a custom element that will, for all intents and purposes, act like an `li` element when added to the HTML
 . Let's do just that by modifying our `postList` component's render method.
 
 ```js
@@ -378,9 +376,9 @@ render() {
         this.innerHTML = "Loading...";
         return;
     }
-    
+
     const container = document.createElement("ul");
-    
+
     this.posts.forEach(post => {
         // Create an li node, but tell it to use the post-element code
         const postNode = document.createElement("li", { is: 'post-element' });
@@ -388,7 +386,7 @@ render() {
         postNode.post = post;
         container.appendChild(postNode);
     });
-    
+
     this.innerHTML = "";
     this.appendChild(container);
 }
@@ -405,20 +403,20 @@ Finally, edit the `index.js` file again to add our new file.
 
 ```js
 // index.js
-import "./userWelcome";
-import "./postElement";
-import "./postList";
-import "./userPosts";
+import "./userWelcome.js";
+import "./postElement.js";
+import "./postList.js";
+import "./userPosts.js";
 ```
 
 Refresh your page and you should see the list render all our posts as `li`s.
 
 ## Conclusion
-Today we've explored web components by creating a simple app to feth a user and their posts. We've explored custom
+Today we've explored web components by creating a simple app to fetch a user and their posts. We've explored custom
  elements, elements extending tags, attributes, properties, and reactivity. We only scratched the surface of what web
  components can do however. We have not covered the shadowDOM nor slots in this tutorial and we made use of template
  literals rather than templates to generate HTML. I recommend reading the MDN docs on these subjects and trying to
- improve today's tutorial to add a shadowDOM based component an templates.
+ improve today's tutorial to add a shadowDOM based component and templates.
 
 - https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
 - https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots
