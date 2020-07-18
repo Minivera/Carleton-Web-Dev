@@ -26,7 +26,7 @@ jobs:
         run: |
           mvn -B package --file src/java-todo/pom.xml
           mkdir dist/java-todo && cp src/java-todo/target/java-todo-example-1.0.war dist/java-todo/app.war
-          jar xvf dist/java-todo/app.war
+          unzip dist/java-todo/app.war
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
