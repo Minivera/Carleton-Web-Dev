@@ -25,6 +25,7 @@
                     <a href="wc-course-website/index.html">Web Component course website - Assignment 2</a>
                 </li>
                 <li id="documentation-wc-link" />
+                <li id="todo-java-link" />
             </ul>
         </div>
         <script src="./index.js"></script>
@@ -46,6 +47,14 @@
                 anchor.innerText = 'Web Components course website - Assignment 2 - Documentation';
 
                 document.querySelector('#documentation-wc-link').appendChild(anchor);
+            })();
+            // Loads the link for the Java TODO MVC app built outside of parcel
+            (function() {
+                const anchor = document.createElement('a');
+                anchor.href = 'java-todo/index.html';
+                anchor.innerText = 'Java Todo list';
+
+                document.querySelector('#todo-java-link').appendChild(anchor);
             })();
         </script>
     </body>

@@ -1,0 +1,32 @@
+<?use todo:edu.carleton.dev?>
+<section class="todoapp">
+  <header class="header">
+    <h1>todos</h1>
+    <form class="todo-form" event:submit="addTodo()">
+      <input
+          class="new-todo"
+          placeholder="What needs to be done?"
+          html:value="newTodo"
+          html:change="newTodo"
+      >
+    </form>
+  </header>
+  <std:if condition="model.getTodos().size() > 0">
+    <section class="main">
+      <input
+        id="toggle-all"
+        class="toggle-all"
+        type="checkbox"
+        html:checked="allCompleted()"
+        html:checked-change="toggleAll(it)"
+      >
+      <label for="toggle-all">Mark all as complete</label>
+      <ul class="todo-list">
+        <std:foreach var="todo" in="model.getFilteredTodos()">
+          <todo:todo-item todo="todo" model="model"/>
+        </std:foreach>
+      </ul>
+    </section>
+    <todo:footer model="model" />
+  </std:if>
+</section>

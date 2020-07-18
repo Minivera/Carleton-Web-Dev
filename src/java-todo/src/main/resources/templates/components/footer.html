@@ -1,0 +1,43 @@
+<?import edu.carleton.dev.TodoFilterType?>
+<footer class="footer">
+  <span class="todo-count">
+      <strong>
+          <html:text value="count"/>
+      </strong>
+    <std:choose>
+      <std:option when="count == 1">item left</std:option>
+      <std:otherwise>items left</std:otherwise>
+    </std:choose>
+  </span>
+    <ul class="filters">
+      <li>
+        <a
+            event:click="model.setIsShowing(TodoFilterType.ALL)"
+            attr:class="model.getIsShowing() == TodoFilterType.ALL ? 'selected' : ''"
+        >
+          All
+        </a>
+      </li>
+      <li>
+        <a
+            event:click="model.setIsShowing(TodoFilterType.ACTIVE)"
+            attr:class="model.getIsShowing() == TodoFilterType.ACTIVE ? 'selected' : ''"
+        >
+          Active
+        </a>
+      </li>
+      <li>
+        <a
+            event:click="model.setIsShowing(TodoFilterType.COMPLETED)"
+            attr:class="model.getIsShowing() == TodoFilterType.COMPLETED ? 'selected' : ''"
+        >
+          Completed
+        </a>
+      </li>
+    </ul>
+    <std:if condition="completedCount > 0">
+      <button class="clear-completed" event:click="model.clearCompleted()">
+        Clear completed
+      </button>
+    </std:if>
+</footer>
