@@ -1,0 +1,17 @@
+<li attr:class="(todo.getIsCompleted() ? 'completed' : '') + (isEditing ? ' editing' : '')">
+  <div class="view">
+    <input class="toggle" type="checkbox" html:checked="todo.getIsCompleted()" html:checked-change="todo.toggle()">
+    <label event:dblclick="edit()">
+      <html:text value="todoText"/>
+    </label>
+    <button class="destroy" event:click="model.deleteTodo(todo)"></button>
+  </div>
+  <form event:submit="saveEdit()">
+    <input
+      class="edit"
+      html:value="newText"
+      html:change="setNewText(it)"
+      event:blur="saveEdit()"
+    >
+  </form>
+</li>
