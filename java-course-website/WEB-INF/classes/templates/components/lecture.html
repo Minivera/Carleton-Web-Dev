@@ -1,0 +1,34 @@
+<nav class="panel is-primary">
+  <div class="panel-heading">
+    <a html:link="route(it).singleLecture(lecture.id)" class="has-text-white is-capitalized is-family-monospace">
+      <html:text value="lecture.unit"/>
+    </a>
+    <div class="is-pulled-right">
+      <button class="delete" event:click="deleteLecture()" />
+    </div>
+  </div>
+  <std:foreach in="lecture.slides" var="slide">
+    <div class="panel-block">
+      <span class="panel-icon">
+        <i class="fas fa-file-powerpoint"></i>
+      </span>
+      <html:text value="slide.title"/>
+    </div>
+  </std:foreach>
+  <std:foreach in="lecture.recordings" var="recording">
+    <div class="panel-block">
+      <span class="panel-icon">
+        <i class="fas fa-file-video"></i>
+      </span>
+      <html:text value="recording.title"/>
+    </div>
+  </std:foreach>
+  <std:foreach in="lecture.code" var="code">
+    <div class="panel-block">
+      <span class="panel-icon">
+        <i class="fas fa-file-code"></i>
+      </span>
+      <html:text value="code.title"/>
+    </div>
+  </std:foreach>
+</nav>

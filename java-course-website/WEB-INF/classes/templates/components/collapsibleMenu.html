@@ -1,0 +1,22 @@
+<li>
+  <div class="is-flex">
+    <span style="flex: 1;">
+      <a event:click="routeTo()">
+        <html:text value="title"/>
+      </a>
+    </span>
+    <span class="icon is-medium" style="cursor: pointer;" event:click="toggle()">
+      <std:choose>
+        <std:option when="opened">
+          <i class="fas fa-chevron-up" />
+        </std:option>
+        <std:otherwise>
+          <i class="fas fa-chevron-down" />
+        </std:otherwise>
+      </std:choose>
+    </span>
+  </div>
+  <ul attr:style="collapsibleStyle">
+    <std:insert fragment="body"/>
+  </ul>
+</li>

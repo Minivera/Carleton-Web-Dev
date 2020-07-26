@@ -67,7 +67,7 @@ public class Model {
 
     public Model() {
         String todosJson = localStorage.getItem(storageItemName);
-        if (todosJson != null && todosJson.isEmpty()) {
+        if (todosJson != null && !todosJson.isEmpty()) {
             todos = JSON.deserialize(Node.parse(todosJson), ArrayList.class);
             todos.forEach(todo -> todo.model = this);
         }

@@ -1,0 +1,15 @@
+<?use components:edu.carleton.dev.components?>
+<div class="tile is-parent">
+  <article class="tile is-child">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li><a>Home</a></li>
+        <li>
+          <a html:link="route(it).index()">COMP2406</a>
+        </li>
+        <li class="is-active"><a>Discussion boards</a></li>
+      </ul>
+    </nav>
+    <components:forums forums="forums" />
+  </article>
+</div>

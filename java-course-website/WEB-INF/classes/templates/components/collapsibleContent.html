@@ -1,0 +1,29 @@
+<div>
+  <div class="level">
+    <div class="level-left">
+      <div class="level-item">
+        <h3 class="title is-4">
+          <html:text value="title"/>
+        </h3>
+      </div>
+    </div>
+    <div class="level-right">
+      <div class="level-item">
+        <span class="icon is-medium" style="cursor: pointer;" event:click="toggle()">
+          <std:choose>
+            <std:option when="opened">
+              <i class="fas fa-chevron-up" />
+            </std:option>
+            <std:otherwise>
+              <i class="fas fa-chevron-down" />
+            </std:otherwise>
+          </std:choose>
+        </span>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <div attr:style="style">
+    <std:insert fragment="body"/>
+  </div>
+</div>
