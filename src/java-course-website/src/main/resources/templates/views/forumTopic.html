@@ -1,0 +1,99 @@
+<div class="tile is-parent">
+  <article class="tile is-child">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li><a>Home</a></li>
+        <li>
+          <a html:link="route(it).index()">COMP2406</a>
+        </li>
+        <li>
+          <a html:link="route(it).forums()">
+            Discussion boards
+          </a>
+        </li>
+        <li>
+          <a html:link="route(it).singleForum(forum.id)">
+            <html:text value="forum.title" />
+          </a>
+        </li>
+        <li class="is-active"><a><html:text value="topic.title" /></a></li>
+      </ul>
+    </nav>
+    <std:with var="firstComment" value="topic.comments.get(0)">
+      <std:with var="author" value="firstComment.user">
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <img attr:alt="author.name" attr:src="author.avatar" />
+            </p>
+          </figure>
+          <div class="media-content">
+            <h3 class="title is-4">
+              <html:text value="topic.title" />
+            </h3>
+            <div class="content has-text-justified">
+              <p>
+                <strong><html:text value="author.name" /></strong> <small><html:text value="author.email" /></small>
+              </p>
+              <std:foreach in="commentToList(firstComment)" var="item">
+                <p>
+                  <html:text value="item" />
+                </p>
+              </std:foreach>
+            </div>
+            <std:foreach in="nextComments" var="comment">
+              <std:with var="commentAuthor" value="comment.user">
+                <article class="media">
+                  <figure class="media-left">
+                    <p class="image is-64x64">
+                      <img attr:alt="commentAuthor.name" attr:src="commentAuthor.avatar" />
+                    </p>
+                  </figure>
+                  <div class="media-content">
+                    <div class="content has-text-justified">
+                      <p>
+                        <strong><html:text value="commentAuthor.name" /></strong> <small><html:text value="commentAuthor.email" /></small>
+                      </p>
+                      <std:foreach in="commentToList(comment)" var="item">
+                        <p>
+                          <html:text value="item" />
+                        </p>
+                      </std:foreach>
+                    </div>
+                  </div>
+                  <std:if condition="comment == lastComment">
+                    <div class="media-right">
+                      <button class="delete" event:click="deleteComment(comment)"></button>
+                    </div>
+                  </std:if>
+                </article>
+              </std:with>
+            </std:foreach>
+          </div>
+        </article>
+        <article class="media">
+          <figure class="media-left">
+            <p class="image is-64x64">
+              <img attr:alt="author.name" attr:src="author.avatar" />
+            </p>
+          </figure>
+          <div class="media-content">
+            <div class="field">
+              <p class="control">
+                <textarea
+                    class="textarea"
+                    placeholder="Add some content"
+                    attr:value="newComment"
+                    html:change="newComment = it"
+                ></textarea>
+              </p>
+            </div>
+            <button class="button is-info" event:click="addComment()">
+              Add a comment
+            </button>
+          </div>
+        </article>
+      </std:with>
+    </std:with>
+  </article>
+</div>

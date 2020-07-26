@@ -1,0 +1,6 @@
+<?use components:edu.carleton.dev.components?>
+<components:collapsible-content title="'Lectures'">
+  <std:foreach in="lectures" var="lecture">
+    <components:lecture model="model" lecture="lecture" />
+  </std:foreach>
+</components:collapsible-content>

@@ -1,5 +1,5 @@
 rm -rf ./src
-cp /code .
+cp -a /code/. .
 
 mvn package
 

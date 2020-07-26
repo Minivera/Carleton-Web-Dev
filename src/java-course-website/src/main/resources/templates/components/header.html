@@ -1,0 +1,107 @@
+<header>
+  <nav class="navbar has-shadow is-light" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbar"
+        >
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+        </a>
+      </div>
+      <div id="navbar" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" html:link="route(it).index()">
+            Home
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" html:link="route(it).lectures()">
+              <span class="icon has-text-primary">
+                <i class="fas fa-book" />
+              </span>
+              <span>Lectures</span>
+            </a>
+            <div class="navbar-dropdown">
+              <std:foreach in="lectures" var="lecture">
+                <a class="navbar-item" html:link="route(it).singleLecture(lecture.id)">
+                  <html:text value="lecture.unit"/>
+                </a>
+              </std:foreach>
+              <hr class="navbar-divider" />
+              <a class="navbar-item" html:link="route(it).addLecture()">
+                <span class="icon">
+                  <i class="fas fa-plus"/>
+                </span>
+                <span>Add a new lecture</span>
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" html:link="route(it).tutorials()">
+              <span class="icon has-text-info">
+                <i class="fas fa-flask" />
+              </span>
+              <span>Tutorials</span>
+            </a>
+            <div class="navbar-dropdown">
+              <std:foreach in="tutorials" var="tutorial">
+                <a class="navbar-item" html:link="route(it).singleTutorial(tutorial.id)">
+                  <html:text value="tutorial.name"/>
+                </a>
+              </std:foreach>
+              <hr class="navbar-divider" />
+              <a class="navbar-item" html:link="route(it).addTutorial()">
+                <span class="icon">
+                  <i class="fas fa-plus"/>
+                </span>
+                <span>Add a new tutorial</span>
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" html:link="route(it).assignments()">
+              <span class="icon has-text-success">
+                <i class="fas fa-laptop-house" />
+              </span>
+              <span>Assignments</span>
+            </a>
+            <div class="navbar-dropdown">
+              <std:foreach in="assignments" var="assignment">
+                <a class="navbar-item" html:link="route(it).singleAssignment(assignment.id)">
+                  <html:text value="assignment.name"/>
+                </a>
+              </std:foreach>
+              <hr class="navbar-divider" />
+              <a class="navbar-item" html:link="route(it).addAssignment()">
+                <span class="icon">
+                  <i class="fas fa-plus"/>
+                </span>
+                <span>Add a new assignment</span>
+              </a>
+            </div>
+          </div>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" html:link="route(it).forums()">
+              <span class="icon has-text-danger">
+                <i class="fas fa-comments" />
+              </span>
+              <span>Forums</span>
+            </a>
+            <div class="navbar-dropdown">
+              <std:foreach in="forums" var="forum">
+                <a class="navbar-item" html:link="route(it).singleForum(forum.id)">
+                  <html:text value="forum.title"/>
+                </a>
+              </std:foreach>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

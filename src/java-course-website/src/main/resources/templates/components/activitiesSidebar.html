@@ -1,0 +1,79 @@
+<?use components:edu.carleton.dev.components?>
+<aside class="menu">
+  <p class="menu-label">
+    List of activities
+  </p>
+  <ul class="menu-list">
+    <components:collapsible-menu title="'Lectures'" to="'lectures'">
+      <std:foreach in="lectures" var="lecture">
+        <li>
+          <a html:link="route(it).singleLecture(lecture.id)">
+            <html:text value="lecture.unit"/>
+          </a>
+        </li>
+      </std:foreach>
+    </components:collapsible-menu>
+    <components:collapsible-menu title="'Tutorials'" to="'tutorials'">
+      <std:foreach in="tutorials" var="tutorial">
+        <li>
+          <a html:link="route(it).singleTutorial(tutorial.id)">
+            <html:text value="tutorial.name"/>
+          </a>
+        </li>
+      </std:foreach>
+    </components:collapsible-menu>
+    <components:collapsible-menu title="'Assignments'" to="'assignments'">
+      <std:foreach in="assignments" var="assignment">
+        <li>
+          <a html:link="route(it).singleAssignment(assignment.id)">
+            <html:text value="assignment.name"/>
+          </a>
+        </li>
+      </std:foreach>
+    </components:collapsible-menu>
+  </ul>
+  <p class="menu-label">
+    Discussion boards
+  </p>
+  <ul class="menu-list">
+    <std:foreach in="forums" var="forum">
+      <li class="is-flex">
+        <a html:link="route(it).singleForum(forum.id)" style="flex: 1;">
+          <html:text value="forum.title"/>
+        </a>
+        <span class="tag is-info">
+          <html:text value="forum.topics.size()"/>
+        </span>
+      </li>
+    </std:foreach>
+  </ul>
+  <p class="menu-label">
+    Instructor options
+  </p>
+  <ul class="menu-list">
+    <li>
+      <a html:link="route(it).addLecture()">
+        <span class="icon is-small">
+          <i class="fas fa-plus"/>
+        </span>
+        Add a new lecture
+      </a>
+    </li>
+    <li>
+      <a html:link="route(it).addTutorial()">
+        <span class="icon is-small">
+          <i class="fas fa-plus"/>
+        </span>
+        Add a new tutorial
+      </a>
+    </li>
+    <li>
+      <a html:link="route(it).addAssignment()">
+        <span class="icon is-small">
+          <i class="fas fa-plus"/>
+        </span>
+        Add a new assignment
+      </a>
+    </li>
+  </ul>
+</aside>

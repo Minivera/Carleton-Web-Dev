@@ -26,6 +26,7 @@
                 </li>
                 <li id="documentation-wc-link" />
                 <li id="todo-java-link" />
+                <li id="course-website-java-link" />
             </ul>
         </div>
         <script src="./index.js"></script>
@@ -55,6 +56,14 @@
                 anchor.innerText = 'Java Todo list';
 
                 document.querySelector('#todo-java-link').appendChild(anchor);
+            })();
+            // Loads the link for the Java course website app built outside of parcel
+            (function() {
+                const anchor = document.createElement('a');
+                anchor.href = 'java-course-website/index.html';
+                anchor.innerText = 'Java Course Website';
+
+                document.querySelector('#course-website-java-link').appendChild(anchor);
             })();
         </script>
     </body>

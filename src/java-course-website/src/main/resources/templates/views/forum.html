@@ -1,0 +1,101 @@
+<div class="tile is-parent">
+  <article class="tile is-child">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li><a>Home</a></li>
+        <li>
+          <a html:link="route(it).index()">COMP2406</a>
+        </li>
+        <li>
+          <a html:link="route(it).forums()">
+            Discussion boards
+          </a>
+        </li>
+        <li class="is-active"><a><html:text value="forum.title" /></a></li>
+      </ul>
+    </nav>
+    <std:choose>
+      <std:option when="forum.topics.size() == 0">
+        <div class="notification is-info" style="margin-top: 20px;">
+          No topics created in this discussion board
+        </div>
+      </std:option>
+      <std:otherwise>
+        <std:foreach in="forum.topics" var="topic">
+          <std:with var="firstComment" value="topic.comments.get(0)">
+            <std:with var="author" value="firstComment.user">
+              <article class="media">
+                <figure class="media-left">
+                  <p class="image is-64x64">
+                    <img attr:alt="author.name" attr:src="author.avatar" />
+                  </p>
+                </figure>
+                <div class="media-content">
+                  <h3 class="title is-4">
+                    <a html:link="route(it).forumTopic(forum.id, topic.id)">
+                      <html:text value="topic.title" />
+                    </a>
+                  </h3>
+                  <div class="content has-text-justified">
+                    <p>
+                      <strong><html:text value="author.name" /></strong> <small><html:text value="author.email" /></small>
+                    </p>
+                    <std:foreach in="commentToList(firstComment)" var="item">
+                      <p>
+                        <html:text value="item" />
+                      </p>
+                    </std:foreach>
+                    <hr />
+                    <p>
+                      <html:text value="topic.comments.size() - 1" />&nbsp
+                      <std:choose>
+                        <std:option when="topic.comments.size() > 2">
+                          comments
+                        </std:option>
+                        <std:otherwise>
+                          comment
+                        </std:otherwise>
+                      </std:choose>
+                    </p>
+                  </div>
+                </div>
+                <div class="media-right">
+                  <button class="delete" event:click="deleteTopic(topic)"></button>
+                </div>
+              </article>
+            </std:with>
+          </std:with>
+        </std:foreach>
+      </std:otherwise>
+    </std:choose>
+    <article class="media">
+      <div class="media-content">
+        <h3 class="title is-4">Create a new topic</h3>
+        <div class="field">
+          <p class="control">
+            <input
+                class="input"
+                type="text"
+                placeholder="What do you want to discuss about?"
+                attr:value="title"
+                html:change="title = it"
+            />
+          </p>
+        </div>
+        <div class="field">
+          <p class="control">
+            <textarea
+                class="textarea"
+                placeholder="Add some content"
+                attr:value="description"
+                html:change="description = it"
+            ></textarea>
+          </p>
+        </div>
+        <button class="button is-info" event:click="createTopic()">
+          Submit
+        </button>
+      </div>
+    </article>
+  </article>
+</div>

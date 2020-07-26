@@ -1,0 +1,83 @@
+<?use components:edu.carleton.dev.components?>
+<div class="tile">
+  <div class="tile is-parent is-vertical">
+    <article class="tile is-vertical notification is-primary" style="padding-top: 40px; padding-bottom: 40px;">
+      <h1 class="title">Welcome to COMP2406</h1>
+      <h2 class="subtitle">
+        The course covers the principles involved in the design and implementation of web applications.
+        Our primary programming language in this offering will be Javascript (on both client and server
+        side). The course will examine programming concepts as they relate to building web applications
+        and will emphasize the computer science fundamentals.
+      </h2>
+    </article>
+  </div>
+</div>
+<div class="tile is-parent">
+  <article class="tile is-child">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li><a>Home</a></li>
+        <li class="is-active"><a>COMP2406</a></li>
+      </ul>
+    </nav>
+    <h1 class="title">COMP2406 - Fundamentals of Web Applications</h1>
+    <div class="content">
+      <nav class="level">
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Lectures</p>
+            <p class="title">
+              <html:text value="lectures.size()"/>
+            </p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Tutorials</p>
+            <p class="title">
+              <html:text value="tutorials.size()"/>
+            </p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Assignments</p>
+            <p class="title">
+              <html:text value="assignments.size()"/>
+            </p>
+          </div>
+        </div>
+        <div class="level-item has-text-centered">
+          <div>
+            <p class="heading">Forum topics</p>
+            <p class="title">
+              <html:text value="forumTopicsCount"/>
+            </p>
+          </div>
+        </div>
+      </nav>
+      <hr />
+      <h2>Topics Covered</h2>
+      <p>
+        Here is a list of the main topics covered:
+      </p>
+      <ul>
+        <li>Web Concepts, HTTP</li>
+        <li>Javascript</li>
+        <li>Markup Languages (HTML, CSS)</li>
+        <li>Client and Server side coding (in javascript)</li>
+        <li>Javascript execution environments: Browser, Node.js, and Express.js</li>
+        <li>Node.js and NPM</li>
+        <li>Functional Programming and Closures</li>
+        <li>Synchronous and Asynchronous programming</li>
+        <li>JSON databases (using MongoDB)</li>
+        <li>Server side templating (using Pug)</li>
+        <li>Sessions, Cookies, Ajax, and Web Sockets</li>
+      </ul>
+      <components:lectures model="model" lectures="lectures" />
+      <components:tutorials model="model" tutorials="tutorials" />
+      <components:assignments model="model" assignments="assignments" />
+      <components:forums forums="forums" />
+    </div>
+  </article>
+</div>

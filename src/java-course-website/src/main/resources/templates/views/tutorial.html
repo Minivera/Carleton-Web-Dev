@@ -1,0 +1,20 @@
+<?use components:edu.carleton.dev.components?>
+<div class="tile is-parent">
+  <article class="tile is-child">
+    <nav class="breadcrumb" aria-label="breadcrumbs">
+      <ul>
+        <li><a>Home</a></li>
+        <li>
+          <a html:link="route(it).index()">COMP2406</a>
+        </li>
+        <li>
+          <a html:link="route(it).tutorials()">
+            Tutorials
+          </a>
+        </li>
+        <li class="is-active"><a><html:text value="tutorial.name" /></a></li>
+      </ul>
+    </nav>
+    <components:tutorial model="model" tutorial="tutorial" />
+  </article>
+</div>

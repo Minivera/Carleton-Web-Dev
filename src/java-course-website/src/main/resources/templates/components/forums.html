@@ -1,0 +1,16 @@
+<?use components:edu.carleton.dev.components?>
+<components:collapsible-content title="'Discussion boards'">
+  <std:foreach in="forums" var="forum">
+    <div>
+      <div>
+        <span class="icon is-medium">
+          <i class="fas fa-comments"></i>
+        </span>
+        <a html:link="route(it).singleForum(forum.id)" class="is-capitalized">
+          <html:text value="forum.title"/> - <html:text value="forum.topics.size()"/> topics
+        </a>
+      </div>
+      <hr />
+    </div>
+  </std:foreach>
+</components:collapsible-content>

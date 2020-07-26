@@ -1,0 +1,26 @@
+<nav class="panel is-success">
+  <div class="panel-heading">
+    <a html:link="route(it).singleAssignment(assignment.id)" class="has-text-white is-capitalized is-family-monospace">
+      <html:text value="assignment.name"/>
+    </a>
+    <div class="is-pulled-right">
+      <button class="delete" event:click="deleteAssignment()" />
+    </div>
+  </div>
+  <std:if condition="assignment.specfile != null">
+    <div class="panel-block">
+      <span class="panel-icon">
+        <i class="fas fa-file-pdf"></i>
+      </span>
+      <html:text value="assignment.specfile.title"/>
+    </div>
+  </std:if>
+  <std:foreach in="assignment.resources" var="resource">
+    <div class="panel-block">
+      <span class="panel-icon">
+        <i class="fas fa-file"></i>
+      </span>
+      <html:text value="resource.title"/>
+    </div>
+  </std:foreach>
+</nav>

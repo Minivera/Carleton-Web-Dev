@@ -27,6 +27,11 @@ jobs:
           mvn -B package --file src/java-todo/pom.xml
           mkdir dist/java-todo && cp src/java-todo/target/java-todo-example-1.0.war dist/java-todo/app.war
           unzip dist/java-todo/app.war -d dist/java-todo
+      - name: Build Java Course Website app
+        run: |
+          mvn -B package --file src/java-course-website/pom.xml
+          mkdir dist/java-course-website && cp src/java-course-website/target/java-course-website-1.0.war dist/java-course-website/app.war
+          unzip dist/java-course-website/app.war -d dist/java-course-website
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

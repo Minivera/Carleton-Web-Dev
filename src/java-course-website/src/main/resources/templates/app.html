@@ -1,0 +1,19 @@
+<?use components:edu.carleton.dev.components?>
+<components:header model="model" />
+<section class="section">
+  <div class="container">
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-8">
+        <std:insert fragment="content" />
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child box">
+          <p class="title">Activities</p>
+          <p class="subtitle">Quick access to class activities</p>
+          <components:activities-sidebar model="model" />
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<components:footer />
