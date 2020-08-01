@@ -50,12 +50,12 @@ To get started, create a folder for this tutorial on your computer. Make sure to
     </head>
     <body>
         <user-posts></user-posts>
-        <script type="module" src="./index.js"></script>
+        <script type="module" src="./index.jsx"></script>
     </body>
 </html>
 ```
 
-Also create an empty `index.js` file in that same directory and type `serve` in your terminal. You will be given a
+Also create an empty `index.jsx` file in that same directory and type `serve` in your terminal. You will be given a
  URL to see the served application which should look something like `localhost:5000`. Copy that URL (`serve` should
  have copied the URL to your clipboard automatically) in a browser to see the file.
 
@@ -148,7 +148,7 @@ Finally, we write the render method. Remember that all custom element extend the
  they have access to most of the normal DOM api we are used to for normal DOM nodes. Here, we render the text
  "loading..." while we wait for the API to answer, and then render the "loaded" text once it has answered.
 
-Go back to our `index.js` file and add this line at the top: `import './userPosts.js';`. Refresh the page and you
+Go back to our `index.jsx` file and add this line at the top: `import './userPosts.js';`. Refresh the page and you
  should see the component render the loading, then loaded text.
 
 ## More components!
@@ -252,10 +252,10 @@ This code is essentially the same as the `userPost.js` file, but we are fetching
  method, but we will see in the next section why it won't be possible in this case.
 
 Let's now change the render method of the `userPost.js` file to create those two components and see the result. First
-, change the `index.js` file to the following code.
+, change the `index.jsx` file to the following code.
 
 ```js
-// index.js
+// index.jsx
 import "./userWelcome.js";
 import "./postList.js";
 import "./userPosts.js";
@@ -399,10 +399,10 @@ If we used `document.createElement("post-element")` rather than the method above
  could not set the `post` property on our `postElement`. Remember earlier when we said we could not use the template
  literal syntax? This is why.
 
-Finally, edit the `index.js` file again to add our new file.
+Finally, edit the `index.jsx` file again to add our new file.
 
 ```js
-// index.js
+// index.jsx
 import "./userWelcome.js";
 import "./postElement.js";
 import "./postList.js";
