@@ -3970,9 +3970,9 @@ function otft_Templates_create0(var$1, var$2) {
                                                                                                                     break o;
                                                                                                                 case -1787367453:
                                                                                                                     break n;
-                                                                                                                case -458778287:
-                                                                                                                    break m;
                                                                                                                 case -1349746948:
+                                                                                                                    break m;
+                                                                                                                case -458778287:
                                                                                                                     break l;
                                                                                                                 case 1508375564:
                                                                                                                     break k;
@@ -3999,11 +3999,11 @@ function otft_Templates_create0(var$1, var$2) {
                                                                                                             }
                                                                                                             if (!jl_String_equals(var$3, $rt_s(307)))
                                                                                                                 break a;
-                                                                                                            return otft_Templates$PROXY$4_12_create(var$1, var$2);
+                                                                                                            return otft_Templates$PROXY$4_11_create(var$1, var$2);
                                                                                                         }
                                                                                                         if (!jl_String_equals(var$3, $rt_s(308)))
                                                                                                             break a;
-                                                                                                        return otft_Templates$PROXY$4_17_create(var$1, var$2);
+                                                                                                        return otft_Templates$PROXY$4_18_create(var$1, var$2);
                                                                                                     }
                                                                                                     if (!jl_String_equals(var$3, $rt_s(309)))
                                                                                                         break a;
@@ -4015,7 +4015,7 @@ function otft_Templates_create0(var$1, var$2) {
                                                                                             }
                                                                                             if (!jl_String_equals(var$3, $rt_s(311)))
                                                                                                 break a;
-                                                                                            return otft_Templates$PROXY$4_4_create(var$1, var$2);
+                                                                                            return otft_Templates$PROXY$4_2_create(var$1, var$2);
                                                                                         }
                                                                                         if (!jl_String_equals(var$3, $rt_s(305)))
                                                                                             break a;
@@ -4023,19 +4023,19 @@ function otft_Templates_create0(var$1, var$2) {
                                                                                     }
                                                                                     if (!jl_String_equals(var$3, $rt_s(312)))
                                                                                         break a;
-                                                                                    return otft_Templates$PROXY$4_19_create(var$1, var$2);
+                                                                                    return otft_Templates$PROXY$4_17_create(var$1, var$2);
                                                                                 }
                                                                                 if (!jl_String_equals(var$3, $rt_s(313)))
                                                                                     break a;
-                                                                                return otft_Templates$PROXY$4_18_create(var$1, var$2);
+                                                                                return otft_Templates$PROXY$4_19_create(var$1, var$2);
                                                                             }
                                                                             if (!jl_String_equals(var$3, $rt_s(314)))
                                                                                 break a;
-                                                                            return otft_Templates$PROXY$4_5_create(var$1, var$2);
+                                                                            return otft_Templates$PROXY$4_12_create(var$1, var$2);
                                                                         }
                                                                         if (!jl_String_equals(var$3, $rt_s(315)))
                                                                             break a;
-                                                                        return otft_Templates$PROXY$4_8_create(var$1, var$2);
+                                                                        return otft_Templates$PROXY$4_10_create(var$1, var$2);
                                                                     }
                                                                     if (!jl_String_equals(var$3, $rt_s(316)))
                                                                         break a;
@@ -4043,7 +4043,7 @@ function otft_Templates_create0(var$1, var$2) {
                                                                 }
                                                                 if (!jl_String_equals(var$3, $rt_s(317)))
                                                                     break a;
-                                                                return otft_Templates$PROXY$4_14_create(var$1, var$2);
+                                                                return otft_Templates$PROXY$4_15_create(var$1, var$2);
                                                             }
                                                             if (!jl_String_equals(var$3, $rt_s(318)))
                                                                 break a;
@@ -4051,7 +4051,7 @@ function otft_Templates_create0(var$1, var$2) {
                                                         }
                                                         if (!jl_String_equals(var$3, $rt_s(319)))
                                                             break a;
-                                                        return otft_Templates$PROXY$4_1_create(var$1, var$2);
+                                                        return otft_Templates$PROXY$4_9_create(var$1, var$2);
                                                     }
                                                     if (!jl_String_equals(var$3, $rt_s(320)))
                                                         break a;
@@ -4059,7 +4059,7 @@ function otft_Templates_create0(var$1, var$2) {
                                                 }
                                                 if (!jl_String_equals(var$3, $rt_s(321)))
                                                     break a;
-                                                return otft_Templates$PROXY$4_13_create(var$1, var$2);
+                                                return otft_Templates$PROXY$4_7_create(var$1, var$2);
                                             }
                                             if (!jl_String_equals(var$3, $rt_s(322)))
                                                 break a;
@@ -4067,15 +4067,15 @@ function otft_Templates_create0(var$1, var$2) {
                                         }
                                         if (!jl_String_equals(var$3, $rt_s(323)))
                                             break a;
-                                        return otft_Templates$PROXY$4_15_create(var$1, var$2);
+                                        return otft_Templates$PROXY$4_14_create(var$1, var$2);
                                     }
                                     if (!jl_String_equals(var$3, $rt_s(324)))
                                         break a;
-                                    return otft_Templates$PROXY$4_7_create(var$1, var$2);
+                                    return otft_Templates$PROXY$4_1_create(var$1, var$2);
                                 }
                                 if (!jl_String_equals(var$3, $rt_s(325)))
                                     break a;
-                                return otft_Templates$PROXY$4_2_create(var$1, var$2);
+                                return otft_Templates$PROXY$4_13_create(var$1, var$2);
                             }
                             if (!jl_String_equals(var$3, $rt_s(326)))
                                 break a;
@@ -4083,7 +4083,7 @@ function otft_Templates_create0(var$1, var$2) {
                         }
                         if (!jl_String_equals(var$3, $rt_s(327)))
                             break a;
-                        return otft_Templates$PROXY$4_10_create(var$1, var$2);
+                        return otft_Templates$PROXY$4_5_create(var$1, var$2);
                     }
                     if (!jl_String_equals(var$3, $rt_s(328)))
                         break a;
@@ -4091,11 +4091,11 @@ function otft_Templates_create0(var$1, var$2) {
                 }
                 if (!jl_String_equals(var$3, $rt_s(329)))
                     break a;
-                return otft_Templates$PROXY$4_9_create(var$1, var$2);
+                return otft_Templates$PROXY$4_4_create(var$1, var$2);
             }
             if (!jl_String_equals(var$3, $rt_s(330)))
                 break a;
-            return otft_Templates$PROXY$4_11_create(var$1, var$2);
+            return otft_Templates$PROXY$4_8_create(var$1, var$2);
         }
         if (jl_String_equals(var$3, $rt_s(331)))
             return otft_Templates$PROXY$4_25_create(var$1, var$2);
@@ -11067,7 +11067,7 @@ function otft_Templates$PROXY$4_3() {
 function otft_Templates$PROXY$4_3_create(var$1, var$2) {
     var$1 = new otft_Fragment$proxy$4_3_0;
     var$1.$proxyCapture011 = var$2;
-    var$2 = new otft_Fragment$proxy$4_3_1;
+    var$2 = new otft_Fragment$proxy$4_3_8;
     var$2.$proxyCapture012 = var$1;
     return var$2;
 }
@@ -11117,7 +11117,7 @@ function otft_Templates$PROXY$4_8() {
 function otft_Templates$PROXY$4_8_create(var$1, var$2) {
     var$1 = new otft_Fragment$proxy$4_8_0;
     var$1.$proxyCapture021 = var$2;
-    var$2 = new otft_Fragment$proxy$4_8_9;
+    var$2 = new otft_Fragment$proxy$4_8_1;
     var$2.$proxyCapture022 = var$1;
     return var$2;
 }
@@ -11137,7 +11137,7 @@ function otft_Templates$PROXY$4_10() {
 function otft_Templates$PROXY$4_10_create(var$1, var$2) {
     var$1 = new otft_Fragment$proxy$4_10_0;
     var$1.$proxyCapture025 = var$2;
-    var$2 = new otft_Fragment$proxy$4_10_1;
+    var$2 = new otft_Fragment$proxy$4_10_9;
     var$2.$proxyCapture026 = var$1;
     return var$2;
 }
@@ -11167,7 +11167,7 @@ function otft_Templates$PROXY$4_13() {
 function otft_Templates$PROXY$4_13_create(var$1, var$2) {
     var$1 = new otft_Fragment$proxy$4_13_0;
     var$1.$proxyCapture031 = var$2;
-    var$2 = new otft_Fragment$proxy$4_13_8;
+    var$2 = new otft_Fragment$proxy$4_13_1;
     var$2.$proxyCapture032 = var$1;
     return var$2;
 }
@@ -11281,11 +11281,11 @@ function otft_Fragment$proxy$4_3_0_create(var$0) {
     var$2.$proxyCapture035 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_Fragment$proxy$4_3_1() {
+function otft_Fragment$proxy$4_3_8() {
     jl_Object.call(this);
     this.$proxyCapture012 = null;
 }
-function otft_Fragment$proxy$4_3_1_create(var$0) {
+function otft_Fragment$proxy$4_3_8_create(var$0) {
     return otft_Fragment$proxy$4_3_0_create(var$0.$proxyCapture012);
 }
 function otft_Fragment$proxy$4_4_0() {
@@ -11371,11 +11371,11 @@ function otft_Fragment$proxy$4_8_0_create(var$0) {
     var$2.$proxyCapture040 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_Fragment$proxy$4_8_9() {
+function otft_Fragment$proxy$4_8_1() {
     jl_Object.call(this);
     this.$proxyCapture022 = null;
 }
-function otft_Fragment$proxy$4_8_9_create(var$0) {
+function otft_Fragment$proxy$4_8_1_create(var$0) {
     return otft_Fragment$proxy$4_8_0_create(var$0.$proxyCapture022);
 }
 function otft_Fragment$proxy$4_9_0() {
@@ -11407,11 +11407,11 @@ function otft_Fragment$proxy$4_10_0_create(var$0) {
     var$2.$proxyCapture042 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_Fragment$proxy$4_10_1() {
+function otft_Fragment$proxy$4_10_9() {
     jl_Object.call(this);
     this.$proxyCapture026 = null;
 }
-function otft_Fragment$proxy$4_10_1_create(var$0) {
+function otft_Fragment$proxy$4_10_9_create(var$0) {
     return otft_Fragment$proxy$4_10_0_create(var$0.$proxyCapture026);
 }
 function otft_Fragment$proxy$4_11_0() {
@@ -11461,11 +11461,11 @@ function otft_Fragment$proxy$4_13_0_create(var$0) {
     var$2.$proxyCapture045 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_Fragment$proxy$4_13_8() {
+function otft_Fragment$proxy$4_13_1() {
     jl_Object.call(this);
     this.$proxyCapture032 = null;
 }
-function otft_Fragment$proxy$4_13_8_create(var$0) {
+function otft_Fragment$proxy$4_13_1_create(var$0) {
     return otft_Fragment$proxy$4_13_0_create(var$0.$proxyCapture032);
 }
 function ecdm_Model$getAssignment$lambda$_7_0() {
@@ -11566,7 +11566,7 @@ function otft_Templates$PROXY$4_14() {
 function otft_Templates$PROXY$4_14_create(var$1, var$2) {
     var$1 = new otft_Fragment$proxy$4_14_0;
     var$1.$proxyCapture046 = var$2;
-    var$2 = new otft_Fragment$proxy$4_14_1;
+    var$2 = new otft_Fragment$proxy$4_14_5;
     var$2.$proxyCapture047 = var$1;
     return var$2;
 }
@@ -11576,7 +11576,7 @@ function otft_Templates$PROXY$4_15() {
 function otft_Templates$PROXY$4_15_create(var$1, var$2) {
     var$1 = new otft_Fragment$proxy$4_15_0;
     var$1.$proxyCapture048 = var$2;
-    var$2 = new otft_Fragment$proxy$4_15_5;
+    var$2 = new otft_Fragment$proxy$4_15_1;
     var$2.$proxyCapture049 = var$1;
     return var$2;
 }
@@ -11601,11 +11601,11 @@ function otft_Fragment$proxy$4_14_0_create(var$0) {
     var$2.$proxyCapture052 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_Fragment$proxy$4_14_1() {
+function otft_Fragment$proxy$4_14_5() {
     jl_Object.call(this);
     this.$proxyCapture047 = null;
 }
-function otft_Fragment$proxy$4_14_1_create(var$0) {
+function otft_Fragment$proxy$4_14_5_create(var$0) {
     return otft_Fragment$proxy$4_14_0_create(var$0.$proxyCapture047);
 }
 function otft_Fragment$proxy$4_15_0() {
@@ -11619,11 +11619,11 @@ function otft_Fragment$proxy$4_15_0_create(var$0) {
     var$2.$proxyCapture053 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_Fragment$proxy$4_15_5() {
+function otft_Fragment$proxy$4_15_1() {
     jl_Object.call(this);
     this.$proxyCapture049 = null;
 }
-function otft_Fragment$proxy$4_15_5_create(var$0) {
+function otft_Fragment$proxy$4_15_1_create(var$0) {
     return otft_Fragment$proxy$4_15_0_create(var$0.$proxyCapture049);
 }
 function jusi_WrappingStreamImpl() {
@@ -11678,20 +11678,30 @@ function otft_DomComponentHandler$proxy$4_1_0_buildDom(var$0, var$1) {
     var$3 = otft_DomBuilder_open(var$1, $rt_s(376));
     var$4 = new otft_Modifier$proxy$4_1_0;
     var$4.$proxyCapture055 = var$2;
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(379)), $rt_s(376)), $rt_s(380)))), $rt_s(355))),
-    $rt_s(353))), $rt_s(353));
+    var$3 = otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
+    var$4 = new otft_Modifier$proxy$4_1_1;
+    var$4.$proxyCapture056 = var$2;
+    var$3 = otft_DomBuilder_openSlot(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(379))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(380)), $rt_s(376));
     var$4 = otft_Slot_create();
-    var$5 = new ecdc_LecturesListComponent;
+    var$5 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
     var$5 = new juf_Supplier$proxy$4_1_0;
-    var$5.$proxyCapture056 = var$2;
-    var$4.$lecturesSupplier = var$5;
-    var$5 = new juf_Supplier$proxy$4_1_1;
     var$5.$proxyCapture057 = var$2;
-    var$4.$modelSupplier = var$5;
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350)));
-    otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(347)));
+    var$4.$value2 = var$5;
+    otft_DomBuilder_close(otft_DomBuilder_add(var$3, var$4));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(355))), $rt_s(353))), $rt_s(353));
+    var$3 = otft_Slot_create();
+    var$4 = new ecdc_AssignmentComponent;
+    otft_AbstractComponent__init_(var$4, var$3);
+    var$3 = var$4;
+    var$4 = new juf_Supplier$proxy$4_1_1;
+    var$4.$proxyCapture058 = var$2;
+    var$3.$assignmentSupplier = var$4;
+    var$4 = new juf_Supplier$proxy$4_1_2;
+    var$4.$proxyCapture059 = var$2;
+    var$3.$modelSupplier = var$4;
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350))), $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_2_0() {
     jl_Object.call(this);
@@ -11708,18 +11718,31 @@ function otft_DomComponentHandler$proxy$4_2_0_buildDom(var$0, var$1) {
     $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
     var$3 = otft_DomBuilder_open(var$1, $rt_s(376));
     var$4 = new otft_Modifier$proxy$4_2_0;
-    var$4.$proxyCapture058 = var$2;
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(379)), $rt_s(376)), $rt_s(381)))), $rt_s(355))),
-    $rt_s(353))), $rt_s(353));
+    var$4.$proxyCapture060 = var$2;
+    var$3 = otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
+    var$4 = new otft_Modifier$proxy$4_2_1;
+    var$4.$proxyCapture061 = var$2;
+    var$3 = otft_DomBuilder_openSlot(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(381))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(380)), $rt_s(376));
     var$4 = otft_Slot_create();
-    var$5 = new ecdc_ForumsListComponent;
+    var$5 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
     var$5 = new juf_Supplier$proxy$4_2_0;
-    var$5.$proxyCapture059 = var$2;
-    var$4.$forumsSupplier = var$5;
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350)));
-    otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(347)));
+    var$5.$proxyCapture062 = var$2;
+    var$4.$value2 = var$5;
+    otft_DomBuilder_close(otft_DomBuilder_add(var$3, var$4));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(355))), $rt_s(353))), $rt_s(353));
+    var$3 = otft_Slot_create();
+    var$4 = new ecdc_LectureComponent;
+    otft_AbstractComponent__init_(var$4, var$3);
+    var$3 = var$4;
+    var$4 = new juf_Supplier$proxy$4_2_1;
+    var$4.$proxyCapture063 = var$2;
+    var$3.$lectureSupplier = var$4;
+    var$4 = new juf_Supplier$proxy$4_2_2;
+    var$4.$proxyCapture064 = var$2;
+    var$3.$modelSupplier = var$4;
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350))), $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_3_0() {
     jl_Object.call(this);
@@ -11729,28 +11752,24 @@ function otft_DomComponentHandler$proxy$4_3_0_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_3_0_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4, var$5;
+    var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture035;
     var$1 = var$1;
-    otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(351)), $rt_s(349),
-    $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
-    var$3 = otft_DomBuilder_open(var$1, $rt_s(376));
-    var$4 = new otft_Modifier$proxy$4_3_0;
-    var$4.$proxyCapture060 = var$2;
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(379)), $rt_s(376)), $rt_s(382)))), $rt_s(355))),
-    $rt_s(353))), $rt_s(353));
-    var$4 = otft_Slot_create();
-    var$5 = new ecdc_TutorialsListComponent;
-    otft_AbstractComponent__init_(var$5, var$4);
-    var$4 = var$5;
-    var$5 = new juf_Supplier$proxy$4_3_0;
-    var$5.$proxyCapture061 = var$2;
-    var$4.$tutorialsSupplier = var$5;
-    var$5 = new juf_Supplier$proxy$4_3_1;
-    var$5.$proxyCapture062 = var$2;
-    var$4.$modelSupplier = var$5;
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350)));
-    otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(347)));
+    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(349), $rt_s(358)),
+    $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$1, otft_Modifier$proxy$4_3_0__init_(var$2)), $rt_s(378))), $rt_s(357))),
+    $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376)), otft_Modifier$proxy$4_3_1__init_(var$2)), $rt_s(382))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376)), otft_Modifier$proxy$4_3_2__init_(var$2)), $rt_s(383));
+    var$4 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_3_0__init_(var$2));
+    otft_DomBuilder_add(var$3, var$4);
+    var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(380)), $rt_s(376));
+    var$3 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$3, juf_Supplier$proxy$4_3_1__init_(var$2));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_add(var$1, var$3))), $rt_s(355))), $rt_s(353))), $rt_s(353));
+    var$3 = otfcs_WithComponent__init_(otft_Slot_create());
+    otfcs_WithComponent_setValue(var$3, juf_Supplier$proxy$4_3_2__init_(var$2));
+    otfcs_WithComponent_setContent(var$3, otft_Fragment$proxy$4_3_1__init_(var$3, var$2));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350))), $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_4_0() {
     jl_Object.call(this);
@@ -11760,38 +11779,24 @@ function otft_DomComponentHandler$proxy$4_4_0_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_4_0_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4, var$5;
+    var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture036;
     var$1 = var$1;
-    otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(351)), $rt_s(349),
-    $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
-    var$3 = otft_DomBuilder_open(var$1, $rt_s(376));
-    var$4 = new otft_Modifier$proxy$4_4_0;
-    var$4.$proxyCapture063 = var$2;
-    var$3 = otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
-    var$4 = new otft_Modifier$proxy$4_4_1;
-    var$4.$proxyCapture064 = var$2;
-    var$3 = otft_DomBuilder_openSlot(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(383))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(379)), $rt_s(376));
-    var$4 = otft_Slot_create();
-    var$5 = new otfch_TextComponent;
-    otft_AbstractComponent__init_(var$5, var$4);
-    var$4 = var$5;
-    var$5 = new juf_Supplier$proxy$4_4_0;
-    var$5.$proxyCapture065 = var$2;
-    var$4.$value2 = var$5;
-    otft_DomBuilder_close(otft_DomBuilder_add(var$3, var$4));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(355))), $rt_s(353))), $rt_s(353));
-    var$3 = otft_Slot_create();
-    var$4 = new ecdc_LectureComponent;
-    otft_AbstractComponent__init_(var$4, var$3);
-    var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_4_1;
-    var$4.$proxyCapture066 = var$2;
-    var$3.$lectureSupplier = var$4;
-    var$4 = new juf_Supplier$proxy$4_4_2;
-    var$4.$proxyCapture067 = var$2;
-    var$3.$modelSupplier = var$4;
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350))), $rt_s(347)));
+    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(349), $rt_s(358)),
+    $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$1, otft_Modifier$proxy$4_4_0__init_(var$2)), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(380)), $rt_s(376)),
+    $rt_s(384)))), $rt_s(355))), $rt_s(353))), $rt_s(353));
+    var$4 = ecdc_LecturesListComponent__init_(otft_Slot_create());
+    ecdc_LecturesListComponent_setLecturesSupplier(var$4, juf_Supplier$proxy$4_4_0__init_(var$2));
+    ecdb_ModelWidget_setModelSupplier(var$4, juf_Supplier$proxy$4_4_1__init_(var$2));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350))), $rt_s(350));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(349), $rt_s(385)),
+    $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(386))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(387)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(388)), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(389)), $rt_s(361)), $rt_s(390)), $rt_s(349), $rt_s(390)), $rt_s(391))), $rt_s(361));
+    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(349), $rt_s(392)),
+    $rt_s(383)), $rt_s(393)), $rt_s(349), $rt_s(393)), $rt_s(394), $rt_s(395)), $rt_s(396), $rt_s(397)), otft_Modifier$proxy$4_4_1__init_(var$2)), otft_Modifier$proxy$4_4_2__init_(var$2))), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(398)), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(392)), $rt_s(383));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(399)), $rt_s(349), $rt_s(400)), otft_Modifier$proxy$4_4_3__init_(var$2)),
+    $rt_s(401))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(392)), $rt_s(383)), $rt_s(399)), $rt_s(349), $rt_s(402)), otft_Modifier$proxy$4_4_4__init_(var$2)), $rt_s(403))), $rt_s(361))), $rt_s(357))), $rt_s(355));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(353))), $rt_s(353)), $rt_s(399)), $rt_s(349), $rt_s(404)), $rt_s(372), $rt_s(405)), otft_Modifier$proxy$4_4_5__init_(var$2))), $rt_s(350))), $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_5_0() {
     jl_Object.call(this);
@@ -11801,28 +11806,24 @@ function otft_DomComponentHandler$proxy$4_5_0_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_5_0_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4, var$5;
+    var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture037;
     var$1 = var$1;
     otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(351)), $rt_s(349),
     $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
-    var$3 = otft_DomBuilder_open(var$1, $rt_s(376));
-    var$4 = new otft_Modifier$proxy$4_5_0;
-    var$4.$proxyCapture068 = var$2;
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(379)), $rt_s(376)), $rt_s(384)))), $rt_s(355))),
-    $rt_s(353))), $rt_s(353));
-    var$4 = otft_Slot_create();
-    var$5 = new ecdc_AssignmentsListComponent;
-    otft_AbstractComponent__init_(var$5, var$4);
-    var$4 = var$5;
-    var$5 = new juf_Supplier$proxy$4_5_0;
-    var$5.$proxyCapture069 = var$2;
-    var$4.$assignmentsSupplier = var$5;
-    var$5 = new juf_Supplier$proxy$4_5_1;
-    var$5.$proxyCapture070 = var$2;
-    var$4.$modelSupplier = var$5;
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(var$1, $rt_s(376)), otft_Modifier$proxy$4_5_0__init_(var$2)), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)),
+    $rt_s(349), $rt_s(380)), $rt_s(376)), $rt_s(406)))), $rt_s(355))), $rt_s(353))), $rt_s(353));
+    var$4 = ecdc_AssignmentsListComponent__init_(otft_Slot_create());
+    ecdc_AssignmentsListComponent_setAssignmentsSupplier(var$4, juf_Supplier$proxy$4_5_0__init_(var$2));
+    ecdb_ModelWidget_setModelSupplier(var$4, juf_Supplier$proxy$4_5_1__init_(var$2));
     otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350)));
-    otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(347)));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(350)), $rt_s(351)), $rt_s(349),
+    $rt_s(385)), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(386))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(387)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(388)), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(389)), $rt_s(361)), $rt_s(390)), $rt_s(349), $rt_s(390)), $rt_s(407)));
+    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(351)), $rt_s(349),
+    $rt_s(392)), $rt_s(383)), $rt_s(393)), $rt_s(349), $rt_s(393)), $rt_s(394), $rt_s(395)), $rt_s(396), $rt_s(408)), otft_Modifier$proxy$4_5_1__init_(var$2)), otft_Modifier$proxy$4_5_2__init_(var$2))), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(398)), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(392));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(383)), $rt_s(399)), $rt_s(349), $rt_s(400)),
+    otft_Modifier$proxy$4_5_3__init_(var$2)), $rt_s(401))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(392)), $rt_s(383)), $rt_s(399)), $rt_s(349), $rt_s(402)), otft_Modifier$proxy$4_5_4__init_(var$2)), $rt_s(403))), $rt_s(361))), $rt_s(357)));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(355))), $rt_s(353))), $rt_s(353)), $rt_s(399)), $rt_s(349), $rt_s(404)), $rt_s(372), $rt_s(405)), otft_Modifier$proxy$4_5_5__init_(var$2))), $rt_s(350))), $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_6_0() {
     jl_Object.call(this);
@@ -11839,17 +11840,17 @@ function otft_DomComponentHandler$proxy$4_6_0_buildDom(var$0, var$1) {
     $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
     var$3 = otft_DomBuilder_open(var$1, $rt_s(376));
     var$4 = new otft_Modifier$proxy$4_6_0;
-    var$4.$proxyCapture071 = var$2;
+    var$4.$proxyCapture065 = var$2;
     var$3 = otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
     var$4 = new otft_Modifier$proxy$4_6_1;
-    var$4.$proxyCapture072 = var$2;
-    var$3 = otft_DomBuilder_openSlot(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(385))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(379)), $rt_s(376));
+    var$4.$proxyCapture066 = var$2;
+    var$3 = otft_DomBuilder_openSlot(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(409))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(380)), $rt_s(376));
     var$4 = otft_Slot_create();
     var$5 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
     var$5 = new juf_Supplier$proxy$4_6_0;
-    var$5.$proxyCapture073 = var$2;
+    var$5.$proxyCapture067 = var$2;
     var$4.$value2 = var$5;
     otft_DomBuilder_close(otft_DomBuilder_add(var$3, var$4));
     var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(355))), $rt_s(353))), $rt_s(353));
@@ -11858,10 +11859,10 @@ function otft_DomComponentHandler$proxy$4_6_0_buildDom(var$0, var$1) {
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
     var$4 = new juf_Supplier$proxy$4_6_1;
-    var$4.$proxyCapture074 = var$2;
+    var$4.$proxyCapture068 = var$2;
     var$3.$modelSupplier = var$4;
     var$4 = new juf_Supplier$proxy$4_6_2;
-    var$4.$proxyCapture075 = var$2;
+    var$4.$proxyCapture069 = var$2;
     var$3.$tutorialSupplier = var$4;
     otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350))), $rt_s(347)));
 }
@@ -11880,31 +11881,21 @@ function otft_DomComponentHandler$proxy$4_7_0_buildDom(var$0, var$1) {
     $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
     var$3 = otft_DomBuilder_open(var$1, $rt_s(376));
     var$4 = new otft_Modifier$proxy$4_7_0;
-    var$4.$proxyCapture076 = var$2;
-    var$3 = otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
-    var$4 = new otft_Modifier$proxy$4_7_1;
-    var$4.$proxyCapture077 = var$2;
-    var$3 = otft_DomBuilder_openSlot(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(386))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(379)), $rt_s(376));
+    var$4.$proxyCapture070 = var$2;
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(380)), $rt_s(376)), $rt_s(410)))), $rt_s(355))),
+    $rt_s(353))), $rt_s(353));
     var$4 = otft_Slot_create();
-    var$5 = new otfch_TextComponent;
+    var$5 = new ecdc_TutorialsListComponent;
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
     var$5 = new juf_Supplier$proxy$4_7_0;
-    var$5.$proxyCapture078 = var$2;
-    var$4.$value2 = var$5;
-    otft_DomBuilder_close(otft_DomBuilder_add(var$3, var$4));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(355))), $rt_s(353))), $rt_s(353));
-    var$3 = otft_Slot_create();
-    var$4 = new ecdc_AssignmentComponent;
-    otft_AbstractComponent__init_(var$4, var$3);
-    var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_7_1;
-    var$4.$proxyCapture079 = var$2;
-    var$3.$assignmentSupplier = var$4;
-    var$4 = new juf_Supplier$proxy$4_7_2;
-    var$4.$proxyCapture080 = var$2;
-    var$3.$modelSupplier = var$4;
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350))), $rt_s(347)));
+    var$5.$proxyCapture071 = var$2;
+    var$4.$tutorialsSupplier = var$5;
+    var$5 = new juf_Supplier$proxy$4_7_1;
+    var$5.$proxyCapture072 = var$2;
+    var$4.$modelSupplier = var$5;
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350)));
+    otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_8_0() {
     jl_Object.call(this);
@@ -11914,35 +11905,57 @@ function otft_DomComponentHandler$proxy$4_8_0_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_8_0_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4, var$5, var$6;
+    var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture040;
     var$1 = var$1;
-    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(349), $rt_s(358)),
-    $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
-    var$3 = otft_DomBuilder_openSlot(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$1, otft_Modifier$proxy$4_8_0__init_(var$2)), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(361)),
-    $rt_s(376)), otft_Modifier$proxy$4_8_1__init_(var$2)), $rt_s(387))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(379)), $rt_s(376));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(351)), $rt_s(349),
+    $rt_s(411)), $rt_s(350)), $rt_s(351)), $rt_s(349), $rt_s(412)), $rt_s(353)), $rt_s(359)), $rt_s(349), $rt_s(413)), $rt_s(414), $rt_s(415)), $rt_s(355)), $rt_s(416)), $rt_s(349), $rt_s(363)), $rt_s(417))), $rt_s(355)), $rt_s(418)), $rt_s(349), $rt_s(365)), $rt_s(419))), $rt_s(353));
+    otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(350))), $rt_s(347))), $rt_s(347)),
+    $rt_s(351)), $rt_s(349), $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377));
+    otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(var$1)), $rt_s(357)), $rt_s(375)), $rt_s(349),
+    $rt_s(380)), $rt_s(376)), $rt_s(378)))), $rt_s(355))), $rt_s(353))), $rt_s(353)), $rt_s(416)), $rt_s(349), $rt_s(363)), $rt_s(420))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(421));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(355)), $rt_s(370)), $rt_s(349), $rt_s(422)), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(423)), $rt_s(361)),
+    $rt_s(351)), $rt_s(383)), $rt_s(362)), $rt_s(349), $rt_s(424)), $rt_s(384))), $rt_s(383)), $rt_s(362)), $rt_s(349), $rt_s(363)), $rt_s(425));
     var$4 = otfch_TextComponent__init_(otft_Slot_create());
     otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_8_0__init_(var$2));
-    otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_add(var$3, var$4)));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(355))), $rt_s(353))), $rt_s(353));
-    var$4 = otfcs_ChooseComponent__init_(otft_Slot_create());
-    var$5 = ju_ArrayList__init_3(1);
-    var$6 = otfcs_ChooseClause__init_();
-    otfcs_ChooseClause_setPredicate(var$6, juf_BooleanSupplier$proxy$4_8_0__init_(var$2));
-    var$5 = var$5;
-    ju_ArrayList_add(var$5, var$6);
-    otfcs_ChooseComponent_setClauses(var$4, var$5);
-    var$5 = otfcs_OtherwiseClause__init_();
-    otfcs_ChooseComponent_setOtherwiseClause(var$4, var$5);
-    otfcs_ChooseClause_setContent(var$6, otft_Fragment$proxy$4_8_1__init_());
-    otfcs_OtherwiseClause_setContent(var$5, otft_Fragment$proxy$4_8_2__init_(var$2));
-    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(353)), $rt_s(359)), $rt_s(349), $rt_s(388)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(389)), $rt_s(357)), $rt_s(390)), $rt_s(349),
-    $rt_s(391)), $rt_s(392))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(393)), $rt_s(361));
-    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(362)), $rt_s(349), $rt_s(394)),
-    $rt_s(395)), $rt_s(396)), $rt_s(349), $rt_s(396)), $rt_s(397), $rt_s(398)), $rt_s(399), $rt_s(400)), otft_Modifier$proxy$4_8_6__init_(var$2)), otft_Modifier$proxy$4_8_7__init_(var$2))), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(393)), $rt_s(361)), $rt_s(362)), $rt_s(349), $rt_s(394)), $rt_s(395));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(401)), $rt_s(349), $rt_s(401)), $rt_s(399),
-    $rt_s(402)), otft_Modifier$proxy$4_8_8__init_(var$2)), otft_Modifier$proxy$4_8_9__init_(var$2))), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(403)), $rt_s(349), $rt_s(404)), otft_Modifier$proxy$4_8_10__init_(var$2)), $rt_s(405))), $rt_s(355))), $rt_s(353))), $rt_s(350));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(347)));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(383))), $rt_s(361));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(423)), $rt_s(361)), $rt_s(351)), $rt_s(383)), $rt_s(362)),
+    $rt_s(349), $rt_s(424)), $rt_s(410))), $rt_s(383)), $rt_s(362)), $rt_s(349), $rt_s(363)), $rt_s(425));
+    var$4 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_8_1__init_(var$2));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(383))), $rt_s(361));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(423)), $rt_s(361)), $rt_s(351)), $rt_s(383)), $rt_s(362)),
+    $rt_s(349), $rt_s(424)), $rt_s(406))), $rt_s(383)), $rt_s(362)), $rt_s(349), $rt_s(363)), $rt_s(425));
+    var$4 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_8_2__init_(var$2));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(383))), $rt_s(361));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(423)), $rt_s(361)), $rt_s(351)), $rt_s(383)), $rt_s(362)),
+    $rt_s(349), $rt_s(424)), $rt_s(426))), $rt_s(383)), $rt_s(362)), $rt_s(349), $rt_s(363)), $rt_s(425));
+    var$4 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_8_3__init_(var$2));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(383))), $rt_s(361));
+    otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(357))), $rt_s(355))), $rt_s(355)), $rt_s(427))),
+    $rt_s(355)), $rt_s(418)), $rt_s(428))), $rt_s(355)), $rt_s(362)), $rt_s(429))), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(430));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(357)), $rt_s(375)), $rt_s(431))), $rt_s(357)), $rt_s(375)),
+    $rt_s(432))), $rt_s(357)), $rt_s(375)), $rt_s(433))), $rt_s(357)), $rt_s(375)), $rt_s(434))), $rt_s(357)), $rt_s(375)), $rt_s(435)));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(357)), $rt_s(375)), $rt_s(436))), $rt_s(357)), $rt_s(375)),
+    $rt_s(437))), $rt_s(357)), $rt_s(375)), $rt_s(438))), $rt_s(357)), $rt_s(375)), $rt_s(439))), $rt_s(357)), $rt_s(375)), $rt_s(440))), $rt_s(355));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(355));
+    var$3 = ecdc_LecturesListComponent__init_(otft_Slot_create());
+    ecdc_LecturesListComponent_setLecturesSupplier(var$3, juf_Supplier$proxy$4_8_4__init_(var$2));
+    ecdb_ModelWidget_setModelSupplier(var$3, juf_Supplier$proxy$4_8_5__init_(var$2));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(355));
+    var$3 = ecdc_TutorialsListComponent__init_(otft_Slot_create());
+    ecdc_TutorialsListComponent_setTutorialsSupplier(var$3, juf_Supplier$proxy$4_8_6__init_(var$2));
+    ecdb_ModelWidget_setModelSupplier(var$3, juf_Supplier$proxy$4_8_7__init_(var$2));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(355));
+    var$3 = ecdc_AssignmentsListComponent__init_(otft_Slot_create());
+    ecdc_AssignmentsListComponent_setAssignmentsSupplier(var$3, juf_Supplier$proxy$4_8_8__init_(var$2));
+    ecdb_ModelWidget_setModelSupplier(var$3, juf_Supplier$proxy$4_8_9__init_(var$2));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(355));
+    var$3 = ecdc_ForumsListComponent__init_(otft_Slot_create());
+    ecdc_ForumsListComponent_setForumsSupplier(var$3, juf_Supplier$proxy$4_8_10__init_(var$2));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353))), $rt_s(350))), $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_9_0() {
     jl_Object.call(this);
@@ -11952,24 +11965,28 @@ function otft_DomComponentHandler$proxy$4_9_0_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_9_0_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
+    var var$2, var$3, var$4, var$5;
     var$2 = var$0.$proxyCapture041;
     var$1 = var$1;
-    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(349), $rt_s(358)),
-    $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$1, otft_Modifier$proxy$4_9_0__init_(var$2)), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(379)), $rt_s(376)),
-    $rt_s(380)))), $rt_s(355))), $rt_s(353))), $rt_s(353));
-    var$4 = ecdc_LecturesListComponent__init_(otft_Slot_create());
-    ecdc_LecturesListComponent_setLecturesSupplier(var$4, juf_Supplier$proxy$4_9_0__init_(var$2));
-    ecdb_ModelWidget_setModelSupplier(var$4, juf_Supplier$proxy$4_9_1__init_(var$2));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350))), $rt_s(350));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(349), $rt_s(406)),
-    $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(407))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(408)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(409)), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(393)), $rt_s(361)), $rt_s(410)), $rt_s(349), $rt_s(410)), $rt_s(411))), $rt_s(361));
-    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(349), $rt_s(394)),
-    $rt_s(395)), $rt_s(396)), $rt_s(349), $rt_s(396)), $rt_s(397), $rt_s(398)), $rt_s(399), $rt_s(412)), otft_Modifier$proxy$4_9_1__init_(var$2)), otft_Modifier$proxy$4_9_2__init_(var$2))), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(413)), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(394)), $rt_s(395));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(403)), $rt_s(349), $rt_s(414)), otft_Modifier$proxy$4_9_3__init_(var$2)),
-    $rt_s(415))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(394)), $rt_s(395)), $rt_s(403)), $rt_s(349), $rt_s(416)), otft_Modifier$proxy$4_9_4__init_(var$2)), $rt_s(417))), $rt_s(361))), $rt_s(357))), $rt_s(355));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(353))), $rt_s(353)), $rt_s(403)), $rt_s(349), $rt_s(418)), $rt_s(372), $rt_s(419)), otft_Modifier$proxy$4_9_5__init_(var$2))), $rt_s(350))), $rt_s(347)));
+    otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(351)), $rt_s(349),
+    $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
+    var$3 = otft_DomBuilder_open(var$1, $rt_s(376));
+    var$4 = new otft_Modifier$proxy$4_9_0;
+    var$4.$proxyCapture073 = var$2;
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(380)), $rt_s(376)), $rt_s(384)))), $rt_s(355))),
+    $rt_s(353))), $rt_s(353));
+    var$4 = otft_Slot_create();
+    var$5 = new ecdc_LecturesListComponent;
+    otft_AbstractComponent__init_(var$5, var$4);
+    var$4 = var$5;
+    var$5 = new juf_Supplier$proxy$4_9_0;
+    var$5.$proxyCapture074 = var$2;
+    var$4.$lecturesSupplier = var$5;
+    var$5 = new juf_Supplier$proxy$4_9_1;
+    var$5.$proxyCapture075 = var$2;
+    var$4.$modelSupplier = var$5;
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350)));
+    otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_10_0() {
     jl_Object.call(this);
@@ -11979,24 +11996,35 @@ function otft_DomComponentHandler$proxy$4_10_0_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_10_0_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
+    var var$2, var$3, var$4, var$5, var$6;
     var$2 = var$0.$proxyCapture042;
     var$1 = var$1;
-    otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(351)), $rt_s(349),
-    $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(var$1, $rt_s(376)), otft_Modifier$proxy$4_10_0__init_(var$2)), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)),
-    $rt_s(349), $rt_s(379)), $rt_s(376)), $rt_s(384)))), $rt_s(355))), $rt_s(353))), $rt_s(353));
-    var$4 = ecdc_AssignmentsListComponent__init_(otft_Slot_create());
-    ecdc_AssignmentsListComponent_setAssignmentsSupplier(var$4, juf_Supplier$proxy$4_10_0__init_(var$2));
-    ecdb_ModelWidget_setModelSupplier(var$4, juf_Supplier$proxy$4_10_1__init_(var$2));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350)));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(350)), $rt_s(351)), $rt_s(349),
-    $rt_s(406)), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(407))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(408)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(409)), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(393)), $rt_s(361)), $rt_s(410)), $rt_s(349), $rt_s(410)), $rt_s(420)));
-    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(351)), $rt_s(349),
-    $rt_s(394)), $rt_s(395)), $rt_s(396)), $rt_s(349), $rt_s(396)), $rt_s(397), $rt_s(398)), $rt_s(399), $rt_s(421)), otft_Modifier$proxy$4_10_1__init_(var$2)), otft_Modifier$proxy$4_10_2__init_(var$2))), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(413)), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(394));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(395)), $rt_s(403)), $rt_s(349), $rt_s(414)),
-    otft_Modifier$proxy$4_10_3__init_(var$2)), $rt_s(415))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(394)), $rt_s(395)), $rt_s(403)), $rt_s(349), $rt_s(416)), otft_Modifier$proxy$4_10_4__init_(var$2)), $rt_s(417))), $rt_s(361))), $rt_s(357)));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(355))), $rt_s(353))), $rt_s(353)), $rt_s(403)), $rt_s(349), $rt_s(418)), $rt_s(372), $rt_s(419)), otft_Modifier$proxy$4_10_5__init_(var$2))), $rt_s(350))), $rt_s(347)));
+    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(349), $rt_s(358)),
+    $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
+    var$3 = otft_DomBuilder_openSlot(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$1, otft_Modifier$proxy$4_10_0__init_(var$2)), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(361)),
+    $rt_s(376)), otft_Modifier$proxy$4_10_1__init_(var$2)), $rt_s(382))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(380)), $rt_s(376));
+    var$4 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_10_0__init_(var$2));
+    otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_add(var$3, var$4)));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(355))), $rt_s(353))), $rt_s(353));
+    var$4 = otfcs_ChooseComponent__init_(otft_Slot_create());
+    var$5 = ju_ArrayList__init_3(1);
+    var$6 = otfcs_ChooseClause__init_();
+    otfcs_ChooseClause_setPredicate(var$6, juf_BooleanSupplier$proxy$4_10_0__init_(var$2));
+    var$5 = var$5;
+    ju_ArrayList_add(var$5, var$6);
+    otfcs_ChooseComponent_setClauses(var$4, var$5);
+    var$5 = otfcs_OtherwiseClause__init_();
+    otfcs_ChooseComponent_setOtherwiseClause(var$4, var$5);
+    otfcs_ChooseClause_setContent(var$6, otft_Fragment$proxy$4_10_1__init_());
+    otfcs_OtherwiseClause_setContent(var$5, otft_Fragment$proxy$4_10_2__init_(var$2));
+    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(353)), $rt_s(359)), $rt_s(349), $rt_s(441)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(442)), $rt_s(357)), $rt_s(443)), $rt_s(349),
+    $rt_s(444)), $rt_s(445))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(389)), $rt_s(361));
+    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(362)), $rt_s(349), $rt_s(392)),
+    $rt_s(383)), $rt_s(393)), $rt_s(349), $rt_s(393)), $rt_s(394), $rt_s(395)), $rt_s(396), $rt_s(446)), otft_Modifier$proxy$4_10_6__init_(var$2)), otft_Modifier$proxy$4_10_7__init_(var$2))), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(389)), $rt_s(361)), $rt_s(362)), $rt_s(349), $rt_s(392)), $rt_s(383));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(447)), $rt_s(349), $rt_s(447)), $rt_s(396),
+    $rt_s(448)), otft_Modifier$proxy$4_10_8__init_(var$2)), otft_Modifier$proxy$4_10_9__init_(var$2))), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(399)), $rt_s(349), $rt_s(449)), otft_Modifier$proxy$4_10_10__init_(var$2)), $rt_s(450))), $rt_s(355))), $rt_s(353))), $rt_s(350));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_11_0() {
     jl_Object.call(this);
@@ -12009,54 +12037,21 @@ function otft_DomComponentHandler$proxy$4_11_0_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture043;
     var$1 = var$1;
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(351)), $rt_s(349),
-    $rt_s(422)), $rt_s(350)), $rt_s(351)), $rt_s(349), $rt_s(423)), $rt_s(353)), $rt_s(359)), $rt_s(349), $rt_s(424)), $rt_s(425), $rt_s(426)), $rt_s(355)), $rt_s(427)), $rt_s(349), $rt_s(363)), $rt_s(428))), $rt_s(355)), $rt_s(429)), $rt_s(349), $rt_s(365)), $rt_s(430))), $rt_s(353));
-    otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(350))), $rt_s(347))), $rt_s(347)),
-    $rt_s(351)), $rt_s(349), $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377));
-    otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(var$1)), $rt_s(357)), $rt_s(375)), $rt_s(349),
-    $rt_s(379)), $rt_s(376)), $rt_s(378)))), $rt_s(355))), $rt_s(353))), $rt_s(353)), $rt_s(427)), $rt_s(349), $rt_s(363)), $rt_s(431))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(432));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(355)), $rt_s(370)), $rt_s(349), $rt_s(433)), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(434)), $rt_s(361)),
-    $rt_s(351)), $rt_s(395)), $rt_s(362)), $rt_s(349), $rt_s(435)), $rt_s(380))), $rt_s(395)), $rt_s(362)), $rt_s(349), $rt_s(363)), $rt_s(436));
-    var$4 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_11_0__init_(var$2));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(395))), $rt_s(361));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(434)), $rt_s(361)), $rt_s(351)), $rt_s(395)), $rt_s(362)),
-    $rt_s(349), $rt_s(435)), $rt_s(382))), $rt_s(395)), $rt_s(362)), $rt_s(349), $rt_s(363)), $rt_s(436));
-    var$4 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_11_1__init_(var$2));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(395))), $rt_s(361));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(434)), $rt_s(361)), $rt_s(351)), $rt_s(395)), $rt_s(362)),
-    $rt_s(349), $rt_s(435)), $rt_s(384))), $rt_s(395)), $rt_s(362)), $rt_s(349), $rt_s(363)), $rt_s(436));
-    var$4 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_11_2__init_(var$2));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(395))), $rt_s(361));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(434)), $rt_s(361)), $rt_s(351)), $rt_s(395)), $rt_s(362)),
-    $rt_s(349), $rt_s(435)), $rt_s(437))), $rt_s(395)), $rt_s(362)), $rt_s(349), $rt_s(363)), $rt_s(436));
-    var$4 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_11_3__init_(var$2));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(395))), $rt_s(361));
-    otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(357))), $rt_s(355))), $rt_s(355)), $rt_s(438))),
-    $rt_s(355)), $rt_s(429)), $rt_s(439))), $rt_s(355)), $rt_s(362)), $rt_s(440))), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(441));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(357)), $rt_s(375)), $rt_s(442))), $rt_s(357)), $rt_s(375)),
-    $rt_s(443))), $rt_s(357)), $rt_s(375)), $rt_s(444))), $rt_s(357)), $rt_s(375)), $rt_s(445))), $rt_s(357)), $rt_s(375)), $rt_s(446)));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(357)), $rt_s(375)), $rt_s(447))), $rt_s(357)), $rt_s(375)),
-    $rt_s(448))), $rt_s(357)), $rt_s(375)), $rt_s(449))), $rt_s(357)), $rt_s(375)), $rt_s(450))), $rt_s(357)), $rt_s(375)), $rt_s(451))), $rt_s(355));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(355));
-    var$3 = ecdc_LecturesListComponent__init_(otft_Slot_create());
-    ecdc_LecturesListComponent_setLecturesSupplier(var$3, juf_Supplier$proxy$4_11_4__init_(var$2));
-    ecdb_ModelWidget_setModelSupplier(var$3, juf_Supplier$proxy$4_11_5__init_(var$2));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(355));
-    var$3 = ecdc_TutorialsListComponent__init_(otft_Slot_create());
-    ecdc_TutorialsListComponent_setTutorialsSupplier(var$3, juf_Supplier$proxy$4_11_6__init_(var$2));
-    ecdb_ModelWidget_setModelSupplier(var$3, juf_Supplier$proxy$4_11_7__init_(var$2));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(355));
-    var$3 = ecdc_AssignmentsListComponent__init_(otft_Slot_create());
-    ecdc_AssignmentsListComponent_setAssignmentsSupplier(var$3, juf_Supplier$proxy$4_11_8__init_(var$2));
-    ecdb_ModelWidget_setModelSupplier(var$3, juf_Supplier$proxy$4_11_9__init_(var$2));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(355));
-    var$3 = ecdc_ForumsListComponent__init_(otft_Slot_create());
-    ecdc_ForumsListComponent_setForumsSupplier(var$3, juf_Supplier$proxy$4_11_10__init_(var$2));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353))), $rt_s(350))), $rt_s(347)));
+    otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(351)), $rt_s(349),
+    $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(var$1, $rt_s(376)), otft_Modifier$proxy$4_11_0__init_(var$2)), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)),
+    $rt_s(349), $rt_s(380)), $rt_s(376)), $rt_s(410)))), $rt_s(355))), $rt_s(353))), $rt_s(353));
+    var$4 = ecdc_TutorialsListComponent__init_(otft_Slot_create());
+    ecdc_TutorialsListComponent_setTutorialsSupplier(var$4, juf_Supplier$proxy$4_11_0__init_(var$2));
+    ecdb_ModelWidget_setModelSupplier(var$4, juf_Supplier$proxy$4_11_1__init_(var$2));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350)));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(350)), $rt_s(351)), $rt_s(349),
+    $rt_s(385)), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(386))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(387)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(388)), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(389)), $rt_s(361)), $rt_s(390)), $rt_s(349), $rt_s(390)), $rt_s(451)));
+    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(351)), $rt_s(349),
+    $rt_s(392)), $rt_s(383)), $rt_s(393)), $rt_s(349), $rt_s(393)), $rt_s(394), $rt_s(395)), $rt_s(396), $rt_s(452)), otft_Modifier$proxy$4_11_1__init_(var$2)), otft_Modifier$proxy$4_11_2__init_(var$2))), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(398)), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(392));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(383)), $rt_s(399)), $rt_s(349), $rt_s(400)),
+    otft_Modifier$proxy$4_11_3__init_(var$2)), $rt_s(401))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(392)), $rt_s(383)), $rt_s(399)), $rt_s(349), $rt_s(402)), otft_Modifier$proxy$4_11_4__init_(var$2)), $rt_s(403))), $rt_s(361))), $rt_s(357)));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(355))), $rt_s(353))), $rt_s(353)), $rt_s(399)), $rt_s(349), $rt_s(404)), $rt_s(372), $rt_s(405)), otft_Modifier$proxy$4_11_5__init_(var$2))), $rt_s(350))), $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_12_0() {
     jl_Object.call(this);
@@ -12066,24 +12061,28 @@ function otft_DomComponentHandler$proxy$4_12_0_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_12_0_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
+    var var$2, var$3, var$4, var$5;
     var$2 = var$0.$proxyCapture044;
     var$1 = var$1;
     otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(351)), $rt_s(349),
     $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(var$1, $rt_s(376)), otft_Modifier$proxy$4_12_0__init_(var$2)), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)),
-    $rt_s(349), $rt_s(379)), $rt_s(376)), $rt_s(382)))), $rt_s(355))), $rt_s(353))), $rt_s(353));
-    var$4 = ecdc_TutorialsListComponent__init_(otft_Slot_create());
-    ecdc_TutorialsListComponent_setTutorialsSupplier(var$4, juf_Supplier$proxy$4_12_0__init_(var$2));
-    ecdb_ModelWidget_setModelSupplier(var$4, juf_Supplier$proxy$4_12_1__init_(var$2));
+    var$3 = otft_DomBuilder_open(var$1, $rt_s(376));
+    var$4 = new otft_Modifier$proxy$4_12_0;
+    var$4.$proxyCapture076 = var$2;
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(380)), $rt_s(376)), $rt_s(406)))), $rt_s(355))),
+    $rt_s(353))), $rt_s(353));
+    var$4 = otft_Slot_create();
+    var$5 = new ecdc_AssignmentsListComponent;
+    otft_AbstractComponent__init_(var$5, var$4);
+    var$4 = var$5;
+    var$5 = new juf_Supplier$proxy$4_12_0;
+    var$5.$proxyCapture077 = var$2;
+    var$4.$assignmentsSupplier = var$5;
+    var$5 = new juf_Supplier$proxy$4_12_1;
+    var$5.$proxyCapture078 = var$2;
+    var$4.$modelSupplier = var$5;
     otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350)));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(350)), $rt_s(351)), $rt_s(349),
-    $rt_s(406)), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(407))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(408)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(409)), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(393)), $rt_s(361)), $rt_s(410)), $rt_s(349), $rt_s(410)), $rt_s(452)));
-    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(351)), $rt_s(349),
-    $rt_s(394)), $rt_s(395)), $rt_s(396)), $rt_s(349), $rt_s(396)), $rt_s(397), $rt_s(398)), $rt_s(399), $rt_s(453)), otft_Modifier$proxy$4_12_1__init_(var$2)), otft_Modifier$proxy$4_12_2__init_(var$2))), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(413)), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(394));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(395)), $rt_s(403)), $rt_s(349), $rt_s(414)),
-    otft_Modifier$proxy$4_12_3__init_(var$2)), $rt_s(415))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(394)), $rt_s(395)), $rt_s(403)), $rt_s(349), $rt_s(416)), otft_Modifier$proxy$4_12_4__init_(var$2)), $rt_s(417))), $rt_s(361))), $rt_s(357)));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(355))), $rt_s(353))), $rt_s(353)), $rt_s(403)), $rt_s(349), $rt_s(418)), $rt_s(372), $rt_s(419)), otft_Modifier$proxy$4_12_5__init_(var$2))), $rt_s(350))), $rt_s(347)));
+    otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_13_0() {
     jl_Object.call(this);
@@ -12093,24 +12092,25 @@ function otft_DomComponentHandler$proxy$4_13_0_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_13_0_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
+    var var$2, var$3, var$4, var$5;
     var$2 = var$0.$proxyCapture045;
     var$1 = var$1;
-    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(349), $rt_s(358)),
-    $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$1, otft_Modifier$proxy$4_13_0__init_(var$2)), $rt_s(378))), $rt_s(357))),
-    $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376)), otft_Modifier$proxy$4_13_1__init_(var$2)), $rt_s(387))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376)), otft_Modifier$proxy$4_13_2__init_(var$2)), $rt_s(395));
-    var$4 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_13_0__init_(var$2));
-    otft_DomBuilder_add(var$3, var$4);
-    var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(379)), $rt_s(376));
-    var$3 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$3, juf_Supplier$proxy$4_13_1__init_(var$2));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_add(var$1, var$3))), $rt_s(355))), $rt_s(353))), $rt_s(353));
-    var$3 = otfcs_WithComponent__init_(otft_Slot_create());
-    otfcs_WithComponent_setValue(var$3, juf_Supplier$proxy$4_13_2__init_(var$2));
-    otfcs_WithComponent_setContent(var$3, otft_Fragment$proxy$4_13_1__init_(var$3, var$2));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350))), $rt_s(347)));
+    otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(351)), $rt_s(349),
+    $rt_s(358)), $rt_s(350)), $rt_s(359)), $rt_s(349), $rt_s(369)), $rt_s(353)), $rt_s(370)), $rt_s(349), $rt_s(371)), $rt_s(372), $rt_s(373)), $rt_s(355)), $rt_s(374)), $rt_s(357)), $rt_s(375)), $rt_s(376)), $rt_s(377)))), $rt_s(357)), $rt_s(375)), $rt_s(361));
+    var$3 = otft_DomBuilder_open(var$1, $rt_s(376));
+    var$4 = new otft_Modifier$proxy$4_13_0;
+    var$4.$proxyCapture079 = var$2;
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(378))), $rt_s(357))), $rt_s(357)), $rt_s(375)), $rt_s(349), $rt_s(380)), $rt_s(376)), $rt_s(453)))), $rt_s(355))),
+    $rt_s(353))), $rt_s(353));
+    var$4 = otft_Slot_create();
+    var$5 = new ecdc_ForumsListComponent;
+    otft_AbstractComponent__init_(var$5, var$4);
+    var$4 = var$5;
+    var$5 = new juf_Supplier$proxy$4_13_0;
+    var$5.$proxyCapture080 = var$2;
+    var$4.$forumsSupplier = var$5;
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350)));
+    otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(347)));
 }
 function ju_Spliterator() {
 }
@@ -12163,144 +12163,16 @@ function otft_Modifier$proxy$4_1_0_apply(var$0, var$1) {
     var$1.$path = var$3;
     return var$1;
 }
-function ecdc_LecturesListComponent() {
-    ecdb_ModelWidget.call(this);
-    this.$lecturesSupplier = null;
-}
-function ecdc_LecturesListComponent__init_(var_0) {
-    var var_1 = new ecdc_LecturesListComponent();
-    ecdc_LecturesListComponent__init_0(var_1, var_0);
-    return var_1;
-}
-function ecdc_LecturesListComponent__init_0($this, $slot) {
-    otft_AbstractComponent__init_($this, $slot);
-}
-function ecdc_LecturesListComponent_setLecturesSupplier($this, $lecturesSupplier) {
-    $this.$lecturesSupplier = $lecturesSupplier;
-}
-function ecdc_LecturesListComponent_getLectures($this) {
-    return $this.$lecturesSupplier.$get1();
-}
-function juf_Supplier$proxy$4_1_0() {
+function otft_Modifier$proxy$4_1_1() {
     jl_Object.call(this);
     this.$proxyCapture056 = null;
 }
-function juf_Supplier$proxy$4_1_0_get(var$0) {
-    return ecdv_BaseView_getLectures(var$0.$proxyCapture056);
-}
-function juf_Supplier$proxy$4_1_1() {
-    jl_Object.call(this);
-    this.$proxyCapture057 = null;
-}
-function juf_Supplier$proxy$4_1_1_get(var$0) {
-    return var$0.$proxyCapture057.$model0;
-}
-function otft_Modifier$proxy$4_2_0() {
-    jl_Object.call(this);
-    this.$proxyCapture058 = null;
-}
-function otft_Modifier$proxy$4_2_0_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_1_1_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture058;
+    var$2 = var$0.$proxyCapture056;
     var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_2_0;
+    var$3 = new juf_Consumer$proxy$4_1_1;
     var$3.$proxyCapture082 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function ecdc_ForumsListComponent() {
-    ecdb_RouteWidget.call(this);
-    this.$forumsSupplier = null;
-}
-function ecdc_ForumsListComponent__init_(var_0) {
-    var var_1 = new ecdc_ForumsListComponent();
-    ecdc_ForumsListComponent__init_0(var_1, var_0);
-    return var_1;
-}
-function ecdc_ForumsListComponent__init_0($this, $slot) {
-    otft_AbstractComponent__init_($this, $slot);
-}
-function ecdc_ForumsListComponent_setForumsSupplier($this, $forumsSupplier) {
-    $this.$forumsSupplier = $forumsSupplier;
-}
-function ecdc_ForumsListComponent_getForums($this) {
-    return $this.$forumsSupplier.$get1();
-}
-function juf_Supplier$proxy$4_2_0() {
-    jl_Object.call(this);
-    this.$proxyCapture059 = null;
-}
-function juf_Supplier$proxy$4_2_0_get(var$0) {
-    return ecdv_BaseView_getForums(var$0.$proxyCapture059);
-}
-function otft_Modifier$proxy$4_3_0() {
-    jl_Object.call(this);
-    this.$proxyCapture060 = null;
-}
-function otft_Modifier$proxy$4_3_0_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture060;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_3_0;
-    var$3.$proxyCapture083 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function ecdc_TutorialsListComponent() {
-    ecdb_ModelWidget.call(this);
-    this.$tutorialsSupplier = null;
-}
-function ecdc_TutorialsListComponent__init_(var_0) {
-    var var_1 = new ecdc_TutorialsListComponent();
-    ecdc_TutorialsListComponent__init_0(var_1, var_0);
-    return var_1;
-}
-function ecdc_TutorialsListComponent__init_0($this, $slot) {
-    otft_AbstractComponent__init_($this, $slot);
-}
-function ecdc_TutorialsListComponent_setTutorialsSupplier($this, $tutorialsSupplier) {
-    $this.$tutorialsSupplier = $tutorialsSupplier;
-}
-function ecdc_TutorialsListComponent_getTutorials($this) {
-    return $this.$tutorialsSupplier.$get1();
-}
-function juf_Supplier$proxy$4_3_0() {
-    jl_Object.call(this);
-    this.$proxyCapture061 = null;
-}
-function juf_Supplier$proxy$4_3_0_get(var$0) {
-    return ecdv_BaseView_getTutorials(var$0.$proxyCapture061);
-}
-function juf_Supplier$proxy$4_3_1() {
-    jl_Object.call(this);
-    this.$proxyCapture062 = null;
-}
-function juf_Supplier$proxy$4_3_1_get(var$0) {
-    return var$0.$proxyCapture062.$model0;
-}
-function otft_Modifier$proxy$4_4_0() {
-    jl_Object.call(this);
-    this.$proxyCapture063 = null;
-}
-function otft_Modifier$proxy$4_4_0_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture063;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_4_0;
-    var$3.$proxyCapture084 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_4_1() {
-    jl_Object.call(this);
-    this.$proxyCapture064 = null;
-}
-function otft_Modifier$proxy$4_4_1_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture064;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_4_1;
-    var$3.$proxyCapture085 = var$2;
     var$1.$path = var$3;
     return var$1;
 }
@@ -12340,12 +12212,73 @@ function otfch_TextComponent_render($this) {
     $this.$textSlot = var$2;
     otft_Slot_append($this.$slot, $this.$textSlot);
 }
-function juf_Supplier$proxy$4_4_0() {
+function juf_Supplier$proxy$4_1_0() {
     jl_Object.call(this);
-    this.$proxyCapture065 = null;
+    this.$proxyCapture057 = null;
 }
-function juf_Supplier$proxy$4_4_0_get(var$0) {
-    return var$0.$proxyCapture065.$lecture.$unit;
+function juf_Supplier$proxy$4_1_0_get(var$0) {
+    return var$0.$proxyCapture057.$assignment.$name1;
+}
+function ecdc_AssignmentComponent() {
+    ecdb_ModelWidget.call(this);
+    this.$assignmentSupplier = null;
+}
+function ecdc_AssignmentComponent_setAssignmentSupplier($this, $assignmentSupplier) {
+    $this.$assignmentSupplier = $assignmentSupplier;
+}
+function ecdc_AssignmentComponent_getAssignment($this) {
+    return $this.$assignmentSupplier.$get1();
+}
+function ecdc_AssignmentComponent_deleteAssignment($this) {
+    if (ecdm_Model_deleteAssignment(ecdb_ModelWidget_getModel($this), ecdc_AssignmentComponent_getAssignment($this).$id1))
+        ecd_Router$proxy$4_0_0_assignments(otfr_Routing_open($rt_cls(ecd_Router)));
+}
+function juf_Supplier$proxy$4_1_1() {
+    jl_Object.call(this);
+    this.$proxyCapture058 = null;
+}
+function juf_Supplier$proxy$4_1_1_get(var$0) {
+    return var$0.$proxyCapture058.$assignment;
+}
+function juf_Supplier$proxy$4_1_2() {
+    jl_Object.call(this);
+    this.$proxyCapture059 = null;
+}
+function juf_Supplier$proxy$4_1_2_get(var$0) {
+    return var$0.$proxyCapture059.$model0;
+}
+function otft_Modifier$proxy$4_2_0() {
+    jl_Object.call(this);
+    this.$proxyCapture060 = null;
+}
+function otft_Modifier$proxy$4_2_0_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture060;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_2_0;
+    var$3.$proxyCapture083 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_2_1() {
+    jl_Object.call(this);
+    this.$proxyCapture061 = null;
+}
+function otft_Modifier$proxy$4_2_1_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture061;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_2_1;
+    var$3.$proxyCapture084 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function juf_Supplier$proxy$4_2_0() {
+    jl_Object.call(this);
+    this.$proxyCapture062 = null;
+}
+function juf_Supplier$proxy$4_2_0_get(var$0) {
+    return var$0.$proxyCapture062.$lecture.$unit;
 }
 function ecdc_LectureComponent() {
     ecdb_ModelWidget.call(this);
@@ -12361,32 +12294,394 @@ function ecdc_LectureComponent_deleteLecture($this) {
     if (ecdm_Model_deleteLecture(ecdb_ModelWidget_getModel($this), ecdc_LectureComponent_getLecture($this).$id))
         ecd_Router$proxy$4_0_0_lectures(otfr_Routing_open($rt_cls(ecd_Router)));
 }
-function juf_Supplier$proxy$4_4_1() {
+function juf_Supplier$proxy$4_2_1() {
     jl_Object.call(this);
-    this.$proxyCapture066 = null;
+    this.$proxyCapture063 = null;
 }
-function juf_Supplier$proxy$4_4_1_get(var$0) {
-    return var$0.$proxyCapture066.$lecture;
+function juf_Supplier$proxy$4_2_1_get(var$0) {
+    return var$0.$proxyCapture063.$lecture;
 }
-function juf_Supplier$proxy$4_4_2() {
+function juf_Supplier$proxy$4_2_2() {
     jl_Object.call(this);
-    this.$proxyCapture067 = null;
+    this.$proxyCapture064 = null;
 }
-function juf_Supplier$proxy$4_4_2_get(var$0) {
-    return var$0.$proxyCapture067.$model0;
+function juf_Supplier$proxy$4_2_2_get(var$0) {
+    return var$0.$proxyCapture064.$model0;
 }
-function otft_Modifier$proxy$4_5_0() {
+function otft_Modifier$proxy$4_3_0() {
     jl_Object.call(this);
-    this.$proxyCapture068 = null;
+    this.$proxyCapture085 = null;
 }
-function otft_Modifier$proxy$4_5_0_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_0__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_0();
+    otft_Modifier$proxy$4_3_0__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_3_0_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture068;
+    var$2 = var$0.$proxyCapture085;
     var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_5_0;
+    var$3 = new juf_Consumer$proxy$4_3_0;
     var$3.$proxyCapture086 = var$2;
     var$1.$path = var$3;
     return var$1;
+}
+function otft_Modifier$proxy$4_3_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture085 = var$1;
+}
+function otft_Modifier$proxy$4_3_1() {
+    jl_Object.call(this);
+    this.$proxyCapture087 = null;
+}
+function otft_Modifier$proxy$4_3_1__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_1();
+    otft_Modifier$proxy$4_3_1__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_3_1_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture087;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_3_1;
+    var$3.$proxyCapture088 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_3_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture087 = var$1;
+}
+function otft_Modifier$proxy$4_3_2() {
+    jl_Object.call(this);
+    this.$proxyCapture089 = null;
+}
+function otft_Modifier$proxy$4_3_2__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_2();
+    otft_Modifier$proxy$4_3_2__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_3_2_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture089;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_3_2;
+    var$3.$proxyCapture090 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_3_2__init_0(var$0, var$1) {
+    var$0.$proxyCapture089 = var$1;
+}
+function juf_Supplier$proxy$4_3_0() {
+    jl_Object.call(this);
+    this.$proxyCapture091 = null;
+}
+function juf_Supplier$proxy$4_3_0__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_3_0();
+    juf_Supplier$proxy$4_3_0__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_3_0_get(var$0) {
+    return var$0.$proxyCapture091.$forum.$title;
+}
+function juf_Supplier$proxy$4_3_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture091 = var$1;
+}
+function juf_Supplier$proxy$4_3_1() {
+    jl_Object.call(this);
+    this.$proxyCapture092 = null;
+}
+function juf_Supplier$proxy$4_3_1__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_3_1();
+    juf_Supplier$proxy$4_3_1__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_3_1_get(var$0) {
+    return var$0.$proxyCapture092.$topic.$title0;
+}
+function juf_Supplier$proxy$4_3_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture092 = var$1;
+}
+function otfcs_WithComponent() {
+    var a = this; otft_AbstractComponent.call(a);
+    a.$content2 = null;
+    a.$variable = null;
+    a.$value3 = null;
+    a.$contentRenderer = null;
+}
+function otfcs_WithComponent__init_(var_0) {
+    var var_1 = new otfcs_WithComponent();
+    otfcs_WithComponent__init_0(var_1, var_0);
+    return var_1;
+}
+function otfcs_WithComponent__init_0($this, $slot) {
+    otft_AbstractComponent__init_($this, $slot);
+}
+function otfcs_WithComponent_setContent($this, $content) {
+    $this.$content2 = $content;
+}
+function otfcs_WithComponent_getVariable($this) {
+    return $this.$variable;
+}
+function otfcs_WithComponent_setValue($this, $value) {
+    $this.$value3 = $value;
+}
+function otfcs_WithComponent_render($this) {
+    if ($this.$contentRenderer === null) {
+        $this.$contentRenderer = $this.$content2.$create0();
+        otft_Slot_append($this.$slot, $this.$contentRenderer.$slot);
+    }
+    $this.$variable = $this.$value3.$get1();
+    otft_DomComponentTemplate_render($this.$contentRenderer);
+}
+function otfcs_WithComponent_destroy($this) {
+    if ($this.$contentRenderer !== null) {
+        otft_DomComponentTemplate_destroy($this.$contentRenderer);
+        $this.$contentRenderer = null;
+    }
+    otft_AbstractComponent_destroy($this);
+}
+function juf_Supplier$proxy$4_3_2() {
+    jl_Object.call(this);
+    this.$proxyCapture093 = null;
+}
+function juf_Supplier$proxy$4_3_2__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_3_2();
+    juf_Supplier$proxy$4_3_2__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_3_2_get(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture093;
+    var$2 = $rt_createArray(jl_Object, 1).data;
+    var$2[0] = jl_Integer_valueOf(0);
+    return ju_ArrayList_get(var$1.$topic.$comments, var$2[0].$value);
+}
+function juf_Supplier$proxy$4_3_2__init_0(var$0, var$1) {
+    var$0.$proxyCapture093 = var$1;
+}
+function otft_Fragment$proxy$4_3_1() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture094 = null;
+    a.$proxyCapture1 = null;
+}
+function otft_Fragment$proxy$4_3_1__init_(var_0, var_1) {
+    var var_2 = new otft_Fragment$proxy$4_3_1();
+    otft_Fragment$proxy$4_3_1__init_0(var_2, var_0, var_1);
+    return var_2;
+}
+function otft_Fragment$proxy$4_3_1_create(var$0) {
+    var var$1, var$2, var$3, var$4;
+    var$1 = var$0.$proxyCapture094;
+    var$2 = var$0.$proxyCapture1;
+    var$3 = new otfte_VariableImpl;
+    var$4 = new otft_DomComponentHandler$proxy$4_3_1;
+    var$4.$proxyCapture095 = var$3;
+    var$4.$proxyCapture10 = var$1;
+    var$4.$proxyCapture2 = var$2;
+    return otft_DomComponentTemplate__init_(var$4);
+}
+function otft_Fragment$proxy$4_3_1__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture094 = var$1;
+    var$0.$proxyCapture1 = var$2;
+}
+function otft_Modifier$proxy$4_4_0() {
+    jl_Object.call(this);
+    this.$proxyCapture096 = null;
+}
+function otft_Modifier$proxy$4_4_0__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_4_0();
+    otft_Modifier$proxy$4_4_0__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_4_0_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture096;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_4_0;
+    var$3.$proxyCapture097 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_4_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture096 = var$1;
+}
+function ecdc_LecturesListComponent() {
+    ecdb_ModelWidget.call(this);
+    this.$lecturesSupplier = null;
+}
+function ecdc_LecturesListComponent__init_(var_0) {
+    var var_1 = new ecdc_LecturesListComponent();
+    ecdc_LecturesListComponent__init_0(var_1, var_0);
+    return var_1;
+}
+function ecdc_LecturesListComponent__init_0($this, $slot) {
+    otft_AbstractComponent__init_($this, $slot);
+}
+function ecdc_LecturesListComponent_setLecturesSupplier($this, $lecturesSupplier) {
+    $this.$lecturesSupplier = $lecturesSupplier;
+}
+function ecdc_LecturesListComponent_getLectures($this) {
+    return $this.$lecturesSupplier.$get1();
+}
+function juf_Supplier$proxy$4_4_0() {
+    jl_Object.call(this);
+    this.$proxyCapture098 = null;
+}
+function juf_Supplier$proxy$4_4_0__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_4_0();
+    juf_Supplier$proxy$4_4_0__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_4_0_get(var$0) {
+    return ecdv_BaseView_getLectures(var$0.$proxyCapture098);
+}
+function juf_Supplier$proxy$4_4_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture098 = var$1;
+}
+function juf_Supplier$proxy$4_4_1() {
+    jl_Object.call(this);
+    this.$proxyCapture099 = null;
+}
+function juf_Supplier$proxy$4_4_1__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_4_1();
+    juf_Supplier$proxy$4_4_1__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_4_1_get(var$0) {
+    return var$0.$proxyCapture099.$model0;
+}
+function juf_Supplier$proxy$4_4_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture099 = var$1;
+}
+function otft_Modifier$proxy$4_4_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0100 = null;
+}
+function otft_Modifier$proxy$4_4_1__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_4_1();
+    otft_Modifier$proxy$4_4_1__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_4_1_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0100;
+    var$1 = otfca_ComputedAttribute__init_(var$1);
+    var$3 = new juf_Supplier$proxy$4_4_2;
+    var$3.$proxyCapture0101 = var$2;
+    var$1.$value4 = var$3;
+    var$1.$name3 = $rt_s(454);
+    return var$1;
+}
+function otft_Modifier$proxy$4_4_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture0100 = var$1;
+}
+function otft_Modifier$proxy$4_4_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0102 = null;
+}
+function otft_Modifier$proxy$4_4_2__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_4_2();
+    otft_Modifier$proxy$4_4_2__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_4_2_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0102;
+    var$1 = otfch_ValueChangeBinder__init_(var$1);
+    var$3 = new otft_ValueChangeListener$proxy$4_4_0;
+    var$3.$proxyCapture0103 = var$2;
+    var$1.$listener0 = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_4_2__init_0(var$0, var$1) {
+    var$0.$proxyCapture0102 = var$1;
+}
+function otft_Modifier$proxy$4_4_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0104 = null;
+}
+function otft_Modifier$proxy$4_4_3__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_4_3();
+    otft_Modifier$proxy$4_4_3__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_4_3_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0104;
+    var$1 = otfce_MouseBinder__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_4_1;
+    var$3.$proxyCapture0105 = var$2;
+    otfce_BaseEventBinder_setHandler(var$1, var$3);
+    var$1.$eventName = $rt_s(455);
+    return var$1;
+}
+function otft_Modifier$proxy$4_4_3__init_0(var$0, var$1) {
+    var$0.$proxyCapture0104 = var$1;
+}
+function otft_Modifier$proxy$4_4_4() {
+    jl_Object.call(this);
+    this.$proxyCapture0106 = null;
+}
+function otft_Modifier$proxy$4_4_4__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_4_4();
+    otft_Modifier$proxy$4_4_4__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_4_4_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0106;
+    var$1 = otfce_MouseBinder__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_4_2;
+    var$3.$proxyCapture0107 = var$2;
+    otfce_BaseEventBinder_setHandler(var$1, var$3);
+    var$1.$eventName = $rt_s(455);
+    return var$1;
+}
+function otft_Modifier$proxy$4_4_4__init_0(var$0, var$1) {
+    var$0.$proxyCapture0106 = var$1;
+}
+function otft_Modifier$proxy$4_4_5() {
+    jl_Object.call(this);
+    this.$proxyCapture0108 = null;
+}
+function otft_Modifier$proxy$4_4_5__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_4_5();
+    otft_Modifier$proxy$4_4_5__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_4_5_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0108;
+    var$1 = otfce_MouseBinder__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_4_3;
+    var$3.$proxyCapture0109 = var$2;
+    otfce_BaseEventBinder_setHandler(var$1, var$3);
+    var$1.$eventName = $rt_s(455);
+    return var$1;
+}
+function otft_Modifier$proxy$4_4_5__init_0(var$0, var$1) {
+    var$0.$proxyCapture0108 = var$1;
+}
+function otft_Modifier$proxy$4_5_0() {
+    jl_Object.call(this);
+    this.$proxyCapture0110 = null;
+}
+function otft_Modifier$proxy$4_5_0__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_5_0();
+    otft_Modifier$proxy$4_5_0__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_5_0_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0110;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_5_0;
+    var$3.$proxyCapture0111 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_5_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture0110 = var$1;
 }
 function ecdc_AssignmentsListComponent() {
     ecdb_ModelWidget.call(this);
@@ -12408,50 +12703,175 @@ function ecdc_AssignmentsListComponent_getAssignments($this) {
 }
 function juf_Supplier$proxy$4_5_0() {
     jl_Object.call(this);
-    this.$proxyCapture069 = null;
+    this.$proxyCapture0112 = null;
+}
+function juf_Supplier$proxy$4_5_0__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_5_0();
+    juf_Supplier$proxy$4_5_0__init_0(var_1, var_0);
+    return var_1;
 }
 function juf_Supplier$proxy$4_5_0_get(var$0) {
-    return ecdv_BaseView_getAssignments(var$0.$proxyCapture069);
+    return ecdv_BaseView_getAssignments(var$0.$proxyCapture0112);
+}
+function juf_Supplier$proxy$4_5_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture0112 = var$1;
 }
 function juf_Supplier$proxy$4_5_1() {
     jl_Object.call(this);
-    this.$proxyCapture070 = null;
+    this.$proxyCapture0113 = null;
+}
+function juf_Supplier$proxy$4_5_1__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_5_1();
+    juf_Supplier$proxy$4_5_1__init_0(var_1, var_0);
+    return var_1;
 }
 function juf_Supplier$proxy$4_5_1_get(var$0) {
-    return var$0.$proxyCapture070.$model0;
+    return var$0.$proxyCapture0113.$model0;
+}
+function juf_Supplier$proxy$4_5_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture0113 = var$1;
+}
+function otft_Modifier$proxy$4_5_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0114 = null;
+}
+function otft_Modifier$proxy$4_5_1__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_5_1();
+    otft_Modifier$proxy$4_5_1__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_5_1_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0114;
+    var$1 = otfca_ComputedAttribute__init_(var$1);
+    var$3 = new juf_Supplier$proxy$4_5_2;
+    var$3.$proxyCapture0115 = var$2;
+    var$1.$value4 = var$3;
+    var$1.$name3 = $rt_s(454);
+    return var$1;
+}
+function otft_Modifier$proxy$4_5_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture0114 = var$1;
+}
+function otft_Modifier$proxy$4_5_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0116 = null;
+}
+function otft_Modifier$proxy$4_5_2__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_5_2();
+    otft_Modifier$proxy$4_5_2__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_5_2_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0116;
+    var$1 = otfch_ValueChangeBinder__init_(var$1);
+    var$3 = new otft_ValueChangeListener$proxy$4_5_0;
+    var$3.$proxyCapture0117 = var$2;
+    var$1.$listener0 = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_5_2__init_0(var$0, var$1) {
+    var$0.$proxyCapture0116 = var$1;
+}
+function otft_Modifier$proxy$4_5_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0118 = null;
+}
+function otft_Modifier$proxy$4_5_3__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_5_3();
+    otft_Modifier$proxy$4_5_3__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_5_3_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0118;
+    var$1 = otfce_MouseBinder__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_5_1;
+    var$3.$proxyCapture0119 = var$2;
+    otfce_BaseEventBinder_setHandler(var$1, var$3);
+    var$1.$eventName = $rt_s(455);
+    return var$1;
+}
+function otft_Modifier$proxy$4_5_3__init_0(var$0, var$1) {
+    var$0.$proxyCapture0118 = var$1;
+}
+function otft_Modifier$proxy$4_5_4() {
+    jl_Object.call(this);
+    this.$proxyCapture0120 = null;
+}
+function otft_Modifier$proxy$4_5_4__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_5_4();
+    otft_Modifier$proxy$4_5_4__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_5_4_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0120;
+    var$1 = otfce_MouseBinder__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_5_2;
+    var$3.$proxyCapture0121 = var$2;
+    otfce_BaseEventBinder_setHandler(var$1, var$3);
+    var$1.$eventName = $rt_s(455);
+    return var$1;
+}
+function otft_Modifier$proxy$4_5_4__init_0(var$0, var$1) {
+    var$0.$proxyCapture0120 = var$1;
+}
+function otft_Modifier$proxy$4_5_5() {
+    jl_Object.call(this);
+    this.$proxyCapture0122 = null;
+}
+function otft_Modifier$proxy$4_5_5__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_5_5();
+    otft_Modifier$proxy$4_5_5__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_5_5_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0122;
+    var$1 = otfce_MouseBinder__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_5_3;
+    var$3.$proxyCapture0123 = var$2;
+    otfce_BaseEventBinder_setHandler(var$1, var$3);
+    var$1.$eventName = $rt_s(455);
+    return var$1;
+}
+function otft_Modifier$proxy$4_5_5__init_0(var$0, var$1) {
+    var$0.$proxyCapture0122 = var$1;
 }
 function otft_Modifier$proxy$4_6_0() {
     jl_Object.call(this);
-    this.$proxyCapture071 = null;
+    this.$proxyCapture065 = null;
 }
 function otft_Modifier$proxy$4_6_0_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture071;
+    var$2 = var$0.$proxyCapture065;
     var$1 = otfch_LinkComponent__init_(var$1);
     var$3 = new juf_Consumer$proxy$4_6_0;
-    var$3.$proxyCapture087 = var$2;
+    var$3.$proxyCapture0124 = var$2;
     var$1.$path = var$3;
     return var$1;
 }
 function otft_Modifier$proxy$4_6_1() {
     jl_Object.call(this);
-    this.$proxyCapture072 = null;
+    this.$proxyCapture066 = null;
 }
 function otft_Modifier$proxy$4_6_1_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture072;
+    var$2 = var$0.$proxyCapture066;
     var$1 = otfch_LinkComponent__init_(var$1);
     var$3 = new juf_Consumer$proxy$4_6_1;
-    var$3.$proxyCapture088 = var$2;
+    var$3.$proxyCapture0125 = var$2;
     var$1.$path = var$3;
     return var$1;
 }
 function juf_Supplier$proxy$4_6_0() {
     jl_Object.call(this);
-    this.$proxyCapture073 = null;
+    this.$proxyCapture067 = null;
 }
 function juf_Supplier$proxy$4_6_0_get(var$0) {
-    return var$0.$proxyCapture073.$tutorial.$name0;
+    return var$0.$proxyCapture067.$tutorial.$name0;
 }
 function ecdc_TutorialComponent() {
     ecdb_ModelWidget.call(this);
@@ -12469,124 +12889,66 @@ function ecdc_TutorialComponent_deleteTutorial($this) {
 }
 function juf_Supplier$proxy$4_6_1() {
     jl_Object.call(this);
-    this.$proxyCapture074 = null;
+    this.$proxyCapture068 = null;
 }
 function juf_Supplier$proxy$4_6_1_get(var$0) {
-    return var$0.$proxyCapture074.$model0;
+    return var$0.$proxyCapture068.$model0;
 }
 function juf_Supplier$proxy$4_6_2() {
     jl_Object.call(this);
-    this.$proxyCapture075 = null;
+    this.$proxyCapture069 = null;
 }
 function juf_Supplier$proxy$4_6_2_get(var$0) {
-    return var$0.$proxyCapture075.$tutorial;
+    return var$0.$proxyCapture069.$tutorial;
 }
 function otft_Modifier$proxy$4_7_0() {
     jl_Object.call(this);
-    this.$proxyCapture076 = null;
+    this.$proxyCapture070 = null;
 }
 function otft_Modifier$proxy$4_7_0_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture076;
+    var$2 = var$0.$proxyCapture070;
     var$1 = otfch_LinkComponent__init_(var$1);
     var$3 = new juf_Consumer$proxy$4_7_0;
-    var$3.$proxyCapture089 = var$2;
+    var$3.$proxyCapture0126 = var$2;
     var$1.$path = var$3;
     return var$1;
 }
-function otft_Modifier$proxy$4_7_1() {
-    jl_Object.call(this);
-    this.$proxyCapture077 = null;
+function ecdc_TutorialsListComponent() {
+    ecdb_ModelWidget.call(this);
+    this.$tutorialsSupplier = null;
 }
-function otft_Modifier$proxy$4_7_1_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture077;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_7_1;
-    var$3.$proxyCapture090 = var$2;
-    var$1.$path = var$3;
-    return var$1;
+function ecdc_TutorialsListComponent__init_(var_0) {
+    var var_1 = new ecdc_TutorialsListComponent();
+    ecdc_TutorialsListComponent__init_0(var_1, var_0);
+    return var_1;
+}
+function ecdc_TutorialsListComponent__init_0($this, $slot) {
+    otft_AbstractComponent__init_($this, $slot);
+}
+function ecdc_TutorialsListComponent_setTutorialsSupplier($this, $tutorialsSupplier) {
+    $this.$tutorialsSupplier = $tutorialsSupplier;
+}
+function ecdc_TutorialsListComponent_getTutorials($this) {
+    return $this.$tutorialsSupplier.$get1();
 }
 function juf_Supplier$proxy$4_7_0() {
     jl_Object.call(this);
-    this.$proxyCapture078 = null;
+    this.$proxyCapture071 = null;
 }
 function juf_Supplier$proxy$4_7_0_get(var$0) {
-    return var$0.$proxyCapture078.$assignment.$name1;
-}
-function ecdc_AssignmentComponent() {
-    ecdb_ModelWidget.call(this);
-    this.$assignmentSupplier = null;
-}
-function ecdc_AssignmentComponent_setAssignmentSupplier($this, $assignmentSupplier) {
-    $this.$assignmentSupplier = $assignmentSupplier;
-}
-function ecdc_AssignmentComponent_getAssignment($this) {
-    return $this.$assignmentSupplier.$get1();
-}
-function ecdc_AssignmentComponent_deleteAssignment($this) {
-    if (ecdm_Model_deleteAssignment(ecdb_ModelWidget_getModel($this), ecdc_AssignmentComponent_getAssignment($this).$id1))
-        ecd_Router$proxy$4_0_0_assignments(otfr_Routing_open($rt_cls(ecd_Router)));
+    return ecdv_BaseView_getTutorials(var$0.$proxyCapture071);
 }
 function juf_Supplier$proxy$4_7_1() {
     jl_Object.call(this);
-    this.$proxyCapture079 = null;
+    this.$proxyCapture072 = null;
 }
 function juf_Supplier$proxy$4_7_1_get(var$0) {
-    return var$0.$proxyCapture079.$assignment;
-}
-function juf_Supplier$proxy$4_7_2() {
-    jl_Object.call(this);
-    this.$proxyCapture080 = null;
-}
-function juf_Supplier$proxy$4_7_2_get(var$0) {
-    return var$0.$proxyCapture080.$model0;
-}
-function otft_Modifier$proxy$4_8_0() {
-    jl_Object.call(this);
-    this.$proxyCapture091 = null;
-}
-function otft_Modifier$proxy$4_8_0__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_8_0();
-    otft_Modifier$proxy$4_8_0__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_8_0_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture091;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_8_0;
-    var$3.$proxyCapture092 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_8_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture091 = var$1;
-}
-function otft_Modifier$proxy$4_8_1() {
-    jl_Object.call(this);
-    this.$proxyCapture093 = null;
-}
-function otft_Modifier$proxy$4_8_1__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_8_1();
-    otft_Modifier$proxy$4_8_1__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_8_1_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture093;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_8_1;
-    var$3.$proxyCapture094 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_8_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture093 = var$1;
+    return var$0.$proxyCapture072.$model0;
 }
 function juf_Supplier$proxy$4_8_0() {
     jl_Object.call(this);
-    this.$proxyCapture095 = null;
+    this.$proxyCapture0127 = null;
 }
 function juf_Supplier$proxy$4_8_0__init_(var_0) {
     var var_1 = new juf_Supplier$proxy$4_8_0();
@@ -12594,10 +12956,278 @@ function juf_Supplier$proxy$4_8_0__init_(var_0) {
     return var_1;
 }
 function juf_Supplier$proxy$4_8_0_get(var$0) {
-    return var$0.$proxyCapture095.$forum0.$title;
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0127;
+    var$2 = $rt_createArray(jl_Object, 1).data;
+    var$2[0] = jl_Integer_valueOf(ecdv_BaseView_getLectures(var$1).$size);
+    return jl_Integer_valueOf(var$2[0].$value);
 }
 function juf_Supplier$proxy$4_8_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture095 = var$1;
+    var$0.$proxyCapture0127 = var$1;
+}
+function juf_Supplier$proxy$4_8_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0128 = null;
+}
+function juf_Supplier$proxy$4_8_1__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_8_1();
+    juf_Supplier$proxy$4_8_1__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_8_1_get(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0128;
+    var$2 = $rt_createArray(jl_Object, 1).data;
+    var$2[0] = jl_Integer_valueOf(ecdv_BaseView_getTutorials(var$1).$size);
+    return jl_Integer_valueOf(var$2[0].$value);
+}
+function juf_Supplier$proxy$4_8_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture0128 = var$1;
+}
+function juf_Supplier$proxy$4_8_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0129 = null;
+}
+function juf_Supplier$proxy$4_8_2__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_8_2();
+    juf_Supplier$proxy$4_8_2__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_8_2_get(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0129;
+    var$2 = $rt_createArray(jl_Object, 1).data;
+    var$2[0] = jl_Integer_valueOf(ecdv_BaseView_getAssignments(var$1).$size);
+    return jl_Integer_valueOf(var$2[0].$value);
+}
+function juf_Supplier$proxy$4_8_2__init_0(var$0, var$1) {
+    var$0.$proxyCapture0129 = var$1;
+}
+function juf_Supplier$proxy$4_8_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0130 = null;
+}
+function juf_Supplier$proxy$4_8_3__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_8_3();
+    juf_Supplier$proxy$4_8_3__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_8_3_get(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0130;
+    var$2 = $rt_createArray(jl_Object, 1).data;
+    var$2[0] = jl_Integer_valueOf(ecdv_IndexView_getForumTopicsCount(var$1));
+    return jl_Integer_valueOf(var$2[0].$value);
+}
+function juf_Supplier$proxy$4_8_3__init_0(var$0, var$1) {
+    var$0.$proxyCapture0130 = var$1;
+}
+function juf_Supplier$proxy$4_8_4() {
+    jl_Object.call(this);
+    this.$proxyCapture0131 = null;
+}
+function juf_Supplier$proxy$4_8_4__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_8_4();
+    juf_Supplier$proxy$4_8_4__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_8_4_get(var$0) {
+    return ecdv_BaseView_getLectures(var$0.$proxyCapture0131);
+}
+function juf_Supplier$proxy$4_8_4__init_0(var$0, var$1) {
+    var$0.$proxyCapture0131 = var$1;
+}
+function juf_Supplier$proxy$4_8_5() {
+    jl_Object.call(this);
+    this.$proxyCapture0132 = null;
+}
+function juf_Supplier$proxy$4_8_5__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_8_5();
+    juf_Supplier$proxy$4_8_5__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_8_5_get(var$0) {
+    return var$0.$proxyCapture0132.$model0;
+}
+function juf_Supplier$proxy$4_8_5__init_0(var$0, var$1) {
+    var$0.$proxyCapture0132 = var$1;
+}
+function juf_Supplier$proxy$4_8_6() {
+    jl_Object.call(this);
+    this.$proxyCapture0133 = null;
+}
+function juf_Supplier$proxy$4_8_6__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_8_6();
+    juf_Supplier$proxy$4_8_6__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_8_6_get(var$0) {
+    return ecdv_BaseView_getTutorials(var$0.$proxyCapture0133);
+}
+function juf_Supplier$proxy$4_8_6__init_0(var$0, var$1) {
+    var$0.$proxyCapture0133 = var$1;
+}
+function juf_Supplier$proxy$4_8_7() {
+    jl_Object.call(this);
+    this.$proxyCapture0134 = null;
+}
+function juf_Supplier$proxy$4_8_7__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_8_7();
+    juf_Supplier$proxy$4_8_7__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_8_7_get(var$0) {
+    return var$0.$proxyCapture0134.$model0;
+}
+function juf_Supplier$proxy$4_8_7__init_0(var$0, var$1) {
+    var$0.$proxyCapture0134 = var$1;
+}
+function juf_Supplier$proxy$4_8_8() {
+    jl_Object.call(this);
+    this.$proxyCapture0135 = null;
+}
+function juf_Supplier$proxy$4_8_8__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_8_8();
+    juf_Supplier$proxy$4_8_8__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_8_8_get(var$0) {
+    return ecdv_BaseView_getAssignments(var$0.$proxyCapture0135);
+}
+function juf_Supplier$proxy$4_8_8__init_0(var$0, var$1) {
+    var$0.$proxyCapture0135 = var$1;
+}
+function juf_Supplier$proxy$4_8_9() {
+    jl_Object.call(this);
+    this.$proxyCapture0136 = null;
+}
+function juf_Supplier$proxy$4_8_9__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_8_9();
+    juf_Supplier$proxy$4_8_9__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_8_9_get(var$0) {
+    return var$0.$proxyCapture0136.$model0;
+}
+function juf_Supplier$proxy$4_8_9__init_0(var$0, var$1) {
+    var$0.$proxyCapture0136 = var$1;
+}
+function ecdc_ForumsListComponent() {
+    ecdb_RouteWidget.call(this);
+    this.$forumsSupplier = null;
+}
+function ecdc_ForumsListComponent__init_(var_0) {
+    var var_1 = new ecdc_ForumsListComponent();
+    ecdc_ForumsListComponent__init_0(var_1, var_0);
+    return var_1;
+}
+function ecdc_ForumsListComponent__init_0($this, $slot) {
+    otft_AbstractComponent__init_($this, $slot);
+}
+function ecdc_ForumsListComponent_setForumsSupplier($this, $forumsSupplier) {
+    $this.$forumsSupplier = $forumsSupplier;
+}
+function ecdc_ForumsListComponent_getForums($this) {
+    return $this.$forumsSupplier.$get1();
+}
+function juf_Supplier$proxy$4_8_10() {
+    jl_Object.call(this);
+    this.$proxyCapture0137 = null;
+}
+function juf_Supplier$proxy$4_8_10__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_8_10();
+    juf_Supplier$proxy$4_8_10__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_8_10_get(var$0) {
+    return ecdv_BaseView_getForums(var$0.$proxyCapture0137);
+}
+function juf_Supplier$proxy$4_8_10__init_0(var$0, var$1) {
+    var$0.$proxyCapture0137 = var$1;
+}
+function otft_Modifier$proxy$4_9_0() {
+    jl_Object.call(this);
+    this.$proxyCapture073 = null;
+}
+function otft_Modifier$proxy$4_9_0_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture073;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_9_0;
+    var$3.$proxyCapture0138 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function juf_Supplier$proxy$4_9_0() {
+    jl_Object.call(this);
+    this.$proxyCapture074 = null;
+}
+function juf_Supplier$proxy$4_9_0_get(var$0) {
+    return ecdv_BaseView_getLectures(var$0.$proxyCapture074);
+}
+function juf_Supplier$proxy$4_9_1() {
+    jl_Object.call(this);
+    this.$proxyCapture075 = null;
+}
+function juf_Supplier$proxy$4_9_1_get(var$0) {
+    return var$0.$proxyCapture075.$model0;
+}
+function otft_Modifier$proxy$4_10_0() {
+    jl_Object.call(this);
+    this.$proxyCapture0139 = null;
+}
+function otft_Modifier$proxy$4_10_0__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_10_0();
+    otft_Modifier$proxy$4_10_0__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_10_0_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0139;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_10_0;
+    var$3.$proxyCapture0140 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_10_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture0139 = var$1;
+}
+function otft_Modifier$proxy$4_10_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0141 = null;
+}
+function otft_Modifier$proxy$4_10_1__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_10_1();
+    otft_Modifier$proxy$4_10_1__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_10_1_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0141;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_10_1;
+    var$3.$proxyCapture0142 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_10_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture0141 = var$1;
+}
+function juf_Supplier$proxy$4_10_0() {
+    jl_Object.call(this);
+    this.$proxyCapture0143 = null;
+}
+function juf_Supplier$proxy$4_10_0__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_10_0();
+    juf_Supplier$proxy$4_10_0__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_10_0_get(var$0) {
+    return var$0.$proxyCapture0143.$forum0.$title;
+}
+function juf_Supplier$proxy$4_10_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture0143 = var$1;
 }
 function otfcs_ChooseComponent() {
     var a = this; otft_AbstractComponent.call(a);
@@ -12644,9 +13274,9 @@ function otfcs_ChooseComponent_render($this) {
         }
         $this.$currentClause = $clause;
         if ($this.$currentClause !== null)
-            $this.$child = $this.$currentClause.$content2.$create0();
+            $this.$child = $this.$currentClause.$content3.$create0();
         else if ($this.$otherwiseClause !== null)
-            $this.$child = $this.$otherwiseClause.$content3.$create0();
+            $this.$child = $this.$otherwiseClause.$content4.$create0();
         otft_Slot_append($this.$slot, $this.$child.$slot);
         $this.$dirty = 0;
     }
@@ -12663,7 +13293,7 @@ function otfcs_ChooseComponent_destroy($this) {
 function otfcs_ChooseClause() {
     var a = this; jl_Object.call(a);
     a.$predicate = null;
-    a.$content2 = null;
+    a.$content3 = null;
 }
 function otfcs_ChooseClause__init_() {
     var var_0 = new otfcs_ChooseClause();
@@ -12677,28 +13307,28 @@ function otfcs_ChooseClause_setPredicate($this, $predicate) {
     $this.$predicate = $predicate;
 }
 function otfcs_ChooseClause_setContent($this, $content) {
-    $this.$content2 = $content;
+    $this.$content3 = $content;
 }
 function juf_BooleanSupplier() {
 }
-function juf_BooleanSupplier$proxy$4_8_0() {
+function juf_BooleanSupplier$proxy$4_10_0() {
     jl_Object.call(this);
-    this.$proxyCapture096 = null;
+    this.$proxyCapture0144 = null;
 }
-function juf_BooleanSupplier$proxy$4_8_0__init_(var_0) {
-    var var_1 = new juf_BooleanSupplier$proxy$4_8_0();
-    juf_BooleanSupplier$proxy$4_8_0__init_0(var_1, var_0);
+function juf_BooleanSupplier$proxy$4_10_0__init_(var_0) {
+    var var_1 = new juf_BooleanSupplier$proxy$4_10_0();
+    juf_BooleanSupplier$proxy$4_10_0__init_0(var_1, var_0);
     return var_1;
 }
-function juf_BooleanSupplier$proxy$4_8_0_getAsBoolean(var$0) {
-    return var$0.$proxyCapture096.$forum0.$topics.$size ? 0 : 1;
+function juf_BooleanSupplier$proxy$4_10_0_getAsBoolean(var$0) {
+    return var$0.$proxyCapture0144.$forum0.$topics.$size ? 0 : 1;
 }
-function juf_BooleanSupplier$proxy$4_8_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture096 = var$1;
+function juf_BooleanSupplier$proxy$4_10_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture0144 = var$1;
 }
 function otfcs_OtherwiseClause() {
     jl_Object.call(this);
-    this.$content3 = null;
+    this.$content4 = null;
 }
 function otfcs_OtherwiseClause__init_() {
     var var_0 = new otfcs_OtherwiseClause();
@@ -12709,472 +13339,173 @@ function otfcs_OtherwiseClause__init_0($this) {
     return;
 }
 function otfcs_OtherwiseClause_setContent($this, $content) {
-    $this.$content3 = $content;
+    $this.$content4 = $content;
 }
-function otft_Fragment$proxy$4_8_1() {
+function otft_Fragment$proxy$4_10_1() {
     jl_Object.call(this);
 }
-function otft_Fragment$proxy$4_8_1__init_() {
-    var var_0 = new otft_Fragment$proxy$4_8_1();
-    otft_Fragment$proxy$4_8_1__init_0(var_0);
+function otft_Fragment$proxy$4_10_1__init_() {
+    var var_0 = new otft_Fragment$proxy$4_10_1();
+    otft_Fragment$proxy$4_10_1__init_0(var_0);
     return var_0;
 }
-function otft_Fragment$proxy$4_8_1_create(var$0) {
-    return otft_DomComponentTemplate__init_(new otft_DomComponentHandler$proxy$4_8_1);
+function otft_Fragment$proxy$4_10_1_create(var$0) {
+    return otft_DomComponentTemplate__init_(new otft_DomComponentHandler$proxy$4_10_1);
 }
-function otft_Fragment$proxy$4_8_1__init_0(var$0) {
+function otft_Fragment$proxy$4_10_1__init_0(var$0) {
     return;
 }
-function otft_Fragment$proxy$4_8_2() {
+function otft_Fragment$proxy$4_10_2() {
     jl_Object.call(this);
-    this.$proxyCapture097 = null;
+    this.$proxyCapture0145 = null;
 }
-function otft_Fragment$proxy$4_8_2__init_(var_0) {
-    var var_1 = new otft_Fragment$proxy$4_8_2();
-    otft_Fragment$proxy$4_8_2__init_0(var_1, var_0);
+function otft_Fragment$proxy$4_10_2__init_(var_0) {
+    var var_1 = new otft_Fragment$proxy$4_10_2();
+    otft_Fragment$proxy$4_10_2__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Fragment$proxy$4_8_2_create(var$0) {
+function otft_Fragment$proxy$4_10_2_create(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture097;
-    var$2 = new otft_DomComponentHandler$proxy$4_8_2;
-    var$2.$proxyCapture098 = var$1;
+    var$1 = var$0.$proxyCapture0145;
+    var$2 = new otft_DomComponentHandler$proxy$4_10_2;
+    var$2.$proxyCapture0146 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_Fragment$proxy$4_8_2__init_0(var$0, var$1) {
-    var$0.$proxyCapture097 = var$1;
+function otft_Fragment$proxy$4_10_2__init_0(var$0, var$1) {
+    var$0.$proxyCapture0145 = var$1;
 }
-function otft_Modifier$proxy$4_8_6() {
+function otft_Modifier$proxy$4_10_6() {
     jl_Object.call(this);
-    this.$proxyCapture099 = null;
+    this.$proxyCapture0147 = null;
 }
-function otft_Modifier$proxy$4_8_6__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_8_6();
-    otft_Modifier$proxy$4_8_6__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_10_6__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_10_6();
+    otft_Modifier$proxy$4_10_6__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_8_6_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_10_6_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture099;
+    var$2 = var$0.$proxyCapture0147;
     var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_8_12;
-    var$3.$proxyCapture0100 = var$2;
-    var$1.$value3 = var$3;
+    var$3 = new juf_Supplier$proxy$4_10_12;
+    var$3.$proxyCapture0148 = var$2;
+    var$1.$value4 = var$3;
     var$1.$name3 = $rt_s(454);
     return var$1;
 }
-function otft_Modifier$proxy$4_8_6__init_0(var$0, var$1) {
-    var$0.$proxyCapture099 = var$1;
+function otft_Modifier$proxy$4_10_6__init_0(var$0, var$1) {
+    var$0.$proxyCapture0147 = var$1;
 }
-function otft_Modifier$proxy$4_8_7() {
+function otft_Modifier$proxy$4_10_7() {
     jl_Object.call(this);
-    this.$proxyCapture0101 = null;
+    this.$proxyCapture0149 = null;
 }
-function otft_Modifier$proxy$4_8_7__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_8_7();
-    otft_Modifier$proxy$4_8_7__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_10_7__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_10_7();
+    otft_Modifier$proxy$4_10_7__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_8_7_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_10_7_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0101;
-    var$1 = otfch_ValueChangeBinder__init_(var$1);
-    var$3 = new otft_ValueChangeListener$proxy$4_8_0;
-    var$3.$proxyCapture0102 = var$2;
-    var$1.$listener0 = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_8_7__init_0(var$0, var$1) {
-    var$0.$proxyCapture0101 = var$1;
-}
-function otft_Modifier$proxy$4_8_8() {
-    jl_Object.call(this);
-    this.$proxyCapture0103 = null;
-}
-function otft_Modifier$proxy$4_8_8__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_8_8();
-    otft_Modifier$proxy$4_8_8__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_8_8_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0103;
-    var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_8_13;
-    var$3.$proxyCapture0104 = var$2;
-    var$1.$value3 = var$3;
-    var$1.$name3 = $rt_s(454);
-    return var$1;
-}
-function otft_Modifier$proxy$4_8_8__init_0(var$0, var$1) {
-    var$0.$proxyCapture0103 = var$1;
-}
-function otft_Modifier$proxy$4_8_9() {
-    jl_Object.call(this);
-    this.$proxyCapture0105 = null;
-}
-function otft_Modifier$proxy$4_8_9__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_8_9();
-    otft_Modifier$proxy$4_8_9__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_8_9_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0105;
-    var$1 = otfch_ValueChangeBinder__init_(var$1);
-    var$3 = new otft_ValueChangeListener$proxy$4_8_1;
-    var$3.$proxyCapture0106 = var$2;
-    var$1.$listener0 = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_8_9__init_0(var$0, var$1) {
-    var$0.$proxyCapture0105 = var$1;
-}
-function otft_Modifier$proxy$4_8_10() {
-    jl_Object.call(this);
-    this.$proxyCapture0107 = null;
-}
-function otft_Modifier$proxy$4_8_10__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_8_10();
-    otft_Modifier$proxy$4_8_10__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_8_10_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0107;
-    var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_8_4;
-    var$3.$proxyCapture0108 = var$2;
-    otfce_BaseEventBinder_setHandler(var$1, var$3);
-    var$1.$eventName = $rt_s(455);
-    return var$1;
-}
-function otft_Modifier$proxy$4_8_10__init_0(var$0, var$1) {
-    var$0.$proxyCapture0107 = var$1;
-}
-function otft_Modifier$proxy$4_9_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0109 = null;
-}
-function otft_Modifier$proxy$4_9_0__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_9_0();
-    otft_Modifier$proxy$4_9_0__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_9_0_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0109;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_9_0;
-    var$3.$proxyCapture0110 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_9_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0109 = var$1;
-}
-function juf_Supplier$proxy$4_9_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0111 = null;
-}
-function juf_Supplier$proxy$4_9_0__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_9_0();
-    juf_Supplier$proxy$4_9_0__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_9_0_get(var$0) {
-    return ecdv_BaseView_getLectures(var$0.$proxyCapture0111);
-}
-function juf_Supplier$proxy$4_9_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0111 = var$1;
-}
-function juf_Supplier$proxy$4_9_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0112 = null;
-}
-function juf_Supplier$proxy$4_9_1__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_9_1();
-    juf_Supplier$proxy$4_9_1__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_9_1_get(var$0) {
-    return var$0.$proxyCapture0112.$model0;
-}
-function juf_Supplier$proxy$4_9_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture0112 = var$1;
-}
-function otft_Modifier$proxy$4_9_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0113 = null;
-}
-function otft_Modifier$proxy$4_9_1__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_9_1();
-    otft_Modifier$proxy$4_9_1__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_9_1_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0113;
-    var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_9_2;
-    var$3.$proxyCapture0114 = var$2;
-    var$1.$value3 = var$3;
-    var$1.$name3 = $rt_s(454);
-    return var$1;
-}
-function otft_Modifier$proxy$4_9_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture0113 = var$1;
-}
-function otft_Modifier$proxy$4_9_2() {
-    jl_Object.call(this);
-    this.$proxyCapture0115 = null;
-}
-function otft_Modifier$proxy$4_9_2__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_9_2();
-    otft_Modifier$proxy$4_9_2__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_9_2_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0115;
-    var$1 = otfch_ValueChangeBinder__init_(var$1);
-    var$3 = new otft_ValueChangeListener$proxy$4_9_0;
-    var$3.$proxyCapture0116 = var$2;
-    var$1.$listener0 = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_9_2__init_0(var$0, var$1) {
-    var$0.$proxyCapture0115 = var$1;
-}
-function otft_Modifier$proxy$4_9_3() {
-    jl_Object.call(this);
-    this.$proxyCapture0117 = null;
-}
-function otft_Modifier$proxy$4_9_3__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_9_3();
-    otft_Modifier$proxy$4_9_3__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_9_3_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0117;
-    var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_9_1;
-    var$3.$proxyCapture0118 = var$2;
-    otfce_BaseEventBinder_setHandler(var$1, var$3);
-    var$1.$eventName = $rt_s(455);
-    return var$1;
-}
-function otft_Modifier$proxy$4_9_3__init_0(var$0, var$1) {
-    var$0.$proxyCapture0117 = var$1;
-}
-function otft_Modifier$proxy$4_9_4() {
-    jl_Object.call(this);
-    this.$proxyCapture0119 = null;
-}
-function otft_Modifier$proxy$4_9_4__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_9_4();
-    otft_Modifier$proxy$4_9_4__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_9_4_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0119;
-    var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_9_2;
-    var$3.$proxyCapture0120 = var$2;
-    otfce_BaseEventBinder_setHandler(var$1, var$3);
-    var$1.$eventName = $rt_s(455);
-    return var$1;
-}
-function otft_Modifier$proxy$4_9_4__init_0(var$0, var$1) {
-    var$0.$proxyCapture0119 = var$1;
-}
-function otft_Modifier$proxy$4_9_5() {
-    jl_Object.call(this);
-    this.$proxyCapture0121 = null;
-}
-function otft_Modifier$proxy$4_9_5__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_9_5();
-    otft_Modifier$proxy$4_9_5__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_9_5_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0121;
-    var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_9_3;
-    var$3.$proxyCapture0122 = var$2;
-    otfce_BaseEventBinder_setHandler(var$1, var$3);
-    var$1.$eventName = $rt_s(455);
-    return var$1;
-}
-function otft_Modifier$proxy$4_9_5__init_0(var$0, var$1) {
-    var$0.$proxyCapture0121 = var$1;
-}
-function otft_Modifier$proxy$4_10_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0123 = null;
-}
-function otft_Modifier$proxy$4_10_0__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_10_0();
-    otft_Modifier$proxy$4_10_0__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_10_0_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0123;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_10_0;
-    var$3.$proxyCapture0124 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_10_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0123 = var$1;
-}
-function juf_Supplier$proxy$4_10_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0125 = null;
-}
-function juf_Supplier$proxy$4_10_0__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_10_0();
-    juf_Supplier$proxy$4_10_0__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_10_0_get(var$0) {
-    return ecdv_BaseView_getAssignments(var$0.$proxyCapture0125);
-}
-function juf_Supplier$proxy$4_10_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0125 = var$1;
-}
-function juf_Supplier$proxy$4_10_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0126 = null;
-}
-function juf_Supplier$proxy$4_10_1__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_10_1();
-    juf_Supplier$proxy$4_10_1__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_10_1_get(var$0) {
-    return var$0.$proxyCapture0126.$model0;
-}
-function juf_Supplier$proxy$4_10_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture0126 = var$1;
-}
-function otft_Modifier$proxy$4_10_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0127 = null;
-}
-function otft_Modifier$proxy$4_10_1__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_10_1();
-    otft_Modifier$proxy$4_10_1__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_10_1_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0127;
-    var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_10_2;
-    var$3.$proxyCapture0128 = var$2;
-    var$1.$value3 = var$3;
-    var$1.$name3 = $rt_s(454);
-    return var$1;
-}
-function otft_Modifier$proxy$4_10_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture0127 = var$1;
-}
-function otft_Modifier$proxy$4_10_2() {
-    jl_Object.call(this);
-    this.$proxyCapture0129 = null;
-}
-function otft_Modifier$proxy$4_10_2__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_10_2();
-    otft_Modifier$proxy$4_10_2__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_10_2_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0129;
+    var$2 = var$0.$proxyCapture0149;
     var$1 = otfch_ValueChangeBinder__init_(var$1);
     var$3 = new otft_ValueChangeListener$proxy$4_10_0;
-    var$3.$proxyCapture0130 = var$2;
+    var$3.$proxyCapture0150 = var$2;
     var$1.$listener0 = var$3;
     return var$1;
 }
-function otft_Modifier$proxy$4_10_2__init_0(var$0, var$1) {
-    var$0.$proxyCapture0129 = var$1;
+function otft_Modifier$proxy$4_10_7__init_0(var$0, var$1) {
+    var$0.$proxyCapture0149 = var$1;
 }
-function otft_Modifier$proxy$4_10_3() {
+function otft_Modifier$proxy$4_10_8() {
     jl_Object.call(this);
-    this.$proxyCapture0131 = null;
+    this.$proxyCapture0151 = null;
 }
-function otft_Modifier$proxy$4_10_3__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_10_3();
-    otft_Modifier$proxy$4_10_3__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_10_8__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_10_8();
+    otft_Modifier$proxy$4_10_8__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_10_3_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_10_8_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0131;
+    var$2 = var$0.$proxyCapture0151;
+    var$1 = otfca_ComputedAttribute__init_(var$1);
+    var$3 = new juf_Supplier$proxy$4_10_13;
+    var$3.$proxyCapture0152 = var$2;
+    var$1.$value4 = var$3;
+    var$1.$name3 = $rt_s(454);
+    return var$1;
+}
+function otft_Modifier$proxy$4_10_8__init_0(var$0, var$1) {
+    var$0.$proxyCapture0151 = var$1;
+}
+function otft_Modifier$proxy$4_10_9() {
+    jl_Object.call(this);
+    this.$proxyCapture0153 = null;
+}
+function otft_Modifier$proxy$4_10_9__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_10_9();
+    otft_Modifier$proxy$4_10_9__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_10_9_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0153;
+    var$1 = otfch_ValueChangeBinder__init_(var$1);
+    var$3 = new otft_ValueChangeListener$proxy$4_10_1;
+    var$3.$proxyCapture0154 = var$2;
+    var$1.$listener0 = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_10_9__init_0(var$0, var$1) {
+    var$0.$proxyCapture0153 = var$1;
+}
+function otft_Modifier$proxy$4_10_10() {
+    jl_Object.call(this);
+    this.$proxyCapture0155 = null;
+}
+function otft_Modifier$proxy$4_10_10__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_10_10();
+    otft_Modifier$proxy$4_10_10__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_10_10_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0155;
     var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_10_1;
-    var$3.$proxyCapture0132 = var$2;
+    var$3 = new juf_Consumer$proxy$4_10_4;
+    var$3.$proxyCapture0156 = var$2;
     otfce_BaseEventBinder_setHandler(var$1, var$3);
     var$1.$eventName = $rt_s(455);
     return var$1;
 }
-function otft_Modifier$proxy$4_10_3__init_0(var$0, var$1) {
-    var$0.$proxyCapture0131 = var$1;
+function otft_Modifier$proxy$4_10_10__init_0(var$0, var$1) {
+    var$0.$proxyCapture0155 = var$1;
 }
-function otft_Modifier$proxy$4_10_4() {
+function otft_Modifier$proxy$4_11_0() {
     jl_Object.call(this);
-    this.$proxyCapture0133 = null;
+    this.$proxyCapture0157 = null;
 }
-function otft_Modifier$proxy$4_10_4__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_10_4();
-    otft_Modifier$proxy$4_10_4__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_11_0__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_11_0();
+    otft_Modifier$proxy$4_11_0__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_10_4_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_11_0_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0133;
-    var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_10_2;
-    var$3.$proxyCapture0134 = var$2;
-    otfce_BaseEventBinder_setHandler(var$1, var$3);
-    var$1.$eventName = $rt_s(455);
+    var$2 = var$0.$proxyCapture0157;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_11_0;
+    var$3.$proxyCapture0158 = var$2;
+    var$1.$path = var$3;
     return var$1;
 }
-function otft_Modifier$proxy$4_10_4__init_0(var$0, var$1) {
-    var$0.$proxyCapture0133 = var$1;
-}
-function otft_Modifier$proxy$4_10_5() {
-    jl_Object.call(this);
-    this.$proxyCapture0135 = null;
-}
-function otft_Modifier$proxy$4_10_5__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_10_5();
-    otft_Modifier$proxy$4_10_5__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_10_5_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0135;
-    var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_10_3;
-    var$3.$proxyCapture0136 = var$2;
-    otfce_BaseEventBinder_setHandler(var$1, var$3);
-    var$1.$eventName = $rt_s(455);
-    return var$1;
-}
-function otft_Modifier$proxy$4_10_5__init_0(var$0, var$1) {
-    var$0.$proxyCapture0135 = var$1;
+function otft_Modifier$proxy$4_11_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture0157 = var$1;
 }
 function juf_Supplier$proxy$4_11_0() {
     jl_Object.call(this);
-    this.$proxyCapture0137 = null;
+    this.$proxyCapture0159 = null;
 }
 function juf_Supplier$proxy$4_11_0__init_(var_0) {
     var var_1 = new juf_Supplier$proxy$4_11_0();
@@ -13182,18 +13513,14 @@ function juf_Supplier$proxy$4_11_0__init_(var_0) {
     return var_1;
 }
 function juf_Supplier$proxy$4_11_0_get(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0137;
-    var$2 = $rt_createArray(jl_Object, 1).data;
-    var$2[0] = jl_Integer_valueOf(ecdv_BaseView_getLectures(var$1).$size);
-    return jl_Integer_valueOf(var$2[0].$value);
+    return ecdv_BaseView_getTutorials(var$0.$proxyCapture0159);
 }
 function juf_Supplier$proxy$4_11_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0137 = var$1;
+    var$0.$proxyCapture0159 = var$1;
 }
 function juf_Supplier$proxy$4_11_1() {
     jl_Object.call(this);
-    this.$proxyCapture0138 = null;
+    this.$proxyCapture0160 = null;
 }
 function juf_Supplier$proxy$4_11_1__init_(var_0) {
     var var_1 = new juf_Supplier$proxy$4_11_1();
@@ -13201,493 +13528,166 @@ function juf_Supplier$proxy$4_11_1__init_(var_0) {
     return var_1;
 }
 function juf_Supplier$proxy$4_11_1_get(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0138;
-    var$2 = $rt_createArray(jl_Object, 1).data;
-    var$2[0] = jl_Integer_valueOf(ecdv_BaseView_getTutorials(var$1).$size);
-    return jl_Integer_valueOf(var$2[0].$value);
+    return var$0.$proxyCapture0160.$model0;
 }
 function juf_Supplier$proxy$4_11_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture0138 = var$1;
+    var$0.$proxyCapture0160 = var$1;
 }
-function juf_Supplier$proxy$4_11_2() {
+function otft_Modifier$proxy$4_11_1() {
     jl_Object.call(this);
-    this.$proxyCapture0139 = null;
+    this.$proxyCapture0161 = null;
 }
-function juf_Supplier$proxy$4_11_2__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_11_2();
-    juf_Supplier$proxy$4_11_2__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_11_1__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_11_1();
+    otft_Modifier$proxy$4_11_1__init_0(var_1, var_0);
     return var_1;
 }
-function juf_Supplier$proxy$4_11_2_get(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0139;
-    var$2 = $rt_createArray(jl_Object, 1).data;
-    var$2[0] = jl_Integer_valueOf(ecdv_BaseView_getAssignments(var$1).$size);
-    return jl_Integer_valueOf(var$2[0].$value);
-}
-function juf_Supplier$proxy$4_11_2__init_0(var$0, var$1) {
-    var$0.$proxyCapture0139 = var$1;
-}
-function juf_Supplier$proxy$4_11_3() {
-    jl_Object.call(this);
-    this.$proxyCapture0140 = null;
-}
-function juf_Supplier$proxy$4_11_3__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_11_3();
-    juf_Supplier$proxy$4_11_3__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_11_3_get(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0140;
-    var$2 = $rt_createArray(jl_Object, 1).data;
-    var$2[0] = jl_Integer_valueOf(ecdv_IndexView_getForumTopicsCount(var$1));
-    return jl_Integer_valueOf(var$2[0].$value);
-}
-function juf_Supplier$proxy$4_11_3__init_0(var$0, var$1) {
-    var$0.$proxyCapture0140 = var$1;
-}
-function juf_Supplier$proxy$4_11_4() {
-    jl_Object.call(this);
-    this.$proxyCapture0141 = null;
-}
-function juf_Supplier$proxy$4_11_4__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_11_4();
-    juf_Supplier$proxy$4_11_4__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_11_4_get(var$0) {
-    return ecdv_BaseView_getLectures(var$0.$proxyCapture0141);
-}
-function juf_Supplier$proxy$4_11_4__init_0(var$0, var$1) {
-    var$0.$proxyCapture0141 = var$1;
-}
-function juf_Supplier$proxy$4_11_5() {
-    jl_Object.call(this);
-    this.$proxyCapture0142 = null;
-}
-function juf_Supplier$proxy$4_11_5__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_11_5();
-    juf_Supplier$proxy$4_11_5__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_11_5_get(var$0) {
-    return var$0.$proxyCapture0142.$model0;
-}
-function juf_Supplier$proxy$4_11_5__init_0(var$0, var$1) {
-    var$0.$proxyCapture0142 = var$1;
-}
-function juf_Supplier$proxy$4_11_6() {
-    jl_Object.call(this);
-    this.$proxyCapture0143 = null;
-}
-function juf_Supplier$proxy$4_11_6__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_11_6();
-    juf_Supplier$proxy$4_11_6__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_11_6_get(var$0) {
-    return ecdv_BaseView_getTutorials(var$0.$proxyCapture0143);
-}
-function juf_Supplier$proxy$4_11_6__init_0(var$0, var$1) {
-    var$0.$proxyCapture0143 = var$1;
-}
-function juf_Supplier$proxy$4_11_7() {
-    jl_Object.call(this);
-    this.$proxyCapture0144 = null;
-}
-function juf_Supplier$proxy$4_11_7__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_11_7();
-    juf_Supplier$proxy$4_11_7__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_11_7_get(var$0) {
-    return var$0.$proxyCapture0144.$model0;
-}
-function juf_Supplier$proxy$4_11_7__init_0(var$0, var$1) {
-    var$0.$proxyCapture0144 = var$1;
-}
-function juf_Supplier$proxy$4_11_8() {
-    jl_Object.call(this);
-    this.$proxyCapture0145 = null;
-}
-function juf_Supplier$proxy$4_11_8__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_11_8();
-    juf_Supplier$proxy$4_11_8__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_11_8_get(var$0) {
-    return ecdv_BaseView_getAssignments(var$0.$proxyCapture0145);
-}
-function juf_Supplier$proxy$4_11_8__init_0(var$0, var$1) {
-    var$0.$proxyCapture0145 = var$1;
-}
-function juf_Supplier$proxy$4_11_9() {
-    jl_Object.call(this);
-    this.$proxyCapture0146 = null;
-}
-function juf_Supplier$proxy$4_11_9__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_11_9();
-    juf_Supplier$proxy$4_11_9__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_11_9_get(var$0) {
-    return var$0.$proxyCapture0146.$model0;
-}
-function juf_Supplier$proxy$4_11_9__init_0(var$0, var$1) {
-    var$0.$proxyCapture0146 = var$1;
-}
-function juf_Supplier$proxy$4_11_10() {
-    jl_Object.call(this);
-    this.$proxyCapture0147 = null;
-}
-function juf_Supplier$proxy$4_11_10__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_11_10();
-    juf_Supplier$proxy$4_11_10__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_11_10_get(var$0) {
-    return ecdv_BaseView_getForums(var$0.$proxyCapture0147);
-}
-function juf_Supplier$proxy$4_11_10__init_0(var$0, var$1) {
-    var$0.$proxyCapture0147 = var$1;
-}
-function otft_Modifier$proxy$4_12_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0148 = null;
-}
-function otft_Modifier$proxy$4_12_0__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_12_0();
-    otft_Modifier$proxy$4_12_0__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_12_0_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_11_1_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0148;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_12_0;
-    var$3.$proxyCapture0149 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_12_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0148 = var$1;
-}
-function juf_Supplier$proxy$4_12_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0150 = null;
-}
-function juf_Supplier$proxy$4_12_0__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_12_0();
-    juf_Supplier$proxy$4_12_0__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_12_0_get(var$0) {
-    return ecdv_BaseView_getTutorials(var$0.$proxyCapture0150);
-}
-function juf_Supplier$proxy$4_12_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0150 = var$1;
-}
-function juf_Supplier$proxy$4_12_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0151 = null;
-}
-function juf_Supplier$proxy$4_12_1__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_12_1();
-    juf_Supplier$proxy$4_12_1__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_12_1_get(var$0) {
-    return var$0.$proxyCapture0151.$model0;
-}
-function juf_Supplier$proxy$4_12_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture0151 = var$1;
-}
-function otft_Modifier$proxy$4_12_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0152 = null;
-}
-function otft_Modifier$proxy$4_12_1__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_12_1();
-    otft_Modifier$proxy$4_12_1__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_12_1_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0152;
+    var$2 = var$0.$proxyCapture0161;
     var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_12_2;
-    var$3.$proxyCapture0153 = var$2;
-    var$1.$value3 = var$3;
+    var$3 = new juf_Supplier$proxy$4_11_2;
+    var$3.$proxyCapture0162 = var$2;
+    var$1.$value4 = var$3;
     var$1.$name3 = $rt_s(454);
     return var$1;
 }
-function otft_Modifier$proxy$4_12_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture0152 = var$1;
+function otft_Modifier$proxy$4_11_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture0161 = var$1;
 }
-function otft_Modifier$proxy$4_12_2() {
+function otft_Modifier$proxy$4_11_2() {
     jl_Object.call(this);
-    this.$proxyCapture0154 = null;
+    this.$proxyCapture0163 = null;
 }
-function otft_Modifier$proxy$4_12_2__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_12_2();
-    otft_Modifier$proxy$4_12_2__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_11_2__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_11_2();
+    otft_Modifier$proxy$4_11_2__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_12_2_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_11_2_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0154;
+    var$2 = var$0.$proxyCapture0163;
     var$1 = otfch_ValueChangeBinder__init_(var$1);
-    var$3 = new otft_ValueChangeListener$proxy$4_12_0;
-    var$3.$proxyCapture0155 = var$2;
+    var$3 = new otft_ValueChangeListener$proxy$4_11_0;
+    var$3.$proxyCapture0164 = var$2;
     var$1.$listener0 = var$3;
     return var$1;
 }
-function otft_Modifier$proxy$4_12_2__init_0(var$0, var$1) {
-    var$0.$proxyCapture0154 = var$1;
+function otft_Modifier$proxy$4_11_2__init_0(var$0, var$1) {
+    var$0.$proxyCapture0163 = var$1;
 }
-function otft_Modifier$proxy$4_12_3() {
+function otft_Modifier$proxy$4_11_3() {
     jl_Object.call(this);
-    this.$proxyCapture0156 = null;
+    this.$proxyCapture0165 = null;
 }
-function otft_Modifier$proxy$4_12_3__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_12_3();
-    otft_Modifier$proxy$4_12_3__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_11_3__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_11_3();
+    otft_Modifier$proxy$4_11_3__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_12_3_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_11_3_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0156;
+    var$2 = var$0.$proxyCapture0165;
     var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_12_1;
-    var$3.$proxyCapture0157 = var$2;
+    var$3 = new juf_Consumer$proxy$4_11_1;
+    var$3.$proxyCapture0166 = var$2;
     otfce_BaseEventBinder_setHandler(var$1, var$3);
     var$1.$eventName = $rt_s(455);
     return var$1;
 }
-function otft_Modifier$proxy$4_12_3__init_0(var$0, var$1) {
-    var$0.$proxyCapture0156 = var$1;
+function otft_Modifier$proxy$4_11_3__init_0(var$0, var$1) {
+    var$0.$proxyCapture0165 = var$1;
 }
-function otft_Modifier$proxy$4_12_4() {
+function otft_Modifier$proxy$4_11_4() {
     jl_Object.call(this);
-    this.$proxyCapture0158 = null;
+    this.$proxyCapture0167 = null;
 }
-function otft_Modifier$proxy$4_12_4__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_12_4();
-    otft_Modifier$proxy$4_12_4__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_11_4__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_11_4();
+    otft_Modifier$proxy$4_11_4__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_12_4_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_11_4_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0158;
+    var$2 = var$0.$proxyCapture0167;
     var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_12_2;
-    var$3.$proxyCapture0159 = var$2;
+    var$3 = new juf_Consumer$proxy$4_11_2;
+    var$3.$proxyCapture0168 = var$2;
     otfce_BaseEventBinder_setHandler(var$1, var$3);
     var$1.$eventName = $rt_s(455);
     return var$1;
 }
-function otft_Modifier$proxy$4_12_4__init_0(var$0, var$1) {
-    var$0.$proxyCapture0158 = var$1;
+function otft_Modifier$proxy$4_11_4__init_0(var$0, var$1) {
+    var$0.$proxyCapture0167 = var$1;
 }
-function otft_Modifier$proxy$4_12_5() {
-    jl_Object.call(this);
-    this.$proxyCapture0160 = null;
-}
-function otft_Modifier$proxy$4_12_5__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_12_5();
-    otft_Modifier$proxy$4_12_5__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_12_5_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0160;
-    var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_12_3;
-    var$3.$proxyCapture0161 = var$2;
-    otfce_BaseEventBinder_setHandler(var$1, var$3);
-    var$1.$eventName = $rt_s(455);
-    return var$1;
-}
-function otft_Modifier$proxy$4_12_5__init_0(var$0, var$1) {
-    var$0.$proxyCapture0160 = var$1;
-}
-function otft_Modifier$proxy$4_13_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0162 = null;
-}
-function otft_Modifier$proxy$4_13_0__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_0();
-    otft_Modifier$proxy$4_13_0__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_13_0_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0162;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_13_0;
-    var$3.$proxyCapture0163 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_13_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0162 = var$1;
-}
-function otft_Modifier$proxy$4_13_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0164 = null;
-}
-function otft_Modifier$proxy$4_13_1__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_1();
-    otft_Modifier$proxy$4_13_1__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_13_1_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0164;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_13_1;
-    var$3.$proxyCapture0165 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_13_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture0164 = var$1;
-}
-function otft_Modifier$proxy$4_13_2() {
-    jl_Object.call(this);
-    this.$proxyCapture0166 = null;
-}
-function otft_Modifier$proxy$4_13_2__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_2();
-    otft_Modifier$proxy$4_13_2__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_13_2_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0166;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_13_2;
-    var$3.$proxyCapture0167 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_13_2__init_0(var$0, var$1) {
-    var$0.$proxyCapture0166 = var$1;
-}
-function juf_Supplier$proxy$4_13_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0168 = null;
-}
-function juf_Supplier$proxy$4_13_0__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_13_0();
-    juf_Supplier$proxy$4_13_0__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_13_0_get(var$0) {
-    return var$0.$proxyCapture0168.$forum.$title;
-}
-function juf_Supplier$proxy$4_13_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0168 = var$1;
-}
-function juf_Supplier$proxy$4_13_1() {
+function otft_Modifier$proxy$4_11_5() {
     jl_Object.call(this);
     this.$proxyCapture0169 = null;
 }
-function juf_Supplier$proxy$4_13_1__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_13_1();
-    juf_Supplier$proxy$4_13_1__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_11_5__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_11_5();
+    otft_Modifier$proxy$4_11_5__init_0(var_1, var_0);
     return var_1;
 }
-function juf_Supplier$proxy$4_13_1_get(var$0) {
-    return var$0.$proxyCapture0169.$topic.$title0;
+function otft_Modifier$proxy$4_11_5_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0169;
+    var$1 = otfce_MouseBinder__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_11_3;
+    var$3.$proxyCapture0170 = var$2;
+    otfce_BaseEventBinder_setHandler(var$1, var$3);
+    var$1.$eventName = $rt_s(455);
+    return var$1;
 }
-function juf_Supplier$proxy$4_13_1__init_0(var$0, var$1) {
+function otft_Modifier$proxy$4_11_5__init_0(var$0, var$1) {
     var$0.$proxyCapture0169 = var$1;
 }
-function otfcs_WithComponent() {
-    var a = this; otft_AbstractComponent.call(a);
-    a.$content4 = null;
-    a.$variable = null;
-    a.$value4 = null;
-    a.$contentRenderer = null;
-}
-function otfcs_WithComponent__init_(var_0) {
-    var var_1 = new otfcs_WithComponent();
-    otfcs_WithComponent__init_0(var_1, var_0);
-    return var_1;
-}
-function otfcs_WithComponent__init_0($this, $slot) {
-    otft_AbstractComponent__init_($this, $slot);
-}
-function otfcs_WithComponent_setContent($this, $content) {
-    $this.$content4 = $content;
-}
-function otfcs_WithComponent_getVariable($this) {
-    return $this.$variable;
-}
-function otfcs_WithComponent_setValue($this, $value) {
-    $this.$value4 = $value;
-}
-function otfcs_WithComponent_render($this) {
-    if ($this.$contentRenderer === null) {
-        $this.$contentRenderer = $this.$content4.$create0();
-        otft_Slot_append($this.$slot, $this.$contentRenderer.$slot);
-    }
-    $this.$variable = $this.$value4.$get1();
-    otft_DomComponentTemplate_render($this.$contentRenderer);
-}
-function otfcs_WithComponent_destroy($this) {
-    if ($this.$contentRenderer !== null) {
-        otft_DomComponentTemplate_destroy($this.$contentRenderer);
-        $this.$contentRenderer = null;
-    }
-    otft_AbstractComponent_destroy($this);
-}
-function juf_Supplier$proxy$4_13_2() {
+function otft_Modifier$proxy$4_12_0() {
     jl_Object.call(this);
-    this.$proxyCapture0170 = null;
+    this.$proxyCapture076 = null;
 }
-function juf_Supplier$proxy$4_13_2__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_13_2();
-    juf_Supplier$proxy$4_13_2__init_0(var_1, var_0);
-    return var_1;
+function otft_Modifier$proxy$4_12_0_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture076;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_12_0;
+    var$3.$proxyCapture0171 = var$2;
+    var$1.$path = var$3;
+    return var$1;
 }
-function juf_Supplier$proxy$4_13_2_get(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0170;
-    var$2 = $rt_createArray(jl_Object, 1).data;
-    var$2[0] = jl_Integer_valueOf(0);
-    return ju_ArrayList_get(var$1.$topic.$comments, var$2[0].$value);
+function juf_Supplier$proxy$4_12_0() {
+    jl_Object.call(this);
+    this.$proxyCapture077 = null;
 }
-function juf_Supplier$proxy$4_13_2__init_0(var$0, var$1) {
-    var$0.$proxyCapture0170 = var$1;
+function juf_Supplier$proxy$4_12_0_get(var$0) {
+    return ecdv_BaseView_getAssignments(var$0.$proxyCapture077);
 }
-function otft_Fragment$proxy$4_13_1() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0171 = null;
-    a.$proxyCapture1 = null;
+function juf_Supplier$proxy$4_12_1() {
+    jl_Object.call(this);
+    this.$proxyCapture078 = null;
 }
-function otft_Fragment$proxy$4_13_1__init_(var_0, var_1) {
-    var var_2 = new otft_Fragment$proxy$4_13_1();
-    otft_Fragment$proxy$4_13_1__init_0(var_2, var_0, var_1);
-    return var_2;
+function juf_Supplier$proxy$4_12_1_get(var$0) {
+    return var$0.$proxyCapture078.$model0;
 }
-function otft_Fragment$proxy$4_13_1_create(var$0) {
-    var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0171;
-    var$2 = var$0.$proxyCapture1;
-    var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_13_1;
-    var$4.$proxyCapture0172 = var$3;
-    var$4.$proxyCapture10 = var$1;
-    var$4.$proxyCapture2 = var$2;
-    return otft_DomComponentTemplate__init_(var$4);
+function otft_Modifier$proxy$4_13_0() {
+    jl_Object.call(this);
+    this.$proxyCapture079 = null;
 }
-function otft_Fragment$proxy$4_13_1__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0171 = var$1;
-    var$0.$proxyCapture1 = var$2;
+function otft_Modifier$proxy$4_13_0_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture079;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_13_0;
+    var$3.$proxyCapture0172 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function juf_Supplier$proxy$4_13_0() {
+    jl_Object.call(this);
+    this.$proxyCapture080 = null;
+}
+function juf_Supplier$proxy$4_13_0_get(var$0) {
+    return ecdv_BaseView_getForums(var$0.$proxyCapture080);
 }
 function otft_Templates$PROXY$4_17() {
     jl_Object.call(this);
@@ -13695,7 +13695,7 @@ function otft_Templates$PROXY$4_17() {
 function otft_Templates$PROXY$4_17_create(var$1, var$2) {
     var$1 = new otft_Fragment$proxy$4_17_0;
     var$1.$proxyCapture0173 = var$2;
-    var$2 = new otft_Fragment$proxy$4_17_4;
+    var$2 = new otft_Fragment$proxy$4_17_3;
     var$2.$proxyCapture0174 = var$1;
     return var$2;
 }
@@ -13705,7 +13705,7 @@ function otft_Templates$PROXY$4_18() {
 function otft_Templates$PROXY$4_18_create(var$1, var$2) {
     var$1 = new otft_Fragment$proxy$4_18_0;
     var$1.$proxyCapture0175 = var$2;
-    var$2 = new otft_Fragment$proxy$4_18_3;
+    var$2 = new otft_Fragment$proxy$4_18_4;
     var$2.$proxyCapture0176 = var$1;
     return var$2;
 }
@@ -13770,23 +13770,43 @@ function otft_DomComponentHandler$proxy$4_14_0_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture052;
     var$1 = var$1;
-    var$3 = otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(456)), $rt_s(349), $rt_s(456)), $rt_s(350)), $rt_s(351)), $rt_s(349), $rt_s(457)), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(458)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(459)), $rt_s(357)),
-    $rt_s(376));
-    var$4 = new otft_Modifier$proxy$4_14_0;
-    var$4.$proxyCapture0187 = var$2;
-    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(460))), $rt_s(355))), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(459));
-    var$3 = otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(357)), $rt_s(376));
-    var$4 = new otft_Modifier$proxy$4_14_1;
-    var$4.$proxyCapture0188 = var$2;
-    var$3 = otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(461))), $rt_s(355))), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(459)), $rt_s(357)), $rt_s(376));
-    var$4 = new otft_Modifier$proxy$4_14_2;
-    var$4.$proxyCapture0189 = var$2;
-    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(462))), $rt_s(355))), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(459)), $rt_s(357));
-    var$1 = otft_DomBuilder_open(var$1, $rt_s(376));
-    var$3 = new otft_Modifier$proxy$4_14_3;
-    var$3.$proxyCapture0190 = var$2;
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$3), $rt_s(463))), $rt_s(355))), $rt_s(353))), $rt_s(353)), $rt_s(362)), $rt_s(464)), $rt_s(465)),
-    $rt_s(466))), $rt_s(467))), $rt_s(350))), $rt_s(347)));
+    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(var$1, $rt_s(456)),
+    $rt_s(350)), $rt_s(370)), $rt_s(349), $rt_s(457)), $rt_s(458), $rt_s(459)), $rt_s(372), $rt_s(460)), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(352)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(461)), $rt_s(357)), $rt_s(376)), $rt_s(458), $rt_s(399)), $rt_s(349), $rt_s(462)), $rt_s(372), $rt_s(463)), $rt_s(464), $rt_s(465)), $rt_s(466), $rt_s(467)), $rt_s(361)), $rt_s(468));
+    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(var$1, $rt_s(469), $rt_s(470))),
+    $rt_s(361)), $rt_s(468)), $rt_s(469), $rt_s(470))), $rt_s(361)), $rt_s(468)), $rt_s(469), $rt_s(470))), $rt_s(357))), $rt_s(355))), $rt_s(355)), $rt_s(351)), $rt_s(471), $rt_s(467)), $rt_s(349), $rt_s(472)), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(473));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(376)), $rt_s(349),
+    $rt_s(474)), otft_Modifier$proxy$4_14_0__init_(var$2)), $rt_s(475))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(476)), $rt_s(383)), $rt_s(376)), $rt_s(349), $rt_s(477)), otft_Modifier$proxy$4_14_1__init_(var$2)), $rt_s(425)), $rt_s(468)), $rt_s(349), $rt_s(478)), $rt_s(479)), $rt_s(480)), $rt_s(349), $rt_s(481))), $rt_s(425));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(425)), $rt_s(468)), $rt_s(384))), $rt_s(383))), $rt_s(383)), $rt_s(351)), $rt_s(349), $rt_s(482)), $rt_s(425));
+    var$4 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    otfcs_ForEachComponent_setCollection(var$4, juf_Supplier$proxy$4_14_0__init_(var$2));
+    otfcs_ForEachComponent_setBody(var$4, otft_Fragment$proxy$4_14_1__init_(var$4, var$2));
+    otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(425)), $rt_s(427)), $rt_s(349), $rt_s(483))), $rt_s(425)), $rt_s(376)), $rt_s(349), $rt_s(474)), otft_Modifier$proxy$4_14_3__init_(var$2)), $rt_s(479));
+    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(468)), $rt_s(349), $rt_s(484)), $rt_s(485)),
+    $rt_s(480)), $rt_s(349), $rt_s(486))), $rt_s(479))), $rt_s(479)), $rt_s(468)), $rt_s(487))), $rt_s(425))), $rt_s(383))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(476));
+    otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(383)), $rt_s(376)), $rt_s(349),
+    $rt_s(477)), otft_Modifier$proxy$4_14_4__init_(var$2)), $rt_s(425)), $rt_s(468)), $rt_s(349), $rt_s(488)), $rt_s(479)), $rt_s(480)), $rt_s(349), $rt_s(489))), $rt_s(425))), $rt_s(425)), $rt_s(468)), $rt_s(410))), $rt_s(383))), $rt_s(383)), $rt_s(351));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(var$1, $rt_s(349), $rt_s(482)), $rt_s(425));
+    var$4 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    otfcs_ForEachComponent_setCollection(var$4, juf_Supplier$proxy$4_14_2__init_(var$2));
+    otfcs_ForEachComponent_setBody(var$4, otft_Fragment$proxy$4_14_2__init_(var$4, var$2));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(425)), $rt_s(427)), $rt_s(349), $rt_s(483))), $rt_s(425)), $rt_s(376)),
+    $rt_s(349), $rt_s(474)), otft_Modifier$proxy$4_14_6__init_(var$2)), $rt_s(479)), $rt_s(468)), $rt_s(349), $rt_s(484)), $rt_s(485)), $rt_s(480)), $rt_s(349), $rt_s(486))), $rt_s(479))), $rt_s(479));
+    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(var$1, $rt_s(468)), $rt_s(490))), $rt_s(425))), $rt_s(383))),
+    $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(476)), $rt_s(383)), $rt_s(376)), $rt_s(349), $rt_s(477)), otft_Modifier$proxy$4_14_7__init_(var$2)), $rt_s(425)), $rt_s(468)), $rt_s(349), $rt_s(491)), $rt_s(479)), $rt_s(480));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(var$1, $rt_s(349), $rt_s(492))), $rt_s(425))), $rt_s(425)), $rt_s(468)), $rt_s(406))), $rt_s(383))), $rt_s(383)), $rt_s(351)), $rt_s(349), $rt_s(482)), $rt_s(425));
+    var$4 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    otfcs_ForEachComponent_setCollection(var$4, juf_Supplier$proxy$4_14_4__init_(var$2));
+    otfcs_ForEachComponent_setBody(var$4, otft_Fragment$proxy$4_14_3__init_(var$4, var$2));
+    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(425)), $rt_s(427)), $rt_s(349), $rt_s(483))), $rt_s(425)), $rt_s(376));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(var$1, $rt_s(349), $rt_s(474)), otft_Modifier$proxy$4_14_9__init_(var$2)),
+    $rt_s(479)), $rt_s(468)), $rt_s(349), $rt_s(484)), $rt_s(485)), $rt_s(480)), $rt_s(349), $rt_s(486))), $rt_s(479))), $rt_s(479)), $rt_s(468)), $rt_s(493))), $rt_s(425))), $rt_s(383))), $rt_s(361)));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(351)), $rt_s(349),
+    $rt_s(476)), $rt_s(383)), $rt_s(376)), $rt_s(349), $rt_s(477)), otft_Modifier$proxy$4_14_10__init_(var$2)), $rt_s(425)), $rt_s(468)), $rt_s(349), $rt_s(494)), $rt_s(479)), $rt_s(480)), $rt_s(349), $rt_s(495))), $rt_s(425))), $rt_s(425)), $rt_s(468)), $rt_s(496))), $rt_s(383));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(383)), $rt_s(351)), $rt_s(349), $rt_s(482)), $rt_s(425));
+    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    otfcs_ForEachComponent_setCollection(var$3, juf_Supplier$proxy$4_14_6__init_(var$2));
+    otfcs_ForEachComponent_setBody(var$3, otft_Fragment$proxy$4_14_4__init_(var$3, var$2));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(383))), $rt_s(361))), $rt_s(357))), $rt_s(355))), $rt_s(353))), $rt_s(350))), $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_15_0() {
     jl_Object.call(this);
@@ -13799,43 +13819,23 @@ function otft_DomComponentHandler$proxy$4_15_0_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture053;
     var$1 = var$1;
-    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(var$1, $rt_s(468)),
-    $rt_s(350)), $rt_s(370)), $rt_s(349), $rt_s(469)), $rt_s(470), $rt_s(471)), $rt_s(372), $rt_s(472)), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(352)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(473)), $rt_s(357)), $rt_s(376)), $rt_s(470), $rt_s(403)), $rt_s(349), $rt_s(474)), $rt_s(372), $rt_s(475)), $rt_s(476), $rt_s(477)), $rt_s(478), $rt_s(479)), $rt_s(361)), $rt_s(480));
-    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(var$1, $rt_s(481), $rt_s(482))),
-    $rt_s(361)), $rt_s(480)), $rt_s(481), $rt_s(482))), $rt_s(361)), $rt_s(480)), $rt_s(481), $rt_s(482))), $rt_s(357))), $rt_s(355))), $rt_s(355)), $rt_s(351)), $rt_s(483), $rt_s(479)), $rt_s(349), $rt_s(484)), $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(485));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(376)), $rt_s(349),
-    $rt_s(486)), otft_Modifier$proxy$4_15_0__init_(var$2)), $rt_s(487))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(488)), $rt_s(395)), $rt_s(376)), $rt_s(349), $rt_s(489)), otft_Modifier$proxy$4_15_1__init_(var$2)), $rt_s(436)), $rt_s(480)), $rt_s(349), $rt_s(490)), $rt_s(491)), $rt_s(492)), $rt_s(349), $rt_s(493))), $rt_s(436));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(436)), $rt_s(480)), $rt_s(380))), $rt_s(395))), $rt_s(395)), $rt_s(351)), $rt_s(349), $rt_s(494)), $rt_s(436));
-    var$4 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    otfcs_ForEachComponent_setCollection(var$4, juf_Supplier$proxy$4_15_0__init_(var$2));
-    otfcs_ForEachComponent_setBody(var$4, otft_Fragment$proxy$4_15_1__init_(var$4, var$2));
-    otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(436)), $rt_s(438)), $rt_s(349), $rt_s(495))), $rt_s(436)), $rt_s(376)), $rt_s(349), $rt_s(486)), otft_Modifier$proxy$4_15_3__init_(var$2)), $rt_s(491));
-    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(480)), $rt_s(349), $rt_s(496)), $rt_s(497)),
-    $rt_s(492)), $rt_s(349), $rt_s(498))), $rt_s(491))), $rt_s(491)), $rt_s(480)), $rt_s(499))), $rt_s(436))), $rt_s(395))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(488));
-    otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(395)), $rt_s(376)), $rt_s(349),
-    $rt_s(489)), otft_Modifier$proxy$4_15_4__init_(var$2)), $rt_s(436)), $rt_s(480)), $rt_s(349), $rt_s(500)), $rt_s(491)), $rt_s(492)), $rt_s(349), $rt_s(501))), $rt_s(436))), $rt_s(436)), $rt_s(480)), $rt_s(382))), $rt_s(395))), $rt_s(395)), $rt_s(351));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(var$1, $rt_s(349), $rt_s(494)), $rt_s(436));
-    var$4 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    otfcs_ForEachComponent_setCollection(var$4, juf_Supplier$proxy$4_15_2__init_(var$2));
-    otfcs_ForEachComponent_setBody(var$4, otft_Fragment$proxy$4_15_2__init_(var$4, var$2));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(436)), $rt_s(438)), $rt_s(349), $rt_s(495))), $rt_s(436)), $rt_s(376)),
-    $rt_s(349), $rt_s(486)), otft_Modifier$proxy$4_15_6__init_(var$2)), $rt_s(491)), $rt_s(480)), $rt_s(349), $rt_s(496)), $rt_s(497)), $rt_s(492)), $rt_s(349), $rt_s(498))), $rt_s(491))), $rt_s(491));
-    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(var$1, $rt_s(480)), $rt_s(502))), $rt_s(436))), $rt_s(395))),
-    $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(488)), $rt_s(395)), $rt_s(376)), $rt_s(349), $rt_s(489)), otft_Modifier$proxy$4_15_7__init_(var$2)), $rt_s(436)), $rt_s(480)), $rt_s(349), $rt_s(503)), $rt_s(491)), $rt_s(492));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(var$1, $rt_s(349), $rt_s(504))), $rt_s(436))), $rt_s(436)), $rt_s(480)), $rt_s(384))), $rt_s(395))), $rt_s(395)), $rt_s(351)), $rt_s(349), $rt_s(494)), $rt_s(436));
-    var$4 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    otfcs_ForEachComponent_setCollection(var$4, juf_Supplier$proxy$4_15_4__init_(var$2));
-    otfcs_ForEachComponent_setBody(var$4, otft_Fragment$proxy$4_15_3__init_(var$4, var$2));
-    otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(436)), $rt_s(438)), $rt_s(349), $rt_s(495))), $rt_s(436)), $rt_s(376));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(var$1, $rt_s(349), $rt_s(486)), otft_Modifier$proxy$4_15_9__init_(var$2)),
-    $rt_s(491)), $rt_s(480)), $rt_s(349), $rt_s(496)), $rt_s(497)), $rt_s(492)), $rt_s(349), $rt_s(498))), $rt_s(491))), $rt_s(491)), $rt_s(480)), $rt_s(505))), $rt_s(436))), $rt_s(395))), $rt_s(361)));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(351)), $rt_s(349),
-    $rt_s(488)), $rt_s(395)), $rt_s(376)), $rt_s(349), $rt_s(489)), otft_Modifier$proxy$4_15_10__init_(var$2)), $rt_s(436)), $rt_s(480)), $rt_s(349), $rt_s(506)), $rt_s(491)), $rt_s(492)), $rt_s(349), $rt_s(507))), $rt_s(436))), $rt_s(436)), $rt_s(480)), $rt_s(508))), $rt_s(395));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(var$1), $rt_s(395)), $rt_s(351)), $rt_s(349), $rt_s(494)), $rt_s(436));
-    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    otfcs_ForEachComponent_setCollection(var$3, juf_Supplier$proxy$4_15_6__init_(var$2));
-    otfcs_ForEachComponent_setBody(var$3, otft_Fragment$proxy$4_15_4__init_(var$3, var$2));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(395))), $rt_s(361))), $rt_s(357))), $rt_s(355))), $rt_s(353))), $rt_s(350))), $rt_s(347)));
+    var$3 = otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(497)), $rt_s(349), $rt_s(497)), $rt_s(350)), $rt_s(351)), $rt_s(349), $rt_s(498)), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(499)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(500)), $rt_s(357)),
+    $rt_s(376));
+    var$4 = new otft_Modifier$proxy$4_15_0;
+    var$4.$proxyCapture0187 = var$2;
+    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(501))), $rt_s(355))), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(500));
+    var$3 = otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(357)), $rt_s(376));
+    var$4 = new otft_Modifier$proxy$4_15_1;
+    var$4.$proxyCapture0188 = var$2;
+    var$3 = otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(502))), $rt_s(355))), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(500)), $rt_s(357)), $rt_s(376));
+    var$4 = new otft_Modifier$proxy$4_15_2;
+    var$4.$proxyCapture0189 = var$2;
+    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(503))), $rt_s(355))), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(500)), $rt_s(357));
+    var$1 = otft_DomBuilder_open(var$1, $rt_s(376));
+    var$3 = new otft_Modifier$proxy$4_15_3;
+    var$3.$proxyCapture0190 = var$2;
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$3), $rt_s(504))), $rt_s(355))), $rt_s(353))), $rt_s(353)), $rt_s(362)), $rt_s(505)), $rt_s(506)),
+    $rt_s(507))), $rt_s(508))), $rt_s(350))), $rt_s(347)));
 }
 function otft_DomComponentHandler$proxy$4_16_0() {
     jl_Object.call(this);
@@ -13848,7 +13848,7 @@ function otft_DomComponentHandler$proxy$4_16_0_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture054;
     var$1 = var$1;
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(509)), $rt_s(349), $rt_s(475)), $rt_s(350)), $rt_s(362)), $rt_s(349), $rt_s(510)), $rt_s(511))), $rt_s(350)), $rt_s(374)), $rt_s(349), $rt_s(512)), $rt_s(353));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(347)), $rt_s(509)), $rt_s(349), $rt_s(463)), $rt_s(350)), $rt_s(362)), $rt_s(349), $rt_s(510)), $rt_s(511))), $rt_s(350)), $rt_s(374)), $rt_s(349), $rt_s(512)), $rt_s(353));
     var$4 = ecdc_CollapsibleMenuComponent__init_(otft_Slot_create());
     ecdc_CollapsibleMenuComponent_setToSupplier(var$4, juf_Supplier$proxy$4_16_0__init_());
     ecdc_CollapsibleMenuComponent_setTitleSupplier(var$4, juf_Supplier$proxy$4_16_1__init_());
@@ -13870,10 +13870,10 @@ function otft_DomComponentHandler$proxy$4_16_0_buildDom(var$0, var$1) {
     otfcs_ForEachComponent_setBody(var$4, otft_Fragment$proxy$4_16_7__init_(var$4, var$2));
     otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(350))), $rt_s(350)), $rt_s(362)), $rt_s(349), $rt_s(510)), $rt_s(514))), $rt_s(350)), $rt_s(374)), $rt_s(349), $rt_s(512)), $rt_s(353)), $rt_s(375)), $rt_s(355));
     otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(var$1, $rt_s(376)), otft_Modifier$proxy$4_16_4__init_(var$2)),
-    $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(515)), $rt_s(361)), $rt_s(492)), $rt_s(349), $rt_s(498))), $rt_s(357))), $rt_s(516))), $rt_s(353))), $rt_s(353)), $rt_s(375)), $rt_s(355)), $rt_s(376)), otft_Modifier$proxy$4_16_5__init_(var$2)), $rt_s(357));
-    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(480)), $rt_s(349), $rt_s(515)), $rt_s(361)),
-    $rt_s(492)), $rt_s(349), $rt_s(498))), $rt_s(357))), $rt_s(517))), $rt_s(353))), $rt_s(353)), $rt_s(375)), $rt_s(355)), $rt_s(376)), otft_Modifier$proxy$4_16_6__init_(var$2)), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(515)), $rt_s(361));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(492)), $rt_s(349), $rt_s(498))), $rt_s(357))), $rt_s(518))), $rt_s(353))), $rt_s(350))), $rt_s(347)));
+    $rt_s(357)), $rt_s(468)), $rt_s(349), $rt_s(515)), $rt_s(361)), $rt_s(480)), $rt_s(349), $rt_s(486))), $rt_s(357))), $rt_s(516))), $rt_s(353))), $rt_s(353)), $rt_s(375)), $rt_s(355)), $rt_s(376)), otft_Modifier$proxy$4_16_5__init_(var$2)), $rt_s(357));
+    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(468)), $rt_s(349), $rt_s(515)), $rt_s(361)),
+    $rt_s(480)), $rt_s(349), $rt_s(486))), $rt_s(357))), $rt_s(517))), $rt_s(353))), $rt_s(353)), $rt_s(375)), $rt_s(355)), $rt_s(376)), otft_Modifier$proxy$4_16_6__init_(var$2)), $rt_s(357)), $rt_s(468)), $rt_s(349), $rt_s(515)), $rt_s(361));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(var$1, $rt_s(480)), $rt_s(349), $rt_s(486))), $rt_s(357))), $rt_s(518))), $rt_s(353))), $rt_s(350))), $rt_s(347)));
 }
 function otft_Fragment$proxy$4_17_0() {
     jl_Object.call(this);
@@ -13886,11 +13886,11 @@ function otft_Fragment$proxy$4_17_0_create(var$0) {
     var$2.$proxyCapture0191 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_Fragment$proxy$4_17_4() {
+function otft_Fragment$proxy$4_17_3() {
     jl_Object.call(this);
     this.$proxyCapture0174 = null;
 }
-function otft_Fragment$proxy$4_17_4_create(var$0) {
+function otft_Fragment$proxy$4_17_3_create(var$0) {
     return otft_Fragment$proxy$4_17_0_create(var$0.$proxyCapture0174);
 }
 function otft_Fragment$proxy$4_18_0() {
@@ -13904,12 +13904,20 @@ function otft_Fragment$proxy$4_18_0_create(var$0) {
     var$2.$proxyCapture0192 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_Fragment$proxy$4_18_3() {
+function otft_Fragment$proxy$4_18_4() {
     jl_Object.call(this);
     this.$proxyCapture0176 = null;
 }
-function otft_Fragment$proxy$4_18_3_create(var$0) {
+function otft_Fragment$proxy$4_18_4_create(var$0) {
     return otft_Fragment$proxy$4_18_0_create(var$0.$proxyCapture0176);
+}
+function ju_Objects() {
+    jl_Object.call(this);
+}
+function ju_Objects_equals($a, $b) {
+    if ($a === $b)
+        return 1;
+    return $a !== null ? $a.$equals($b) : $b !== null ? 0 : 1;
 }
 function otft_Fragment$proxy$4_19_0() {
     jl_Object.call(this);
@@ -13928,14 +13936,6 @@ function otft_Fragment$proxy$4_19_3() {
 }
 function otft_Fragment$proxy$4_19_3_create(var$0) {
     return otft_Fragment$proxy$4_19_0_create(var$0.$proxyCapture0178);
-}
-function ju_Objects() {
-    jl_Object.call(this);
-}
-function ju_Objects_equals($a, $b) {
-    if ($a === $b)
-        return 1;
-    return $a !== null ? $a.$equals($b) : $b !== null ? 0 : 1;
 }
 function otft_Fragment$proxy$4_20_0() {
     jl_Object.call(this);
@@ -14011,97 +14011,45 @@ function otft_Fragment$proxy$4_23_3_create(var$0) {
 }
 function otft_Modifier$proxy$4_14_0() {
     jl_Object.call(this);
-    this.$proxyCapture0187 = null;
+    this.$proxyCapture0198 = null;
+}
+function otft_Modifier$proxy$4_14_0__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_14_0();
+    otft_Modifier$proxy$4_14_0__init_0(var_1, var_0);
+    return var_1;
 }
 function otft_Modifier$proxy$4_14_0_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0187;
+    var$2 = var$0.$proxyCapture0198;
     var$1 = otfch_LinkComponent__init_(var$1);
     var$3 = new juf_Consumer$proxy$4_14_0;
-    var$3.$proxyCapture0198 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_14_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0188 = null;
-}
-function otft_Modifier$proxy$4_14_1_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0188;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_14_1;
     var$3.$proxyCapture0199 = var$2;
     var$1.$path = var$3;
     return var$1;
 }
-function otft_Modifier$proxy$4_14_2() {
+function otft_Modifier$proxy$4_14_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture0198 = var$1;
+}
+function otft_Modifier$proxy$4_14_1() {
     jl_Object.call(this);
-    this.$proxyCapture0189 = null;
+    this.$proxyCapture0200 = null;
 }
-function otft_Modifier$proxy$4_14_2_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_14_1__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_14_1();
+    otft_Modifier$proxy$4_14_1__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_14_1_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0189;
+    var$2 = var$0.$proxyCapture0200;
     var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_14_2;
-    var$3.$proxyCapture0200 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_14_3() {
-    jl_Object.call(this);
-    this.$proxyCapture0190 = null;
-}
-function otft_Modifier$proxy$4_14_3_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0190;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_14_3;
+    var$3 = new juf_Consumer$proxy$4_14_1;
     var$3.$proxyCapture0201 = var$2;
     var$1.$path = var$3;
     return var$1;
 }
-function otft_Modifier$proxy$4_15_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0202 = null;
-}
-function otft_Modifier$proxy$4_15_0__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_15_0();
-    otft_Modifier$proxy$4_15_0__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_15_0_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0202;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_15_0;
-    var$3.$proxyCapture0203 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_15_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0202 = var$1;
-}
-function otft_Modifier$proxy$4_15_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0204 = null;
-}
-function otft_Modifier$proxy$4_15_1__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_15_1();
-    otft_Modifier$proxy$4_15_1__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_15_1_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0204;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_15_1;
-    var$3.$proxyCapture0205 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_15_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture0204 = var$1;
+function otft_Modifier$proxy$4_14_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture0200 = var$1;
 }
 function otfcs_ForEachComponent() {
     var a = this; otft_AbstractComponent.call(a);
@@ -14232,291 +14180,343 @@ function otfcs_ForEachComponent_destroy($this) {
         $i = $i + (-1) | 0;
     }
 }
-function juf_Supplier$proxy$4_15_0() {
+function juf_Supplier$proxy$4_14_0() {
     jl_Object.call(this);
-    this.$proxyCapture0206 = null;
+    this.$proxyCapture0202 = null;
 }
-function juf_Supplier$proxy$4_15_0__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_15_0();
-    juf_Supplier$proxy$4_15_0__init_0(var_1, var_0);
+function juf_Supplier$proxy$4_14_0__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_14_0();
+    juf_Supplier$proxy$4_14_0__init_0(var_1, var_0);
     return var_1;
 }
-function juf_Supplier$proxy$4_15_0_get(var$0) {
-    return var$0.$proxyCapture0206.$getLectures();
+function juf_Supplier$proxy$4_14_0_get(var$0) {
+    return var$0.$proxyCapture0202.$getLectures();
 }
-function juf_Supplier$proxy$4_15_0__init_0(var$0, var$1) {
-    var$0.$proxyCapture0206 = var$1;
+function juf_Supplier$proxy$4_14_0__init_0(var$0, var$1) {
+    var$0.$proxyCapture0202 = var$1;
 }
-function otft_Fragment$proxy$4_15_1() {
+function otft_Fragment$proxy$4_14_1() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0207 = null;
+    a.$proxyCapture0203 = null;
     a.$proxyCapture11 = null;
 }
-function otft_Fragment$proxy$4_15_1__init_(var_0, var_1) {
-    var var_2 = new otft_Fragment$proxy$4_15_1();
-    otft_Fragment$proxy$4_15_1__init_0(var_2, var_0, var_1);
+function otft_Fragment$proxy$4_14_1__init_(var_0, var_1) {
+    var var_2 = new otft_Fragment$proxy$4_14_1();
+    otft_Fragment$proxy$4_14_1__init_0(var_2, var_0, var_1);
     return var_2;
 }
-function otft_Fragment$proxy$4_15_1_create(var$0) {
+function otft_Fragment$proxy$4_14_1_create(var$0) {
     var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0207;
+    var$1 = var$0.$proxyCapture0203;
     var$2 = var$0.$proxyCapture11;
     var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_15_1;
-    var$4.$proxyCapture0208 = var$3;
+    var$4 = new otft_DomComponentHandler$proxy$4_14_1;
+    var$4.$proxyCapture0204 = var$3;
     var$4.$proxyCapture12 = var$1;
     var$4.$proxyCapture20 = var$2;
     return otft_DomComponentTemplate__init_(var$4);
 }
-function otft_Fragment$proxy$4_15_1__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0207 = var$1;
+function otft_Fragment$proxy$4_14_1__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0203 = var$1;
     var$0.$proxyCapture11 = var$2;
 }
-function otft_Modifier$proxy$4_15_3() {
+function otft_Modifier$proxy$4_14_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0205 = null;
+}
+function otft_Modifier$proxy$4_14_3__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_14_3();
+    otft_Modifier$proxy$4_14_3__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_14_3_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0205;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_14_3;
+    var$3.$proxyCapture0206 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_14_3__init_0(var$0, var$1) {
+    var$0.$proxyCapture0205 = var$1;
+}
+function otft_Modifier$proxy$4_14_4() {
+    jl_Object.call(this);
+    this.$proxyCapture0207 = null;
+}
+function otft_Modifier$proxy$4_14_4__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_14_4();
+    otft_Modifier$proxy$4_14_4__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_14_4_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0207;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_14_4;
+    var$3.$proxyCapture0208 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_14_4__init_0(var$0, var$1) {
+    var$0.$proxyCapture0207 = var$1;
+}
+function juf_Supplier$proxy$4_14_2() {
     jl_Object.call(this);
     this.$proxyCapture0209 = null;
 }
-function otft_Modifier$proxy$4_15_3__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_15_3();
-    otft_Modifier$proxy$4_15_3__init_0(var_1, var_0);
+function juf_Supplier$proxy$4_14_2__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_14_2();
+    juf_Supplier$proxy$4_14_2__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_15_3_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0209;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_15_3;
-    var$3.$proxyCapture0210 = var$2;
-    var$1.$path = var$3;
-    return var$1;
+function juf_Supplier$proxy$4_14_2_get(var$0) {
+    return var$0.$proxyCapture0209.$getTutorials();
 }
-function otft_Modifier$proxy$4_15_3__init_0(var$0, var$1) {
+function juf_Supplier$proxy$4_14_2__init_0(var$0, var$1) {
     var$0.$proxyCapture0209 = var$1;
 }
-function otft_Modifier$proxy$4_15_4() {
-    jl_Object.call(this);
-    this.$proxyCapture0211 = null;
-}
-function otft_Modifier$proxy$4_15_4__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_15_4();
-    otft_Modifier$proxy$4_15_4__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_15_4_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0211;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_15_4;
-    var$3.$proxyCapture0212 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_15_4__init_0(var$0, var$1) {
-    var$0.$proxyCapture0211 = var$1;
-}
-function juf_Supplier$proxy$4_15_2() {
-    jl_Object.call(this);
-    this.$proxyCapture0213 = null;
-}
-function juf_Supplier$proxy$4_15_2__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_15_2();
-    juf_Supplier$proxy$4_15_2__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_15_2_get(var$0) {
-    return var$0.$proxyCapture0213.$getTutorials();
-}
-function juf_Supplier$proxy$4_15_2__init_0(var$0, var$1) {
-    var$0.$proxyCapture0213 = var$1;
-}
-function otft_Fragment$proxy$4_15_2() {
+function otft_Fragment$proxy$4_14_2() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0214 = null;
+    a.$proxyCapture0210 = null;
     a.$proxyCapture13 = null;
 }
-function otft_Fragment$proxy$4_15_2__init_(var_0, var_1) {
-    var var_2 = new otft_Fragment$proxy$4_15_2();
-    otft_Fragment$proxy$4_15_2__init_0(var_2, var_0, var_1);
+function otft_Fragment$proxy$4_14_2__init_(var_0, var_1) {
+    var var_2 = new otft_Fragment$proxy$4_14_2();
+    otft_Fragment$proxy$4_14_2__init_0(var_2, var_0, var_1);
     return var_2;
 }
-function otft_Fragment$proxy$4_15_2_create(var$0) {
+function otft_Fragment$proxy$4_14_2_create(var$0) {
     var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0214;
+    var$1 = var$0.$proxyCapture0210;
     var$2 = var$0.$proxyCapture13;
     var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_15_2;
-    var$4.$proxyCapture0215 = var$3;
+    var$4 = new otft_DomComponentHandler$proxy$4_14_2;
+    var$4.$proxyCapture0211 = var$3;
     var$4.$proxyCapture14 = var$1;
     var$4.$proxyCapture21 = var$2;
     return otft_DomComponentTemplate__init_(var$4);
 }
-function otft_Fragment$proxy$4_15_2__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0214 = var$1;
+function otft_Fragment$proxy$4_14_2__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0210 = var$1;
     var$0.$proxyCapture13 = var$2;
 }
-function otft_Modifier$proxy$4_15_6() {
+function otft_Modifier$proxy$4_14_6() {
+    jl_Object.call(this);
+    this.$proxyCapture0212 = null;
+}
+function otft_Modifier$proxy$4_14_6__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_14_6();
+    otft_Modifier$proxy$4_14_6__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_14_6_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0212;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_14_6;
+    var$3.$proxyCapture0213 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_14_6__init_0(var$0, var$1) {
+    var$0.$proxyCapture0212 = var$1;
+}
+function otft_Modifier$proxy$4_14_7() {
+    jl_Object.call(this);
+    this.$proxyCapture0214 = null;
+}
+function otft_Modifier$proxy$4_14_7__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_14_7();
+    otft_Modifier$proxy$4_14_7__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_14_7_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0214;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_14_7;
+    var$3.$proxyCapture0215 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_14_7__init_0(var$0, var$1) {
+    var$0.$proxyCapture0214 = var$1;
+}
+function juf_Supplier$proxy$4_14_4() {
     jl_Object.call(this);
     this.$proxyCapture0216 = null;
 }
-function otft_Modifier$proxy$4_15_6__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_15_6();
-    otft_Modifier$proxy$4_15_6__init_0(var_1, var_0);
+function juf_Supplier$proxy$4_14_4__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_14_4();
+    juf_Supplier$proxy$4_14_4__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_15_6_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0216;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_15_6;
-    var$3.$proxyCapture0217 = var$2;
-    var$1.$path = var$3;
-    return var$1;
+function juf_Supplier$proxy$4_14_4_get(var$0) {
+    return var$0.$proxyCapture0216.$getAssignments();
 }
-function otft_Modifier$proxy$4_15_6__init_0(var$0, var$1) {
+function juf_Supplier$proxy$4_14_4__init_0(var$0, var$1) {
     var$0.$proxyCapture0216 = var$1;
 }
-function otft_Modifier$proxy$4_15_7() {
-    jl_Object.call(this);
-    this.$proxyCapture0218 = null;
-}
-function otft_Modifier$proxy$4_15_7__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_15_7();
-    otft_Modifier$proxy$4_15_7__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_15_7_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0218;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_15_7;
-    var$3.$proxyCapture0219 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_15_7__init_0(var$0, var$1) {
-    var$0.$proxyCapture0218 = var$1;
-}
-function juf_Supplier$proxy$4_15_4() {
-    jl_Object.call(this);
-    this.$proxyCapture0220 = null;
-}
-function juf_Supplier$proxy$4_15_4__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_15_4();
-    juf_Supplier$proxy$4_15_4__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_15_4_get(var$0) {
-    return var$0.$proxyCapture0220.$getAssignments();
-}
-function juf_Supplier$proxy$4_15_4__init_0(var$0, var$1) {
-    var$0.$proxyCapture0220 = var$1;
-}
-function otft_Fragment$proxy$4_15_3() {
+function otft_Fragment$proxy$4_14_3() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0221 = null;
+    a.$proxyCapture0217 = null;
     a.$proxyCapture15 = null;
 }
-function otft_Fragment$proxy$4_15_3__init_(var_0, var_1) {
-    var var_2 = new otft_Fragment$proxy$4_15_3();
-    otft_Fragment$proxy$4_15_3__init_0(var_2, var_0, var_1);
+function otft_Fragment$proxy$4_14_3__init_(var_0, var_1) {
+    var var_2 = new otft_Fragment$proxy$4_14_3();
+    otft_Fragment$proxy$4_14_3__init_0(var_2, var_0, var_1);
     return var_2;
 }
-function otft_Fragment$proxy$4_15_3_create(var$0) {
+function otft_Fragment$proxy$4_14_3_create(var$0) {
     var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0221;
+    var$1 = var$0.$proxyCapture0217;
     var$2 = var$0.$proxyCapture15;
     var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_15_3;
-    var$4.$proxyCapture0222 = var$3;
+    var$4 = new otft_DomComponentHandler$proxy$4_14_3;
+    var$4.$proxyCapture0218 = var$3;
     var$4.$proxyCapture16 = var$1;
     var$4.$proxyCapture22 = var$2;
     return otft_DomComponentTemplate__init_(var$4);
 }
-function otft_Fragment$proxy$4_15_3__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0221 = var$1;
+function otft_Fragment$proxy$4_14_3__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0217 = var$1;
     var$0.$proxyCapture15 = var$2;
 }
-function otft_Modifier$proxy$4_15_9() {
+function otft_Modifier$proxy$4_14_9() {
+    jl_Object.call(this);
+    this.$proxyCapture0219 = null;
+}
+function otft_Modifier$proxy$4_14_9__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_14_9();
+    otft_Modifier$proxy$4_14_9__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_14_9_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0219;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_14_9;
+    var$3.$proxyCapture0220 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_14_9__init_0(var$0, var$1) {
+    var$0.$proxyCapture0219 = var$1;
+}
+function otft_Modifier$proxy$4_14_10() {
+    jl_Object.call(this);
+    this.$proxyCapture0221 = null;
+}
+function otft_Modifier$proxy$4_14_10__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_14_10();
+    otft_Modifier$proxy$4_14_10__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_14_10_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0221;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_14_10;
+    var$3.$proxyCapture0222 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_14_10__init_0(var$0, var$1) {
+    var$0.$proxyCapture0221 = var$1;
+}
+function juf_Supplier$proxy$4_14_6() {
     jl_Object.call(this);
     this.$proxyCapture0223 = null;
 }
-function otft_Modifier$proxy$4_15_9__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_15_9();
-    otft_Modifier$proxy$4_15_9__init_0(var_1, var_0);
+function juf_Supplier$proxy$4_14_6__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_14_6();
+    juf_Supplier$proxy$4_14_6__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_15_9_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0223;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_15_9;
-    var$3.$proxyCapture0224 = var$2;
-    var$1.$path = var$3;
-    return var$1;
+function juf_Supplier$proxy$4_14_6_get(var$0) {
+    return ecdb_ModelWidget_getForums(var$0.$proxyCapture0223);
 }
-function otft_Modifier$proxy$4_15_9__init_0(var$0, var$1) {
+function juf_Supplier$proxy$4_14_6__init_0(var$0, var$1) {
     var$0.$proxyCapture0223 = var$1;
 }
-function otft_Modifier$proxy$4_15_10() {
-    jl_Object.call(this);
-    this.$proxyCapture0225 = null;
-}
-function otft_Modifier$proxy$4_15_10__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_15_10();
-    otft_Modifier$proxy$4_15_10__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_15_10_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0225;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_15_10;
-    var$3.$proxyCapture0226 = var$2;
-    var$1.$path = var$3;
-    return var$1;
-}
-function otft_Modifier$proxy$4_15_10__init_0(var$0, var$1) {
-    var$0.$proxyCapture0225 = var$1;
-}
-function juf_Supplier$proxy$4_15_6() {
-    jl_Object.call(this);
-    this.$proxyCapture0227 = null;
-}
-function juf_Supplier$proxy$4_15_6__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_15_6();
-    juf_Supplier$proxy$4_15_6__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_15_6_get(var$0) {
-    return ecdb_ModelWidget_getForums(var$0.$proxyCapture0227);
-}
-function juf_Supplier$proxy$4_15_6__init_0(var$0, var$1) {
-    var$0.$proxyCapture0227 = var$1;
-}
-function otft_Fragment$proxy$4_15_4() {
+function otft_Fragment$proxy$4_14_4() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0228 = null;
+    a.$proxyCapture0224 = null;
     a.$proxyCapture17 = null;
 }
-function otft_Fragment$proxy$4_15_4__init_(var_0, var_1) {
-    var var_2 = new otft_Fragment$proxy$4_15_4();
-    otft_Fragment$proxy$4_15_4__init_0(var_2, var_0, var_1);
+function otft_Fragment$proxy$4_14_4__init_(var_0, var_1) {
+    var var_2 = new otft_Fragment$proxy$4_14_4();
+    otft_Fragment$proxy$4_14_4__init_0(var_2, var_0, var_1);
     return var_2;
 }
-function otft_Fragment$proxy$4_15_4_create(var$0) {
+function otft_Fragment$proxy$4_14_4_create(var$0) {
     var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0228;
+    var$1 = var$0.$proxyCapture0224;
     var$2 = var$0.$proxyCapture17;
     var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_15_4;
-    var$4.$proxyCapture0229 = var$3;
+    var$4 = new otft_DomComponentHandler$proxy$4_14_4;
+    var$4.$proxyCapture0225 = var$3;
     var$4.$proxyCapture18 = var$1;
     var$4.$proxyCapture23 = var$2;
     return otft_DomComponentTemplate__init_(var$4);
 }
-function otft_Fragment$proxy$4_15_4__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0228 = var$1;
+function otft_Fragment$proxy$4_14_4__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0224 = var$1;
     var$0.$proxyCapture17 = var$2;
+}
+function otft_Modifier$proxy$4_15_0() {
+    jl_Object.call(this);
+    this.$proxyCapture0187 = null;
+}
+function otft_Modifier$proxy$4_15_0_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0187;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_15_0;
+    var$3.$proxyCapture0226 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_15_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0188 = null;
+}
+function otft_Modifier$proxy$4_15_1_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0188;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_15_1;
+    var$3.$proxyCapture0227 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_15_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0189 = null;
+}
+function otft_Modifier$proxy$4_15_2_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0189;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_15_2;
+    var$3.$proxyCapture0228 = var$2;
+    var$1.$path = var$3;
+    return var$1;
+}
+function otft_Modifier$proxy$4_15_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0190 = null;
+}
+function otft_Modifier$proxy$4_15_3_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0190;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$3 = new juf_Consumer$proxy$4_15_3;
+    var$3.$proxyCapture0229 = var$2;
+    var$1.$path = var$3;
+    return var$1;
 }
 function ecdc_CollapsibleMenuComponent() {
     var a = this; ecdb_RouteWidget.call(a);
@@ -14629,7 +14629,7 @@ function juf_Supplier$proxy$4_16_1__init_() {
     return var_0;
 }
 function juf_Supplier$proxy$4_16_1_get(var$0) {
-    return $rt_s(380);
+    return $rt_s(384);
 }
 function juf_Supplier$proxy$4_16_1__init_0(var$0) {
     return;
@@ -14676,7 +14676,7 @@ function juf_Supplier$proxy$4_16_5__init_() {
     return var_0;
 }
 function juf_Supplier$proxy$4_16_5_get(var$0) {
-    return $rt_s(382);
+    return $rt_s(410);
 }
 function juf_Supplier$proxy$4_16_5__init_0(var$0) {
     return;
@@ -14723,7 +14723,7 @@ function juf_Supplier$proxy$4_16_9__init_() {
     return var_0;
 }
 function juf_Supplier$proxy$4_16_9_get(var$0) {
-    return $rt_s(384);
+    return $rt_s(406);
 }
 function juf_Supplier$proxy$4_16_9__init_0(var$0) {
     return;
@@ -14850,70 +14850,70 @@ function otft_Modifier$proxy$4_16_6_apply(var$0, var$1) {
 function otft_Modifier$proxy$4_16_6__init_0(var$0, var$1) {
     var$0.$proxyCapture0243 = var$1;
 }
-function otft_DomComponentHandler$proxy$4_8_1() {
-    jl_Object.call(this);
-}
-function otft_DomComponentHandler$proxy$4_8_1_update(var$0) {
-    return;
-}
-function otft_DomComponentHandler$proxy$4_8_1_buildDom(var$0, var$1) {
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(525)), $rt_s(425), $rt_s(526)), $rt_s(527))), $rt_s(355));
-}
-function otft_DomComponentHandler$proxy$4_8_2() {
-    jl_Object.call(this);
-    this.$proxyCapture098 = null;
-}
-function otft_DomComponentHandler$proxy$4_8_2_update(var$0) {
-    return;
-}
-function otft_DomComponentHandler$proxy$4_8_2_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture098;
-    var$1 = otft_DomBuilder_text(var$1, $rt_s(357));
-    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    var$4 = new juf_Supplier$proxy$4_8_1;
-    var$4.$proxyCapture0245 = var$2;
-    var$3.$collection0 = var$4;
-    var$4 = new otft_Fragment$proxy$4_8_3;
-    var$4.$proxyCapture0246 = var$3;
-    var$4.$proxyCapture111 = var$2;
-    var$3.$body1 = var$4;
-    otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(355));
-}
 function otfte_VariableImpl() {
     jl_Object.call(this);
     this.$value5 = null;
 }
-function otft_DomComponentHandler$proxy$4_13_1() {
+function otft_DomComponentHandler$proxy$4_3_1() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0172 = null;
+    a.$proxyCapture095 = null;
     a.$proxyCapture10 = null;
     a.$proxyCapture2 = null;
 }
-function otft_DomComponentHandler$proxy$4_13_1_update(var$0) {
+function otft_DomComponentHandler$proxy$4_3_1_update(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0172;
+    var$1 = var$0.$proxyCapture095;
     var$2 = var$0.$proxyCapture10;
     var$1.$value5 = var$2.$variable;
 }
-function otft_DomComponentHandler$proxy$4_13_1_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_3_1_buildDom(var$0, var$1) {
     var var$2, var$3, var$4, var$5;
-    var$2 = var$0.$proxyCapture0172;
+    var$2 = var$0.$proxyCapture095;
     var$3 = var$0.$proxyCapture2;
     var$1 = otft_DomBuilder_text(var$1, $rt_s(355));
     var$4 = otft_Slot_create();
     var$5 = new otfcs_WithComponent;
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
-    var$5 = new juf_Supplier$proxy$4_13_3;
-    var$5.$proxyCapture0247 = var$2;
-    var$4.$value4 = var$5;
-    var$5 = new otft_Fragment$proxy$4_13_2;
-    var$5.$proxyCapture0248 = var$4;
-    var$5.$proxyCapture112 = var$3;
+    var$5 = new juf_Supplier$proxy$4_3_3;
+    var$5.$proxyCapture0245 = var$2;
+    var$4.$value3 = var$5;
+    var$5 = new otft_Fragment$proxy$4_3_2;
+    var$5.$proxyCapture0246 = var$4;
+    var$5.$proxyCapture111 = var$3;
     var$5.$proxyCapture25 = var$2;
-    var$4.$content4 = var$5;
+    var$4.$content2 = var$5;
     otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$4), $rt_s(353));
+}
+function otft_DomComponentHandler$proxy$4_10_1() {
+    jl_Object.call(this);
+}
+function otft_DomComponentHandler$proxy$4_10_1_update(var$0) {
+    return;
+}
+function otft_DomComponentHandler$proxy$4_10_1_buildDom(var$0, var$1) {
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(357)), $rt_s(351)), $rt_s(349), $rt_s(525)), $rt_s(414), $rt_s(526)), $rt_s(527))), $rt_s(355));
+}
+function otft_DomComponentHandler$proxy$4_10_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0146 = null;
+}
+function otft_DomComponentHandler$proxy$4_10_2_update(var$0) {
+    return;
+}
+function otft_DomComponentHandler$proxy$4_10_2_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0146;
+    var$1 = otft_DomBuilder_text(var$1, $rt_s(357));
+    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    var$4 = new juf_Supplier$proxy$4_10_1;
+    var$4.$proxyCapture0247 = var$2;
+    var$3.$collection0 = var$4;
+    var$4 = new otft_Fragment$proxy$4_10_3;
+    var$4.$proxyCapture0248 = var$3;
+    var$4.$proxyCapture112 = var$2;
+    var$3.$body1 = var$4;
+    otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(355));
 }
 function otfch_LinkComponent() {
     var a = this; jl_Object.call(a);
@@ -14943,52 +14943,54 @@ function otfch_LinkComponent_render($this) {
 function otfch_LinkComponent_destroy($this) {
     return;
 }
-function juf_Consumer$proxy$4_4_1() {
+function juf_Consumer$proxy$4_1_1() {
     jl_Object.call(this);
-    this.$proxyCapture085 = null;
+    this.$proxyCapture082 = null;
 }
-function juf_Consumer$proxy$4_4_1_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_1_1_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture085;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_lectures(ecdv_BaseView_route(var$2, var$3[0]));
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_6_1() {
-    jl_Object.call(this);
-    this.$proxyCapture088 = null;
-}
-function juf_Consumer$proxy$4_6_1_accept(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture088;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_tutorials(ecdv_BaseView_route(var$2, var$3[0]));
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_7_1() {
-    jl_Object.call(this);
-    this.$proxyCapture090 = null;
-}
-function juf_Consumer$proxy$4_7_1_accept(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture090;
+    var$2 = var$0.$proxyCapture082;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_assignments(ecdv_BaseView_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_8_1() {
+function juf_Consumer$proxy$4_2_1() {
     jl_Object.call(this);
-    this.$proxyCapture094 = null;
+    this.$proxyCapture084 = null;
 }
-function juf_Consumer$proxy$4_8_1_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_2_1_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture094;
+    var$2 = var$0.$proxyCapture084;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    ecd_Router$proxy$4_0_0_lectures(ecdv_BaseView_route(var$2, var$3[0]));
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_3_1() {
+    jl_Object.call(this);
+    this.$proxyCapture088 = null;
+}
+function juf_Consumer$proxy$4_3_1_accept(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture088;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_forums(ecdv_BaseView_route(var$2, var$3[0]));
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_3_2() {
+    jl_Object.call(this);
+    this.$proxyCapture090 = null;
+}
+function juf_Consumer$proxy$4_3_2_accept(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture090;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$2.$forum.$id2;
+    var$4 = $rt_createArray(jl_Object, 1).data;
+    var$4[0] = var$1;
+    ecd_Router$proxy$4_0_0_singleForum(ecdv_BaseView_route(var$2, var$4[0]), var$3[0]);
     otft_Templates_update();
 }
 function otfch_ValueChangeBinder() {
@@ -15022,28 +15024,16 @@ function otfch_ValueChangeBinder_destroy($this) {
 }
 function otft_ValueChangeListener() {
 }
-function otft_ValueChangeListener$proxy$4_8_0() {
+function otft_ValueChangeListener$proxy$4_4_0() {
     jl_Object.call(this);
-    this.$proxyCapture0102 = null;
+    this.$proxyCapture0103 = null;
 }
-function otft_ValueChangeListener$proxy$4_8_0_changed(var$0, var$1) {
+function otft_ValueChangeListener$proxy$4_4_0_changed(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0102;
+    var$2 = var$0.$proxyCapture0103;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
-    var$2.$title2 = var$3[0];
-    otft_Templates_update();
-}
-function otft_ValueChangeListener$proxy$4_8_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0106 = null;
-}
-function otft_ValueChangeListener$proxy$4_8_1_changed(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0106;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    var$2.$description = var$3[0];
+    var$2.$newName1 = var$3[0];
     otft_Templates_update();
 }
 function otfce_BaseEventBinder() {
@@ -15099,98 +15089,108 @@ function otfce_MouseBinder__init_0($this, $element) {
     $this.$wrapperListener = var$2;
     $this.$element1 = otft_DomBuilder$Item_getElement($element);
 }
-function juf_Consumer$proxy$4_8_4() {
+function juf_Consumer$proxy$4_4_2() {
     jl_Object.call(this);
-    this.$proxyCapture0108 = null;
+    this.$proxyCapture0107 = null;
 }
-function juf_Consumer$proxy$4_8_4_accept(var$0, var$1) {
-    ecdv_ForumView_createTopic(var$0.$proxyCapture0108);
+function juf_Consumer$proxy$4_4_2_accept(var$0, var$1) {
+    ecdv_AddLectureView_goBack(var$0.$proxyCapture0107);
     otft_Templates_update();
 }
-function otft_ValueChangeListener$proxy$4_9_0() {
+function otft_ValueChangeListener$proxy$4_5_0() {
     jl_Object.call(this);
-    this.$proxyCapture0116 = null;
+    this.$proxyCapture0117 = null;
 }
-function otft_ValueChangeListener$proxy$4_9_0_changed(var$0, var$1) {
+function otft_ValueChangeListener$proxy$4_5_0_changed(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0116;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    var$2.$newName1 = var$3[0];
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_9_2() {
-    jl_Object.call(this);
-    this.$proxyCapture0120 = null;
-}
-function juf_Consumer$proxy$4_9_2_accept(var$0, var$1) {
-    ecdv_AddLectureView_goBack(var$0.$proxyCapture0120);
-    otft_Templates_update();
-}
-function otft_ValueChangeListener$proxy$4_10_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0130 = null;
-}
-function otft_ValueChangeListener$proxy$4_10_0_changed(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0130;
+    var$2 = var$0.$proxyCapture0117;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     var$2.$newName = var$3[0];
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_10_2() {
+function juf_Consumer$proxy$4_5_2() {
     jl_Object.call(this);
-    this.$proxyCapture0134 = null;
+    this.$proxyCapture0121 = null;
 }
-function juf_Consumer$proxy$4_10_2_accept(var$0, var$1) {
-    ecdv_AddAssignmentView_goBack(var$0.$proxyCapture0134);
+function juf_Consumer$proxy$4_5_2_accept(var$0, var$1) {
+    ecdv_AddAssignmentView_goBack(var$0.$proxyCapture0121);
     otft_Templates_update();
 }
-function otft_ValueChangeListener$proxy$4_12_0() {
+function juf_Consumer$proxy$4_6_1() {
     jl_Object.call(this);
-    this.$proxyCapture0155 = null;
+    this.$proxyCapture0125 = null;
 }
-function otft_ValueChangeListener$proxy$4_12_0_changed(var$0, var$1) {
+function juf_Consumer$proxy$4_6_1_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0155;
+    var$2 = var$0.$proxyCapture0125;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
-    var$2.$newName0 = var$3[0];
+    ecd_Router$proxy$4_0_0_tutorials(ecdv_BaseView_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_12_2() {
+function juf_Consumer$proxy$4_10_1() {
     jl_Object.call(this);
-    this.$proxyCapture0159 = null;
+    this.$proxyCapture0142 = null;
 }
-function juf_Consumer$proxy$4_12_2_accept(var$0, var$1) {
-    ecdv_AddTutorialView_goBack(var$0.$proxyCapture0159);
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_13_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0165 = null;
-}
-function juf_Consumer$proxy$4_13_1_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_10_1_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0165;
+    var$2 = var$0.$proxyCapture0142;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_forums(ecdv_BaseView_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_13_2() {
+function otft_ValueChangeListener$proxy$4_10_0() {
     jl_Object.call(this);
-    this.$proxyCapture0167 = null;
+    this.$proxyCapture0150 = null;
 }
-function juf_Consumer$proxy$4_13_2_accept(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0167;
+function otft_ValueChangeListener$proxy$4_10_0_changed(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0150;
     var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$2.$forum.$id2;
-    var$4 = $rt_createArray(jl_Object, 1).data;
-    var$4[0] = var$1;
-    ecd_Router$proxy$4_0_0_singleForum(ecdv_BaseView_route(var$2, var$4[0]), var$3[0]);
+    var$3[0] = var$1;
+    var$2.$title2 = var$3[0];
+    otft_Templates_update();
+}
+function otft_ValueChangeListener$proxy$4_10_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0154 = null;
+}
+function otft_ValueChangeListener$proxy$4_10_1_changed(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0154;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    var$2.$description = var$3[0];
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_10_4() {
+    jl_Object.call(this);
+    this.$proxyCapture0156 = null;
+}
+function juf_Consumer$proxy$4_10_4_accept(var$0, var$1) {
+    ecdv_ForumView_createTopic(var$0.$proxyCapture0156);
+    otft_Templates_update();
+}
+function otft_ValueChangeListener$proxy$4_11_0() {
+    jl_Object.call(this);
+    this.$proxyCapture0164 = null;
+}
+function otft_ValueChangeListener$proxy$4_11_0_changed(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0164;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    var$2.$newName0 = var$3[0];
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_11_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0168 = null;
+}
+function juf_Consumer$proxy$4_11_2_accept(var$0, var$1) {
+    ecdv_AddTutorialView_goBack(var$0.$proxyCapture0168);
     otft_Templates_update();
 }
 function jusi_FindFirstConsumer() {
@@ -15215,21 +15215,9 @@ function juf_Consumer$proxy$4_1_0_accept(var$0, var$1) {
 }
 function juf_Consumer$proxy$4_2_0() {
     jl_Object.call(this);
-    this.$proxyCapture082 = null;
-}
-function juf_Consumer$proxy$4_2_0_accept(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture082;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_3_0() {
-    jl_Object.call(this);
     this.$proxyCapture083 = null;
 }
-function juf_Consumer$proxy$4_3_0_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_2_0_accept(var$0, var$1) {
     var var$2, var$3;
     var$2 = var$0.$proxyCapture083;
     var$3 = $rt_createArray(jl_Object, 1).data;
@@ -15237,23 +15225,11 @@ function juf_Consumer$proxy$4_3_0_accept(var$0, var$1) {
     ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_4_0() {
-    jl_Object.call(this);
-    this.$proxyCapture084 = null;
-}
-function juf_Consumer$proxy$4_4_0_accept(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture084;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_5_0() {
+function juf_Consumer$proxy$4_3_0() {
     jl_Object.call(this);
     this.$proxyCapture086 = null;
 }
-function juf_Consumer$proxy$4_5_0_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_3_0_accept(var$0, var$1) {
     var var$2, var$3;
     var$2 = var$0.$proxyCapture086;
     var$3 = $rt_createArray(jl_Object, 1).data;
@@ -15261,37 +15237,13 @@ function juf_Consumer$proxy$4_5_0_accept(var$0, var$1) {
     ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_6_0() {
+function juf_Consumer$proxy$4_4_0() {
     jl_Object.call(this);
-    this.$proxyCapture087 = null;
+    this.$proxyCapture097 = null;
 }
-function juf_Consumer$proxy$4_6_0_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_4_0_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture087;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_7_0() {
-    jl_Object.call(this);
-    this.$proxyCapture089 = null;
-}
-function juf_Consumer$proxy$4_7_0_accept(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture089;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_8_0() {
-    jl_Object.call(this);
-    this.$proxyCapture092 = null;
-}
-function juf_Consumer$proxy$4_8_0_accept(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture092;
+    var$2 = var$0.$proxyCapture097;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
@@ -15300,7 +15252,7 @@ function juf_Consumer$proxy$4_8_0_accept(var$0, var$1) {
 function otfca_ComputedAttribute() {
     var a = this; jl_Object.call(a);
     a.$element2 = null;
-    a.$value3 = null;
+    a.$value4 = null;
     a.$cachedValue0 = null;
     a.$name3 = null;
 }
@@ -15313,14 +15265,14 @@ function otfca_ComputedAttribute__init_0($this, $target) {
     $this.$element2 = otft_DomBuilder$Item_getElement($target);
 }
 function otfca_ComputedAttribute_setValue($this, $value) {
-    $this.$value3 = $value;
+    $this.$value4 = $value;
 }
 function otfca_ComputedAttribute_setName($this, $name) {
     $this.$name3 = $name;
 }
 function otfca_ComputedAttribute_render($this) {
     var $newValue, var$2, var$3;
-    $newValue = $this.$value3.$get1();
+    $newValue = $this.$value4.$get1();
     if (!ju_Objects_equals($newValue, $this.$cachedValue0)) {
         $this.$cachedValue0 = $newValue;
         var$2 = $this.$element2;
@@ -15335,60 +15287,69 @@ function otfca_ComputedAttribute_destroy($this) {
     var$2 = $this.$name3;
     var$1.removeAttribute($rt_ustr(var$2));
 }
-function juf_Supplier$proxy$4_8_12() {
+function juf_Supplier$proxy$4_4_2() {
     jl_Object.call(this);
-    this.$proxyCapture0100 = null;
+    this.$proxyCapture0101 = null;
 }
-function juf_Supplier$proxy$4_8_12_get(var$0) {
-    return var$0.$proxyCapture0100.$title2;
+function juf_Supplier$proxy$4_4_2_get(var$0) {
+    return var$0.$proxyCapture0101.$newName1;
 }
-function juf_Supplier$proxy$4_8_13() {
+function juf_Consumer$proxy$4_4_1() {
     jl_Object.call(this);
-    this.$proxyCapture0104 = null;
+    this.$proxyCapture0105 = null;
 }
-function juf_Supplier$proxy$4_8_13_get(var$0) {
-    return var$0.$proxyCapture0104.$description;
+function juf_Consumer$proxy$4_4_1_accept(var$0, var$1) {
+    ecdv_AddLectureView_addLecture(var$0.$proxyCapture0105);
+    otft_Templates_update();
 }
-function juf_Consumer$proxy$4_9_0() {
+function juf_Consumer$proxy$4_4_3() {
     jl_Object.call(this);
-    this.$proxyCapture0110 = null;
+    this.$proxyCapture0109 = null;
 }
-function juf_Consumer$proxy$4_9_0_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_4_3_accept(var$0, var$1) {
+    ecdv_AddLectureView_goBack(var$0.$proxyCapture0109);
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_5_0() {
+    jl_Object.call(this);
+    this.$proxyCapture0111 = null;
+}
+function juf_Consumer$proxy$4_5_0_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0110;
+    var$2 = var$0.$proxyCapture0111;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Supplier$proxy$4_9_2() {
+function juf_Supplier$proxy$4_5_2() {
     jl_Object.call(this);
-    this.$proxyCapture0114 = null;
+    this.$proxyCapture0115 = null;
 }
-function juf_Supplier$proxy$4_9_2_get(var$0) {
-    return var$0.$proxyCapture0114.$newName1;
+function juf_Supplier$proxy$4_5_2_get(var$0) {
+    return var$0.$proxyCapture0115.$newName;
 }
-function juf_Consumer$proxy$4_9_1() {
+function juf_Consumer$proxy$4_5_1() {
     jl_Object.call(this);
-    this.$proxyCapture0118 = null;
+    this.$proxyCapture0119 = null;
 }
-function juf_Consumer$proxy$4_9_1_accept(var$0, var$1) {
-    ecdv_AddLectureView_addLecture(var$0.$proxyCapture0118);
+function juf_Consumer$proxy$4_5_1_accept(var$0, var$1) {
+    ecdv_AddAssignmentView_addAssignment(var$0.$proxyCapture0119);
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_9_3() {
+function juf_Consumer$proxy$4_5_3() {
     jl_Object.call(this);
-    this.$proxyCapture0122 = null;
+    this.$proxyCapture0123 = null;
 }
-function juf_Consumer$proxy$4_9_3_accept(var$0, var$1) {
-    ecdv_AddLectureView_goBack(var$0.$proxyCapture0122);
+function juf_Consumer$proxy$4_5_3_accept(var$0, var$1) {
+    ecdv_AddAssignmentView_goBack(var$0.$proxyCapture0123);
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_10_0() {
+function juf_Consumer$proxy$4_6_0() {
     jl_Object.call(this);
     this.$proxyCapture0124 = null;
 }
-function juf_Consumer$proxy$4_10_0_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_6_0_accept(var$0, var$1) {
     var var$2, var$3;
     var$2 = var$0.$proxyCapture0124;
     var$3 = $rt_createArray(jl_Object, 1).data;
@@ -15396,71 +15357,110 @@ function juf_Consumer$proxy$4_10_0_accept(var$0, var$1) {
     ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Supplier$proxy$4_10_2() {
+function juf_Consumer$proxy$4_7_0() {
     jl_Object.call(this);
-    this.$proxyCapture0128 = null;
+    this.$proxyCapture0126 = null;
 }
-function juf_Supplier$proxy$4_10_2_get(var$0) {
-    return var$0.$proxyCapture0128.$newName;
-}
-function juf_Consumer$proxy$4_10_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0132 = null;
-}
-function juf_Consumer$proxy$4_10_1_accept(var$0, var$1) {
-    ecdv_AddAssignmentView_addAssignment(var$0.$proxyCapture0132);
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_10_3() {
-    jl_Object.call(this);
-    this.$proxyCapture0136 = null;
-}
-function juf_Consumer$proxy$4_10_3_accept(var$0, var$1) {
-    ecdv_AddAssignmentView_goBack(var$0.$proxyCapture0136);
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_12_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0149 = null;
-}
-function juf_Consumer$proxy$4_12_0_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_7_0_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0149;
+    var$2 = var$0.$proxyCapture0126;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Supplier$proxy$4_12_2() {
+function juf_Consumer$proxy$4_9_0() {
     jl_Object.call(this);
-    this.$proxyCapture0153 = null;
+    this.$proxyCapture0138 = null;
 }
-function juf_Supplier$proxy$4_12_2_get(var$0) {
-    return var$0.$proxyCapture0153.$newName0;
-}
-function juf_Consumer$proxy$4_12_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0157 = null;
-}
-function juf_Consumer$proxy$4_12_1_accept(var$0, var$1) {
-    ecdv_AddTutorialView_addTutorial(var$0.$proxyCapture0157);
+function juf_Consumer$proxy$4_9_0_accept(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0138;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_12_3() {
+function juf_Consumer$proxy$4_10_0() {
     jl_Object.call(this);
-    this.$proxyCapture0161 = null;
+    this.$proxyCapture0140 = null;
 }
-function juf_Consumer$proxy$4_12_3_accept(var$0, var$1) {
-    ecdv_AddTutorialView_goBack(var$0.$proxyCapture0161);
+function juf_Consumer$proxy$4_10_0_accept(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0140;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
+    otft_Templates_update();
+}
+function juf_Supplier$proxy$4_10_12() {
+    jl_Object.call(this);
+    this.$proxyCapture0148 = null;
+}
+function juf_Supplier$proxy$4_10_12_get(var$0) {
+    return var$0.$proxyCapture0148.$title2;
+}
+function juf_Supplier$proxy$4_10_13() {
+    jl_Object.call(this);
+    this.$proxyCapture0152 = null;
+}
+function juf_Supplier$proxy$4_10_13_get(var$0) {
+    return var$0.$proxyCapture0152.$description;
+}
+function juf_Consumer$proxy$4_11_0() {
+    jl_Object.call(this);
+    this.$proxyCapture0158 = null;
+}
+function juf_Consumer$proxy$4_11_0_accept(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0158;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
+    otft_Templates_update();
+}
+function juf_Supplier$proxy$4_11_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0162 = null;
+}
+function juf_Supplier$proxy$4_11_2_get(var$0) {
+    return var$0.$proxyCapture0162.$newName0;
+}
+function juf_Consumer$proxy$4_11_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0166 = null;
+}
+function juf_Consumer$proxy$4_11_1_accept(var$0, var$1) {
+    ecdv_AddTutorialView_addTutorial(var$0.$proxyCapture0166);
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_11_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0170 = null;
+}
+function juf_Consumer$proxy$4_11_3_accept(var$0, var$1) {
+    ecdv_AddTutorialView_goBack(var$0.$proxyCapture0170);
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_12_0() {
+    jl_Object.call(this);
+    this.$proxyCapture0171 = null;
+}
+function juf_Consumer$proxy$4_12_0_accept(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0171;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
     otft_Templates_update();
 }
 function juf_Consumer$proxy$4_13_0() {
     jl_Object.call(this);
-    this.$proxyCapture0163 = null;
+    this.$proxyCapture0172 = null;
 }
 function juf_Consumer$proxy$4_13_0_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0163;
+    var$2 = var$0.$proxyCapture0172;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_index(ecdv_BaseView_route(var$2, var$3[0]));
@@ -15562,54 +15562,54 @@ function otft_Templates$PROXY$4_24_create(var$1, var$2) {
     var$2.$proxyCapture0250 = var$1;
     return var$2;
 }
-function juf_Supplier$proxy$4_8_1() {
+function juf_Supplier$proxy$4_3_3() {
     jl_Object.call(this);
     this.$proxyCapture0245 = null;
 }
-function juf_Supplier$proxy$4_8_1_get(var$0) {
-    return var$0.$proxyCapture0245.$forum0.$topics;
+function juf_Supplier$proxy$4_3_3_get(var$0) {
+    return var$0.$proxyCapture0245.$value5.$user;
 }
-function otft_Fragment$proxy$4_8_3() {
+function otft_Fragment$proxy$4_3_2() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0246 = null;
     a.$proxyCapture111 = null;
+    a.$proxyCapture25 = null;
 }
-function otft_Fragment$proxy$4_8_3_create(var$0) {
-    var var$1, var$2, var$3, var$4;
+function otft_Fragment$proxy$4_3_2_create(var$0) {
+    var var$1, var$2, var$3, var$4, var$5;
     var$1 = var$0.$proxyCapture0246;
     var$2 = var$0.$proxyCapture111;
-    var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_8_3;
-    var$4.$proxyCapture0251 = var$3;
-    var$4.$proxyCapture113 = var$1;
-    var$4.$proxyCapture26 = var$2;
-    return otft_DomComponentTemplate__init_(var$4);
+    var$3 = var$0.$proxyCapture25;
+    var$4 = new otfte_VariableImpl;
+    var$5 = new otft_DomComponentHandler$proxy$4_3_2;
+    var$5.$proxyCapture0251 = var$4;
+    var$5.$proxyCapture113 = var$1;
+    var$5.$proxyCapture26 = var$2;
+    var$5.$proxyCapture3 = var$3;
+    return otft_DomComponentTemplate__init_(var$5);
 }
-function juf_Supplier$proxy$4_13_3() {
+function juf_Supplier$proxy$4_10_1() {
     jl_Object.call(this);
     this.$proxyCapture0247 = null;
 }
-function juf_Supplier$proxy$4_13_3_get(var$0) {
-    return var$0.$proxyCapture0247.$value5.$user;
+function juf_Supplier$proxy$4_10_1_get(var$0) {
+    return var$0.$proxyCapture0247.$forum0.$topics;
 }
-function otft_Fragment$proxy$4_13_2() {
+function otft_Fragment$proxy$4_10_3() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0248 = null;
     a.$proxyCapture112 = null;
-    a.$proxyCapture25 = null;
 }
-function otft_Fragment$proxy$4_13_2_create(var$0) {
-    var var$1, var$2, var$3, var$4, var$5;
+function otft_Fragment$proxy$4_10_3_create(var$0) {
+    var var$1, var$2, var$3, var$4;
     var$1 = var$0.$proxyCapture0248;
     var$2 = var$0.$proxyCapture112;
-    var$3 = var$0.$proxyCapture25;
-    var$4 = new otfte_VariableImpl;
-    var$5 = new otft_DomComponentHandler$proxy$4_13_2;
-    var$5.$proxyCapture0252 = var$4;
-    var$5.$proxyCapture114 = var$1;
-    var$5.$proxyCapture27 = var$2;
-    var$5.$proxyCapture3 = var$3;
-    return otft_DomComponentTemplate__init_(var$5);
+    var$3 = new otfte_VariableImpl;
+    var$4 = new otft_DomComponentHandler$proxy$4_10_3;
+    var$4.$proxyCapture0252 = var$3;
+    var$4.$proxyCapture114 = var$1;
+    var$4.$proxyCapture27 = var$2;
+    return otft_DomComponentTemplate__init_(var$4);
 }
 function otft_Fragment$proxy$4_24_0() {
     jl_Object.call(this);
@@ -15651,18 +15651,21 @@ function otft_DomComponentHandler$proxy$4_17_0_buildDom(var$0, var$1) {
     var$5 = new juf_Supplier$proxy$4_17_0;
     var$5.$proxyCapture0255 = var$2;
     var$4.$value2 = var$5;
-    var$3 = otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(353))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(532)), $rt_s(355)), $rt_s(403)), $rt_s(349), $rt_s(533));
+    var$3 = otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(353))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(532)), $rt_s(355)), $rt_s(399)), $rt_s(349), $rt_s(533));
     var$4 = new otft_Modifier$proxy$4_17_1;
     var$4.$proxyCapture0256 = var$2;
     otft_DomBuilder_close(otft_DomBuilder_add0(var$3, var$4));
     var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(353))), $rt_s(350))), $rt_s(350));
-    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    var$3 = otft_Slot_create();
+    var$4 = new otfcs_IfComponent;
+    otft_AbstractComponent__init_(var$4, var$3);
+    var$3 = var$4;
     var$4 = new juf_Supplier$proxy$4_17_1;
     var$4.$proxyCapture0257 = var$2;
-    var$3.$collection0 = var$4;
+    var$3.$condition = var$4;
     var$4 = new otft_Fragment$proxy$4_17_1;
-    var$4.$proxyCapture0258 = var$3;
-    var$3.$body1 = var$4;
+    var$4.$proxyCapture0258 = var$2;
+    var$3.$body3 = var$4;
     var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350));
     var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
     var$4 = new juf_Supplier$proxy$4_17_3;
@@ -15670,14 +15673,6 @@ function otft_DomComponentHandler$proxy$4_17_0_buildDom(var$0, var$1) {
     var$3.$collection0 = var$4;
     var$4 = new otft_Fragment$proxy$4_17_2;
     var$4.$proxyCapture0260 = var$3;
-    var$3.$body1 = var$4;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350));
-    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    var$4 = new juf_Supplier$proxy$4_17_5;
-    var$4.$proxyCapture0261 = var$2;
-    var$3.$collection0 = var$4;
-    var$4 = new otft_Fragment$proxy$4_17_3;
-    var$4.$proxyCapture0262 = var$3;
     var$3.$body1 = var$4;
     otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(347)));
 }
@@ -15694,36 +15689,41 @@ function otft_DomComponentHandler$proxy$4_18_0_buildDom(var$0, var$1) {
     var$1 = var$1;
     var$3 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(var$1, $rt_s(370)), $rt_s(349), $rt_s(534)), $rt_s(350)), $rt_s(351)), $rt_s(349), $rt_s(530)), $rt_s(353)), $rt_s(376)), $rt_s(349), $rt_s(531));
     var$4 = new otft_Modifier$proxy$4_18_0;
-    var$4.$proxyCapture0263 = var$2;
+    var$4.$proxyCapture0261 = var$2;
     var$3 = otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(355));
     var$4 = otft_Slot_create();
     var$5 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
     var$5 = new juf_Supplier$proxy$4_18_0;
-    var$5.$proxyCapture0264 = var$2;
+    var$5.$proxyCapture0262 = var$2;
     var$4.$value2 = var$5;
-    var$3 = otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(353))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(532)), $rt_s(355)), $rt_s(403)), $rt_s(349), $rt_s(533));
+    var$3 = otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(353))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(532)), $rt_s(355)), $rt_s(399)), $rt_s(349), $rt_s(533));
     var$4 = new otft_Modifier$proxy$4_18_1;
-    var$4.$proxyCapture0265 = var$2;
+    var$4.$proxyCapture0263 = var$2;
     otft_DomBuilder_close(otft_DomBuilder_add0(var$3, var$4));
     var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(353))), $rt_s(350))), $rt_s(350));
-    var$3 = otft_Slot_create();
-    var$4 = new otfcs_IfComponent;
-    otft_AbstractComponent__init_(var$4, var$3);
-    var$3 = var$4;
+    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
     var$4 = new juf_Supplier$proxy$4_18_1;
-    var$4.$proxyCapture0266 = var$2;
-    var$3.$condition = var$4;
+    var$4.$proxyCapture0264 = var$2;
+    var$3.$collection0 = var$4;
     var$4 = new otft_Fragment$proxy$4_18_1;
-    var$4.$proxyCapture0267 = var$2;
-    var$3.$body3 = var$4;
+    var$4.$proxyCapture0265 = var$3;
+    var$3.$body1 = var$4;
     var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350));
     var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
     var$4 = new juf_Supplier$proxy$4_18_3;
-    var$4.$proxyCapture0268 = var$2;
+    var$4.$proxyCapture0266 = var$2;
     var$3.$collection0 = var$4;
     var$4 = new otft_Fragment$proxy$4_18_2;
+    var$4.$proxyCapture0267 = var$3;
+    var$3.$body1 = var$4;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350));
+    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    var$4 = new juf_Supplier$proxy$4_18_5;
+    var$4.$proxyCapture0268 = var$2;
+    var$3.$collection0 = var$4;
+    var$4 = new otft_Fragment$proxy$4_18_3;
     var$4.$proxyCapture0269 = var$3;
     var$3.$body1 = var$4;
     otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(347)));
@@ -15750,7 +15750,7 @@ function otft_DomComponentHandler$proxy$4_19_0_buildDom(var$0, var$1) {
     var$5 = new juf_Supplier$proxy$4_19_0;
     var$5.$proxyCapture0271 = var$2;
     var$4.$value2 = var$5;
-    var$3 = otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(353))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(532)), $rt_s(355)), $rt_s(403)), $rt_s(349), $rt_s(533));
+    var$3 = otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(353))), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(532)), $rt_s(355)), $rt_s(399)), $rt_s(349), $rt_s(533));
     var$4 = new otft_Modifier$proxy$4_19_1;
     var$4.$proxyCapture0272 = var$2;
     otft_DomBuilder_close(otft_DomBuilder_add0(var$3, var$4));
@@ -15785,24 +15785,6 @@ function otfce_BaseEventBinder$setHandler$lambda$_2_0_handleEvent(var$0, var$1) 
 function otfce_BaseEventBinder$setHandler$lambda$_2_0_handleEvent$exported$0(var$0, var$1) {
     otfce_BaseEventBinder$setHandler$lambda$_2_0_handleEvent(var$0, var$1);
 }
-function otft_DomComponentHandler$proxy$4_21_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0195 = null;
-}
-function otft_DomComponentHandler$proxy$4_21_0_update(var$0) {
-    return;
-}
-function otft_DomComponentHandler$proxy$4_21_0_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0195;
-    var$1 = otft_DomBuilder_text(var$1, $rt_s(347));
-    var$3 = ecdc_CollapsibleContentComponent__init_(otft_Slot_create());
-    var$3.$titleSupplier0 = new juf_Supplier$proxy$4_21_0;
-    var$4 = new otft_Fragment$proxy$4_21_1;
-    var$4.$proxyCapture0277 = var$2;
-    var$3.$body4 = var$4;
-    otft_DomBuilder_add(var$1, var$3);
-}
 function otft_DomComponentHandler$proxy$4_23_0() {
     jl_Object.call(this);
     this.$proxyCapture0197 = null;
@@ -15817,6 +15799,24 @@ function otft_DomComponentHandler$proxy$4_23_0_buildDom(var$0, var$1) {
     var$3 = ecdc_CollapsibleContentComponent__init_(otft_Slot_create());
     var$3.$titleSupplier0 = new juf_Supplier$proxy$4_23_0;
     var$4 = new otft_Fragment$proxy$4_23_1;
+    var$4.$proxyCapture0277 = var$2;
+    var$3.$body4 = var$4;
+    otft_DomBuilder_add(var$1, var$3);
+}
+function otft_DomComponentHandler$proxy$4_21_0() {
+    jl_Object.call(this);
+    this.$proxyCapture0195 = null;
+}
+function otft_DomComponentHandler$proxy$4_21_0_update(var$0) {
+    return;
+}
+function otft_DomComponentHandler$proxy$4_21_0_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0195;
+    var$1 = otft_DomBuilder_text(var$1, $rt_s(347));
+    var$3 = ecdc_CollapsibleContentComponent__init_(otft_Slot_create());
+    var$3.$titleSupplier0 = new juf_Supplier$proxy$4_21_0;
+    var$4 = new otft_Fragment$proxy$4_21_1;
     var$4.$proxyCapture0278 = var$2;
     var$3.$body4 = var$4;
     otft_DomBuilder_add(var$1, var$3);
@@ -15872,146 +15872,146 @@ function jusi_LimitingStreamImpl$next$lambda$_1_0_test(var$0, var$1) {
 }
 function juf_Consumer$proxy$4_14_0() {
     jl_Object.call(this);
-    this.$proxyCapture0198 = null;
+    this.$proxyCapture0199 = null;
 }
 function juf_Consumer$proxy$4_14_0_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0198;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_lectures(ecdc_FooterComponent_route(var$2, var$3[0]));
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_14_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0199 = null;
-}
-function juf_Consumer$proxy$4_14_1_accept(var$0, var$1) {
-    var var$2, var$3;
     var$2 = var$0.$proxyCapture0199;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_tutorials(ecdc_FooterComponent_route(var$2, var$3[0]));
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_14_2() {
-    jl_Object.call(this);
-    this.$proxyCapture0200 = null;
-}
-function juf_Consumer$proxy$4_14_2_accept(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0200;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_assignments(ecdc_FooterComponent_route(var$2, var$3[0]));
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_14_3() {
-    jl_Object.call(this);
-    this.$proxyCapture0201 = null;
-}
-function juf_Consumer$proxy$4_14_3_accept(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0201;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_forums(ecdc_FooterComponent_route(var$2, var$3[0]));
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_15_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0203 = null;
-}
-function juf_Consumer$proxy$4_15_0_accept(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0203;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_index(ecdb_RouteWidget_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_15_1() {
+function juf_Consumer$proxy$4_14_1() {
     jl_Object.call(this);
-    this.$proxyCapture0205 = null;
+    this.$proxyCapture0201 = null;
 }
-function juf_Consumer$proxy$4_15_1_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_14_1_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0205;
+    var$2 = var$0.$proxyCapture0201;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_lectures(ecdb_RouteWidget_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_15_3() {
+function juf_Consumer$proxy$4_14_3() {
     jl_Object.call(this);
-    this.$proxyCapture0210 = null;
+    this.$proxyCapture0206 = null;
 }
-function juf_Consumer$proxy$4_15_3_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_14_3_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0210;
+    var$2 = var$0.$proxyCapture0206;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_addLecture(ecdb_RouteWidget_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_15_4() {
+function juf_Consumer$proxy$4_14_4() {
     jl_Object.call(this);
-    this.$proxyCapture0212 = null;
+    this.$proxyCapture0208 = null;
 }
-function juf_Consumer$proxy$4_15_4_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_14_4_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0212;
+    var$2 = var$0.$proxyCapture0208;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_tutorials(ecdb_RouteWidget_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_15_6() {
+function juf_Consumer$proxy$4_14_6() {
     jl_Object.call(this);
-    this.$proxyCapture0217 = null;
+    this.$proxyCapture0213 = null;
 }
-function juf_Consumer$proxy$4_15_6_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_14_6_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0217;
+    var$2 = var$0.$proxyCapture0213;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_addTutorial(ecdb_RouteWidget_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_15_7() {
+function juf_Consumer$proxy$4_14_7() {
     jl_Object.call(this);
-    this.$proxyCapture0219 = null;
+    this.$proxyCapture0215 = null;
 }
-function juf_Consumer$proxy$4_15_7_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_14_7_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0219;
+    var$2 = var$0.$proxyCapture0215;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_assignments(ecdb_RouteWidget_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_15_9() {
+function juf_Consumer$proxy$4_14_9() {
     jl_Object.call(this);
-    this.$proxyCapture0224 = null;
+    this.$proxyCapture0220 = null;
 }
-function juf_Consumer$proxy$4_15_9_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_14_9_accept(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0224;
+    var$2 = var$0.$proxyCapture0220;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
     ecd_Router$proxy$4_0_0_addAssignment(ecdb_RouteWidget_route(var$2, var$3[0]));
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_15_10() {
+function juf_Consumer$proxy$4_14_10() {
+    jl_Object.call(this);
+    this.$proxyCapture0222 = null;
+}
+function juf_Consumer$proxy$4_14_10_accept(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0222;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    ecd_Router$proxy$4_0_0_forums(ecdb_RouteWidget_route(var$2, var$3[0]));
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_15_0() {
     jl_Object.call(this);
     this.$proxyCapture0226 = null;
 }
-function juf_Consumer$proxy$4_15_10_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_15_0_accept(var$0, var$1) {
     var var$2, var$3;
     var$2 = var$0.$proxyCapture0226;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = var$1;
-    ecd_Router$proxy$4_0_0_forums(ecdb_RouteWidget_route(var$2, var$3[0]));
+    ecd_Router$proxy$4_0_0_lectures(ecdc_FooterComponent_route(var$2, var$3[0]));
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_15_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0227 = null;
+}
+function juf_Consumer$proxy$4_15_1_accept(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0227;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    ecd_Router$proxy$4_0_0_tutorials(ecdc_FooterComponent_route(var$2, var$3[0]));
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_15_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0228 = null;
+}
+function juf_Consumer$proxy$4_15_2_accept(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0228;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    ecd_Router$proxy$4_0_0_assignments(ecdc_FooterComponent_route(var$2, var$3[0]));
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_15_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0229 = null;
+}
+function juf_Consumer$proxy$4_15_3_accept(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0229;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    ecd_Router$proxy$4_0_0_forums(ecdc_FooterComponent_route(var$2, var$3[0]));
     otft_Templates_update();
 }
 function juf_Consumer$proxy$4_16_4() {
@@ -16056,35 +16056,125 @@ function ju_LinkedList$Entry() {
     a.$next2 = null;
     a.$previous0 = null;
 }
-function otft_DomComponentHandler$proxy$4_15_4() {
+function otft_DomComponentHandler$proxy$4_14_2() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0229 = null;
-    a.$proxyCapture18 = null;
-    a.$proxyCapture23 = null;
+    a.$proxyCapture0211 = null;
+    a.$proxyCapture14 = null;
+    a.$proxyCapture21 = null;
 }
-function otft_DomComponentHandler$proxy$4_15_4_update(var$0) {
+function otft_DomComponentHandler$proxy$4_14_2_update(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0229;
-    var$2 = var$0.$proxyCapture18;
+    var$1 = var$0.$proxyCapture0211;
+    var$2 = var$0.$proxyCapture14;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_15_4_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_14_2_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0229;
-    var$3 = var$0.$proxyCapture23;
-    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(491)), $rt_s(376)), $rt_s(349), $rt_s(486));
-    var$4 = new otft_Modifier$proxy$4_15_11;
+    var$2 = var$0.$proxyCapture0211;
+    var$3 = var$0.$proxyCapture21;
+    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(479)), $rt_s(376)), $rt_s(349), $rt_s(474));
+    var$4 = new otft_Modifier$proxy$4_14_5;
     var$4.$proxyCapture0281 = var$2;
     var$4.$proxyCapture115 = var$3;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(497));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(485));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_15_7;
+    var$4 = new juf_Supplier$proxy$4_14_3;
     var$4.$proxyCapture0282 = var$2;
     var$3.$value2 = var$4;
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(491))), $rt_s(436));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(479))), $rt_s(425));
+}
+function otft_DomComponentHandler$proxy$4_14_1() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0204 = null;
+    a.$proxyCapture12 = null;
+    a.$proxyCapture20 = null;
+}
+function otft_DomComponentHandler$proxy$4_14_1_update(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0204;
+    var$2 = var$0.$proxyCapture12;
+    var$1.$value5 = var$2.$elementVariable;
+}
+function otft_DomComponentHandler$proxy$4_14_1_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0204;
+    var$3 = var$0.$proxyCapture20;
+    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(479)), $rt_s(376)), $rt_s(349), $rt_s(474));
+    var$4 = new otft_Modifier$proxy$4_14_2;
+    var$4.$proxyCapture0283 = var$2;
+    var$4.$proxyCapture116 = var$3;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(485));
+    var$3 = otft_Slot_create();
+    var$4 = new otfch_TextComponent;
+    otft_AbstractComponent__init_(var$4, var$3);
+    var$3 = var$4;
+    var$4 = new juf_Supplier$proxy$4_14_1;
+    var$4.$proxyCapture0284 = var$2;
+    var$3.$value2 = var$4;
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(479))), $rt_s(425));
+}
+function otft_DomComponentHandler$proxy$4_14_4() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0225 = null;
+    a.$proxyCapture18 = null;
+    a.$proxyCapture23 = null;
+}
+function otft_DomComponentHandler$proxy$4_14_4_update(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0225;
+    var$2 = var$0.$proxyCapture18;
+    var$1.$value5 = var$2.$elementVariable;
+}
+function otft_DomComponentHandler$proxy$4_14_4_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0225;
+    var$3 = var$0.$proxyCapture23;
+    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(479)), $rt_s(376)), $rt_s(349), $rt_s(474));
+    var$4 = new otft_Modifier$proxy$4_14_11;
+    var$4.$proxyCapture0285 = var$2;
+    var$4.$proxyCapture117 = var$3;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(485));
+    var$3 = otft_Slot_create();
+    var$4 = new otfch_TextComponent;
+    otft_AbstractComponent__init_(var$4, var$3);
+    var$3 = var$4;
+    var$4 = new juf_Supplier$proxy$4_14_7;
+    var$4.$proxyCapture0286 = var$2;
+    var$3.$value2 = var$4;
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(479))), $rt_s(425));
+}
+function otft_DomComponentHandler$proxy$4_14_3() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0218 = null;
+    a.$proxyCapture16 = null;
+    a.$proxyCapture22 = null;
+}
+function otft_DomComponentHandler$proxy$4_14_3_update(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0218;
+    var$2 = var$0.$proxyCapture16;
+    var$1.$value5 = var$2.$elementVariable;
+}
+function otft_DomComponentHandler$proxy$4_14_3_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0218;
+    var$3 = var$0.$proxyCapture22;
+    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(479)), $rt_s(376)), $rt_s(349), $rt_s(474));
+    var$4 = new otft_Modifier$proxy$4_14_8;
+    var$4.$proxyCapture0287 = var$2;
+    var$4.$proxyCapture118 = var$3;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(485));
+    var$3 = otft_Slot_create();
+    var$4 = new otfch_TextComponent;
+    otft_AbstractComponent__init_(var$4, var$3);
+    var$3 = var$4;
+    var$4 = new juf_Supplier$proxy$4_14_5;
+    var$4.$proxyCapture0288 = var$2;
+    var$3.$value2 = var$4;
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(479))), $rt_s(425));
 }
 function otft_DomComponentHandler$proxy$4_16_7() {
     var a = this; jl_Object.call(a);
@@ -16102,117 +16192,27 @@ function otft_DomComponentHandler$proxy$4_16_7_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture0238;
     var$3 = var$0.$proxyCapture24;
-    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(355)), $rt_s(375)), $rt_s(349), $rt_s(536)), $rt_s(357)), $rt_s(376)), $rt_s(425), $rt_s(537));
+    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(355)), $rt_s(375)), $rt_s(349), $rt_s(536)), $rt_s(357)), $rt_s(376)), $rt_s(414), $rt_s(537));
     var$4 = new otft_Modifier$proxy$4_16_3;
-    var$4.$proxyCapture0283 = var$2;
-    var$4.$proxyCapture116 = var$3;
+    var$4.$proxyCapture0289 = var$2;
+    var$4.$proxyCapture119 = var$3;
     var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(361));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
     var$4 = new juf_Supplier$proxy$4_16_13;
-    var$4.$proxyCapture0284 = var$2;
+    var$4.$proxyCapture0290 = var$2;
     var$3.$value2 = var$4;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(357))), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(538)), $rt_s(361));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(357))), $rt_s(357)), $rt_s(468)), $rt_s(349), $rt_s(538)), $rt_s(361));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
     var$4 = new juf_Supplier$proxy$4_16_14;
-    var$4.$proxyCapture0285 = var$2;
-    var$3.$value2 = var$4;
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(357))), $rt_s(355))), $rt_s(353));
-}
-function otft_DomComponentHandler$proxy$4_15_1() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0208 = null;
-    a.$proxyCapture12 = null;
-    a.$proxyCapture20 = null;
-}
-function otft_DomComponentHandler$proxy$4_15_1_update(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0208;
-    var$2 = var$0.$proxyCapture12;
-    var$1.$value5 = var$2.$elementVariable;
-}
-function otft_DomComponentHandler$proxy$4_15_1_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0208;
-    var$3 = var$0.$proxyCapture20;
-    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(491)), $rt_s(376)), $rt_s(349), $rt_s(486));
-    var$4 = new otft_Modifier$proxy$4_15_2;
-    var$4.$proxyCapture0286 = var$2;
-    var$4.$proxyCapture117 = var$3;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(497));
-    var$3 = otft_Slot_create();
-    var$4 = new otfch_TextComponent;
-    otft_AbstractComponent__init_(var$4, var$3);
-    var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_15_1;
-    var$4.$proxyCapture0287 = var$2;
-    var$3.$value2 = var$4;
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(491))), $rt_s(436));
-}
-function otft_DomComponentHandler$proxy$4_15_2() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0215 = null;
-    a.$proxyCapture14 = null;
-    a.$proxyCapture21 = null;
-}
-function otft_DomComponentHandler$proxy$4_15_2_update(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0215;
-    var$2 = var$0.$proxyCapture14;
-    var$1.$value5 = var$2.$elementVariable;
-}
-function otft_DomComponentHandler$proxy$4_15_2_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0215;
-    var$3 = var$0.$proxyCapture21;
-    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(491)), $rt_s(376)), $rt_s(349), $rt_s(486));
-    var$4 = new otft_Modifier$proxy$4_15_5;
-    var$4.$proxyCapture0288 = var$2;
-    var$4.$proxyCapture118 = var$3;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(497));
-    var$3 = otft_Slot_create();
-    var$4 = new otfch_TextComponent;
-    otft_AbstractComponent__init_(var$4, var$3);
-    var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_15_3;
-    var$4.$proxyCapture0289 = var$2;
-    var$3.$value2 = var$4;
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(491))), $rt_s(436));
-}
-function otft_DomComponentHandler$proxy$4_15_3() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0222 = null;
-    a.$proxyCapture16 = null;
-    a.$proxyCapture22 = null;
-}
-function otft_DomComponentHandler$proxy$4_15_3_update(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0222;
-    var$2 = var$0.$proxyCapture16;
-    var$1.$value5 = var$2.$elementVariable;
-}
-function otft_DomComponentHandler$proxy$4_15_3_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0222;
-    var$3 = var$0.$proxyCapture22;
-    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(491)), $rt_s(376)), $rt_s(349), $rt_s(486));
-    var$4 = new otft_Modifier$proxy$4_15_8;
-    var$4.$proxyCapture0290 = var$2;
-    var$4.$proxyCapture119 = var$3;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(497));
-    var$3 = otft_Slot_create();
-    var$4 = new otfch_TextComponent;
-    otft_AbstractComponent__init_(var$4, var$3);
-    var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_15_5;
     var$4.$proxyCapture0291 = var$2;
     var$3.$value2 = var$4;
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(491))), $rt_s(436));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(357))), $rt_s(355))), $rt_s(353));
 }
 function ju_ListIterator() {
 }
@@ -16381,133 +16381,150 @@ function ecdc_CollapsibleContentComponent_setTitleSupplier($this, $titleSupplier
 function ecdc_CollapsibleContentComponent_getTitle($this) {
     return $this.$titleSupplier0.$get1();
 }
-function juf_Supplier$proxy$4_22_0() {
+function juf_Supplier$proxy$4_20_0() {
     jl_Object.call(this);
 }
-function juf_Supplier$proxy$4_22_0_get(var$0) {
+function juf_Supplier$proxy$4_20_0_get(var$0) {
     return $rt_s(384);
 }
-function otft_Fragment$proxy$4_22_1() {
+function otft_Fragment$proxy$4_20_1() {
     jl_Object.call(this);
-    this.$proxyCapture0279 = null;
+    this.$proxyCapture0280 = null;
 }
-function otft_Fragment$proxy$4_22_1_create(var$0) {
+function otft_Fragment$proxy$4_20_1_create(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0279;
-    var$2 = new otft_DomComponentHandler$proxy$4_22_1;
+    var$1 = var$0.$proxyCapture0280;
+    var$2 = new otft_DomComponentHandler$proxy$4_20_1;
     var$2.$proxyCapture0292 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function juf_Supplier$proxy$4_21_0() {
+function juf_Supplier$proxy$4_23_0() {
     jl_Object.call(this);
 }
-function juf_Supplier$proxy$4_21_0_get(var$0) {
-    return $rt_s(382);
+function juf_Supplier$proxy$4_23_0_get(var$0) {
+    return $rt_s(453);
 }
-function otft_Fragment$proxy$4_21_1() {
+function otft_Fragment$proxy$4_23_1() {
     jl_Object.call(this);
     this.$proxyCapture0277 = null;
 }
-function otft_Fragment$proxy$4_21_1_create(var$0) {
+function otft_Fragment$proxy$4_23_1_create(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0277;
-    var$2 = new otft_DomComponentHandler$proxy$4_21_1;
+    var$2 = new otft_DomComponentHandler$proxy$4_23_1;
     var$2.$proxyCapture0293 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_Modifier$proxy$4_17_0() {
+function otft_Modifier$proxy$4_18_0() {
     jl_Object.call(this);
-    this.$proxyCapture0254 = null;
+    this.$proxyCapture0261 = null;
 }
-function otft_Modifier$proxy$4_17_0_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_18_0_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0254;
+    var$2 = var$0.$proxyCapture0261;
     var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_17_0;
+    var$3 = new juf_Consumer$proxy$4_18_0;
     var$3.$proxyCapture0294 = var$2;
     var$1.$path = var$3;
     return var$1;
 }
-function juf_Supplier$proxy$4_17_0() {
+function juf_Supplier$proxy$4_18_0() {
     jl_Object.call(this);
-    this.$proxyCapture0255 = null;
+    this.$proxyCapture0262 = null;
 }
-function juf_Supplier$proxy$4_17_0_get(var$0) {
-    return ecdc_LectureComponent_getLecture(var$0.$proxyCapture0255).$unit;
+function juf_Supplier$proxy$4_18_0_get(var$0) {
+    return ecdc_LectureComponent_getLecture(var$0.$proxyCapture0262).$unit;
 }
-function otft_Modifier$proxy$4_17_1() {
+function otft_Modifier$proxy$4_18_1() {
     jl_Object.call(this);
-    this.$proxyCapture0256 = null;
+    this.$proxyCapture0263 = null;
 }
-function otft_Modifier$proxy$4_17_1_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_18_1_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0256;
+    var$2 = var$0.$proxyCapture0263;
     var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_17_1;
+    var$3 = new juf_Consumer$proxy$4_18_1;
     var$3.$proxyCapture0295 = var$2;
     otfce_BaseEventBinder_setHandler(var$1, var$3);
     var$1.$eventName = $rt_s(455);
     return var$1;
 }
-function juf_Supplier$proxy$4_17_1() {
+function juf_Supplier$proxy$4_18_1() {
     jl_Object.call(this);
-    this.$proxyCapture0257 = null;
+    this.$proxyCapture0264 = null;
 }
-function juf_Supplier$proxy$4_17_1_get(var$0) {
-    return ecdc_LectureComponent_getLecture(var$0.$proxyCapture0257).$slides;
+function juf_Supplier$proxy$4_18_1_get(var$0) {
+    return ecdc_LectureComponent_getLecture(var$0.$proxyCapture0264).$slides;
 }
-function otft_Fragment$proxy$4_17_1() {
+function otft_Fragment$proxy$4_18_1() {
     jl_Object.call(this);
-    this.$proxyCapture0258 = null;
+    this.$proxyCapture0265 = null;
 }
-function otft_Fragment$proxy$4_17_1_create(var$0) {
+function otft_Fragment$proxy$4_18_1_create(var$0) {
     var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0258;
+    var$1 = var$0.$proxyCapture0265;
     var$2 = new otfte_VariableImpl;
-    var$3 = new otft_DomComponentHandler$proxy$4_17_1;
+    var$3 = new otft_DomComponentHandler$proxy$4_18_1;
     var$3.$proxyCapture0296 = var$2;
     var$3.$proxyCapture120 = var$1;
     return otft_DomComponentTemplate__init_(var$3);
 }
-function juf_Supplier$proxy$4_17_3() {
+function juf_Supplier$proxy$4_18_3() {
     jl_Object.call(this);
-    this.$proxyCapture0259 = null;
+    this.$proxyCapture0266 = null;
 }
-function juf_Supplier$proxy$4_17_3_get(var$0) {
-    return ecdc_LectureComponent_getLecture(var$0.$proxyCapture0259).$recordings;
+function juf_Supplier$proxy$4_18_3_get(var$0) {
+    return ecdc_LectureComponent_getLecture(var$0.$proxyCapture0266).$recordings;
 }
-function otft_Fragment$proxy$4_17_2() {
+function otft_Fragment$proxy$4_18_2() {
     jl_Object.call(this);
-    this.$proxyCapture0260 = null;
+    this.$proxyCapture0267 = null;
 }
-function otft_Fragment$proxy$4_17_2_create(var$0) {
+function otft_Fragment$proxy$4_18_2_create(var$0) {
     var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0260;
+    var$1 = var$0.$proxyCapture0267;
     var$2 = new otfte_VariableImpl;
-    var$3 = new otft_DomComponentHandler$proxy$4_17_2;
+    var$3 = new otft_DomComponentHandler$proxy$4_18_2;
     var$3.$proxyCapture0297 = var$2;
     var$3.$proxyCapture121 = var$1;
     return otft_DomComponentTemplate__init_(var$3);
 }
-function juf_Supplier$proxy$4_17_5() {
+function juf_Supplier$proxy$4_18_5() {
     jl_Object.call(this);
-    this.$proxyCapture0261 = null;
+    this.$proxyCapture0268 = null;
 }
-function juf_Supplier$proxy$4_17_5_get(var$0) {
-    return ecdc_LectureComponent_getLecture(var$0.$proxyCapture0261).$code;
+function juf_Supplier$proxy$4_18_5_get(var$0) {
+    return ecdc_LectureComponent_getLecture(var$0.$proxyCapture0268).$code;
 }
-function otft_Fragment$proxy$4_17_3() {
+function otft_Fragment$proxy$4_18_3() {
     jl_Object.call(this);
-    this.$proxyCapture0262 = null;
+    this.$proxyCapture0269 = null;
 }
-function otft_Fragment$proxy$4_17_3_create(var$0) {
+function otft_Fragment$proxy$4_18_3_create(var$0) {
     var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0262;
+    var$1 = var$0.$proxyCapture0269;
     var$2 = new otfte_VariableImpl;
-    var$3 = new otft_DomComponentHandler$proxy$4_17_3;
+    var$3 = new otft_DomComponentHandler$proxy$4_18_3;
     var$3.$proxyCapture0298 = var$2;
     var$3.$proxyCapture122 = var$1;
     return otft_DomComponentTemplate__init_(var$3);
+}
+function juf_Supplier$proxy$4_21_0() {
+    jl_Object.call(this);
+}
+function juf_Supplier$proxy$4_21_0_get(var$0) {
+    return $rt_s(410);
+}
+function otft_Fragment$proxy$4_21_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0278 = null;
+}
+function otft_Fragment$proxy$4_21_1_create(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0278;
+    var$2 = new otft_DomComponentHandler$proxy$4_21_1;
+    var$2.$proxyCapture0299 = var$1;
+    return otft_DomComponentTemplate__init_(var$2);
 }
 function otft_Modifier$proxy$4_19_0() {
     jl_Object.call(this);
@@ -16518,7 +16535,7 @@ function otft_Modifier$proxy$4_19_0_apply(var$0, var$1) {
     var$2 = var$0.$proxyCapture0270;
     var$1 = otfch_LinkComponent__init_(var$1);
     var$3 = new juf_Consumer$proxy$4_19_0;
-    var$3.$proxyCapture0299 = var$2;
+    var$3.$proxyCapture0300 = var$2;
     var$1.$path = var$3;
     return var$1;
 }
@@ -16527,7 +16544,7 @@ function juf_Supplier$proxy$4_19_0() {
     this.$proxyCapture0271 = null;
 }
 function juf_Supplier$proxy$4_19_0_get(var$0) {
-    return ecdc_AssignmentComponent_getAssignment(var$0.$proxyCapture0271).$name1;
+    return ecdc_TutorialComponent_getTutorial(var$0.$proxyCapture0271).$name0;
 }
 function otft_Modifier$proxy$4_19_1() {
     jl_Object.call(this);
@@ -16538,7 +16555,7 @@ function otft_Modifier$proxy$4_19_1_apply(var$0, var$1) {
     var$2 = var$0.$proxyCapture0272;
     var$1 = otfce_MouseBinder__init_(var$1);
     var$3 = new juf_Consumer$proxy$4_19_1;
-    var$3.$proxyCapture0300 = var$2;
+    var$3.$proxyCapture0301 = var$2;
     otfce_BaseEventBinder_setHandler(var$1, var$3);
     var$1.$eventName = $rt_s(455);
     return var$1;
@@ -16593,7 +16610,7 @@ function juf_Supplier$proxy$4_19_1_get(var$0) {
     var var$1, var$2, var$3;
     var$1 = var$0.$proxyCapture0273;
     var$2 = $rt_createArray(jl_Object, 1);
-    var$3 = ecdc_AssignmentComponent_getAssignment(var$1).$specfile0 === null ? 0 : 1;
+    var$3 = ecdc_TutorialComponent_getTutorial(var$1).$specfile === null ? 0 : 1;
     var$2 = var$2.data;
     var$2[0] = jl_Boolean_valueOf(var$3);
     return jl_Boolean_valueOf(var$2[0].$value7);
@@ -16606,7 +16623,7 @@ function otft_Fragment$proxy$4_19_1_create(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0274;
     var$2 = new otft_DomComponentHandler$proxy$4_19_1;
-    var$2.$proxyCapture0301 = var$1;
+    var$2.$proxyCapture0302 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
 function juf_Supplier$proxy$4_19_3() {
@@ -16614,7 +16631,7 @@ function juf_Supplier$proxy$4_19_3() {
     this.$proxyCapture0275 = null;
 }
 function juf_Supplier$proxy$4_19_3_get(var$0) {
-    return ecdc_AssignmentComponent_getAssignment(var$0.$proxyCapture0275).$resources0;
+    return ecdc_TutorialComponent_getTutorial(var$0.$proxyCapture0275).$resources;
 }
 function otft_Fragment$proxy$4_19_2() {
     jl_Object.call(this);
@@ -16625,198 +16642,181 @@ function otft_Fragment$proxy$4_19_2_create(var$0) {
     var$1 = var$0.$proxyCapture0276;
     var$2 = new otfte_VariableImpl;
     var$3 = new otft_DomComponentHandler$proxy$4_19_2;
-    var$3.$proxyCapture0302 = var$2;
+    var$3.$proxyCapture0303 = var$2;
     var$3.$proxyCapture123 = var$1;
     return otft_DomComponentTemplate__init_(var$3);
 }
-function otft_Modifier$proxy$4_18_0() {
+function otft_Modifier$proxy$4_17_0() {
     jl_Object.call(this);
-    this.$proxyCapture0263 = null;
+    this.$proxyCapture0254 = null;
 }
-function otft_Modifier$proxy$4_18_0_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_17_0_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0263;
+    var$2 = var$0.$proxyCapture0254;
     var$1 = otfch_LinkComponent__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_18_0;
-    var$3.$proxyCapture0303 = var$2;
+    var$3 = new juf_Consumer$proxy$4_17_0;
+    var$3.$proxyCapture0304 = var$2;
     var$1.$path = var$3;
     return var$1;
 }
-function juf_Supplier$proxy$4_18_0() {
+function juf_Supplier$proxy$4_17_0() {
     jl_Object.call(this);
-    this.$proxyCapture0264 = null;
+    this.$proxyCapture0255 = null;
 }
-function juf_Supplier$proxy$4_18_0_get(var$0) {
-    return ecdc_TutorialComponent_getTutorial(var$0.$proxyCapture0264).$name0;
+function juf_Supplier$proxy$4_17_0_get(var$0) {
+    return ecdc_AssignmentComponent_getAssignment(var$0.$proxyCapture0255).$name1;
 }
-function otft_Modifier$proxy$4_18_1() {
+function otft_Modifier$proxy$4_17_1() {
     jl_Object.call(this);
-    this.$proxyCapture0265 = null;
+    this.$proxyCapture0256 = null;
 }
-function otft_Modifier$proxy$4_18_1_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_17_1_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0265;
+    var$2 = var$0.$proxyCapture0256;
     var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_18_1;
-    var$3.$proxyCapture0304 = var$2;
+    var$3 = new juf_Consumer$proxy$4_17_1;
+    var$3.$proxyCapture0305 = var$2;
     otfce_BaseEventBinder_setHandler(var$1, var$3);
     var$1.$eventName = $rt_s(455);
     return var$1;
 }
-function juf_Supplier$proxy$4_18_1() {
+function juf_Supplier$proxy$4_17_1() {
     jl_Object.call(this);
-    this.$proxyCapture0266 = null;
+    this.$proxyCapture0257 = null;
 }
-function juf_Supplier$proxy$4_18_1_get(var$0) {
+function juf_Supplier$proxy$4_17_1_get(var$0) {
     var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0266;
+    var$1 = var$0.$proxyCapture0257;
     var$2 = $rt_createArray(jl_Object, 1);
-    var$3 = ecdc_TutorialComponent_getTutorial(var$1).$specfile === null ? 0 : 1;
+    var$3 = ecdc_AssignmentComponent_getAssignment(var$1).$specfile0 === null ? 0 : 1;
     var$2 = var$2.data;
     var$2[0] = jl_Boolean_valueOf(var$3);
     return jl_Boolean_valueOf(var$2[0].$value7);
 }
-function otft_Fragment$proxy$4_18_1() {
+function otft_Fragment$proxy$4_17_1() {
     jl_Object.call(this);
-    this.$proxyCapture0267 = null;
+    this.$proxyCapture0258 = null;
 }
-function otft_Fragment$proxy$4_18_1_create(var$0) {
+function otft_Fragment$proxy$4_17_1_create(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0267;
-    var$2 = new otft_DomComponentHandler$proxy$4_18_1;
-    var$2.$proxyCapture0305 = var$1;
+    var$1 = var$0.$proxyCapture0258;
+    var$2 = new otft_DomComponentHandler$proxy$4_17_1;
+    var$2.$proxyCapture0306 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function juf_Supplier$proxy$4_18_3() {
+function juf_Supplier$proxy$4_17_3() {
     jl_Object.call(this);
-    this.$proxyCapture0268 = null;
+    this.$proxyCapture0259 = null;
 }
-function juf_Supplier$proxy$4_18_3_get(var$0) {
-    return ecdc_TutorialComponent_getTutorial(var$0.$proxyCapture0268).$resources;
+function juf_Supplier$proxy$4_17_3_get(var$0) {
+    return ecdc_AssignmentComponent_getAssignment(var$0.$proxyCapture0259).$resources0;
 }
-function otft_Fragment$proxy$4_18_2() {
+function otft_Fragment$proxy$4_17_2() {
     jl_Object.call(this);
-    this.$proxyCapture0269 = null;
+    this.$proxyCapture0260 = null;
 }
-function otft_Fragment$proxy$4_18_2_create(var$0) {
+function otft_Fragment$proxy$4_17_2_create(var$0) {
     var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0269;
+    var$1 = var$0.$proxyCapture0260;
     var$2 = new otfte_VariableImpl;
-    var$3 = new otft_DomComponentHandler$proxy$4_18_2;
-    var$3.$proxyCapture0306 = var$2;
+    var$3 = new otft_DomComponentHandler$proxy$4_17_2;
+    var$3.$proxyCapture0307 = var$2;
     var$3.$proxyCapture124 = var$1;
     return otft_DomComponentTemplate__init_(var$3);
 }
-function juf_Supplier$proxy$4_20_0() {
+function juf_Supplier$proxy$4_22_0() {
     jl_Object.call(this);
 }
-function juf_Supplier$proxy$4_20_0_get(var$0) {
-    return $rt_s(380);
+function juf_Supplier$proxy$4_22_0_get(var$0) {
+    return $rt_s(406);
 }
-function otft_Fragment$proxy$4_20_1() {
+function otft_Fragment$proxy$4_22_1() {
     jl_Object.call(this);
-    this.$proxyCapture0280 = null;
+    this.$proxyCapture0279 = null;
 }
-function otft_Fragment$proxy$4_20_1_create(var$0) {
+function otft_Fragment$proxy$4_22_1_create(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0280;
-    var$2 = new otft_DomComponentHandler$proxy$4_20_1;
-    var$2.$proxyCapture0307 = var$1;
-    return otft_DomComponentTemplate__init_(var$2);
-}
-function juf_Supplier$proxy$4_23_0() {
-    jl_Object.call(this);
-}
-function juf_Supplier$proxy$4_23_0_get(var$0) {
-    return $rt_s(381);
-}
-function otft_Fragment$proxy$4_23_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0278 = null;
-}
-function otft_Fragment$proxy$4_23_1_create(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0278;
-    var$2 = new otft_DomComponentHandler$proxy$4_23_1;
+    var$1 = var$0.$proxyCapture0279;
+    var$2 = new otft_DomComponentHandler$proxy$4_22_1;
     var$2.$proxyCapture0308 = var$1;
     return otft_DomComponentTemplate__init_(var$2);
 }
-function otft_DomComponentHandler$proxy$4_8_3() {
+function otft_DomComponentHandler$proxy$4_3_2() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0251 = null;
     a.$proxyCapture113 = null;
     a.$proxyCapture26 = null;
+    a.$proxyCapture3 = null;
 }
-function otft_DomComponentHandler$proxy$4_8_3_update(var$0) {
+function otft_DomComponentHandler$proxy$4_3_2_update(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0251;
     var$2 = var$0.$proxyCapture113;
-    var$1.$value5 = var$2.$elementVariable;
+    var$1.$value5 = var$2.$variable;
 }
-function otft_DomComponentHandler$proxy$4_8_3_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4, var$5;
+function otft_DomComponentHandler$proxy$4_3_2_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4, var$5, var$6, var$7;
     var$2 = var$0.$proxyCapture0251;
     var$3 = var$0.$proxyCapture26;
+    var$4 = var$0.$proxyCapture3;
+    var$5 = var$1;
+    otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$5, $rt_s(357)), $rt_s(359)), $rt_s(349),
+    $rt_s(441)), $rt_s(361)), $rt_s(542)), $rt_s(349), $rt_s(543)), $rt_s(383)), $rt_s(362)), $rt_s(349), $rt_s(544)), $rt_s(425)), $rt_s(545)), otft_Modifier$proxy$4_3_3__init_(var$2)), otft_Modifier$proxy$4_3_4__init_(var$2))), $rt_s(383))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(442));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$5, $rt_s(383)), $rt_s(443)), $rt_s(349), $rt_s(444)), $rt_s(425));
+    var$6 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$6, juf_Supplier$proxy$4_3_6__init_(var$3));
+    var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$6), $rt_s(383))), $rt_s(383)), $rt_s(351)), $rt_s(349), $rt_s(546)), $rt_s(425)), $rt_s(362)), $rt_s(479)), $rt_s(506));
+    var$6 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$6, juf_Supplier$proxy$4_3_7__init_(var$2));
+    var$6 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add(var$1, var$6)), $rt_s(547)), $rt_s(548));
+    var$7 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$7, juf_Supplier$proxy$4_3_8__init_(var$2));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add(var$6, var$7)), $rt_s(425));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(var$5), $rt_s(425));
+    var$6 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    otfcs_ForEachComponent_setCollection(var$6, juf_Supplier$proxy$4_3_9__init_(var$3, var$4));
+    otfcs_ForEachComponent_setBody(var$6, otft_Fragment$proxy$4_3_3__init_(var$6));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$6), $rt_s(383))), $rt_s(383));
+    var$4 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    otfcs_ForEachComponent_setCollection(var$4, juf_Supplier$proxy$4_3_11__init_(var$3));
+    otfcs_ForEachComponent_setBody(var$4, otft_Fragment$proxy$4_3_4__init_(var$4, var$3));
+    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$4), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(359)), $rt_s(349), $rt_s(441)), $rt_s(361)), $rt_s(542)), $rt_s(349), $rt_s(543)), $rt_s(383)), $rt_s(362)), $rt_s(349),
+    $rt_s(544)), $rt_s(425));
+    otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_open(var$5, $rt_s(545)), otft_Modifier$proxy$4_3_8__init_(var$2)),
+    otft_Modifier$proxy$4_3_9__init_(var$2))), $rt_s(383))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(442)), $rt_s(383)), $rt_s(351)), $rt_s(349), $rt_s(389)), $rt_s(425)), $rt_s(362)), $rt_s(349), $rt_s(392)), $rt_s(479)), $rt_s(447)), $rt_s(349), $rt_s(447)), $rt_s(396), $rt_s(448));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(var$5, otft_Modifier$proxy$4_3_10__init_(var$3)), otft_Modifier$proxy$4_3_11__init_(var$3))), $rt_s(425))), $rt_s(383))),
+    $rt_s(383)), $rt_s(399)), $rt_s(349), $rt_s(449)), otft_Modifier$proxy$4_3_12__init_(var$3)), $rt_s(549))), $rt_s(361))), $rt_s(357))), $rt_s(355));
+}
+function otft_DomComponentHandler$proxy$4_10_3() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0252 = null;
+    a.$proxyCapture114 = null;
+    a.$proxyCapture27 = null;
+}
+function otft_DomComponentHandler$proxy$4_10_3_update(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0252;
+    var$2 = var$0.$proxyCapture114;
+    var$1.$value5 = var$2.$elementVariable;
+}
+function otft_DomComponentHandler$proxy$4_10_3_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4, var$5;
+    var$2 = var$0.$proxyCapture0252;
+    var$3 = var$0.$proxyCapture27;
     var$1 = otft_DomBuilder_text(var$1, $rt_s(361));
     var$4 = otft_Slot_create();
     var$5 = new otfcs_WithComponent;
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
-    var$5 = new juf_Supplier$proxy$4_8_2;
+    var$5 = new juf_Supplier$proxy$4_10_2;
     var$5.$proxyCapture0309 = var$2;
-    var$4.$value4 = var$5;
-    var$5 = new otft_Fragment$proxy$4_8_4;
+    var$4.$value3 = var$5;
+    var$5 = new otft_Fragment$proxy$4_10_4;
     var$5.$proxyCapture0310 = var$4;
     var$5.$proxyCapture125 = var$3;
     var$5.$proxyCapture28 = var$2;
-    var$4.$content4 = var$5;
+    var$4.$content2 = var$5;
     otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$4), $rt_s(357));
-}
-function otft_DomComponentHandler$proxy$4_13_2() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0252 = null;
-    a.$proxyCapture114 = null;
-    a.$proxyCapture27 = null;
-    a.$proxyCapture3 = null;
-}
-function otft_DomComponentHandler$proxy$4_13_2_update(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0252;
-    var$2 = var$0.$proxyCapture114;
-    var$1.$value5 = var$2.$variable;
-}
-function otft_DomComponentHandler$proxy$4_13_2_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4, var$5, var$6, var$7;
-    var$2 = var$0.$proxyCapture0252;
-    var$3 = var$0.$proxyCapture27;
-    var$4 = var$0.$proxyCapture3;
-    var$5 = var$1;
-    otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$5, $rt_s(357)), $rt_s(359)), $rt_s(349),
-    $rt_s(388)), $rt_s(361)), $rt_s(542)), $rt_s(349), $rt_s(543)), $rt_s(395)), $rt_s(362)), $rt_s(349), $rt_s(544)), $rt_s(436)), $rt_s(545)), otft_Modifier$proxy$4_13_3__init_(var$2)), otft_Modifier$proxy$4_13_4__init_(var$2))), $rt_s(395))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(389));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$5, $rt_s(395)), $rt_s(390)), $rt_s(349), $rt_s(391)), $rt_s(436));
-    var$6 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$6, juf_Supplier$proxy$4_13_6__init_(var$3));
-    var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$6), $rt_s(395))), $rt_s(395)), $rt_s(351)), $rt_s(349), $rt_s(546)), $rt_s(436)), $rt_s(362)), $rt_s(491)), $rt_s(465));
-    var$6 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$6, juf_Supplier$proxy$4_13_7__init_(var$2));
-    var$6 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add(var$1, var$6)), $rt_s(547)), $rt_s(548));
-    var$7 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$7, juf_Supplier$proxy$4_13_8__init_(var$2));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add(var$6, var$7)), $rt_s(436));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(var$5), $rt_s(436));
-    var$6 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    otfcs_ForEachComponent_setCollection(var$6, juf_Supplier$proxy$4_13_9__init_(var$3, var$4));
-    otfcs_ForEachComponent_setBody(var$6, otft_Fragment$proxy$4_13_3__init_(var$6));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$6), $rt_s(395))), $rt_s(395));
-    var$4 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    otfcs_ForEachComponent_setCollection(var$4, juf_Supplier$proxy$4_13_11__init_(var$3));
-    otfcs_ForEachComponent_setBody(var$4, otft_Fragment$proxy$4_13_4__init_(var$4, var$3));
-    otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$4), $rt_s(361))), $rt_s(357))), $rt_s(357)), $rt_s(359)), $rt_s(349), $rt_s(388)), $rt_s(361)), $rt_s(542)), $rt_s(349), $rt_s(543)), $rt_s(395)), $rt_s(362)), $rt_s(349),
-    $rt_s(544)), $rt_s(436));
-    otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_open(var$5, $rt_s(545)), otft_Modifier$proxy$4_13_8__init_(var$2)),
-    otft_Modifier$proxy$4_13_9__init_(var$2))), $rt_s(395))), $rt_s(361))), $rt_s(361)), $rt_s(351)), $rt_s(349), $rt_s(389)), $rt_s(395)), $rt_s(351)), $rt_s(349), $rt_s(393)), $rt_s(436)), $rt_s(362)), $rt_s(349), $rt_s(394)), $rt_s(491)), $rt_s(401)), $rt_s(349), $rt_s(401)), $rt_s(399), $rt_s(402));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(var$5, otft_Modifier$proxy$4_13_10__init_(var$3)), otft_Modifier$proxy$4_13_11__init_(var$3))), $rt_s(436))), $rt_s(395))),
-    $rt_s(395)), $rt_s(403)), $rt_s(349), $rt_s(404)), otft_Modifier$proxy$4_13_12__init_(var$3)), $rt_s(549))), $rt_s(361))), $rt_s(357))), $rt_s(355));
 }
 function otft_DomBuilder$Item$createChangeListener$lambda$_6_0() {
     jl_Object.call(this);
@@ -16850,420 +16850,420 @@ function otft_Templates$PROXY$4_25_create(var$1, var$2) {
     var$2.$proxyCapture0312 = var$1;
     return var$2;
 }
-function otft_Modifier$proxy$4_15_2() {
+function otft_Modifier$proxy$4_14_11() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0286 = null;
+    a.$proxyCapture0285 = null;
     a.$proxyCapture117 = null;
 }
-function otft_Modifier$proxy$4_15_2_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_14_11_apply(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0286;
+    var$2 = var$0.$proxyCapture0285;
     var$3 = var$0.$proxyCapture117;
     var$1 = otfch_LinkComponent__init_(var$1);
-    var$4 = new juf_Consumer$proxy$4_15_2;
+    var$4 = new juf_Consumer$proxy$4_14_11;
     var$4.$proxyCapture0313 = var$2;
     var$4.$proxyCapture126 = var$3;
     var$1.$path = var$4;
     return var$1;
 }
-function juf_Supplier$proxy$4_15_1() {
+function juf_Supplier$proxy$4_14_7() {
     jl_Object.call(this);
-    this.$proxyCapture0287 = null;
+    this.$proxyCapture0286 = null;
 }
-function juf_Supplier$proxy$4_15_1_get(var$0) {
-    return var$0.$proxyCapture0287.$value5.$unit;
+function juf_Supplier$proxy$4_14_7_get(var$0) {
+    return var$0.$proxyCapture0286.$value5.$title;
 }
-function otft_Modifier$proxy$4_13_3() {
+function otft_Modifier$proxy$4_14_5() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0281 = null;
+    a.$proxyCapture115 = null;
+}
+function otft_Modifier$proxy$4_14_5_apply(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0281;
+    var$3 = var$0.$proxyCapture115;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$4 = new juf_Consumer$proxy$4_14_5;
+    var$4.$proxyCapture0314 = var$2;
+    var$4.$proxyCapture127 = var$3;
+    var$1.$path = var$4;
+    return var$1;
+}
+function juf_Supplier$proxy$4_14_3() {
     jl_Object.call(this);
-    this.$proxyCapture0314 = null;
+    this.$proxyCapture0282 = null;
 }
-function otft_Modifier$proxy$4_13_3__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_3();
-    otft_Modifier$proxy$4_13_3__init_0(var_1, var_0);
+function juf_Supplier$proxy$4_14_3_get(var$0) {
+    return var$0.$proxyCapture0282.$value5.$name0;
+}
+function otft_Modifier$proxy$4_3_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0315 = null;
+}
+function otft_Modifier$proxy$4_3_3__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_3();
+    otft_Modifier$proxy$4_3_3__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_13_3_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_3_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0314;
+    var$2 = var$0.$proxyCapture0315;
     var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_13_4;
-    var$3.$proxyCapture0315 = var$2;
-    var$1.$value3 = var$3;
+    var$3 = new juf_Supplier$proxy$4_3_4;
+    var$3.$proxyCapture0316 = var$2;
+    var$1.$value4 = var$3;
     var$1.$name3 = $rt_s(550);
     return var$1;
 }
-function otft_Modifier$proxy$4_13_3__init_0(var$0, var$1) {
-    var$0.$proxyCapture0314 = var$1;
+function otft_Modifier$proxy$4_3_3__init_0(var$0, var$1) {
+    var$0.$proxyCapture0315 = var$1;
 }
-function otft_Modifier$proxy$4_13_4() {
+function otft_Modifier$proxy$4_3_4() {
     jl_Object.call(this);
-    this.$proxyCapture0316 = null;
+    this.$proxyCapture0317 = null;
 }
-function otft_Modifier$proxy$4_13_4__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_4();
-    otft_Modifier$proxy$4_13_4__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_3_4__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_4();
+    otft_Modifier$proxy$4_3_4__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_13_4_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_4_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0316;
+    var$2 = var$0.$proxyCapture0317;
     var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_13_5;
-    var$3.$proxyCapture0317 = var$2;
-    var$1.$value3 = var$3;
+    var$3 = new juf_Supplier$proxy$4_3_5;
+    var$3.$proxyCapture0318 = var$2;
+    var$1.$value4 = var$3;
     var$1.$name3 = $rt_s(551);
     return var$1;
 }
-function otft_Modifier$proxy$4_13_4__init_0(var$0, var$1) {
-    var$0.$proxyCapture0316 = var$1;
+function otft_Modifier$proxy$4_3_4__init_0(var$0, var$1) {
+    var$0.$proxyCapture0317 = var$1;
 }
-function juf_Supplier$proxy$4_13_6() {
-    jl_Object.call(this);
-    this.$proxyCapture0318 = null;
-}
-function juf_Supplier$proxy$4_13_6__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_13_6();
-    juf_Supplier$proxy$4_13_6__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_13_6_get(var$0) {
-    return var$0.$proxyCapture0318.$topic.$title0;
-}
-function juf_Supplier$proxy$4_13_6__init_0(var$0, var$1) {
-    var$0.$proxyCapture0318 = var$1;
-}
-function juf_Supplier$proxy$4_13_7() {
+function juf_Supplier$proxy$4_3_6() {
     jl_Object.call(this);
     this.$proxyCapture0319 = null;
 }
-function juf_Supplier$proxy$4_13_7__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_13_7();
-    juf_Supplier$proxy$4_13_7__init_0(var_1, var_0);
+function juf_Supplier$proxy$4_3_6__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_3_6();
+    juf_Supplier$proxy$4_3_6__init_0(var_1, var_0);
     return var_1;
 }
-function juf_Supplier$proxy$4_13_7_get(var$0) {
-    return var$0.$proxyCapture0319.$value5.$name2;
+function juf_Supplier$proxy$4_3_6_get(var$0) {
+    return var$0.$proxyCapture0319.$topic.$title0;
 }
-function juf_Supplier$proxy$4_13_7__init_0(var$0, var$1) {
+function juf_Supplier$proxy$4_3_6__init_0(var$0, var$1) {
     var$0.$proxyCapture0319 = var$1;
 }
-function juf_Supplier$proxy$4_13_8() {
+function juf_Supplier$proxy$4_3_7() {
     jl_Object.call(this);
     this.$proxyCapture0320 = null;
 }
-function juf_Supplier$proxy$4_13_8__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_13_8();
-    juf_Supplier$proxy$4_13_8__init_0(var_1, var_0);
+function juf_Supplier$proxy$4_3_7__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_3_7();
+    juf_Supplier$proxy$4_3_7__init_0(var_1, var_0);
     return var_1;
 }
-function juf_Supplier$proxy$4_13_8_get(var$0) {
-    return var$0.$proxyCapture0320.$value5.$email;
+function juf_Supplier$proxy$4_3_7_get(var$0) {
+    return var$0.$proxyCapture0320.$value5.$name2;
 }
-function juf_Supplier$proxy$4_13_8__init_0(var$0, var$1) {
+function juf_Supplier$proxy$4_3_7__init_0(var$0, var$1) {
     var$0.$proxyCapture0320 = var$1;
 }
-function juf_Supplier$proxy$4_13_9() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0321 = null;
-    a.$proxyCapture127 = null;
+function juf_Supplier$proxy$4_3_8() {
+    jl_Object.call(this);
+    this.$proxyCapture0321 = null;
 }
-function juf_Supplier$proxy$4_13_9__init_(var_0, var_1) {
-    var var_2 = new juf_Supplier$proxy$4_13_9();
-    juf_Supplier$proxy$4_13_9__init_0(var_2, var_0, var_1);
+function juf_Supplier$proxy$4_3_8__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_3_8();
+    juf_Supplier$proxy$4_3_8__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_3_8_get(var$0) {
+    return var$0.$proxyCapture0321.$value5.$email;
+}
+function juf_Supplier$proxy$4_3_8__init_0(var$0, var$1) {
+    var$0.$proxyCapture0321 = var$1;
+}
+function juf_Supplier$proxy$4_3_9() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0322 = null;
+    a.$proxyCapture128 = null;
+}
+function juf_Supplier$proxy$4_3_9__init_(var_0, var_1) {
+    var var_2 = new juf_Supplier$proxy$4_3_9();
+    juf_Supplier$proxy$4_3_9__init_0(var_2, var_0, var_1);
     return var_2;
 }
-function juf_Supplier$proxy$4_13_9_get(var$0) {
+function juf_Supplier$proxy$4_3_9_get(var$0) {
     var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0321;
-    var$2 = var$0.$proxyCapture127;
+    var$1 = var$0.$proxyCapture0322;
+    var$2 = var$0.$proxyCapture128;
     var$3 = $rt_createArray(jl_Object, 1);
     var$2 = var$2.$value5;
     var$3 = var$3.data;
     var$3[0] = var$2;
     return ecdv_ForumTopicView_commentToList(var$1, var$3[0]);
 }
-function juf_Supplier$proxy$4_13_9__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0321 = var$1;
-    var$0.$proxyCapture127 = var$2;
+function juf_Supplier$proxy$4_3_9__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0322 = var$1;
+    var$0.$proxyCapture128 = var$2;
 }
-function otft_Fragment$proxy$4_13_3() {
+function otft_Fragment$proxy$4_3_3() {
     jl_Object.call(this);
-    this.$proxyCapture0322 = null;
+    this.$proxyCapture0323 = null;
 }
-function otft_Fragment$proxy$4_13_3__init_(var_0) {
-    var var_1 = new otft_Fragment$proxy$4_13_3();
-    otft_Fragment$proxy$4_13_3__init_0(var_1, var_0);
+function otft_Fragment$proxy$4_3_3__init_(var_0) {
+    var var_1 = new otft_Fragment$proxy$4_3_3();
+    otft_Fragment$proxy$4_3_3__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Fragment$proxy$4_13_3_create(var$0) {
+function otft_Fragment$proxy$4_3_3_create(var$0) {
     var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0322;
+    var$1 = var$0.$proxyCapture0323;
     var$2 = new otfte_VariableImpl;
-    var$3 = new otft_DomComponentHandler$proxy$4_13_3;
-    var$3.$proxyCapture0323 = var$2;
-    var$3.$proxyCapture128 = var$1;
+    var$3 = new otft_DomComponentHandler$proxy$4_3_3;
+    var$3.$proxyCapture0324 = var$2;
+    var$3.$proxyCapture129 = var$1;
     return otft_DomComponentTemplate__init_(var$3);
 }
-function otft_Fragment$proxy$4_13_3__init_0(var$0, var$1) {
-    var$0.$proxyCapture0322 = var$1;
+function otft_Fragment$proxy$4_3_3__init_0(var$0, var$1) {
+    var$0.$proxyCapture0323 = var$1;
 }
-function juf_Supplier$proxy$4_13_11() {
+function juf_Supplier$proxy$4_3_11() {
     jl_Object.call(this);
-    this.$proxyCapture0324 = null;
+    this.$proxyCapture0325 = null;
 }
-function juf_Supplier$proxy$4_13_11__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_13_11();
-    juf_Supplier$proxy$4_13_11__init_0(var_1, var_0);
+function juf_Supplier$proxy$4_3_11__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_3_11();
+    juf_Supplier$proxy$4_3_11__init_0(var_1, var_0);
     return var_1;
 }
-function juf_Supplier$proxy$4_13_11_get(var$0) {
-    return ecdv_ForumTopicView_getNextComments(var$0.$proxyCapture0324);
+function juf_Supplier$proxy$4_3_11_get(var$0) {
+    return ecdv_ForumTopicView_getNextComments(var$0.$proxyCapture0325);
 }
-function juf_Supplier$proxy$4_13_11__init_0(var$0, var$1) {
-    var$0.$proxyCapture0324 = var$1;
+function juf_Supplier$proxy$4_3_11__init_0(var$0, var$1) {
+    var$0.$proxyCapture0325 = var$1;
 }
-function otft_Fragment$proxy$4_13_4() {
+function otft_Fragment$proxy$4_3_4() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0325 = null;
-    a.$proxyCapture129 = null;
+    a.$proxyCapture0326 = null;
+    a.$proxyCapture130 = null;
 }
-function otft_Fragment$proxy$4_13_4__init_(var_0, var_1) {
-    var var_2 = new otft_Fragment$proxy$4_13_4();
-    otft_Fragment$proxy$4_13_4__init_0(var_2, var_0, var_1);
+function otft_Fragment$proxy$4_3_4__init_(var_0, var_1) {
+    var var_2 = new otft_Fragment$proxy$4_3_4();
+    otft_Fragment$proxy$4_3_4__init_0(var_2, var_0, var_1);
     return var_2;
 }
-function otft_Fragment$proxy$4_13_4_create(var$0) {
+function otft_Fragment$proxy$4_3_4_create(var$0) {
     var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0325;
-    var$2 = var$0.$proxyCapture129;
+    var$1 = var$0.$proxyCapture0326;
+    var$2 = var$0.$proxyCapture130;
     var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_13_4;
-    var$4.$proxyCapture0326 = var$3;
-    var$4.$proxyCapture130 = var$1;
+    var$4 = new otft_DomComponentHandler$proxy$4_3_4;
+    var$4.$proxyCapture0327 = var$3;
+    var$4.$proxyCapture131 = var$1;
     var$4.$proxyCapture29 = var$2;
     return otft_DomComponentTemplate__init_(var$4);
 }
-function otft_Fragment$proxy$4_13_4__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0325 = var$1;
-    var$0.$proxyCapture129 = var$2;
+function otft_Fragment$proxy$4_3_4__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0326 = var$1;
+    var$0.$proxyCapture130 = var$2;
 }
-function otft_Modifier$proxy$4_13_8() {
+function otft_Modifier$proxy$4_3_8() {
     jl_Object.call(this);
-    this.$proxyCapture0327 = null;
+    this.$proxyCapture0328 = null;
 }
-function otft_Modifier$proxy$4_13_8__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_8();
-    otft_Modifier$proxy$4_13_8__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_3_8__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_8();
+    otft_Modifier$proxy$4_3_8__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_13_8_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_8_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0327;
+    var$2 = var$0.$proxyCapture0328;
     var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_13_20;
-    var$3.$proxyCapture0328 = var$2;
-    var$1.$value3 = var$3;
+    var$3 = new juf_Supplier$proxy$4_3_20;
+    var$3.$proxyCapture0329 = var$2;
+    var$1.$value4 = var$3;
     var$1.$name3 = $rt_s(550);
     return var$1;
 }
-function otft_Modifier$proxy$4_13_8__init_0(var$0, var$1) {
-    var$0.$proxyCapture0327 = var$1;
+function otft_Modifier$proxy$4_3_8__init_0(var$0, var$1) {
+    var$0.$proxyCapture0328 = var$1;
 }
-function otft_Modifier$proxy$4_13_9() {
+function otft_Modifier$proxy$4_3_9() {
     jl_Object.call(this);
-    this.$proxyCapture0329 = null;
+    this.$proxyCapture0330 = null;
 }
-function otft_Modifier$proxy$4_13_9__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_9();
-    otft_Modifier$proxy$4_13_9__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_3_9__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_9();
+    otft_Modifier$proxy$4_3_9__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_13_9_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_9_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0329;
+    var$2 = var$0.$proxyCapture0330;
     var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_13_21;
-    var$3.$proxyCapture0330 = var$2;
-    var$1.$value3 = var$3;
+    var$3 = new juf_Supplier$proxy$4_3_21;
+    var$3.$proxyCapture0331 = var$2;
+    var$1.$value4 = var$3;
     var$1.$name3 = $rt_s(551);
     return var$1;
 }
-function otft_Modifier$proxy$4_13_9__init_0(var$0, var$1) {
-    var$0.$proxyCapture0329 = var$1;
+function otft_Modifier$proxy$4_3_9__init_0(var$0, var$1) {
+    var$0.$proxyCapture0330 = var$1;
 }
-function otft_Modifier$proxy$4_13_10() {
+function otft_Modifier$proxy$4_3_10() {
     jl_Object.call(this);
-    this.$proxyCapture0331 = null;
+    this.$proxyCapture0332 = null;
 }
-function otft_Modifier$proxy$4_13_10__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_10();
-    otft_Modifier$proxy$4_13_10__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_3_10__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_10();
+    otft_Modifier$proxy$4_3_10__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_13_10_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_10_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0331;
+    var$2 = var$0.$proxyCapture0332;
     var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_13_22;
-    var$3.$proxyCapture0332 = var$2;
-    var$1.$value3 = var$3;
+    var$3 = new juf_Supplier$proxy$4_3_22;
+    var$3.$proxyCapture0333 = var$2;
+    var$1.$value4 = var$3;
     var$1.$name3 = $rt_s(454);
     return var$1;
 }
-function otft_Modifier$proxy$4_13_10__init_0(var$0, var$1) {
-    var$0.$proxyCapture0331 = var$1;
+function otft_Modifier$proxy$4_3_10__init_0(var$0, var$1) {
+    var$0.$proxyCapture0332 = var$1;
 }
-function otft_Modifier$proxy$4_13_11() {
+function otft_Modifier$proxy$4_3_11() {
     jl_Object.call(this);
-    this.$proxyCapture0333 = null;
+    this.$proxyCapture0334 = null;
 }
-function otft_Modifier$proxy$4_13_11__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_11();
-    otft_Modifier$proxy$4_13_11__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_3_11__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_11();
+    otft_Modifier$proxy$4_3_11__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_13_11_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_11_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0333;
+    var$2 = var$0.$proxyCapture0334;
     var$1 = otfch_ValueChangeBinder__init_(var$1);
-    var$3 = new otft_ValueChangeListener$proxy$4_13_0;
-    var$3.$proxyCapture0334 = var$2;
+    var$3 = new otft_ValueChangeListener$proxy$4_3_0;
+    var$3.$proxyCapture0335 = var$2;
     var$1.$listener0 = var$3;
     return var$1;
 }
-function otft_Modifier$proxy$4_13_11__init_0(var$0, var$1) {
-    var$0.$proxyCapture0333 = var$1;
+function otft_Modifier$proxy$4_3_11__init_0(var$0, var$1) {
+    var$0.$proxyCapture0334 = var$1;
 }
-function otft_Modifier$proxy$4_13_12() {
+function otft_Modifier$proxy$4_3_12() {
     jl_Object.call(this);
-    this.$proxyCapture0335 = null;
+    this.$proxyCapture0336 = null;
 }
-function otft_Modifier$proxy$4_13_12__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_12();
-    otft_Modifier$proxy$4_13_12__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_3_12__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_12();
+    otft_Modifier$proxy$4_3_12__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_13_12_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_12_apply(var$0, var$1) {
     var var$2, var$3;
-    var$2 = var$0.$proxyCapture0335;
+    var$2 = var$0.$proxyCapture0336;
     var$1 = otfce_MouseBinder__init_(var$1);
-    var$3 = new juf_Consumer$proxy$4_13_4;
-    var$3.$proxyCapture0336 = var$2;
+    var$3 = new juf_Consumer$proxy$4_3_4;
+    var$3.$proxyCapture0337 = var$2;
     otfce_BaseEventBinder_setHandler(var$1, var$3);
     var$1.$eventName = $rt_s(455);
     return var$1;
 }
-function otft_Modifier$proxy$4_13_12__init_0(var$0, var$1) {
-    var$0.$proxyCapture0335 = var$1;
+function otft_Modifier$proxy$4_3_12__init_0(var$0, var$1) {
+    var$0.$proxyCapture0336 = var$1;
 }
-function otft_Modifier$proxy$4_15_11() {
+function otft_Modifier$proxy$4_14_8() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0281 = null;
-    a.$proxyCapture115 = null;
+    a.$proxyCapture0287 = null;
+    a.$proxyCapture118 = null;
 }
-function otft_Modifier$proxy$4_15_11_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_14_8_apply(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0281;
-    var$3 = var$0.$proxyCapture115;
+    var$2 = var$0.$proxyCapture0287;
+    var$3 = var$0.$proxyCapture118;
     var$1 = otfch_LinkComponent__init_(var$1);
-    var$4 = new juf_Consumer$proxy$4_15_11;
-    var$4.$proxyCapture0337 = var$2;
-    var$4.$proxyCapture131 = var$3;
+    var$4 = new juf_Consumer$proxy$4_14_8;
+    var$4.$proxyCapture0338 = var$2;
+    var$4.$proxyCapture132 = var$3;
     var$1.$path = var$4;
     return var$1;
 }
-function juf_Supplier$proxy$4_15_7() {
+function juf_Supplier$proxy$4_14_5() {
     jl_Object.call(this);
-    this.$proxyCapture0282 = null;
+    this.$proxyCapture0288 = null;
 }
-function juf_Supplier$proxy$4_15_7_get(var$0) {
-    return var$0.$proxyCapture0282.$value5.$title;
+function juf_Supplier$proxy$4_14_5_get(var$0) {
+    return var$0.$proxyCapture0288.$value5.$name1;
 }
-function juf_Supplier$proxy$4_8_2() {
+function otft_Modifier$proxy$4_14_2() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0283 = null;
+    a.$proxyCapture116 = null;
+}
+function otft_Modifier$proxy$4_14_2_apply(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0283;
+    var$3 = var$0.$proxyCapture116;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$4 = new juf_Consumer$proxy$4_14_2;
+    var$4.$proxyCapture0339 = var$2;
+    var$4.$proxyCapture133 = var$3;
+    var$1.$path = var$4;
+    return var$1;
+}
+function juf_Supplier$proxy$4_14_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0284 = null;
+}
+function juf_Supplier$proxy$4_14_1_get(var$0) {
+    return var$0.$proxyCapture0284.$value5.$unit;
+}
+function juf_Supplier$proxy$4_10_2() {
     jl_Object.call(this);
     this.$proxyCapture0309 = null;
 }
-function juf_Supplier$proxy$4_8_2_get(var$0) {
+function juf_Supplier$proxy$4_10_2_get(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0309;
     var$2 = $rt_createArray(jl_Object, 1).data;
     var$2[0] = jl_Integer_valueOf(0);
     return ju_ArrayList_get(var$1.$value5.$comments, var$2[0].$value);
 }
-function otft_Fragment$proxy$4_8_4() {
+function otft_Fragment$proxy$4_10_4() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0310 = null;
     a.$proxyCapture125 = null;
     a.$proxyCapture28 = null;
 }
-function otft_Fragment$proxy$4_8_4_create(var$0) {
+function otft_Fragment$proxy$4_10_4_create(var$0) {
     var var$1, var$2, var$3, var$4, var$5;
     var$1 = var$0.$proxyCapture0310;
     var$2 = var$0.$proxyCapture125;
     var$3 = var$0.$proxyCapture28;
     var$4 = new otfte_VariableImpl;
-    var$5 = new otft_DomComponentHandler$proxy$4_8_4;
-    var$5.$proxyCapture0338 = var$4;
-    var$5.$proxyCapture132 = var$1;
+    var$5 = new otft_DomComponentHandler$proxy$4_10_4;
+    var$5.$proxyCapture0340 = var$4;
+    var$5.$proxyCapture134 = var$1;
     var$5.$proxyCapture210 = var$2;
     var$5.$proxyCapture30 = var$3;
     return otft_DomComponentTemplate__init_(var$5);
 }
-function otft_Modifier$proxy$4_15_5() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0288 = null;
-    a.$proxyCapture118 = null;
-}
-function otft_Modifier$proxy$4_15_5_apply(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0288;
-    var$3 = var$0.$proxyCapture118;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$4 = new juf_Consumer$proxy$4_15_5;
-    var$4.$proxyCapture0339 = var$2;
-    var$4.$proxyCapture133 = var$3;
-    var$1.$path = var$4;
-    return var$1;
-}
-function juf_Supplier$proxy$4_15_3() {
-    jl_Object.call(this);
-    this.$proxyCapture0289 = null;
-}
-function juf_Supplier$proxy$4_15_3_get(var$0) {
-    return var$0.$proxyCapture0289.$value5.$name0;
-}
-function otft_Modifier$proxy$4_15_8() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0290 = null;
-    a.$proxyCapture119 = null;
-}
-function otft_Modifier$proxy$4_15_8_apply(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0290;
-    var$3 = var$0.$proxyCapture119;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$4 = new juf_Consumer$proxy$4_15_8;
-    var$4.$proxyCapture0340 = var$2;
-    var$4.$proxyCapture134 = var$3;
-    var$1.$path = var$4;
-    return var$1;
-}
-function juf_Supplier$proxy$4_15_5() {
-    jl_Object.call(this);
-    this.$proxyCapture0291 = null;
-}
-function juf_Supplier$proxy$4_15_5_get(var$0) {
-    return var$0.$proxyCapture0291.$value5.$name1;
-}
 function otft_Modifier$proxy$4_16_3() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0283 = null;
-    a.$proxyCapture116 = null;
+    a.$proxyCapture0289 = null;
+    a.$proxyCapture119 = null;
 }
 function otft_Modifier$proxy$4_16_3_apply(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0283;
-    var$3 = var$0.$proxyCapture116;
+    var$2 = var$0.$proxyCapture0289;
+    var$3 = var$0.$proxyCapture119;
     var$1 = otfch_LinkComponent__init_(var$1);
     var$4 = new juf_Consumer$proxy$4_16_3;
     var$4.$proxyCapture0341 = var$2;
@@ -17273,18 +17273,18 @@ function otft_Modifier$proxy$4_16_3_apply(var$0, var$1) {
 }
 function juf_Supplier$proxy$4_16_13() {
     jl_Object.call(this);
-    this.$proxyCapture0284 = null;
+    this.$proxyCapture0290 = null;
 }
 function juf_Supplier$proxy$4_16_13_get(var$0) {
-    return var$0.$proxyCapture0284.$value5.$title;
+    return var$0.$proxyCapture0290.$value5.$title;
 }
 function juf_Supplier$proxy$4_16_14() {
     jl_Object.call(this);
-    this.$proxyCapture0285 = null;
+    this.$proxyCapture0291 = null;
 }
 function juf_Supplier$proxy$4_16_14_get(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0285;
+    var$1 = var$0.$proxyCapture0291;
     var$2 = $rt_createArray(jl_Object, 1).data;
     var$2[0] = jl_Integer_valueOf(var$1.$value5.$topics.$size);
     return jl_Integer_valueOf(var$2[0].$value);
@@ -17300,7 +17300,7 @@ function otft_DomComponentHandler$proxy$4_24_0_buildDom(var$0, var$1) {
     var var$2, var$3, var$4, var$5, var$6;
     var$2 = var$0.$proxyCapture0253;
     var$1 = var$1;
-    var$3 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(var$1, $rt_s(375)), $rt_s(350)), $rt_s(351)), $rt_s(349), $rt_s(536)), $rt_s(353)), $rt_s(480)), $rt_s(425), $rt_s(537)), $rt_s(355)), $rt_s(376));
+    var$3 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(var$1, $rt_s(375)), $rt_s(350)), $rt_s(351)), $rt_s(349), $rt_s(536)), $rt_s(353)), $rt_s(468)), $rt_s(414), $rt_s(537)), $rt_s(355)), $rt_s(376));
     var$4 = new otft_Modifier$proxy$4_24_0;
     var$4.$proxyCapture0342 = var$2;
     var$3 = otft_DomBuilder_text(otft_DomBuilder_add0(var$3, var$4), $rt_s(357));
@@ -17311,7 +17311,7 @@ function otft_DomComponentHandler$proxy$4_24_0_buildDom(var$0, var$1) {
     var$5 = new juf_Supplier$proxy$4_24_0;
     var$5.$proxyCapture0343 = var$2;
     var$4.$value2 = var$5;
-    var$3 = otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(355))), $rt_s(353))), $rt_s(353)), $rt_s(480)), $rt_s(349), $rt_s(552)), $rt_s(425), $rt_s(553));
+    var$3 = otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(355))), $rt_s(353))), $rt_s(353)), $rt_s(468)), $rt_s(349), $rt_s(552)), $rt_s(414), $rt_s(553));
     var$4 = new otft_Modifier$proxy$4_24_1;
     var$4.$proxyCapture0344 = var$2;
     otft_DomBuilder_add0(var$3, var$4);
@@ -17327,8 +17327,8 @@ function otft_DomComponentHandler$proxy$4_24_0_buildDom(var$0, var$1) {
     var$3.$clauses = var$4;
     var$4 = new otfcs_OtherwiseClause;
     var$3.$otherwiseClause = var$4;
-    var$5.$content2 = new otft_Fragment$proxy$4_24_1;
-    var$4.$content3 = new otft_Fragment$proxy$4_24_2;
+    var$5.$content3 = new otft_Fragment$proxy$4_24_1;
+    var$4.$content4 = new otft_Fragment$proxy$4_24_2;
     var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353))), $rt_s(350))), $rt_s(350)), $rt_s(374));
     var$3 = new otft_Modifier$proxy$4_24_2;
     var$3.$proxyCapture0346 = var$2;
@@ -17358,93 +17358,93 @@ function otft_Fragment$proxy$4_25_3() {
 function otft_Fragment$proxy$4_25_3_create(var$0) {
     return otft_Fragment$proxy$4_25_0_create(var$0.$proxyCapture0312);
 }
-function otft_DomComponentHandler$proxy$4_17_1() {
+function otft_DomComponentHandler$proxy$4_18_1() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0296 = null;
     a.$proxyCapture120 = null;
 }
-function otft_DomComponentHandler$proxy$4_17_1_update(var$0) {
+function otft_DomComponentHandler$proxy$4_18_1_update(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0296;
     var$2 = var$0.$proxyCapture120;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_17_1_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_18_1_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture0296;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(480)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(492)), $rt_s(349), $rt_s(556))), $rt_s(355))), $rt_s(355));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(468)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(556))), $rt_s(355))), $rt_s(355));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_17_2;
+    var$4 = new juf_Supplier$proxy$4_18_2;
     var$4.$proxyCapture0348 = var$2;
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353))), $rt_s(350));
 }
-function otft_DomComponentHandler$proxy$4_17_2() {
+function otft_DomComponentHandler$proxy$4_18_2() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0297 = null;
     a.$proxyCapture121 = null;
 }
-function otft_DomComponentHandler$proxy$4_17_2_update(var$0) {
+function otft_DomComponentHandler$proxy$4_18_2_update(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0297;
     var$2 = var$0.$proxyCapture121;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_17_2_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_18_2_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture0297;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(480)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(492)), $rt_s(349), $rt_s(557))), $rt_s(355))), $rt_s(355));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(468)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(557))), $rt_s(355))), $rt_s(355));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_17_4;
+    var$4 = new juf_Supplier$proxy$4_18_4;
     var$4.$proxyCapture0349 = var$2;
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353))), $rt_s(350));
 }
-function otft_DomComponentHandler$proxy$4_17_3() {
+function otft_DomComponentHandler$proxy$4_18_3() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0298 = null;
     a.$proxyCapture122 = null;
 }
-function otft_DomComponentHandler$proxy$4_17_3_update(var$0) {
+function otft_DomComponentHandler$proxy$4_18_3_update(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0298;
     var$2 = var$0.$proxyCapture122;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_17_3_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_18_3_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture0298;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(480)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(492)), $rt_s(349), $rt_s(558))), $rt_s(355))), $rt_s(355));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(468)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(558))), $rt_s(355))), $rt_s(355));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_17_6;
+    var$4 = new juf_Supplier$proxy$4_18_6;
     var$4.$proxyCapture0350 = var$2;
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353))), $rt_s(350));
 }
 function otft_DomComponentHandler$proxy$4_19_2() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0302 = null;
+    a.$proxyCapture0303 = null;
     a.$proxyCapture123 = null;
 }
 function otft_DomComponentHandler$proxy$4_19_2_update(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0302;
+    var$1 = var$0.$proxyCapture0303;
     var$2 = var$0.$proxyCapture123;
     var$1.$value5 = var$2.$elementVariable;
 }
 function otft_DomComponentHandler$proxy$4_19_2_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0302;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(480)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(492)), $rt_s(349), $rt_s(559))), $rt_s(355))), $rt_s(355));
+    var$2 = var$0.$proxyCapture0303;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(468)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(559))), $rt_s(355))), $rt_s(355));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
@@ -17454,26 +17454,26 @@ function otft_DomComponentHandler$proxy$4_19_2_buildDom(var$0, var$1) {
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353))), $rt_s(350));
 }
-function otft_DomComponentHandler$proxy$4_18_2() {
+function otft_DomComponentHandler$proxy$4_17_2() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0306 = null;
+    a.$proxyCapture0307 = null;
     a.$proxyCapture124 = null;
 }
-function otft_DomComponentHandler$proxy$4_18_2_update(var$0) {
+function otft_DomComponentHandler$proxy$4_17_2_update(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0306;
+    var$1 = var$0.$proxyCapture0307;
     var$2 = var$0.$proxyCapture124;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_18_2_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_17_2_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0306;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(480)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(492)), $rt_s(349), $rt_s(559))), $rt_s(355))), $rt_s(355));
+    var$2 = var$0.$proxyCapture0307;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(468)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(559))), $rt_s(355))), $rt_s(355));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_18_4;
+    var$4 = new juf_Supplier$proxy$4_17_4;
     var$4.$proxyCapture0352 = var$2;
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353))), $rt_s(350));
@@ -17497,11 +17497,11 @@ function jusi_StreamOverSpliterator$AdapterAction() {
 function jusi_StreamOverSpliterator$AdapterAction_accept($this, $t) {
     $this.$wantsMore = jusi_FilteringStreamImpl$wrap$lambda$_1_0_test($this.$consumer, $t);
 }
-function juf_Consumer$proxy$4_17_0() {
+function juf_Consumer$proxy$4_18_0() {
     jl_Object.call(this);
     this.$proxyCapture0294 = null;
 }
-function juf_Consumer$proxy$4_17_0_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_18_0_accept(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture0294;
     var$3 = $rt_createArray(jl_Object, 1).data;
@@ -17511,43 +17511,21 @@ function juf_Consumer$proxy$4_17_0_accept(var$0, var$1) {
     ecd_Router$proxy$4_0_0_singleLecture(ecdb_RouteWidget_route(var$2, var$4[0]), var$3[0]);
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_17_1() {
+function juf_Consumer$proxy$4_18_1() {
     jl_Object.call(this);
     this.$proxyCapture0295 = null;
 }
-function juf_Consumer$proxy$4_17_1_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_18_1_accept(var$0, var$1) {
     ecdc_LectureComponent_deleteLecture(var$0.$proxyCapture0295);
     otft_Templates_update();
 }
 function juf_Consumer$proxy$4_19_0() {
     jl_Object.call(this);
-    this.$proxyCapture0299 = null;
+    this.$proxyCapture0300 = null;
 }
 function juf_Consumer$proxy$4_19_0_accept(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0299;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = ecdc_AssignmentComponent_getAssignment(var$2).$id1;
-    var$4 = $rt_createArray(jl_Object, 1).data;
-    var$4[0] = var$1;
-    ecd_Router$proxy$4_0_0_singleAssignment(ecdb_RouteWidget_route(var$2, var$4[0]), var$3[0]);
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_19_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0300 = null;
-}
-function juf_Consumer$proxy$4_19_1_accept(var$0, var$1) {
-    ecdc_AssignmentComponent_deleteAssignment(var$0.$proxyCapture0300);
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_18_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0303 = null;
-}
-function juf_Consumer$proxy$4_18_0_accept(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0303;
+    var$2 = var$0.$proxyCapture0300;
     var$3 = $rt_createArray(jl_Object, 1).data;
     var$3[0] = ecdc_TutorialComponent_getTutorial(var$2).$id0;
     var$4 = $rt_createArray(jl_Object, 1).data;
@@ -17555,12 +17533,34 @@ function juf_Consumer$proxy$4_18_0_accept(var$0, var$1) {
     ecd_Router$proxy$4_0_0_singleTutorial(ecdb_RouteWidget_route(var$2, var$4[0]), var$3[0]);
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_18_1() {
+function juf_Consumer$proxy$4_19_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0301 = null;
+}
+function juf_Consumer$proxy$4_19_1_accept(var$0, var$1) {
+    ecdc_TutorialComponent_deleteTutorial(var$0.$proxyCapture0301);
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_17_0() {
     jl_Object.call(this);
     this.$proxyCapture0304 = null;
 }
-function juf_Consumer$proxy$4_18_1_accept(var$0, var$1) {
-    ecdc_TutorialComponent_deleteTutorial(var$0.$proxyCapture0304);
+function juf_Consumer$proxy$4_17_0_accept(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0304;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = ecdc_AssignmentComponent_getAssignment(var$2).$id1;
+    var$4 = $rt_createArray(jl_Object, 1).data;
+    var$4[0] = var$1;
+    ecd_Router$proxy$4_0_0_singleAssignment(ecdb_RouteWidget_route(var$2, var$4[0]), var$3[0]);
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_17_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0305 = null;
+}
+function juf_Consumer$proxy$4_17_1_accept(var$0, var$1) {
+    ecdc_AssignmentComponent_deleteAssignment(var$0.$proxyCapture0305);
     otft_Templates_update();
 }
 function jl_Boolean() {
@@ -17589,37 +17589,37 @@ function jl_Boolean__clinit_() {
     jl_Boolean_FALSE = jl_Boolean__init_(0);
     jl_Boolean_TYPE = $rt_cls($rt_booleancls());
 }
-function otft_DomComponentHandler$proxy$4_18_1() {
+function otft_DomComponentHandler$proxy$4_17_1() {
     jl_Object.call(this);
-    this.$proxyCapture0305 = null;
+    this.$proxyCapture0306 = null;
 }
-function otft_DomComponentHandler$proxy$4_18_1_update(var$0) {
+function otft_DomComponentHandler$proxy$4_17_1_update(var$0) {
     return;
 }
-function otft_DomComponentHandler$proxy$4_18_1_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_17_1_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0305;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(480)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(492)), $rt_s(349), $rt_s(560))), $rt_s(355))), $rt_s(355));
+    var$2 = var$0.$proxyCapture0306;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(468)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(560))), $rt_s(355))), $rt_s(355));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_18_2;
+    var$4 = new juf_Supplier$proxy$4_17_2;
     var$4.$proxyCapture0353 = var$2;
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353))), $rt_s(350));
 }
 function otft_DomComponentHandler$proxy$4_19_1() {
     jl_Object.call(this);
-    this.$proxyCapture0301 = null;
+    this.$proxyCapture0302 = null;
 }
 function otft_DomComponentHandler$proxy$4_19_1_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_19_1_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0301;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(480)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(492)), $rt_s(349), $rt_s(560))), $rt_s(355))), $rt_s(355));
+    var$2 = var$0.$proxyCapture0302;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(554)), $rt_s(355)), $rt_s(468)), $rt_s(349), $rt_s(555)), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(560))), $rt_s(355))), $rt_s(355));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
@@ -17628,6 +17628,13 @@ function otft_DomComponentHandler$proxy$4_19_1_buildDom(var$0, var$1) {
     var$4.$proxyCapture0354 = var$2;
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353))), $rt_s(350));
+}
+function juf_Supplier$proxy$4_18_4() {
+    jl_Object.call(this);
+    this.$proxyCapture0349 = null;
+}
+function juf_Supplier$proxy$4_18_4_get(var$0) {
+    return var$0.$proxyCapture0349.$value5.$title1;
 }
 function otft_Modifier$proxy$4_24_0() {
     jl_Object.call(this);
@@ -17693,8 +17700,8 @@ function otft_Modifier$proxy$4_24_2_apply(var$0, var$1) {
     var$1 = otfca_ComputedAttribute__init_(var$1);
     var$3 = new juf_Supplier$proxy$4_24_1;
     var$3.$proxyCapture0357 = var$2;
-    var$1.$value3 = var$3;
-    var$1.$name3 = $rt_s(425);
+    var$1.$value4 = var$3;
+    var$1.$name3 = $rt_s(414);
     return var$1;
 }
 function juf_Supplier$proxy$4_24_2() {
@@ -17712,6 +17719,27 @@ function juf_Supplier$proxy$4_24_2_get(var$0) {
 function juf_Supplier$proxy$4_24_2__init_0(var$0, var$1) {
     var$0.$proxyCapture0358 = var$1;
 }
+function juf_Supplier$proxy$4_18_6() {
+    jl_Object.call(this);
+    this.$proxyCapture0350 = null;
+}
+function juf_Supplier$proxy$4_18_6_get(var$0) {
+    return var$0.$proxyCapture0350.$value5.$title1;
+}
+function juf_Supplier$proxy$4_18_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0348 = null;
+}
+function juf_Supplier$proxy$4_18_2_get(var$0) {
+    return var$0.$proxyCapture0348.$value5.$title1;
+}
+function juf_Supplier$proxy$4_17_4() {
+    jl_Object.call(this);
+    this.$proxyCapture0352 = null;
+}
+function juf_Supplier$proxy$4_17_4_get(var$0) {
+    return var$0.$proxyCapture0352.$value5.$title1;
+}
 function juf_Supplier$proxy$4_19_4() {
     jl_Object.call(this);
     this.$proxyCapture0351 = null;
@@ -17719,203 +17747,104 @@ function juf_Supplier$proxy$4_19_4() {
 function juf_Supplier$proxy$4_19_4_get(var$0) {
     return var$0.$proxyCapture0351.$value5.$title1;
 }
-function juf_Supplier$proxy$4_17_4() {
-    jl_Object.call(this);
-    this.$proxyCapture0349 = null;
-}
-function juf_Supplier$proxy$4_17_4_get(var$0) {
-    return var$0.$proxyCapture0349.$value5.$title1;
-}
-function juf_Supplier$proxy$4_17_2() {
-    jl_Object.call(this);
-    this.$proxyCapture0348 = null;
-}
-function juf_Supplier$proxy$4_17_2_get(var$0) {
-    return var$0.$proxyCapture0348.$value5.$title1;
-}
-function juf_Supplier$proxy$4_18_4() {
-    jl_Object.call(this);
-    this.$proxyCapture0352 = null;
-}
-function juf_Supplier$proxy$4_18_4_get(var$0) {
-    return var$0.$proxyCapture0352.$value5.$title1;
-}
-function juf_Supplier$proxy$4_17_6() {
-    jl_Object.call(this);
-    this.$proxyCapture0350 = null;
-}
-function juf_Supplier$proxy$4_17_6_get(var$0) {
-    return var$0.$proxyCapture0350.$value5.$title1;
-}
-function otft_DomComponentHandler$proxy$4_13_3() {
+function otft_DomComponentHandler$proxy$4_3_3() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0323 = null;
-    a.$proxyCapture128 = null;
+    a.$proxyCapture0324 = null;
+    a.$proxyCapture129 = null;
 }
-function otft_DomComponentHandler$proxy$4_13_3_update(var$0) {
+function otft_DomComponentHandler$proxy$4_3_3_update(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0323;
-    var$2 = var$0.$proxyCapture128;
+    var$1 = var$0.$proxyCapture0324;
+    var$2 = var$0.$proxyCapture129;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_13_3_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_3_3_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0323;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(491)), $rt_s(362)), $rt_s(497));
+    var$2 = var$0.$proxyCapture0324;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(479)), $rt_s(362)), $rt_s(485));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_13_10;
+    var$4 = new juf_Supplier$proxy$4_3_10;
     var$4.$proxyCapture0359 = var$2;
     var$3.$value2 = var$4;
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(491))), $rt_s(436));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(479))), $rt_s(425));
 }
-function otft_DomComponentHandler$proxy$4_13_4() {
+function otft_DomComponentHandler$proxy$4_3_4() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0326 = null;
-    a.$proxyCapture130 = null;
+    a.$proxyCapture0327 = null;
+    a.$proxyCapture131 = null;
     a.$proxyCapture29 = null;
 }
-function otft_DomComponentHandler$proxy$4_13_4_update(var$0) {
+function otft_DomComponentHandler$proxy$4_3_4_update(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0326;
-    var$2 = var$0.$proxyCapture130;
+    var$1 = var$0.$proxyCapture0327;
+    var$2 = var$0.$proxyCapture131;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_13_4_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_3_4_buildDom(var$0, var$1) {
     var var$2, var$3, var$4, var$5;
-    var$2 = var$0.$proxyCapture0326;
+    var$2 = var$0.$proxyCapture0327;
     var$3 = var$0.$proxyCapture29;
-    var$1 = otft_DomBuilder_text(var$1, $rt_s(436));
+    var$1 = otft_DomBuilder_text(var$1, $rt_s(425));
     var$4 = otft_Slot_create();
     var$5 = new otfcs_WithComponent;
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
-    var$5 = new juf_Supplier$proxy$4_13_12;
+    var$5 = new juf_Supplier$proxy$4_3_12;
     var$5.$proxyCapture0360 = var$2;
-    var$4.$value4 = var$5;
-    var$5 = new otft_Fragment$proxy$4_13_5;
+    var$4.$value3 = var$5;
+    var$5 = new otft_Fragment$proxy$4_3_5;
     var$5.$proxyCapture0361 = var$4;
     var$5.$proxyCapture136 = var$3;
     var$5.$proxyCapture211 = var$2;
-    var$4.$content4 = var$5;
-    otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$4), $rt_s(395));
+    var$4.$content2 = var$5;
+    otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$4), $rt_s(383));
 }
-function otft_DomComponentHandler$proxy$4_8_4() {
+function otft_DomComponentHandler$proxy$4_10_4() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0338 = null;
-    a.$proxyCapture132 = null;
+    a.$proxyCapture0340 = null;
+    a.$proxyCapture134 = null;
     a.$proxyCapture210 = null;
     a.$proxyCapture30 = null;
 }
-function otft_DomComponentHandler$proxy$4_8_4_update(var$0) {
+function otft_DomComponentHandler$proxy$4_10_4_update(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0338;
-    var$2 = var$0.$proxyCapture132;
+    var$1 = var$0.$proxyCapture0340;
+    var$2 = var$0.$proxyCapture134;
     var$1.$value5 = var$2.$variable;
 }
-function otft_DomComponentHandler$proxy$4_8_4_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_10_4_buildDom(var$0, var$1) {
     var var$2, var$3, var$4, var$5, var$6;
-    var$2 = var$0.$proxyCapture0338;
+    var$2 = var$0.$proxyCapture0340;
     var$3 = var$0.$proxyCapture210;
     var$4 = var$0.$proxyCapture30;
-    var$1 = otft_DomBuilder_text(var$1, $rt_s(395));
+    var$1 = otft_DomBuilder_text(var$1, $rt_s(383));
     var$5 = otft_Slot_create();
     var$6 = new otfcs_WithComponent;
     otft_AbstractComponent__init_(var$6, var$5);
     var$5 = var$6;
-    var$6 = new juf_Supplier$proxy$4_8_3;
+    var$6 = new juf_Supplier$proxy$4_10_3;
     var$6.$proxyCapture0362 = var$2;
-    var$5.$value4 = var$6;
-    var$6 = new otft_Fragment$proxy$4_8_5;
+    var$5.$value3 = var$6;
+    var$6 = new otft_Fragment$proxy$4_10_5;
     var$6.$proxyCapture0363 = var$5;
     var$6.$proxyCapture137 = var$3;
     var$6.$proxyCapture212 = var$4;
     var$6.$proxyCapture31 = var$2;
-    var$5.$content4 = var$6;
+    var$5.$content2 = var$6;
     otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$5), $rt_s(361));
 }
-function juf_Consumer$proxy$4_15_2() {
+function juf_Consumer$proxy$4_14_11() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0313 = null;
     a.$proxyCapture126 = null;
 }
-function juf_Consumer$proxy$4_15_2_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_14_11_accept(var$0, var$1) {
     var var$2, var$3, var$4, var$5;
     var$2 = var$0.$proxyCapture0313;
     var$3 = var$0.$proxyCapture126;
-    var$4 = $rt_createArray(jl_Object, 1).data;
-    var$4[0] = var$2.$value5.$id;
-    var$5 = $rt_createArray(jl_Object, 1).data;
-    var$5[0] = var$1;
-    ecd_Router$proxy$4_0_0_singleLecture(ecdb_RouteWidget_route(var$3, var$5[0]), var$4[0]);
-    otft_Templates_update();
-}
-function juf_Supplier$proxy$4_13_4() {
-    jl_Object.call(this);
-    this.$proxyCapture0315 = null;
-}
-function juf_Supplier$proxy$4_13_4_get(var$0) {
-    return var$0.$proxyCapture0315.$value5.$name2;
-}
-function juf_Supplier$proxy$4_13_5() {
-    jl_Object.call(this);
-    this.$proxyCapture0317 = null;
-}
-function juf_Supplier$proxy$4_13_5_get(var$0) {
-    return var$0.$proxyCapture0317.$value5.$avatar;
-}
-function juf_Supplier$proxy$4_13_20() {
-    jl_Object.call(this);
-    this.$proxyCapture0328 = null;
-}
-function juf_Supplier$proxy$4_13_20_get(var$0) {
-    return var$0.$proxyCapture0328.$value5.$name2;
-}
-function juf_Supplier$proxy$4_13_21() {
-    jl_Object.call(this);
-    this.$proxyCapture0330 = null;
-}
-function juf_Supplier$proxy$4_13_21_get(var$0) {
-    return var$0.$proxyCapture0330.$value5.$avatar;
-}
-function juf_Supplier$proxy$4_13_22() {
-    jl_Object.call(this);
-    this.$proxyCapture0332 = null;
-}
-function juf_Supplier$proxy$4_13_22_get(var$0) {
-    return var$0.$proxyCapture0332.$newComment;
-}
-function otft_ValueChangeListener$proxy$4_13_0() {
-    jl_Object.call(this);
-    this.$proxyCapture0334 = null;
-}
-function otft_ValueChangeListener$proxy$4_13_0_changed(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0334;
-    var$3 = $rt_createArray(jl_Object, 1).data;
-    var$3[0] = var$1;
-    var$2.$newComment = var$3[0];
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_13_4() {
-    jl_Object.call(this);
-    this.$proxyCapture0336 = null;
-}
-function juf_Consumer$proxy$4_13_4_accept(var$0, var$1) {
-    ecdv_ForumTopicView_addComment(var$0.$proxyCapture0336);
-    otft_Templates_update();
-}
-function juf_Consumer$proxy$4_15_11() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0337 = null;
-    a.$proxyCapture131 = null;
-}
-function juf_Consumer$proxy$4_15_11_accept(var$0, var$1) {
-    var var$2, var$3, var$4, var$5;
-    var$2 = var$0.$proxyCapture0337;
-    var$3 = var$0.$proxyCapture131;
     var$4 = $rt_createArray(jl_Object, 1).data;
     var$4[0] = var$2.$value5.$id2;
     var$5 = $rt_createArray(jl_Object, 1).data;
@@ -17923,15 +17852,15 @@ function juf_Consumer$proxy$4_15_11_accept(var$0, var$1) {
     ecd_Router$proxy$4_0_0_singleForum(ecdb_RouteWidget_route(var$3, var$5[0]), var$4[0]);
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_15_5() {
+function juf_Consumer$proxy$4_14_5() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0339 = null;
-    a.$proxyCapture133 = null;
+    a.$proxyCapture0314 = null;
+    a.$proxyCapture127 = null;
 }
-function juf_Consumer$proxy$4_15_5_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_14_5_accept(var$0, var$1) {
     var var$2, var$3, var$4, var$5;
-    var$2 = var$0.$proxyCapture0339;
-    var$3 = var$0.$proxyCapture133;
+    var$2 = var$0.$proxyCapture0314;
+    var$3 = var$0.$proxyCapture127;
     var$4 = $rt_createArray(jl_Object, 1).data;
     var$4[0] = var$2.$value5.$id0;
     var$5 = $rt_createArray(jl_Object, 1).data;
@@ -17939,20 +17868,91 @@ function juf_Consumer$proxy$4_15_5_accept(var$0, var$1) {
     ecd_Router$proxy$4_0_0_singleTutorial(ecdb_RouteWidget_route(var$3, var$5[0]), var$4[0]);
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_15_8() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0340 = null;
-    a.$proxyCapture134 = null;
+function juf_Supplier$proxy$4_3_4() {
+    jl_Object.call(this);
+    this.$proxyCapture0316 = null;
 }
-function juf_Consumer$proxy$4_15_8_accept(var$0, var$1) {
+function juf_Supplier$proxy$4_3_4_get(var$0) {
+    return var$0.$proxyCapture0316.$value5.$name2;
+}
+function juf_Supplier$proxy$4_3_5() {
+    jl_Object.call(this);
+    this.$proxyCapture0318 = null;
+}
+function juf_Supplier$proxy$4_3_5_get(var$0) {
+    return var$0.$proxyCapture0318.$value5.$avatar;
+}
+function juf_Supplier$proxy$4_3_20() {
+    jl_Object.call(this);
+    this.$proxyCapture0329 = null;
+}
+function juf_Supplier$proxy$4_3_20_get(var$0) {
+    return var$0.$proxyCapture0329.$value5.$name2;
+}
+function juf_Supplier$proxy$4_3_21() {
+    jl_Object.call(this);
+    this.$proxyCapture0331 = null;
+}
+function juf_Supplier$proxy$4_3_21_get(var$0) {
+    return var$0.$proxyCapture0331.$value5.$avatar;
+}
+function juf_Supplier$proxy$4_3_22() {
+    jl_Object.call(this);
+    this.$proxyCapture0333 = null;
+}
+function juf_Supplier$proxy$4_3_22_get(var$0) {
+    return var$0.$proxyCapture0333.$newComment;
+}
+function otft_ValueChangeListener$proxy$4_3_0() {
+    jl_Object.call(this);
+    this.$proxyCapture0335 = null;
+}
+function otft_ValueChangeListener$proxy$4_3_0_changed(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0335;
+    var$3 = $rt_createArray(jl_Object, 1).data;
+    var$3[0] = var$1;
+    var$2.$newComment = var$3[0];
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_3_4() {
+    jl_Object.call(this);
+    this.$proxyCapture0337 = null;
+}
+function juf_Consumer$proxy$4_3_4_accept(var$0, var$1) {
+    ecdv_ForumTopicView_addComment(var$0.$proxyCapture0337);
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_14_8() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0338 = null;
+    a.$proxyCapture132 = null;
+}
+function juf_Consumer$proxy$4_14_8_accept(var$0, var$1) {
     var var$2, var$3, var$4, var$5;
-    var$2 = var$0.$proxyCapture0340;
-    var$3 = var$0.$proxyCapture134;
+    var$2 = var$0.$proxyCapture0338;
+    var$3 = var$0.$proxyCapture132;
     var$4 = $rt_createArray(jl_Object, 1).data;
     var$4[0] = var$2.$value5.$id1;
     var$5 = $rt_createArray(jl_Object, 1).data;
     var$5[0] = var$1;
     ecd_Router$proxy$4_0_0_singleAssignment(ecdb_RouteWidget_route(var$3, var$5[0]), var$4[0]);
+    otft_Templates_update();
+}
+function juf_Consumer$proxy$4_14_2() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0339 = null;
+    a.$proxyCapture133 = null;
+}
+function juf_Consumer$proxy$4_14_2_accept(var$0, var$1) {
+    var var$2, var$3, var$4, var$5;
+    var$2 = var$0.$proxyCapture0339;
+    var$3 = var$0.$proxyCapture133;
+    var$4 = $rt_createArray(jl_Object, 1).data;
+    var$4[0] = var$2.$value5.$id;
+    var$5 = $rt_createArray(jl_Object, 1).data;
+    var$5[0] = var$1;
+    ecd_Router$proxy$4_0_0_singleLecture(ecdb_RouteWidget_route(var$3, var$5[0]), var$4[0]);
     otft_Templates_update();
 }
 function juf_Consumer$proxy$4_16_3() {
@@ -17971,81 +17971,81 @@ function juf_Consumer$proxy$4_16_3_accept(var$0, var$1) {
     ecd_Router$proxy$4_0_0_singleForum(ecdb_RouteWidget_route(var$3, var$5[0]), var$4[0]);
     otft_Templates_update();
 }
-function juf_Supplier$proxy$4_18_2() {
+function juf_Supplier$proxy$4_3_12() {
     jl_Object.call(this);
-    this.$proxyCapture0353 = null;
+    this.$proxyCapture0360 = null;
 }
-function juf_Supplier$proxy$4_18_2_get(var$0) {
-    return ecdc_TutorialComponent_getTutorial(var$0.$proxyCapture0353).$specfile.$title1;
+function juf_Supplier$proxy$4_3_12_get(var$0) {
+    return var$0.$proxyCapture0360.$value5.$user;
 }
-function juf_Supplier$proxy$4_8_3() {
-    jl_Object.call(this);
-    this.$proxyCapture0362 = null;
-}
-function juf_Supplier$proxy$4_8_3_get(var$0) {
-    return var$0.$proxyCapture0362.$value5.$user;
-}
-function otft_Fragment$proxy$4_8_5() {
+function otft_Fragment$proxy$4_3_5() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0363 = null;
-    a.$proxyCapture137 = null;
-    a.$proxyCapture212 = null;
-    a.$proxyCapture31 = null;
+    a.$proxyCapture0361 = null;
+    a.$proxyCapture136 = null;
+    a.$proxyCapture211 = null;
 }
-function otft_Fragment$proxy$4_8_5_create(var$0) {
-    var var$1, var$2, var$3, var$4, var$5, var$6;
-    var$1 = var$0.$proxyCapture0363;
-    var$2 = var$0.$proxyCapture137;
-    var$3 = var$0.$proxyCapture212;
-    var$4 = var$0.$proxyCapture31;
-    var$5 = new otfte_VariableImpl;
-    var$6 = new otft_DomComponentHandler$proxy$4_8_5;
-    var$6.$proxyCapture0364 = var$5;
-    var$6.$proxyCapture138 = var$1;
-    var$6.$proxyCapture213 = var$2;
-    var$6.$proxyCapture32 = var$3;
-    var$6.$proxyCapture4 = var$4;
-    return otft_DomComponentTemplate__init_(var$6);
+function otft_Fragment$proxy$4_3_5_create(var$0) {
+    var var$1, var$2, var$3, var$4, var$5;
+    var$1 = var$0.$proxyCapture0361;
+    var$2 = var$0.$proxyCapture136;
+    var$3 = var$0.$proxyCapture211;
+    var$4 = new otfte_VariableImpl;
+    var$5 = new otft_DomComponentHandler$proxy$4_3_5;
+    var$5.$proxyCapture0364 = var$4;
+    var$5.$proxyCapture138 = var$1;
+    var$5.$proxyCapture213 = var$2;
+    var$5.$proxyCapture32 = var$3;
+    return otft_DomComponentTemplate__init_(var$5);
 }
 function juf_Supplier$proxy$4_19_2() {
     jl_Object.call(this);
     this.$proxyCapture0354 = null;
 }
 function juf_Supplier$proxy$4_19_2_get(var$0) {
-    return ecdc_AssignmentComponent_getAssignment(var$0.$proxyCapture0354).$specfile0.$title1;
+    return ecdc_TutorialComponent_getTutorial(var$0.$proxyCapture0354).$specfile.$title1;
 }
-function juf_Supplier$proxy$4_13_10() {
+function juf_Supplier$proxy$4_10_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0362 = null;
+}
+function juf_Supplier$proxy$4_10_3_get(var$0) {
+    return var$0.$proxyCapture0362.$value5.$user;
+}
+function otft_Fragment$proxy$4_10_5() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0363 = null;
+    a.$proxyCapture137 = null;
+    a.$proxyCapture212 = null;
+    a.$proxyCapture31 = null;
+}
+function otft_Fragment$proxy$4_10_5_create(var$0) {
+    var var$1, var$2, var$3, var$4, var$5, var$6;
+    var$1 = var$0.$proxyCapture0363;
+    var$2 = var$0.$proxyCapture137;
+    var$3 = var$0.$proxyCapture212;
+    var$4 = var$0.$proxyCapture31;
+    var$5 = new otfte_VariableImpl;
+    var$6 = new otft_DomComponentHandler$proxy$4_10_5;
+    var$6.$proxyCapture0365 = var$5;
+    var$6.$proxyCapture139 = var$1;
+    var$6.$proxyCapture214 = var$2;
+    var$6.$proxyCapture33 = var$3;
+    var$6.$proxyCapture4 = var$4;
+    return otft_DomComponentTemplate__init_(var$6);
+}
+function juf_Supplier$proxy$4_17_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0353 = null;
+}
+function juf_Supplier$proxy$4_17_2_get(var$0) {
+    return ecdc_AssignmentComponent_getAssignment(var$0.$proxyCapture0353).$specfile0.$title1;
+}
+function juf_Supplier$proxy$4_3_10() {
     jl_Object.call(this);
     this.$proxyCapture0359 = null;
 }
-function juf_Supplier$proxy$4_13_10_get(var$0) {
+function juf_Supplier$proxy$4_3_10_get(var$0) {
     return var$0.$proxyCapture0359.$value5;
-}
-function juf_Supplier$proxy$4_13_12() {
-    jl_Object.call(this);
-    this.$proxyCapture0360 = null;
-}
-function juf_Supplier$proxy$4_13_12_get(var$0) {
-    return var$0.$proxyCapture0360.$value5.$user;
-}
-function otft_Fragment$proxy$4_13_5() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0361 = null;
-    a.$proxyCapture136 = null;
-    a.$proxyCapture211 = null;
-}
-function otft_Fragment$proxy$4_13_5_create(var$0) {
-    var var$1, var$2, var$3, var$4, var$5;
-    var$1 = var$0.$proxyCapture0361;
-    var$2 = var$0.$proxyCapture136;
-    var$3 = var$0.$proxyCapture211;
-    var$4 = new otfte_VariableImpl;
-    var$5 = new otft_DomComponentHandler$proxy$4_13_5;
-    var$5.$proxyCapture0365 = var$4;
-    var$5.$proxyCapture139 = var$1;
-    var$5.$proxyCapture214 = var$2;
-    var$5.$proxyCapture33 = var$3;
-    return otft_DomComponentTemplate__init_(var$5);
 }
 function otft_DomComponentHandler$proxy$4_24_1() {
     jl_Object.call(this);
@@ -18054,7 +18054,7 @@ function otft_DomComponentHandler$proxy$4_24_1_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_24_1_buildDom(var$0, var$1) {
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(492)), $rt_s(349), $rt_s(561))), $rt_s(357));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(480)), $rt_s(349), $rt_s(561))), $rt_s(357));
 }
 function otft_DomComponentHandler$proxy$4_24_2() {
     jl_Object.call(this);
@@ -18063,7 +18063,7 @@ function otft_DomComponentHandler$proxy$4_24_2_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_24_2_buildDom(var$0, var$1) {
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(492)), $rt_s(349), $rt_s(562))), $rt_s(357));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(361)), $rt_s(480)), $rt_s(349), $rt_s(562))), $rt_s(357));
 }
 function otft_DomComponentHandler$proxy$4_25_0() {
     jl_Object.call(this);
@@ -18076,12 +18076,12 @@ function otft_DomComponentHandler$proxy$4_25_0_buildDom(var$0, var$1) {
     var var$2, var$3, var$4, var$5, var$6;
     var$2 = var$0.$proxyCapture0347;
     var$1 = var$1;
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(350)), $rt_s(351)), $rt_s(349), $rt_s(433)), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(563)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(564)), $rt_s(357)),
-    $rt_s(390)), $rt_s(349), $rt_s(391)), $rt_s(361));
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(var$1, $rt_s(351)), $rt_s(350)), $rt_s(351)), $rt_s(349), $rt_s(422)), $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(563)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(564)), $rt_s(357)),
+    $rt_s(443)), $rt_s(349), $rt_s(444)), $rt_s(361));
     var$4 = otfch_TextComponent__init_(otft_Slot_create());
     otfch_TextComponent_setValue(var$4, juf_Supplier$proxy$4_25_0__init_(var$2));
     otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(357))), $rt_s(355))), $rt_s(353)));
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(565)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(564)), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(552)), $rt_s(425), $rt_s(553)), otft_Modifier$proxy$4_25_0__init_(var$2)),
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(349), $rt_s(565)), $rt_s(355)), $rt_s(351)), $rt_s(349), $rt_s(564)), $rt_s(357)), $rt_s(468)), $rt_s(349), $rt_s(552)), $rt_s(414), $rt_s(553)), otft_Modifier$proxy$4_25_0__init_(var$2)),
     $rt_s(361));
     var$4 = otfcs_ChooseComponent__init_(otft_Slot_create());
     var$5 = ju_ArrayList__init_3(1);
@@ -18095,7 +18095,7 @@ function otft_DomComponentHandler$proxy$4_25_0_buildDom(var$0, var$1) {
     otfcs_ChooseClause_setContent(var$6, otft_Fragment$proxy$4_25_1__init_());
     otfcs_OtherwiseClause_setContent(var$5, otft_Fragment$proxy$4_25_2__init_());
     otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(357))), $rt_s(355))), $rt_s(353))), $rt_s(350)));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(350)), $rt_s(438))), $rt_s(350)), $rt_s(351)), otft_Modifier$proxy$4_25_1__init_(var$2)), $rt_s(353));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(350)), $rt_s(427))), $rt_s(350)), $rt_s(351)), otft_Modifier$proxy$4_25_1__init_(var$2)), $rt_s(353));
     var$3 = otfcs_InsertComponent__init_(otft_Slot_create());
     otfcs_InsertComponent_setFragment(var$3, juf_Supplier$proxy$4_25_2__init_(var$2));
     otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(350))), $rt_s(347)));
@@ -18460,8 +18460,8 @@ function otft_Modifier$proxy$4_25_1_apply(var$0, var$1) {
     var$1 = otfca_ComputedAttribute__init_(var$1);
     var$3 = new juf_Supplier$proxy$4_25_1;
     var$3.$proxyCapture0371 = var$2;
-    var$1.$value3 = var$3;
-    var$1.$name3 = $rt_s(425);
+    var$1.$value4 = var$3;
+    var$1.$name3 = $rt_s(414);
     return var$1;
 }
 function otft_Modifier$proxy$4_25_1__init_0(var$0, var$1) {
@@ -18482,99 +18482,99 @@ function juf_Supplier$proxy$4_25_2_get(var$0) {
 function juf_Supplier$proxy$4_25_2__init_0(var$0, var$1) {
     var$0.$proxyCapture0372 = var$1;
 }
-function otft_DomComponentHandler$proxy$4_8_5() {
+function otft_DomComponentHandler$proxy$4_3_5() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0364 = null;
     a.$proxyCapture138 = null;
     a.$proxyCapture213 = null;
     a.$proxyCapture32 = null;
-    a.$proxyCapture4 = null;
 }
-function otft_DomComponentHandler$proxy$4_8_5_update(var$0) {
+function otft_DomComponentHandler$proxy$4_3_5_update(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0364;
     var$2 = var$0.$proxyCapture138;
     var$1.$value5 = var$2.$variable;
 }
-function otft_DomComponentHandler$proxy$4_8_5_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4, var$5, var$6, var$7, var$8;
+function otft_DomComponentHandler$proxy$4_3_5_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4, var$5, var$6;
     var$2 = var$0.$proxyCapture0364;
     var$3 = var$0.$proxyCapture213;
     var$4 = var$0.$proxyCapture32;
-    var$5 = var$0.$proxyCapture4;
-    var$6 = var$1;
-    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$6, $rt_s(436)), $rt_s(359)), $rt_s(349),
-    $rt_s(388)), $rt_s(491)), $rt_s(542)), $rt_s(349), $rt_s(543)), $rt_s(497)), $rt_s(362)), $rt_s(349), $rt_s(544)), $rt_s(567)), $rt_s(545)), otft_Modifier$proxy$4_8_2__init_(var$2)), otft_Modifier$proxy$4_8_3__init_(var$2))), $rt_s(497))), $rt_s(491))), $rt_s(491)), $rt_s(351)), $rt_s(349), $rt_s(389));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$6, $rt_s(497)), $rt_s(390)), $rt_s(349), $rt_s(391)), $rt_s(567)), $rt_s(376)), otft_Modifier$proxy$4_8_4__init_(var$3, var$4)), $rt_s(568));
-    var$7 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$7, juf_Supplier$proxy$4_8_6__init_(var$4));
-    var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$7), $rt_s(567))), $rt_s(497))), $rt_s(497)), $rt_s(351)), $rt_s(349), $rt_s(546)), $rt_s(567)), $rt_s(362)), $rt_s(568)), $rt_s(465));
-    var$7 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$7, juf_Supplier$proxy$4_8_7__init_(var$2));
-    otft_DomBuilder_close(otft_DomBuilder_add(var$1, var$7));
-    var$8 = otft_DomBuilder_openSlot(otft_DomBuilder_text(var$6, $rt_s(547)), $rt_s(548));
-    var$1 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$1, juf_Supplier$proxy$4_8_8__init_(var$2));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add(var$8, var$1)), $rt_s(567))), $rt_s(567));
+    var$5 = var$1;
+    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$5, $rt_s(479)), $rt_s(359)), $rt_s(349),
+    $rt_s(441)), $rt_s(485)), $rt_s(542)), $rt_s(349), $rt_s(543)), $rt_s(567)), $rt_s(362)), $rt_s(349), $rt_s(544)), $rt_s(568)), $rt_s(545)), otft_Modifier$proxy$4_3_5__init_(var$2)), otft_Modifier$proxy$4_3_6__init_(var$2))), $rt_s(567))), $rt_s(485))), $rt_s(485)), $rt_s(351)), $rt_s(349), $rt_s(442));
+    var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$5, $rt_s(567)), $rt_s(351)), $rt_s(349), $rt_s(546)), $rt_s(568)), $rt_s(362)), $rt_s(569)), $rt_s(506));
+    var$6 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$6, juf_Supplier$proxy$4_3_15__init_(var$2));
+    var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add(var$1, var$6)), $rt_s(547)), $rt_s(548));
+    var$6 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$6, juf_Supplier$proxy$4_3_16__init_(var$2));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add(var$1, var$6)), $rt_s(568))), $rt_s(568));
     var$2 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    otfcs_ForEachComponent_setCollection(var$2, juf_Supplier$proxy$4_8_9__init_(var$3, var$5));
-    otfcs_ForEachComponent_setBody(var$2, otft_Fragment$proxy$4_8_6__init_(var$2));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$2), $rt_s(567)), $rt_s(438))), $rt_s(567)), $rt_s(362)), $rt_s(568));
-    var$2 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$2, juf_Supplier$proxy$4_8_11__init_(var$4));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$2), $rt_s(569));
-    var$2 = otfcs_ChooseComponent__init_(otft_Slot_create());
-    var$7 = ju_ArrayList__init_3(1);
-    var$5 = otfcs_ChooseClause__init_();
-    otfcs_ChooseClause_setPredicate(var$5, juf_BooleanSupplier$proxy$4_8_1__init_(var$4));
-    var$7 = var$7;
-    ju_ArrayList_add(var$7, var$5);
-    otfcs_ChooseComponent_setClauses(var$2, var$7);
-    var$7 = otfcs_OtherwiseClause__init_();
-    otfcs_ChooseComponent_setOtherwiseClause(var$2, var$7);
-    otfcs_ChooseClause_setContent(var$5, otft_Fragment$proxy$4_8_7__init_());
-    otfcs_OtherwiseClause_setContent(var$7, otft_Fragment$proxy$4_8_8__init_());
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$2), $rt_s(567))), $rt_s(497)));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$6, $rt_s(491))), $rt_s(491)), $rt_s(351)), $rt_s(349), $rt_s(570)), $rt_s(497)), $rt_s(403)), $rt_s(349), $rt_s(533)), otft_Modifier$proxy$4_8_5__init_(var$3, var$4))), $rt_s(491))),
-    $rt_s(436))), $rt_s(395));
+    otfcs_ForEachComponent_setCollection(var$2, juf_Supplier$proxy$4_3_17__init_(var$3, var$4));
+    otfcs_ForEachComponent_setBody(var$2, otft_Fragment$proxy$4_3_6__init_(var$2));
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$2), $rt_s(567))), $rt_s(485)));
+    var$1 = otft_DomBuilder_text(var$5, $rt_s(485));
+    var$2 = otfcs_IfComponent__init_(otft_Slot_create());
+    otfcs_IfComponent_setCondition(var$2, juf_Supplier$proxy$4_3_19__init_(var$4, var$3));
+    otfcs_IfComponent_setBody(var$2, otft_Fragment$proxy$4_3_7__init_(var$3, var$4));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$2), $rt_s(479))), $rt_s(425));
 }
-function otft_DomComponentHandler$proxy$4_13_5() {
+function otft_DomComponentHandler$proxy$4_10_5() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0365 = null;
     a.$proxyCapture139 = null;
     a.$proxyCapture214 = null;
     a.$proxyCapture33 = null;
+    a.$proxyCapture4 = null;
 }
-function otft_DomComponentHandler$proxy$4_13_5_update(var$0) {
+function otft_DomComponentHandler$proxy$4_10_5_update(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0365;
     var$2 = var$0.$proxyCapture139;
     var$1.$value5 = var$2.$variable;
 }
-function otft_DomComponentHandler$proxy$4_13_5_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4, var$5, var$6;
+function otft_DomComponentHandler$proxy$4_10_5_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4, var$5, var$6, var$7, var$8;
     var$2 = var$0.$proxyCapture0365;
     var$3 = var$0.$proxyCapture214;
     var$4 = var$0.$proxyCapture33;
-    var$5 = var$1;
-    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$5, $rt_s(491)), $rt_s(359)), $rt_s(349),
-    $rt_s(388)), $rt_s(497)), $rt_s(542)), $rt_s(349), $rt_s(543)), $rt_s(567)), $rt_s(362)), $rt_s(349), $rt_s(544)), $rt_s(568)), $rt_s(545)), otft_Modifier$proxy$4_13_5__init_(var$2)), otft_Modifier$proxy$4_13_6__init_(var$2))), $rt_s(567))), $rt_s(497))), $rt_s(497)), $rt_s(351)), $rt_s(349), $rt_s(389));
-    var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$5, $rt_s(567)), $rt_s(351)), $rt_s(349), $rt_s(546)), $rt_s(568)), $rt_s(362)), $rt_s(571)), $rt_s(465));
-    var$6 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$6, juf_Supplier$proxy$4_13_15__init_(var$2));
-    var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add(var$1, var$6)), $rt_s(547)), $rt_s(548));
-    var$6 = otfch_TextComponent__init_(otft_Slot_create());
-    otfch_TextComponent_setValue(var$6, juf_Supplier$proxy$4_13_16__init_(var$2));
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add(var$1, var$6)), $rt_s(568))), $rt_s(568));
+    var$5 = var$0.$proxyCapture4;
+    var$6 = var$1;
+    otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_add0(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$6, $rt_s(425)), $rt_s(359)), $rt_s(349),
+    $rt_s(441)), $rt_s(479)), $rt_s(542)), $rt_s(349), $rt_s(543)), $rt_s(485)), $rt_s(362)), $rt_s(349), $rt_s(544)), $rt_s(567)), $rt_s(545)), otft_Modifier$proxy$4_10_2__init_(var$2)), otft_Modifier$proxy$4_10_3__init_(var$2))), $rt_s(485))), $rt_s(479))), $rt_s(479)), $rt_s(351)), $rt_s(349), $rt_s(442));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$6, $rt_s(485)), $rt_s(443)), $rt_s(349), $rt_s(444)), $rt_s(567)), $rt_s(376)), otft_Modifier$proxy$4_10_4__init_(var$3, var$4)), $rt_s(568));
+    var$7 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$7, juf_Supplier$proxy$4_10_6__init_(var$4));
+    var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$7), $rt_s(567))), $rt_s(485))), $rt_s(485)), $rt_s(351)), $rt_s(349), $rt_s(546)), $rt_s(567)), $rt_s(362)), $rt_s(568)), $rt_s(506));
+    var$7 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$7, juf_Supplier$proxy$4_10_7__init_(var$2));
+    otft_DomBuilder_close(otft_DomBuilder_add(var$1, var$7));
+    var$8 = otft_DomBuilder_openSlot(otft_DomBuilder_text(var$6, $rt_s(547)), $rt_s(548));
+    var$1 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$1, juf_Supplier$proxy$4_10_8__init_(var$2));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add(var$8, var$1)), $rt_s(567))), $rt_s(567));
     var$2 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    otfcs_ForEachComponent_setCollection(var$2, juf_Supplier$proxy$4_13_17__init_(var$3, var$4));
-    otfcs_ForEachComponent_setBody(var$2, otft_Fragment$proxy$4_13_6__init_(var$2));
-    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$2), $rt_s(567))), $rt_s(497)));
-    var$1 = otft_DomBuilder_text(var$5, $rt_s(497));
-    var$2 = otfcs_IfComponent__init_(otft_Slot_create());
-    otfcs_IfComponent_setCondition(var$2, juf_Supplier$proxy$4_13_19__init_(var$4, var$3));
-    otfcs_IfComponent_setBody(var$2, otft_Fragment$proxy$4_13_7__init_(var$3, var$4));
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$2), $rt_s(491))), $rt_s(436));
+    otfcs_ForEachComponent_setCollection(var$2, juf_Supplier$proxy$4_10_9__init_(var$3, var$5));
+    otfcs_ForEachComponent_setBody(var$2, otft_Fragment$proxy$4_10_6__init_(var$2));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$2), $rt_s(567)), $rt_s(427))), $rt_s(567)), $rt_s(362)), $rt_s(568));
+    var$2 = otfch_TextComponent__init_(otft_Slot_create());
+    otfch_TextComponent_setValue(var$2, juf_Supplier$proxy$4_10_11__init_(var$4));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$2), $rt_s(570));
+    var$2 = otfcs_ChooseComponent__init_(otft_Slot_create());
+    var$7 = ju_ArrayList__init_3(1);
+    var$5 = otfcs_ChooseClause__init_();
+    otfcs_ChooseClause_setPredicate(var$5, juf_BooleanSupplier$proxy$4_10_1__init_(var$4));
+    var$7 = var$7;
+    ju_ArrayList_add(var$7, var$5);
+    otfcs_ChooseComponent_setClauses(var$2, var$7);
+    var$7 = otfcs_OtherwiseClause__init_();
+    otfcs_ChooseComponent_setOtherwiseClause(var$2, var$7);
+    otfcs_ChooseClause_setContent(var$5, otft_Fragment$proxy$4_10_7__init_());
+    otfcs_OtherwiseClause_setContent(var$7, otft_Fragment$proxy$4_10_8__init_());
+    otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$2), $rt_s(567))), $rt_s(485)));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$6, $rt_s(479))), $rt_s(479)), $rt_s(351)), $rt_s(349), $rt_s(571)), $rt_s(485)), $rt_s(399)), $rt_s(349), $rt_s(533)), otft_Modifier$proxy$4_10_5__init_(var$3, var$4))), $rt_s(479))),
+    $rt_s(425))), $rt_s(383));
 }
 function otfjs_JsonSerializer() {
 }
@@ -19530,388 +19530,139 @@ function otfjs_JsonSerializer$proxy$4_0_4() {
 function otfjs_JsonSerializer$proxy$4_0_4_serialize(var$0, var$1, var$2) {
     return otfj_JSON_serialize(var$1, var$2);
 }
-function otft_Modifier$proxy$4_8_2() {
+function otft_Modifier$proxy$4_3_5() {
     jl_Object.call(this);
     this.$proxyCapture0373 = null;
 }
-function otft_Modifier$proxy$4_8_2__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_8_2();
-    otft_Modifier$proxy$4_8_2__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_3_5__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_5();
+    otft_Modifier$proxy$4_3_5__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_8_2_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_5_apply(var$0, var$1) {
     var var$2, var$3;
     var$2 = var$0.$proxyCapture0373;
     var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_8_4;
+    var$3 = new juf_Supplier$proxy$4_3_13;
     var$3.$proxyCapture0374 = var$2;
-    var$1.$value3 = var$3;
+    var$1.$value4 = var$3;
     var$1.$name3 = $rt_s(550);
     return var$1;
 }
-function otft_Modifier$proxy$4_8_2__init_0(var$0, var$1) {
+function otft_Modifier$proxy$4_3_5__init_0(var$0, var$1) {
     var$0.$proxyCapture0373 = var$1;
 }
-function otft_Modifier$proxy$4_8_3() {
+function otft_Modifier$proxy$4_3_6() {
     jl_Object.call(this);
     this.$proxyCapture0375 = null;
 }
-function otft_Modifier$proxy$4_8_3__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_8_3();
-    otft_Modifier$proxy$4_8_3__init_0(var_1, var_0);
+function otft_Modifier$proxy$4_3_6__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_3_6();
+    otft_Modifier$proxy$4_3_6__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Modifier$proxy$4_8_3_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_6_apply(var$0, var$1) {
     var var$2, var$3;
     var$2 = var$0.$proxyCapture0375;
     var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_8_5;
+    var$3 = new juf_Supplier$proxy$4_3_14;
     var$3.$proxyCapture0376 = var$2;
-    var$1.$value3 = var$3;
+    var$1.$value4 = var$3;
     var$1.$name3 = $rt_s(551);
     return var$1;
 }
-function otft_Modifier$proxy$4_8_3__init_0(var$0, var$1) {
+function otft_Modifier$proxy$4_3_6__init_0(var$0, var$1) {
     var$0.$proxyCapture0375 = var$1;
 }
-function otft_Modifier$proxy$4_8_4() {
+function juf_Supplier$proxy$4_3_15() {
+    jl_Object.call(this);
+    this.$proxyCapture0377 = null;
+}
+function juf_Supplier$proxy$4_3_15__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_3_15();
+    juf_Supplier$proxy$4_3_15__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_3_15_get(var$0) {
+    return var$0.$proxyCapture0377.$value5.$name2;
+}
+function juf_Supplier$proxy$4_3_15__init_0(var$0, var$1) {
+    var$0.$proxyCapture0377 = var$1;
+}
+function juf_Supplier$proxy$4_3_16() {
+    jl_Object.call(this);
+    this.$proxyCapture0378 = null;
+}
+function juf_Supplier$proxy$4_3_16__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_3_16();
+    juf_Supplier$proxy$4_3_16__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_3_16_get(var$0) {
+    return var$0.$proxyCapture0378.$value5.$email;
+}
+function juf_Supplier$proxy$4_3_16__init_0(var$0, var$1) {
+    var$0.$proxyCapture0378 = var$1;
+}
+function juf_Supplier$proxy$4_3_17() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0377 = null;
+    a.$proxyCapture0379 = null;
     a.$proxyCapture140 = null;
 }
-function otft_Modifier$proxy$4_8_4__init_(var_0, var_1) {
-    var var_2 = new otft_Modifier$proxy$4_8_4();
-    otft_Modifier$proxy$4_8_4__init_0(var_2, var_0, var_1);
+function juf_Supplier$proxy$4_3_17__init_(var_0, var_1) {
+    var var_2 = new juf_Supplier$proxy$4_3_17();
+    juf_Supplier$proxy$4_3_17__init_0(var_2, var_0, var_1);
     return var_2;
 }
-function otft_Modifier$proxy$4_8_4_apply(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0377;
-    var$3 = var$0.$proxyCapture140;
-    var$1 = otfch_LinkComponent__init_(var$1);
-    var$4 = new juf_Consumer$proxy$4_8_2;
-    var$4.$proxyCapture0378 = var$2;
-    var$4.$proxyCapture141 = var$3;
-    var$1.$path = var$4;
-    return var$1;
-}
-function otft_Modifier$proxy$4_8_4__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0377 = var$1;
-    var$0.$proxyCapture140 = var$2;
-}
-function juf_Supplier$proxy$4_8_6() {
-    jl_Object.call(this);
-    this.$proxyCapture0379 = null;
-}
-function juf_Supplier$proxy$4_8_6__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_8_6();
-    juf_Supplier$proxy$4_8_6__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_8_6_get(var$0) {
-    return var$0.$proxyCapture0379.$value5.$title0;
-}
-function juf_Supplier$proxy$4_8_6__init_0(var$0, var$1) {
-    var$0.$proxyCapture0379 = var$1;
-}
-function juf_Supplier$proxy$4_8_7() {
-    jl_Object.call(this);
-    this.$proxyCapture0380 = null;
-}
-function juf_Supplier$proxy$4_8_7__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_8_7();
-    juf_Supplier$proxy$4_8_7__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_8_7_get(var$0) {
-    return var$0.$proxyCapture0380.$value5.$name2;
-}
-function juf_Supplier$proxy$4_8_7__init_0(var$0, var$1) {
-    var$0.$proxyCapture0380 = var$1;
-}
-function juf_Supplier$proxy$4_8_8() {
-    jl_Object.call(this);
-    this.$proxyCapture0381 = null;
-}
-function juf_Supplier$proxy$4_8_8__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_8_8();
-    juf_Supplier$proxy$4_8_8__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_8_8_get(var$0) {
-    return var$0.$proxyCapture0381.$value5.$email;
-}
-function juf_Supplier$proxy$4_8_8__init_0(var$0, var$1) {
-    var$0.$proxyCapture0381 = var$1;
-}
-function juf_Supplier$proxy$4_8_9() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0382 = null;
-    a.$proxyCapture142 = null;
-}
-function juf_Supplier$proxy$4_8_9__init_(var_0, var_1) {
-    var var_2 = new juf_Supplier$proxy$4_8_9();
-    juf_Supplier$proxy$4_8_9__init_0(var_2, var_0, var_1);
-    return var_2;
-}
-function juf_Supplier$proxy$4_8_9_get(var$0) {
+function juf_Supplier$proxy$4_3_17_get(var$0) {
     var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0382;
-    var$2 = var$0.$proxyCapture142;
-    var$3 = $rt_createArray(jl_Object, 1);
-    var$2 = var$2.$value5;
-    var$3 = var$3.data;
-    var$3[0] = var$2;
-    return ecdv_ForumView_commentToList(var$1, var$3[0]);
-}
-function juf_Supplier$proxy$4_8_9__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0382 = var$1;
-    var$0.$proxyCapture142 = var$2;
-}
-function otft_Fragment$proxy$4_8_6() {
-    jl_Object.call(this);
-    this.$proxyCapture0383 = null;
-}
-function otft_Fragment$proxy$4_8_6__init_(var_0) {
-    var var_1 = new otft_Fragment$proxy$4_8_6();
-    otft_Fragment$proxy$4_8_6__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Fragment$proxy$4_8_6_create(var$0) {
-    var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0383;
-    var$2 = new otfte_VariableImpl;
-    var$3 = new otft_DomComponentHandler$proxy$4_8_6;
-    var$3.$proxyCapture0384 = var$2;
-    var$3.$proxyCapture143 = var$1;
-    return otft_DomComponentTemplate__init_(var$3);
-}
-function otft_Fragment$proxy$4_8_6__init_0(var$0, var$1) {
-    var$0.$proxyCapture0383 = var$1;
-}
-function juf_Supplier$proxy$4_8_11() {
-    jl_Object.call(this);
-    this.$proxyCapture0385 = null;
-}
-function juf_Supplier$proxy$4_8_11__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_8_11();
-    juf_Supplier$proxy$4_8_11__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_8_11_get(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0385;
-    var$2 = $rt_createArray(jl_Object, 1).data;
-    var$2[0] = jl_Integer_valueOf(var$1.$value5.$comments.$size - 1 | 0);
-    return jl_Integer_valueOf(var$2[0].$value);
-}
-function juf_Supplier$proxy$4_8_11__init_0(var$0, var$1) {
-    var$0.$proxyCapture0385 = var$1;
-}
-function juf_BooleanSupplier$proxy$4_8_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0386 = null;
-}
-function juf_BooleanSupplier$proxy$4_8_1__init_(var_0) {
-    var var_1 = new juf_BooleanSupplier$proxy$4_8_1();
-    juf_BooleanSupplier$proxy$4_8_1__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_BooleanSupplier$proxy$4_8_1_getAsBoolean(var$0) {
-    var var$1;
-    var$1 = var$0.$proxyCapture0386;
-    return var$1.$value5.$comments.$size <= 2 ? 0 : 1;
-}
-function juf_BooleanSupplier$proxy$4_8_1__init_0(var$0, var$1) {
-    var$0.$proxyCapture0386 = var$1;
-}
-function otft_Fragment$proxy$4_8_7() {
-    jl_Object.call(this);
-}
-function otft_Fragment$proxy$4_8_7__init_() {
-    var var_0 = new otft_Fragment$proxy$4_8_7();
-    otft_Fragment$proxy$4_8_7__init_0(var_0);
-    return var_0;
-}
-function otft_Fragment$proxy$4_8_7_create(var$0) {
-    return otft_DomComponentTemplate__init_(new otft_DomComponentHandler$proxy$4_8_7);
-}
-function otft_Fragment$proxy$4_8_7__init_0(var$0) {
-    return;
-}
-function otft_Fragment$proxy$4_8_8() {
-    jl_Object.call(this);
-}
-function otft_Fragment$proxy$4_8_8__init_() {
-    var var_0 = new otft_Fragment$proxy$4_8_8();
-    otft_Fragment$proxy$4_8_8__init_0(var_0);
-    return var_0;
-}
-function otft_Fragment$proxy$4_8_8_create(var$0) {
-    return otft_DomComponentTemplate__init_(new otft_DomComponentHandler$proxy$4_8_8);
-}
-function otft_Fragment$proxy$4_8_8__init_0(var$0) {
-    return;
-}
-function otft_Modifier$proxy$4_8_5() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0387 = null;
-    a.$proxyCapture144 = null;
-}
-function otft_Modifier$proxy$4_8_5__init_(var_0, var_1) {
-    var var_2 = new otft_Modifier$proxy$4_8_5();
-    otft_Modifier$proxy$4_8_5__init_0(var_2, var_0, var_1);
-    return var_2;
-}
-function otft_Modifier$proxy$4_8_5_apply(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0387;
-    var$3 = var$0.$proxyCapture144;
-    var$1 = otfce_MouseBinder__init_(var$1);
-    var$4 = new juf_Consumer$proxy$4_8_3;
-    var$4.$proxyCapture0388 = var$2;
-    var$4.$proxyCapture145 = var$3;
-    otfce_BaseEventBinder_setHandler(var$1, var$4);
-    var$1.$eventName = $rt_s(455);
-    return var$1;
-}
-function otft_Modifier$proxy$4_8_5__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0387 = var$1;
-    var$0.$proxyCapture144 = var$2;
-}
-function otft_Modifier$proxy$4_13_5() {
-    jl_Object.call(this);
-    this.$proxyCapture0389 = null;
-}
-function otft_Modifier$proxy$4_13_5__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_5();
-    otft_Modifier$proxy$4_13_5__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_13_5_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0389;
-    var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_13_13;
-    var$3.$proxyCapture0390 = var$2;
-    var$1.$value3 = var$3;
-    var$1.$name3 = $rt_s(550);
-    return var$1;
-}
-function otft_Modifier$proxy$4_13_5__init_0(var$0, var$1) {
-    var$0.$proxyCapture0389 = var$1;
-}
-function otft_Modifier$proxy$4_13_6() {
-    jl_Object.call(this);
-    this.$proxyCapture0391 = null;
-}
-function otft_Modifier$proxy$4_13_6__init_(var_0) {
-    var var_1 = new otft_Modifier$proxy$4_13_6();
-    otft_Modifier$proxy$4_13_6__init_0(var_1, var_0);
-    return var_1;
-}
-function otft_Modifier$proxy$4_13_6_apply(var$0, var$1) {
-    var var$2, var$3;
-    var$2 = var$0.$proxyCapture0391;
-    var$1 = otfca_ComputedAttribute__init_(var$1);
-    var$3 = new juf_Supplier$proxy$4_13_14;
-    var$3.$proxyCapture0392 = var$2;
-    var$1.$value3 = var$3;
-    var$1.$name3 = $rt_s(551);
-    return var$1;
-}
-function otft_Modifier$proxy$4_13_6__init_0(var$0, var$1) {
-    var$0.$proxyCapture0391 = var$1;
-}
-function juf_Supplier$proxy$4_13_15() {
-    jl_Object.call(this);
-    this.$proxyCapture0393 = null;
-}
-function juf_Supplier$proxy$4_13_15__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_13_15();
-    juf_Supplier$proxy$4_13_15__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_13_15_get(var$0) {
-    return var$0.$proxyCapture0393.$value5.$name2;
-}
-function juf_Supplier$proxy$4_13_15__init_0(var$0, var$1) {
-    var$0.$proxyCapture0393 = var$1;
-}
-function juf_Supplier$proxy$4_13_16() {
-    jl_Object.call(this);
-    this.$proxyCapture0394 = null;
-}
-function juf_Supplier$proxy$4_13_16__init_(var_0) {
-    var var_1 = new juf_Supplier$proxy$4_13_16();
-    juf_Supplier$proxy$4_13_16__init_0(var_1, var_0);
-    return var_1;
-}
-function juf_Supplier$proxy$4_13_16_get(var$0) {
-    return var$0.$proxyCapture0394.$value5.$email;
-}
-function juf_Supplier$proxy$4_13_16__init_0(var$0, var$1) {
-    var$0.$proxyCapture0394 = var$1;
-}
-function juf_Supplier$proxy$4_13_17() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0395 = null;
-    a.$proxyCapture146 = null;
-}
-function juf_Supplier$proxy$4_13_17__init_(var_0, var_1) {
-    var var_2 = new juf_Supplier$proxy$4_13_17();
-    juf_Supplier$proxy$4_13_17__init_0(var_2, var_0, var_1);
-    return var_2;
-}
-function juf_Supplier$proxy$4_13_17_get(var$0) {
-    var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0395;
-    var$2 = var$0.$proxyCapture146;
+    var$1 = var$0.$proxyCapture0379;
+    var$2 = var$0.$proxyCapture140;
     var$3 = $rt_createArray(jl_Object, 1);
     var$2 = var$2.$value5;
     var$3 = var$3.data;
     var$3[0] = var$2;
     return ecdv_ForumTopicView_commentToList(var$1, var$3[0]);
 }
-function juf_Supplier$proxy$4_13_17__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0395 = var$1;
-    var$0.$proxyCapture146 = var$2;
+function juf_Supplier$proxy$4_3_17__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0379 = var$1;
+    var$0.$proxyCapture140 = var$2;
 }
-function otft_Fragment$proxy$4_13_6() {
+function otft_Fragment$proxy$4_3_6() {
     jl_Object.call(this);
-    this.$proxyCapture0396 = null;
+    this.$proxyCapture0380 = null;
 }
-function otft_Fragment$proxy$4_13_6__init_(var_0) {
-    var var_1 = new otft_Fragment$proxy$4_13_6();
-    otft_Fragment$proxy$4_13_6__init_0(var_1, var_0);
+function otft_Fragment$proxy$4_3_6__init_(var_0) {
+    var var_1 = new otft_Fragment$proxy$4_3_6();
+    otft_Fragment$proxy$4_3_6__init_0(var_1, var_0);
     return var_1;
 }
-function otft_Fragment$proxy$4_13_6_create(var$0) {
+function otft_Fragment$proxy$4_3_6_create(var$0) {
     var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0396;
+    var$1 = var$0.$proxyCapture0380;
     var$2 = new otfte_VariableImpl;
-    var$3 = new otft_DomComponentHandler$proxy$4_13_6;
-    var$3.$proxyCapture0397 = var$2;
-    var$3.$proxyCapture147 = var$1;
+    var$3 = new otft_DomComponentHandler$proxy$4_3_6;
+    var$3.$proxyCapture0381 = var$2;
+    var$3.$proxyCapture141 = var$1;
     return otft_DomComponentTemplate__init_(var$3);
 }
-function otft_Fragment$proxy$4_13_6__init_0(var$0, var$1) {
-    var$0.$proxyCapture0396 = var$1;
+function otft_Fragment$proxy$4_3_6__init_0(var$0, var$1) {
+    var$0.$proxyCapture0380 = var$1;
 }
-function juf_Supplier$proxy$4_13_19() {
+function juf_Supplier$proxy$4_3_19() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0398 = null;
-    a.$proxyCapture148 = null;
+    a.$proxyCapture0382 = null;
+    a.$proxyCapture142 = null;
 }
-function juf_Supplier$proxy$4_13_19__init_(var_0, var_1) {
-    var var_2 = new juf_Supplier$proxy$4_13_19();
-    juf_Supplier$proxy$4_13_19__init_0(var_2, var_0, var_1);
+function juf_Supplier$proxy$4_3_19__init_(var_0, var_1) {
+    var var_2 = new juf_Supplier$proxy$4_3_19();
+    juf_Supplier$proxy$4_3_19__init_0(var_2, var_0, var_1);
     return var_2;
 }
-function juf_Supplier$proxy$4_13_19_get(var$0) {
+function juf_Supplier$proxy$4_3_19_get(var$0) {
     var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0398;
-    var$2 = var$0.$proxyCapture148;
+    var$1 = var$0.$proxyCapture0382;
+    var$2 = var$0.$proxyCapture142;
     var$3 = $rt_createArray(jl_Object, 1);
     var$1 = var$1.$value5;
     var$3 = var$3;
@@ -19920,53 +19671,281 @@ function juf_Supplier$proxy$4_13_19_get(var$0) {
     var$3[0] = jl_Boolean_valueOf(var$4);
     return jl_Boolean_valueOf(var$3[0].$value7);
 }
-function juf_Supplier$proxy$4_13_19__init_0(var$0, var$1, var$2) {
-    var$0.$proxyCapture0398 = var$1;
-    var$0.$proxyCapture148 = var$2;
+function juf_Supplier$proxy$4_3_19__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0382 = var$1;
+    var$0.$proxyCapture142 = var$2;
 }
-function otft_Fragment$proxy$4_13_7() {
+function otft_Fragment$proxy$4_3_7() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0383 = null;
+    a.$proxyCapture143 = null;
+}
+function otft_Fragment$proxy$4_3_7__init_(var_0, var_1) {
+    var var_2 = new otft_Fragment$proxy$4_3_7();
+    otft_Fragment$proxy$4_3_7__init_0(var_2, var_0, var_1);
+    return var_2;
+}
+function otft_Fragment$proxy$4_3_7_create(var$0) {
+    var var$1, var$2, var$3;
+    var$1 = var$0.$proxyCapture0383;
+    var$2 = var$0.$proxyCapture143;
+    var$3 = new otft_DomComponentHandler$proxy$4_3_7;
+    var$3.$proxyCapture0384 = var$1;
+    var$3.$proxyCapture144 = var$2;
+    return otft_DomComponentTemplate__init_(var$3);
+}
+function otft_Fragment$proxy$4_3_7__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0383 = var$1;
+    var$0.$proxyCapture143 = var$2;
+}
+function otft_Modifier$proxy$4_10_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0385 = null;
+}
+function otft_Modifier$proxy$4_10_2__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_10_2();
+    otft_Modifier$proxy$4_10_2__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_10_2_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0385;
+    var$1 = otfca_ComputedAttribute__init_(var$1);
+    var$3 = new juf_Supplier$proxy$4_10_4;
+    var$3.$proxyCapture0386 = var$2;
+    var$1.$value4 = var$3;
+    var$1.$name3 = $rt_s(550);
+    return var$1;
+}
+function otft_Modifier$proxy$4_10_2__init_0(var$0, var$1) {
+    var$0.$proxyCapture0385 = var$1;
+}
+function otft_Modifier$proxy$4_10_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0387 = null;
+}
+function otft_Modifier$proxy$4_10_3__init_(var_0) {
+    var var_1 = new otft_Modifier$proxy$4_10_3();
+    otft_Modifier$proxy$4_10_3__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Modifier$proxy$4_10_3_apply(var$0, var$1) {
+    var var$2, var$3;
+    var$2 = var$0.$proxyCapture0387;
+    var$1 = otfca_ComputedAttribute__init_(var$1);
+    var$3 = new juf_Supplier$proxy$4_10_5;
+    var$3.$proxyCapture0388 = var$2;
+    var$1.$value4 = var$3;
+    var$1.$name3 = $rt_s(551);
+    return var$1;
+}
+function otft_Modifier$proxy$4_10_3__init_0(var$0, var$1) {
+    var$0.$proxyCapture0387 = var$1;
+}
+function otft_Modifier$proxy$4_10_4() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0389 = null;
+    a.$proxyCapture145 = null;
+}
+function otft_Modifier$proxy$4_10_4__init_(var_0, var_1) {
+    var var_2 = new otft_Modifier$proxy$4_10_4();
+    otft_Modifier$proxy$4_10_4__init_0(var_2, var_0, var_1);
+    return var_2;
+}
+function otft_Modifier$proxy$4_10_4_apply(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0389;
+    var$3 = var$0.$proxyCapture145;
+    var$1 = otfch_LinkComponent__init_(var$1);
+    var$4 = new juf_Consumer$proxy$4_10_2;
+    var$4.$proxyCapture0390 = var$2;
+    var$4.$proxyCapture146 = var$3;
+    var$1.$path = var$4;
+    return var$1;
+}
+function otft_Modifier$proxy$4_10_4__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0389 = var$1;
+    var$0.$proxyCapture145 = var$2;
+}
+function juf_Supplier$proxy$4_10_6() {
+    jl_Object.call(this);
+    this.$proxyCapture0391 = null;
+}
+function juf_Supplier$proxy$4_10_6__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_10_6();
+    juf_Supplier$proxy$4_10_6__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_10_6_get(var$0) {
+    return var$0.$proxyCapture0391.$value5.$title0;
+}
+function juf_Supplier$proxy$4_10_6__init_0(var$0, var$1) {
+    var$0.$proxyCapture0391 = var$1;
+}
+function juf_Supplier$proxy$4_10_7() {
+    jl_Object.call(this);
+    this.$proxyCapture0392 = null;
+}
+function juf_Supplier$proxy$4_10_7__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_10_7();
+    juf_Supplier$proxy$4_10_7__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_10_7_get(var$0) {
+    return var$0.$proxyCapture0392.$value5.$name2;
+}
+function juf_Supplier$proxy$4_10_7__init_0(var$0, var$1) {
+    var$0.$proxyCapture0392 = var$1;
+}
+function juf_Supplier$proxy$4_10_8() {
+    jl_Object.call(this);
+    this.$proxyCapture0393 = null;
+}
+function juf_Supplier$proxy$4_10_8__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_10_8();
+    juf_Supplier$proxy$4_10_8__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_10_8_get(var$0) {
+    return var$0.$proxyCapture0393.$value5.$email;
+}
+function juf_Supplier$proxy$4_10_8__init_0(var$0, var$1) {
+    var$0.$proxyCapture0393 = var$1;
+}
+function juf_Supplier$proxy$4_10_9() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0394 = null;
+    a.$proxyCapture147 = null;
+}
+function juf_Supplier$proxy$4_10_9__init_(var_0, var_1) {
+    var var_2 = new juf_Supplier$proxy$4_10_9();
+    juf_Supplier$proxy$4_10_9__init_0(var_2, var_0, var_1);
+    return var_2;
+}
+function juf_Supplier$proxy$4_10_9_get(var$0) {
+    var var$1, var$2, var$3;
+    var$1 = var$0.$proxyCapture0394;
+    var$2 = var$0.$proxyCapture147;
+    var$3 = $rt_createArray(jl_Object, 1);
+    var$2 = var$2.$value5;
+    var$3 = var$3.data;
+    var$3[0] = var$2;
+    return ecdv_ForumView_commentToList(var$1, var$3[0]);
+}
+function juf_Supplier$proxy$4_10_9__init_0(var$0, var$1, var$2) {
+    var$0.$proxyCapture0394 = var$1;
+    var$0.$proxyCapture147 = var$2;
+}
+function otft_Fragment$proxy$4_10_6() {
+    jl_Object.call(this);
+    this.$proxyCapture0395 = null;
+}
+function otft_Fragment$proxy$4_10_6__init_(var_0) {
+    var var_1 = new otft_Fragment$proxy$4_10_6();
+    otft_Fragment$proxy$4_10_6__init_0(var_1, var_0);
+    return var_1;
+}
+function otft_Fragment$proxy$4_10_6_create(var$0) {
+    var var$1, var$2, var$3;
+    var$1 = var$0.$proxyCapture0395;
+    var$2 = new otfte_VariableImpl;
+    var$3 = new otft_DomComponentHandler$proxy$4_10_6;
+    var$3.$proxyCapture0396 = var$2;
+    var$3.$proxyCapture148 = var$1;
+    return otft_DomComponentTemplate__init_(var$3);
+}
+function otft_Fragment$proxy$4_10_6__init_0(var$0, var$1) {
+    var$0.$proxyCapture0395 = var$1;
+}
+function juf_Supplier$proxy$4_10_11() {
+    jl_Object.call(this);
+    this.$proxyCapture0397 = null;
+}
+function juf_Supplier$proxy$4_10_11__init_(var_0) {
+    var var_1 = new juf_Supplier$proxy$4_10_11();
+    juf_Supplier$proxy$4_10_11__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_Supplier$proxy$4_10_11_get(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0397;
+    var$2 = $rt_createArray(jl_Object, 1).data;
+    var$2[0] = jl_Integer_valueOf(var$1.$value5.$comments.$size - 1 | 0);
+    return jl_Integer_valueOf(var$2[0].$value);
+}
+function juf_Supplier$proxy$4_10_11__init_0(var$0, var$1) {
+    var$0.$proxyCapture0397 = var$1;
+}
+function juf_BooleanSupplier$proxy$4_10_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0398 = null;
+}
+function juf_BooleanSupplier$proxy$4_10_1__init_(var_0) {
+    var var_1 = new juf_BooleanSupplier$proxy$4_10_1();
+    juf_BooleanSupplier$proxy$4_10_1__init_0(var_1, var_0);
+    return var_1;
+}
+function juf_BooleanSupplier$proxy$4_10_1_getAsBoolean(var$0) {
+    var var$1;
+    var$1 = var$0.$proxyCapture0398;
+    return var$1.$value5.$comments.$size <= 2 ? 0 : 1;
+}
+function juf_BooleanSupplier$proxy$4_10_1__init_0(var$0, var$1) {
+    var$0.$proxyCapture0398 = var$1;
+}
+function otft_Fragment$proxy$4_10_7() {
+    jl_Object.call(this);
+}
+function otft_Fragment$proxy$4_10_7__init_() {
+    var var_0 = new otft_Fragment$proxy$4_10_7();
+    otft_Fragment$proxy$4_10_7__init_0(var_0);
+    return var_0;
+}
+function otft_Fragment$proxy$4_10_7_create(var$0) {
+    return otft_DomComponentTemplate__init_(new otft_DomComponentHandler$proxy$4_10_7);
+}
+function otft_Fragment$proxy$4_10_7__init_0(var$0) {
+    return;
+}
+function otft_Fragment$proxy$4_10_8() {
+    jl_Object.call(this);
+}
+function otft_Fragment$proxy$4_10_8__init_() {
+    var var_0 = new otft_Fragment$proxy$4_10_8();
+    otft_Fragment$proxy$4_10_8__init_0(var_0);
+    return var_0;
+}
+function otft_Fragment$proxy$4_10_8_create(var$0) {
+    return otft_DomComponentTemplate__init_(new otft_DomComponentHandler$proxy$4_10_8);
+}
+function otft_Fragment$proxy$4_10_8__init_0(var$0) {
+    return;
+}
+function otft_Modifier$proxy$4_10_5() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0399 = null;
     a.$proxyCapture149 = null;
 }
-function otft_Fragment$proxy$4_13_7__init_(var_0, var_1) {
-    var var_2 = new otft_Fragment$proxy$4_13_7();
-    otft_Fragment$proxy$4_13_7__init_0(var_2, var_0, var_1);
+function otft_Modifier$proxy$4_10_5__init_(var_0, var_1) {
+    var var_2 = new otft_Modifier$proxy$4_10_5();
+    otft_Modifier$proxy$4_10_5__init_0(var_2, var_0, var_1);
     return var_2;
 }
-function otft_Fragment$proxy$4_13_7_create(var$0) {
-    var var$1, var$2, var$3;
-    var$1 = var$0.$proxyCapture0399;
-    var$2 = var$0.$proxyCapture149;
-    var$3 = new otft_DomComponentHandler$proxy$4_13_7;
-    var$3.$proxyCapture0400 = var$1;
-    var$3.$proxyCapture150 = var$2;
-    return otft_DomComponentTemplate__init_(var$3);
+function otft_Modifier$proxy$4_10_5_apply(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0399;
+    var$3 = var$0.$proxyCapture149;
+    var$1 = otfce_MouseBinder__init_(var$1);
+    var$4 = new juf_Consumer$proxy$4_10_3;
+    var$4.$proxyCapture0400 = var$2;
+    var$4.$proxyCapture150 = var$3;
+    otfce_BaseEventBinder_setHandler(var$1, var$4);
+    var$1.$eventName = $rt_s(455);
+    return var$1;
 }
-function otft_Fragment$proxy$4_13_7__init_0(var$0, var$1, var$2) {
+function otft_Modifier$proxy$4_10_5__init_0(var$0, var$1, var$2) {
     var$0.$proxyCapture0399 = var$1;
     var$0.$proxyCapture149 = var$2;
-}
-function otft_DomComponentHandler$proxy$4_16_3() {
-    jl_Object.call(this);
-    this.$proxyCapture0233 = null;
-}
-function otft_DomComponentHandler$proxy$4_16_3_update(var$0) {
-    return;
-}
-function otft_DomComponentHandler$proxy$4_16_3_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0233;
-    var$1 = otft_DomBuilder_text(var$1, $rt_s(355));
-    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    var$4 = new juf_Supplier$proxy$4_16_6;
-    var$4.$proxyCapture0401 = var$2;
-    var$3.$collection0 = var$4;
-    var$4 = new otft_Fragment$proxy$4_16_4;
-    var$4.$proxyCapture0402 = var$3;
-    var$4.$proxyCapture151 = var$2;
-    var$3.$body1 = var$4;
-    otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353));
 }
 function otft_DomComponentHandler$proxy$4_16_5() {
     jl_Object.call(this);
@@ -19981,11 +19960,11 @@ function otft_DomComponentHandler$proxy$4_16_5_buildDom(var$0, var$1) {
     var$1 = otft_DomBuilder_text(var$1, $rt_s(355));
     var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
     var$4 = new juf_Supplier$proxy$4_16_10;
-    var$4.$proxyCapture0403 = var$2;
+    var$4.$proxyCapture0401 = var$2;
     var$3.$collection0 = var$4;
     var$4 = new otft_Fragment$proxy$4_16_6;
-    var$4.$proxyCapture0404 = var$3;
-    var$4.$proxyCapture152 = var$2;
+    var$4.$proxyCapture0402 = var$3;
+    var$4.$proxyCapture151 = var$2;
     var$3.$body1 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353));
 }
@@ -20002,9 +19981,30 @@ function otft_DomComponentHandler$proxy$4_16_1_buildDom(var$0, var$1) {
     var$1 = otft_DomBuilder_text(var$1, $rt_s(355));
     var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
     var$4 = new juf_Supplier$proxy$4_16_2;
-    var$4.$proxyCapture0405 = var$2;
+    var$4.$proxyCapture0403 = var$2;
     var$3.$collection0 = var$4;
     var$4 = new otft_Fragment$proxy$4_16_2;
+    var$4.$proxyCapture0404 = var$3;
+    var$4.$proxyCapture152 = var$2;
+    var$3.$body1 = var$4;
+    otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(353));
+}
+function otft_DomComponentHandler$proxy$4_16_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0233 = null;
+}
+function otft_DomComponentHandler$proxy$4_16_3_update(var$0) {
+    return;
+}
+function otft_DomComponentHandler$proxy$4_16_3_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0233;
+    var$1 = otft_DomBuilder_text(var$1, $rt_s(355));
+    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    var$4 = new juf_Supplier$proxy$4_16_6;
+    var$4.$proxyCapture0405 = var$2;
+    var$3.$collection0 = var$4;
+    var$4 = new otft_Fragment$proxy$4_16_4;
     var$4.$proxyCapture0406 = var$3;
     var$4.$proxyCapture153 = var$2;
     var$3.$body1 = var$4;
@@ -20017,7 +20017,7 @@ function otft_DomComponentHandler$proxy$4_25_1_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_25_1_buildDom(var$0, var$1) {
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(436)), $rt_s(492)), $rt_s(349), $rt_s(561))), $rt_s(395));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(425)), $rt_s(480)), $rt_s(349), $rt_s(561))), $rt_s(383));
 }
 function otft_DomComponentHandler$proxy$4_25_2() {
     jl_Object.call(this);
@@ -20026,7 +20026,7 @@ function otft_DomComponentHandler$proxy$4_25_2_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_25_2_buildDom(var$0, var$1) {
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(436)), $rt_s(492)), $rt_s(349), $rt_s(562))), $rt_s(395));
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(425)), $rt_s(480)), $rt_s(349), $rt_s(562))), $rt_s(383));
 }
 function juf_Consumer$proxy$4_25_0() {
     jl_Object.call(this);
@@ -26398,24 +26398,24 @@ function otci_Base46_decode($seq) {
         $result =  -$result;
     return $result;
 }
-function juf_Supplier$proxy$4_16_2() {
+function juf_Supplier$proxy$4_16_6() {
     jl_Object.call(this);
     this.$proxyCapture0405 = null;
 }
-function juf_Supplier$proxy$4_16_2_get(var$0) {
-    return var$0.$proxyCapture0405.$getLectures();
+function juf_Supplier$proxy$4_16_6_get(var$0) {
+    return var$0.$proxyCapture0405.$getTutorials();
 }
-function otft_Fragment$proxy$4_16_2() {
+function otft_Fragment$proxy$4_16_4() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0406 = null;
     a.$proxyCapture153 = null;
 }
-function otft_Fragment$proxy$4_16_2_create(var$0) {
+function otft_Fragment$proxy$4_16_4_create(var$0) {
     var var$1, var$2, var$3, var$4;
     var$1 = var$0.$proxyCapture0406;
     var$2 = var$0.$proxyCapture153;
     var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_16_2;
+    var$4 = new otft_DomComponentHandler$proxy$4_16_4;
     var$4.$proxyCapture0407 = var$3;
     var$4.$proxyCapture154 = var$1;
     var$4.$proxyCapture215 = var$2;
@@ -26423,20 +26423,20 @@ function otft_Fragment$proxy$4_16_2_create(var$0) {
 }
 function juf_Supplier$proxy$4_16_10() {
     jl_Object.call(this);
-    this.$proxyCapture0403 = null;
+    this.$proxyCapture0401 = null;
 }
 function juf_Supplier$proxy$4_16_10_get(var$0) {
-    return var$0.$proxyCapture0403.$getAssignments();
+    return var$0.$proxyCapture0401.$getAssignments();
 }
 function otft_Fragment$proxy$4_16_6() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0404 = null;
-    a.$proxyCapture152 = null;
+    a.$proxyCapture0402 = null;
+    a.$proxyCapture151 = null;
 }
 function otft_Fragment$proxy$4_16_6_create(var$0) {
     var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0404;
-    var$2 = var$0.$proxyCapture152;
+    var$1 = var$0.$proxyCapture0402;
+    var$2 = var$0.$proxyCapture151;
     var$3 = new otfte_VariableImpl;
     var$4 = new otft_DomComponentHandler$proxy$4_16_6;
     var$4.$proxyCapture0408 = var$3;
@@ -26444,112 +26444,112 @@ function otft_Fragment$proxy$4_16_6_create(var$0) {
     var$4.$proxyCapture216 = var$2;
     return otft_DomComponentTemplate__init_(var$4);
 }
-function juf_Supplier$proxy$4_16_6() {
+function juf_Supplier$proxy$4_16_2() {
     jl_Object.call(this);
-    this.$proxyCapture0401 = null;
+    this.$proxyCapture0403 = null;
 }
-function juf_Supplier$proxy$4_16_6_get(var$0) {
-    return var$0.$proxyCapture0401.$getTutorials();
+function juf_Supplier$proxy$4_16_2_get(var$0) {
+    return var$0.$proxyCapture0403.$getLectures();
 }
-function otft_Fragment$proxy$4_16_4() {
+function otft_Fragment$proxy$4_16_2() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0402 = null;
-    a.$proxyCapture151 = null;
+    a.$proxyCapture0404 = null;
+    a.$proxyCapture152 = null;
 }
-function otft_Fragment$proxy$4_16_4_create(var$0) {
+function otft_Fragment$proxy$4_16_2_create(var$0) {
     var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0402;
-    var$2 = var$0.$proxyCapture151;
+    var$1 = var$0.$proxyCapture0404;
+    var$2 = var$0.$proxyCapture152;
     var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_16_4;
+    var$4 = new otft_DomComponentHandler$proxy$4_16_2;
     var$4.$proxyCapture0409 = var$3;
     var$4.$proxyCapture156 = var$1;
     var$4.$proxyCapture217 = var$2;
     return otft_DomComponentTemplate__init_(var$4);
 }
-function otft_DomComponentHandler$proxy$4_8_6() {
+function otft_DomComponentHandler$proxy$4_3_6() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0384 = null;
-    a.$proxyCapture143 = null;
+    a.$proxyCapture0381 = null;
+    a.$proxyCapture141 = null;
 }
-function otft_DomComponentHandler$proxy$4_8_6_update(var$0) {
+function otft_DomComponentHandler$proxy$4_3_6_update(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0384;
-    var$2 = var$0.$proxyCapture143;
+    var$1 = var$0.$proxyCapture0381;
+    var$2 = var$0.$proxyCapture141;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_8_6_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_3_6_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0384;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(568)), $rt_s(362)), $rt_s(571));
+    var$2 = var$0.$proxyCapture0381;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(569)), $rt_s(362)), $rt_s(818));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_8_10;
+    var$4 = new juf_Supplier$proxy$4_3_18;
     var$4.$proxyCapture0410 = var$2;
+    var$3.$value2 = var$4;
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(569))), $rt_s(568));
+}
+function otft_DomComponentHandler$proxy$4_3_7() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0384 = null;
+    a.$proxyCapture144 = null;
+}
+function otft_DomComponentHandler$proxy$4_3_7_update(var$0) {
+    return;
+}
+function otft_DomComponentHandler$proxy$4_3_7_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0384;
+    var$3 = var$0.$proxyCapture144;
+    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(567)), $rt_s(351)), $rt_s(349), $rt_s(571)), $rt_s(568)), $rt_s(399)), $rt_s(349), $rt_s(533));
+    var$4 = new otft_Modifier$proxy$4_3_7;
+    var$4.$proxyCapture0411 = var$2;
+    var$4.$proxyCapture157 = var$3;
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(var$1, var$4)), $rt_s(567))), $rt_s(485));
+}
+function otft_DomComponentHandler$proxy$4_10_6() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0396 = null;
+    a.$proxyCapture148 = null;
+}
+function otft_DomComponentHandler$proxy$4_10_6_update(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0396;
+    var$2 = var$0.$proxyCapture148;
+    var$1.$value5 = var$2.$elementVariable;
+}
+function otft_DomComponentHandler$proxy$4_10_6_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0396;
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(568)), $rt_s(362)), $rt_s(569));
+    var$3 = otft_Slot_create();
+    var$4 = new otfch_TextComponent;
+    otft_AbstractComponent__init_(var$4, var$3);
+    var$3 = var$4;
+    var$4 = new juf_Supplier$proxy$4_10_10;
+    var$4.$proxyCapture0412 = var$2;
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(568))), $rt_s(567));
 }
-function otft_DomComponentHandler$proxy$4_8_7() {
+function otft_DomComponentHandler$proxy$4_10_7() {
     jl_Object.call(this);
 }
-function otft_DomComponentHandler$proxy$4_8_7_update(var$0) {
+function otft_DomComponentHandler$proxy$4_10_7_update(var$0) {
     return;
 }
-function otft_DomComponentHandler$proxy$4_8_7_buildDom(var$0, var$1) {
-    otft_DomBuilder_text(var$1, $rt_s(818));
-}
-function otft_DomComponentHandler$proxy$4_8_8() {
-    jl_Object.call(this);
-}
-function otft_DomComponentHandler$proxy$4_8_8_update(var$0) {
-    return;
-}
-function otft_DomComponentHandler$proxy$4_8_8_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_10_7_buildDom(var$0, var$1) {
     otft_DomBuilder_text(var$1, $rt_s(819));
 }
-function otft_DomComponentHandler$proxy$4_13_6() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0397 = null;
-    a.$proxyCapture147 = null;
+function otft_DomComponentHandler$proxy$4_10_8() {
+    jl_Object.call(this);
 }
-function otft_DomComponentHandler$proxy$4_13_6_update(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0397;
-    var$2 = var$0.$proxyCapture147;
-    var$1.$value5 = var$2.$elementVariable;
-}
-function otft_DomComponentHandler$proxy$4_13_6_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0397;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_openSlot(otft_DomBuilder_text(var$1, $rt_s(571)), $rt_s(362)), $rt_s(820));
-    var$3 = otft_Slot_create();
-    var$4 = new otfch_TextComponent;
-    otft_AbstractComponent__init_(var$4, var$3);
-    var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_13_18;
-    var$4.$proxyCapture0411 = var$2;
-    var$3.$value2 = var$4;
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(571))), $rt_s(568));
-}
-function otft_DomComponentHandler$proxy$4_13_7() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0400 = null;
-    a.$proxyCapture150 = null;
-}
-function otft_DomComponentHandler$proxy$4_13_7_update(var$0) {
+function otft_DomComponentHandler$proxy$4_10_8_update(var$0) {
     return;
 }
-function otft_DomComponentHandler$proxy$4_13_7_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0400;
-    var$3 = var$0.$proxyCapture150;
-    var$1 = otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(567)), $rt_s(351)), $rt_s(349), $rt_s(570)), $rt_s(568)), $rt_s(403)), $rt_s(349), $rt_s(533));
-    var$4 = new otft_Modifier$proxy$4_13_7;
-    var$4.$proxyCapture0412 = var$2;
-    var$4.$proxyCapture157 = var$3;
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_add0(var$1, var$4)), $rt_s(567))), $rt_s(497));
+function otft_DomComponentHandler$proxy$4_10_8_buildDom(var$0, var$1) {
+    otft_DomBuilder_text(var$1, $rt_s(820));
 }
 function jur_AbstractCharClass$1() {
     var a = this; jur_AbstractCharClass.call(a);
@@ -26749,29 +26749,43 @@ function jur_CharClass$16() {
 function jur_CharClass$16_contains($this, $ch) {
     return $this.$val$curAlt8 ^ $this.$val$nb4.$contains0($ch) && jur_CharClass_contains($this.$val$clazz6, $ch) ? 0 : 1;
 }
-function juf_Supplier$proxy$4_8_4() {
+function juf_Supplier$proxy$4_3_13() {
     jl_Object.call(this);
     this.$proxyCapture0374 = null;
 }
-function juf_Supplier$proxy$4_8_4_get(var$0) {
+function juf_Supplier$proxy$4_3_13_get(var$0) {
     return var$0.$proxyCapture0374.$value5.$name2;
 }
-function juf_Supplier$proxy$4_8_5() {
+function juf_Supplier$proxy$4_3_14() {
     jl_Object.call(this);
     this.$proxyCapture0376 = null;
 }
-function juf_Supplier$proxy$4_8_5_get(var$0) {
+function juf_Supplier$proxy$4_3_14_get(var$0) {
     return var$0.$proxyCapture0376.$value5.$avatar;
 }
-function juf_Consumer$proxy$4_8_2() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0378 = null;
-    a.$proxyCapture141 = null;
+function juf_Supplier$proxy$4_10_4() {
+    jl_Object.call(this);
+    this.$proxyCapture0386 = null;
 }
-function juf_Consumer$proxy$4_8_2_accept(var$0, var$1) {
+function juf_Supplier$proxy$4_10_4_get(var$0) {
+    return var$0.$proxyCapture0386.$value5.$name2;
+}
+function juf_Supplier$proxy$4_10_5() {
+    jl_Object.call(this);
+    this.$proxyCapture0388 = null;
+}
+function juf_Supplier$proxy$4_10_5_get(var$0) {
+    return var$0.$proxyCapture0388.$value5.$avatar;
+}
+function juf_Consumer$proxy$4_10_2() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0390 = null;
+    a.$proxyCapture146 = null;
+}
+function juf_Consumer$proxy$4_10_2_accept(var$0, var$1) {
     var var$2, var$3, var$4, var$5;
-    var$2 = var$0.$proxyCapture0378;
-    var$3 = var$0.$proxyCapture141;
+    var$2 = var$0.$proxyCapture0390;
+    var$3 = var$0.$proxyCapture146;
     var$4 = $rt_createArray(jl_Object, 2).data;
     var$4[0] = var$2.$forum0.$id2;
     var$4[1] = var$3.$value5.$id3;
@@ -26780,35 +26794,21 @@ function juf_Consumer$proxy$4_8_2_accept(var$0, var$1) {
     ecd_Router$proxy$4_0_0_forumTopic(ecdv_BaseView_route(var$2, var$5[0]), var$4[0], var$4[1]);
     otft_Templates_update();
 }
-function juf_Consumer$proxy$4_8_3() {
+function juf_Consumer$proxy$4_10_3() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0388 = null;
-    a.$proxyCapture145 = null;
+    a.$proxyCapture0400 = null;
+    a.$proxyCapture150 = null;
 }
-function juf_Consumer$proxy$4_8_3_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_10_3_accept(var$0, var$1) {
     var var$2, var$3;
-    var$1 = var$0.$proxyCapture0388;
-    var$2 = var$0.$proxyCapture145;
+    var$1 = var$0.$proxyCapture0400;
+    var$2 = var$0.$proxyCapture150;
     var$3 = $rt_createArray(jl_Object, 1);
     var$2 = var$2.$value5;
     var$3 = var$3.data;
     var$3[0] = var$2;
     ecdv_ForumView_deleteTopic(var$1, var$3[0]);
     otft_Templates_update();
-}
-function juf_Supplier$proxy$4_13_13() {
-    jl_Object.call(this);
-    this.$proxyCapture0390 = null;
-}
-function juf_Supplier$proxy$4_13_13_get(var$0) {
-    return var$0.$proxyCapture0390.$value5.$name2;
-}
-function juf_Supplier$proxy$4_13_14() {
-    jl_Object.call(this);
-    this.$proxyCapture0392 = null;
-}
-function juf_Supplier$proxy$4_13_14_get(var$0) {
-    return var$0.$proxyCapture0392.$value5.$avatar;
 }
 function jur_BackReferencedSingleSet() {
     jur_SingleSet.call(this);
@@ -26857,43 +26857,43 @@ function jur_BackReferencedSingleSet_findBack($this, $stringIndex, $startSearch,
 function jur_BackReferencedSingleSet_processBackRefReplacement($this) {
     return null;
 }
-function otft_DomComponentHandler$proxy$4_22_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0292 = null;
-}
-function otft_DomComponentHandler$proxy$4_22_1_update(var$0) {
-    return;
-}
-function otft_DomComponentHandler$proxy$4_22_1_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0292;
-    var$1 = otft_DomBuilder_text(var$1, $rt_s(350));
-    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    var$4 = new juf_Supplier$proxy$4_22_1;
-    var$4.$proxyCapture0413 = var$2;
-    var$3.$collection0 = var$4;
-    var$4 = new otft_Fragment$proxy$4_22_2;
-    var$4.$proxyCapture0414 = var$3;
-    var$4.$proxyCapture158 = var$2;
-    var$3.$body1 = var$4;
-    otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(347));
-}
 function otft_DomComponentHandler$proxy$4_23_1() {
     jl_Object.call(this);
-    this.$proxyCapture0308 = null;
+    this.$proxyCapture0293 = null;
 }
 function otft_DomComponentHandler$proxy$4_23_1_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_23_1_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0308;
+    var$2 = var$0.$proxyCapture0293;
     var$1 = otft_DomBuilder_text(var$1, $rt_s(350));
     var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
     var$4 = new juf_Supplier$proxy$4_23_1;
-    var$4.$proxyCapture0415 = var$2;
+    var$4.$proxyCapture0413 = var$2;
     var$3.$collection0 = var$4;
     var$4 = new otft_Fragment$proxy$4_23_2;
+    var$4.$proxyCapture0414 = var$3;
+    var$4.$proxyCapture158 = var$2;
+    var$3.$body1 = var$4;
+    otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(347));
+}
+function otft_DomComponentHandler$proxy$4_20_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0292 = null;
+}
+function otft_DomComponentHandler$proxy$4_20_1_update(var$0) {
+    return;
+}
+function otft_DomComponentHandler$proxy$4_20_1_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4;
+    var$2 = var$0.$proxyCapture0292;
+    var$1 = otft_DomBuilder_text(var$1, $rt_s(350));
+    var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
+    var$4 = new juf_Supplier$proxy$4_20_1;
+    var$4.$proxyCapture0415 = var$2;
+    var$3.$collection0 = var$4;
+    var$4 = new otft_Fragment$proxy$4_20_2;
     var$4.$proxyCapture0416 = var$3;
     var$4.$proxyCapture159 = var$2;
     var$3.$body1 = var$4;
@@ -26901,14 +26901,14 @@ function otft_DomComponentHandler$proxy$4_23_1_buildDom(var$0, var$1) {
 }
 function otft_DomComponentHandler$proxy$4_21_1() {
     jl_Object.call(this);
-    this.$proxyCapture0293 = null;
+    this.$proxyCapture0299 = null;
 }
 function otft_DomComponentHandler$proxy$4_21_1_update(var$0) {
     return;
 }
 function otft_DomComponentHandler$proxy$4_21_1_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0293;
+    var$2 = var$0.$proxyCapture0299;
     var$1 = otft_DomBuilder_text(var$1, $rt_s(350));
     var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
     var$4 = new juf_Supplier$proxy$4_21_1;
@@ -26920,22 +26920,22 @@ function otft_DomComponentHandler$proxy$4_21_1_buildDom(var$0, var$1) {
     var$3.$body1 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(347));
 }
-function otft_DomComponentHandler$proxy$4_20_1() {
+function otft_DomComponentHandler$proxy$4_22_1() {
     jl_Object.call(this);
-    this.$proxyCapture0307 = null;
+    this.$proxyCapture0308 = null;
 }
-function otft_DomComponentHandler$proxy$4_20_1_update(var$0) {
+function otft_DomComponentHandler$proxy$4_22_1_update(var$0) {
     return;
 }
-function otft_DomComponentHandler$proxy$4_20_1_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_22_1_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0307;
+    var$2 = var$0.$proxyCapture0308;
     var$1 = otft_DomBuilder_text(var$1, $rt_s(350));
     var$3 = otfcs_ForEachComponent__init_(otft_Slot_create());
-    var$4 = new juf_Supplier$proxy$4_20_1;
+    var$4 = new juf_Supplier$proxy$4_22_1;
     var$4.$proxyCapture0419 = var$2;
     var$3.$collection0 = var$4;
-    var$4 = new otft_Fragment$proxy$4_20_2;
+    var$4 = new otft_Fragment$proxy$4_22_2;
     var$4.$proxyCapture0420 = var$3;
     var$4.$proxyCapture161 = var$2;
     var$3.$body1 = var$4;
@@ -26951,63 +26951,63 @@ function ecdm_Forum$getTopic$lambda$_3_0_test(var$0, var$1) {
     var$2 = var$0.$_05;
     return jl_String_equals(var$1.$id3, var$2);
 }
-function juf_Supplier$proxy$4_8_10() {
+function juf_Supplier$proxy$4_10_10() {
     jl_Object.call(this);
-    this.$proxyCapture0410 = null;
+    this.$proxyCapture0412 = null;
 }
-function juf_Supplier$proxy$4_8_10_get(var$0) {
-    return var$0.$proxyCapture0410.$value5;
+function juf_Supplier$proxy$4_10_10_get(var$0) {
+    return var$0.$proxyCapture0412.$value5;
 }
-function otft_Modifier$proxy$4_13_7() {
+function otft_Modifier$proxy$4_3_7() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0412 = null;
+    a.$proxyCapture0411 = null;
     a.$proxyCapture157 = null;
 }
-function otft_Modifier$proxy$4_13_7_apply(var$0, var$1) {
+function otft_Modifier$proxy$4_3_7_apply(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0412;
+    var$2 = var$0.$proxyCapture0411;
     var$3 = var$0.$proxyCapture157;
     var$1 = otfce_MouseBinder__init_(var$1);
-    var$4 = new juf_Consumer$proxy$4_13_3;
+    var$4 = new juf_Consumer$proxy$4_3_3;
     var$4.$proxyCapture0421 = var$2;
     var$4.$proxyCapture162 = var$3;
     otfce_BaseEventBinder_setHandler(var$1, var$4);
     var$1.$eventName = $rt_s(455);
     return var$1;
 }
-function juf_Supplier$proxy$4_13_18() {
+function juf_Supplier$proxy$4_3_18() {
     jl_Object.call(this);
-    this.$proxyCapture0411 = null;
+    this.$proxyCapture0410 = null;
 }
-function juf_Supplier$proxy$4_13_18_get(var$0) {
-    return var$0.$proxyCapture0411.$value5;
+function juf_Supplier$proxy$4_3_18_get(var$0) {
+    return var$0.$proxyCapture0410.$value5;
 }
-function otft_DomComponentHandler$proxy$4_16_2() {
+function otft_DomComponentHandler$proxy$4_16_4() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0407 = null;
     a.$proxyCapture154 = null;
     a.$proxyCapture215 = null;
 }
-function otft_DomComponentHandler$proxy$4_16_2_update(var$0) {
+function otft_DomComponentHandler$proxy$4_16_4_update(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0407;
     var$2 = var$0.$proxyCapture154;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_16_2_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_16_4_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture0407;
     var$3 = var$0.$proxyCapture215;
     var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
-    var$4 = new otft_Modifier$proxy$4_16_0;
+    var$4 = new otft_Modifier$proxy$4_16_1;
     var$4.$proxyCapture0422 = var$2;
     var$4.$proxyCapture163 = var$3;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(395));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(383));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_16_3;
+    var$4 = new juf_Supplier$proxy$4_16_7;
     var$4.$proxyCapture0423 = var$2;
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(361))), $rt_s(357))), $rt_s(355));
@@ -27032,7 +27032,7 @@ function otft_DomComponentHandler$proxy$4_16_6_buildDom(var$0, var$1) {
     var$4 = new otft_Modifier$proxy$4_16_2;
     var$4.$proxyCapture0424 = var$2;
     var$4.$proxyCapture164 = var$3;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(395));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(383));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
@@ -27042,32 +27042,32 @@ function otft_DomComponentHandler$proxy$4_16_6_buildDom(var$0, var$1) {
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(361))), $rt_s(357))), $rt_s(355));
 }
-function otft_DomComponentHandler$proxy$4_16_4() {
+function otft_DomComponentHandler$proxy$4_16_2() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0409 = null;
     a.$proxyCapture156 = null;
     a.$proxyCapture217 = null;
 }
-function otft_DomComponentHandler$proxy$4_16_4_update(var$0) {
+function otft_DomComponentHandler$proxy$4_16_2_update(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0409;
     var$2 = var$0.$proxyCapture156;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_16_4_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_16_2_buildDom(var$0, var$1) {
     var var$2, var$3, var$4;
     var$2 = var$0.$proxyCapture0409;
     var$3 = var$0.$proxyCapture217;
     var$1 = otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(357)), $rt_s(375)), $rt_s(361)), $rt_s(376));
-    var$4 = new otft_Modifier$proxy$4_16_1;
+    var$4 = new otft_Modifier$proxy$4_16_0;
     var$4.$proxyCapture0426 = var$2;
     var$4.$proxyCapture165 = var$3;
-    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(395));
+    var$1 = otft_DomBuilder_text(otft_DomBuilder_add0(var$1, var$4), $rt_s(383));
     var$3 = otft_Slot_create();
     var$4 = new otfch_TextComponent;
     otft_AbstractComponent__init_(var$4, var$3);
     var$3 = var$4;
-    var$4 = new juf_Supplier$proxy$4_16_7;
+    var$4 = new juf_Supplier$proxy$4_16_3;
     var$4.$proxyCapture0427 = var$2;
     var$3.$value2 = var$4;
     otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$3), $rt_s(361))), $rt_s(357))), $rt_s(355));
@@ -27134,70 +27134,70 @@ function jur_Matcher_end($this) {
 function jur_Matcher_hasTransparentBounds($this) {
     return $this.$matchResult.$transparentBounds;
 }
-function juf_Supplier$proxy$4_21_1() {
-    jl_Object.call(this);
-    this.$proxyCapture0417 = null;
-}
-function juf_Supplier$proxy$4_21_1_get(var$0) {
-    return ecdc_TutorialsListComponent_getTutorials(var$0.$proxyCapture0417);
-}
-function otft_Fragment$proxy$4_21_2() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0418 = null;
-    a.$proxyCapture160 = null;
-}
-function otft_Fragment$proxy$4_21_2_create(var$0) {
-    var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0418;
-    var$2 = var$0.$proxyCapture160;
-    var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_21_2;
-    var$4.$proxyCapture0428 = var$3;
-    var$4.$proxyCapture166 = var$1;
-    var$4.$proxyCapture218 = var$2;
-    return otft_DomComponentTemplate__init_(var$4);
-}
 function otft_Modifier$proxy$4_16_1() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0426 = null;
-    a.$proxyCapture165 = null;
+    a.$proxyCapture0422 = null;
+    a.$proxyCapture163 = null;
 }
 function otft_Modifier$proxy$4_16_1_apply(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0426;
-    var$3 = var$0.$proxyCapture165;
+    var$2 = var$0.$proxyCapture0422;
+    var$3 = var$0.$proxyCapture163;
     var$1 = otfch_LinkComponent__init_(var$1);
     var$4 = new juf_Consumer$proxy$4_16_1;
-    var$4.$proxyCapture0429 = var$2;
-    var$4.$proxyCapture167 = var$3;
+    var$4.$proxyCapture0428 = var$2;
+    var$4.$proxyCapture166 = var$3;
     var$1.$path = var$4;
     return var$1;
 }
 function juf_Supplier$proxy$4_16_7() {
     jl_Object.call(this);
-    this.$proxyCapture0427 = null;
+    this.$proxyCapture0423 = null;
 }
 function juf_Supplier$proxy$4_16_7_get(var$0) {
-    return var$0.$proxyCapture0427.$value5.$name0;
+    return var$0.$proxyCapture0423.$value5.$name0;
 }
 function juf_Supplier$proxy$4_22_1() {
     jl_Object.call(this);
-    this.$proxyCapture0413 = null;
+    this.$proxyCapture0419 = null;
 }
 function juf_Supplier$proxy$4_22_1_get(var$0) {
-    return ecdc_AssignmentsListComponent_getAssignments(var$0.$proxyCapture0413);
+    return ecdc_AssignmentsListComponent_getAssignments(var$0.$proxyCapture0419);
 }
 function otft_Fragment$proxy$4_22_2() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0420 = null;
+    a.$proxyCapture161 = null;
+}
+function otft_Fragment$proxy$4_22_2_create(var$0) {
+    var var$1, var$2, var$3, var$4;
+    var$1 = var$0.$proxyCapture0420;
+    var$2 = var$0.$proxyCapture161;
+    var$3 = new otfte_VariableImpl;
+    var$4 = new otft_DomComponentHandler$proxy$4_22_2;
+    var$4.$proxyCapture0429 = var$3;
+    var$4.$proxyCapture167 = var$1;
+    var$4.$proxyCapture218 = var$2;
+    return otft_DomComponentTemplate__init_(var$4);
+}
+function juf_Supplier$proxy$4_23_1() {
+    jl_Object.call(this);
+    this.$proxyCapture0413 = null;
+}
+function juf_Supplier$proxy$4_23_1_get(var$0) {
+    return ecdc_ForumsListComponent_getForums(var$0.$proxyCapture0413);
+}
+function otft_Fragment$proxy$4_23_2() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0414 = null;
     a.$proxyCapture158 = null;
 }
-function otft_Fragment$proxy$4_22_2_create(var$0) {
+function otft_Fragment$proxy$4_23_2_create(var$0) {
     var var$1, var$2, var$3, var$4;
     var$1 = var$0.$proxyCapture0414;
     var$2 = var$0.$proxyCapture158;
     var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_22_2;
+    var$4 = new otft_DomComponentHandler$proxy$4_23_2;
     var$4.$proxyCapture0430 = var$3;
     var$4.$proxyCapture168 = var$1;
     var$4.$proxyCapture219 = var$2;
@@ -27205,13 +27205,13 @@ function otft_Fragment$proxy$4_22_2_create(var$0) {
 }
 function otft_Modifier$proxy$4_16_0() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0422 = null;
-    a.$proxyCapture163 = null;
+    a.$proxyCapture0426 = null;
+    a.$proxyCapture165 = null;
 }
 function otft_Modifier$proxy$4_16_0_apply(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0422;
-    var$3 = var$0.$proxyCapture163;
+    var$2 = var$0.$proxyCapture0426;
+    var$3 = var$0.$proxyCapture165;
     var$1 = otfch_LinkComponent__init_(var$1);
     var$4 = new juf_Consumer$proxy$4_16_0;
     var$4.$proxyCapture0431 = var$2;
@@ -27221,27 +27221,27 @@ function otft_Modifier$proxy$4_16_0_apply(var$0, var$1) {
 }
 function juf_Supplier$proxy$4_16_3() {
     jl_Object.call(this);
-    this.$proxyCapture0423 = null;
+    this.$proxyCapture0427 = null;
 }
 function juf_Supplier$proxy$4_16_3_get(var$0) {
-    return var$0.$proxyCapture0423.$value5.$unit;
+    return var$0.$proxyCapture0427.$value5.$unit;
 }
 function juf_Supplier$proxy$4_20_1() {
     jl_Object.call(this);
-    this.$proxyCapture0419 = null;
+    this.$proxyCapture0415 = null;
 }
 function juf_Supplier$proxy$4_20_1_get(var$0) {
-    return ecdc_LecturesListComponent_getLectures(var$0.$proxyCapture0419);
+    return ecdc_LecturesListComponent_getLectures(var$0.$proxyCapture0415);
 }
 function otft_Fragment$proxy$4_20_2() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0420 = null;
-    a.$proxyCapture161 = null;
+    a.$proxyCapture0416 = null;
+    a.$proxyCapture159 = null;
 }
 function otft_Fragment$proxy$4_20_2_create(var$0) {
     var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0420;
-    var$2 = var$0.$proxyCapture161;
+    var$1 = var$0.$proxyCapture0416;
+    var$2 = var$0.$proxyCapture159;
     var$3 = new otfte_VariableImpl;
     var$4 = new otft_DomComponentHandler$proxy$4_20_2;
     var$4.$proxyCapture0432 = var$3;
@@ -27272,24 +27272,24 @@ function juf_Supplier$proxy$4_16_11() {
 function juf_Supplier$proxy$4_16_11_get(var$0) {
     return var$0.$proxyCapture0425.$value5.$name1;
 }
-function juf_Supplier$proxy$4_23_1() {
+function juf_Supplier$proxy$4_21_1() {
     jl_Object.call(this);
-    this.$proxyCapture0415 = null;
+    this.$proxyCapture0417 = null;
 }
-function juf_Supplier$proxy$4_23_1_get(var$0) {
-    return ecdc_ForumsListComponent_getForums(var$0.$proxyCapture0415);
+function juf_Supplier$proxy$4_21_1_get(var$0) {
+    return ecdc_TutorialsListComponent_getTutorials(var$0.$proxyCapture0417);
 }
-function otft_Fragment$proxy$4_23_2() {
+function otft_Fragment$proxy$4_21_2() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0416 = null;
-    a.$proxyCapture159 = null;
+    a.$proxyCapture0418 = null;
+    a.$proxyCapture160 = null;
 }
-function otft_Fragment$proxy$4_23_2_create(var$0) {
+function otft_Fragment$proxy$4_21_2_create(var$0) {
     var var$1, var$2, var$3, var$4;
-    var$1 = var$0.$proxyCapture0416;
-    var$2 = var$0.$proxyCapture159;
+    var$1 = var$0.$proxyCapture0418;
+    var$2 = var$0.$proxyCapture160;
     var$3 = new otfte_VariableImpl;
-    var$4 = new otft_DomComponentHandler$proxy$4_23_2;
+    var$4 = new otft_DomComponentHandler$proxy$4_21_2;
     var$4.$proxyCapture0434 = var$3;
     var$4.$proxyCapture172 = var$1;
     var$4.$proxyCapture221 = var$2;
@@ -27659,12 +27659,12 @@ function ju_AbstractList$SubAbstractList_size($this) {
 function ju_AbstractList$SubAbstractListRandomAccess() {
     ju_AbstractList$SubAbstractList.call(this);
 }
-function juf_Consumer$proxy$4_13_3() {
+function juf_Consumer$proxy$4_3_3() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0421 = null;
     a.$proxyCapture162 = null;
 }
-function juf_Consumer$proxy$4_13_3_accept(var$0, var$1) {
+function juf_Consumer$proxy$4_3_3_accept(var$0, var$1) {
     var var$2, var$3;
     var$1 = var$0.$proxyCapture0421;
     var$2 = var$0.$proxyCapture162;
@@ -27967,73 +27967,85 @@ function otfjs_JsonSerializer$proxy$4_4_0_serialize(var$0, var$1, var$2) {
     var$5["id"] = var$1;
     return var$3;
 }
-function otft_DomComponentHandler$proxy$4_21_2() {
-    var a = this; jl_Object.call(a);
-    a.$proxyCapture0428 = null;
-    a.$proxyCapture166 = null;
-    a.$proxyCapture218 = null;
-}
-function otft_DomComponentHandler$proxy$4_21_2_update(var$0) {
-    var var$1, var$2;
-    var$1 = var$0.$proxyCapture0428;
-    var$2 = var$0.$proxyCapture166;
-    var$1.$value5 = var$2.$elementVariable;
-}
-function otft_DomComponentHandler$proxy$4_21_2_buildDom(var$0, var$1) {
-    var var$2, var$3, var$4, var$5;
-    var$2 = var$0.$proxyCapture218;
-    var$3 = var$0.$proxyCapture0428;
-    var$1 = otft_DomBuilder_text(var$1, $rt_s(353));
-    var$4 = otft_Slot_create();
-    var$5 = new ecdc_TutorialComponent;
-    otft_AbstractComponent__init_(var$5, var$4);
-    var$4 = var$5;
-    var$5 = new juf_Supplier$proxy$4_21_2;
-    var$5.$proxyCapture0435 = var$2;
-    var$4.$modelSupplier = var$5;
-    var$2 = new juf_Supplier$proxy$4_21_3;
-    var$2.$proxyCapture0436 = var$3;
-    var$4.$tutorialSupplier = var$2;
-    otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$4), $rt_s(350));
-}
 function otft_DomComponentHandler$proxy$4_22_2() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0430 = null;
-    a.$proxyCapture168 = null;
-    a.$proxyCapture219 = null;
+    a.$proxyCapture0429 = null;
+    a.$proxyCapture167 = null;
+    a.$proxyCapture218 = null;
 }
 function otft_DomComponentHandler$proxy$4_22_2_update(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0430;
-    var$2 = var$0.$proxyCapture168;
+    var$1 = var$0.$proxyCapture0429;
+    var$2 = var$0.$proxyCapture167;
     var$1.$value5 = var$2.$elementVariable;
 }
 function otft_DomComponentHandler$proxy$4_22_2_buildDom(var$0, var$1) {
     var var$2, var$3, var$4, var$5;
-    var$2 = var$0.$proxyCapture0430;
-    var$3 = var$0.$proxyCapture219;
+    var$2 = var$0.$proxyCapture0429;
+    var$3 = var$0.$proxyCapture218;
     var$1 = otft_DomBuilder_text(var$1, $rt_s(353));
     var$4 = otft_Slot_create();
     var$5 = new ecdc_AssignmentComponent;
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
     var$5 = new juf_Supplier$proxy$4_22_2;
-    var$5.$proxyCapture0437 = var$2;
+    var$5.$proxyCapture0435 = var$2;
     var$4.$assignmentSupplier = var$5;
     var$2 = new juf_Supplier$proxy$4_22_3;
-    var$2.$proxyCapture0438 = var$3;
+    var$2.$proxyCapture0436 = var$3;
     var$4.$modelSupplier = var$2;
     otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$4), $rt_s(350));
 }
+function otft_DomComponentHandler$proxy$4_23_2() {
+    var a = this; jl_Object.call(a);
+    a.$proxyCapture0430 = null;
+    a.$proxyCapture168 = null;
+    a.$proxyCapture219 = null;
+}
+function otft_DomComponentHandler$proxy$4_23_2_update(var$0) {
+    var var$1, var$2;
+    var$1 = var$0.$proxyCapture0430;
+    var$2 = var$0.$proxyCapture168;
+    var$1.$value5 = var$2.$elementVariable;
+}
+function otft_DomComponentHandler$proxy$4_23_2_buildDom(var$0, var$1) {
+    var var$2, var$3, var$4, var$5;
+    var$2 = var$0.$proxyCapture0430;
+    var$3 = var$0.$proxyCapture219;
+    var$1 = var$1;
+    var$4 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(355)), $rt_s(351)), $rt_s(357)), $rt_s(468)), $rt_s(349), $rt_s(552)), $rt_s(361)), $rt_s(480)), $rt_s(349),
+    $rt_s(495))), $rt_s(357))), $rt_s(357)), $rt_s(376)), $rt_s(349), $rt_s(821));
+    var$5 = new otft_Modifier$proxy$4_23_0;
+    var$5.$proxyCapture0437 = var$2;
+    var$5.$proxyCapture173 = var$3;
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_add0(var$4, var$5), $rt_s(361));
+    var$4 = otft_Slot_create();
+    var$5 = new otfch_TextComponent;
+    otft_AbstractComponent__init_(var$5, var$4);
+    var$4 = var$5;
+    var$5 = new juf_Supplier$proxy$4_23_2;
+    var$5.$proxyCapture0438 = var$2;
+    var$4.$value2 = var$5;
+    var$3 = otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(822));
+    var$4 = otft_Slot_create();
+    var$5 = new otfch_TextComponent;
+    otft_AbstractComponent__init_(var$5, var$4);
+    var$4 = var$5;
+    var$5 = new juf_Supplier$proxy$4_23_3;
+    var$5.$proxyCapture0439 = var$2;
+    var$4.$value2 = var$5;
+    otft_DomBuilder_add(var$3, var$4);
+    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(823))), $rt_s(355))), $rt_s(355)), $rt_s(427))), $rt_s(353))), $rt_s(350));
+}
 function juf_Consumer$proxy$4_16_1() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0429 = null;
-    a.$proxyCapture167 = null;
+    a.$proxyCapture0428 = null;
+    a.$proxyCapture166 = null;
 }
 function juf_Consumer$proxy$4_16_1_accept(var$0, var$1) {
     var var$2, var$3, var$4, var$5;
-    var$2 = var$0.$proxyCapture0429;
-    var$3 = var$0.$proxyCapture167;
+    var$2 = var$0.$proxyCapture0428;
+    var$3 = var$0.$proxyCapture166;
     var$4 = $rt_createArray(jl_Object, 1).data;
     var$4[0] = var$2.$value5.$id0;
     var$5 = $rt_createArray(jl_Object, 1).data;
@@ -28079,10 +28091,10 @@ function otft_DomComponentHandler$proxy$4_20_2_buildDom(var$0, var$1) {
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
     var$5 = new juf_Supplier$proxy$4_20_2;
-    var$5.$proxyCapture0439 = var$2;
+    var$5.$proxyCapture0440 = var$2;
     var$4.$lectureSupplier = var$5;
     var$2 = new juf_Supplier$proxy$4_20_3;
-    var$2.$proxyCapture0440 = var$3;
+    var$2.$proxyCapture0441 = var$3;
     var$4.$modelSupplier = var$2;
     otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$4), $rt_s(350));
 }
@@ -28102,46 +28114,34 @@ function juf_Consumer$proxy$4_16_2_accept(var$0, var$1) {
     ecd_Router$proxy$4_0_0_singleAssignment(ecdb_RouteWidget_route(var$3, var$5[0]), var$4[0]);
     otft_Templates_update();
 }
-function otft_DomComponentHandler$proxy$4_23_2() {
+function otft_DomComponentHandler$proxy$4_21_2() {
     var a = this; jl_Object.call(a);
     a.$proxyCapture0434 = null;
     a.$proxyCapture172 = null;
     a.$proxyCapture221 = null;
 }
-function otft_DomComponentHandler$proxy$4_23_2_update(var$0) {
+function otft_DomComponentHandler$proxy$4_21_2_update(var$0) {
     var var$1, var$2;
     var$1 = var$0.$proxyCapture0434;
     var$2 = var$0.$proxyCapture172;
     var$1.$value5 = var$2.$elementVariable;
 }
-function otft_DomComponentHandler$proxy$4_23_2_buildDom(var$0, var$1) {
+function otft_DomComponentHandler$proxy$4_21_2_buildDom(var$0, var$1) {
     var var$2, var$3, var$4, var$5;
-    var$2 = var$0.$proxyCapture0434;
-    var$3 = var$0.$proxyCapture221;
-    var$1 = var$1;
-    var$4 = otft_DomBuilder_attribute(otft_DomBuilder_openSlot(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_attribute(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_open(otft_DomBuilder_text(var$1, $rt_s(353)), $rt_s(351)), $rt_s(355)), $rt_s(351)), $rt_s(357)), $rt_s(480)), $rt_s(349), $rt_s(552)), $rt_s(361)), $rt_s(492)), $rt_s(349),
-    $rt_s(507))), $rt_s(357))), $rt_s(357)), $rt_s(376)), $rt_s(349), $rt_s(821));
-    var$5 = new otft_Modifier$proxy$4_23_0;
-    var$5.$proxyCapture0441 = var$2;
-    var$5.$proxyCapture173 = var$3;
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_add0(var$4, var$5), $rt_s(361));
+    var$2 = var$0.$proxyCapture221;
+    var$3 = var$0.$proxyCapture0434;
+    var$1 = otft_DomBuilder_text(var$1, $rt_s(353));
     var$4 = otft_Slot_create();
-    var$5 = new otfch_TextComponent;
+    var$5 = new ecdc_TutorialComponent;
     otft_AbstractComponent__init_(var$5, var$4);
     var$4 = var$5;
-    var$5 = new juf_Supplier$proxy$4_23_2;
+    var$5 = new juf_Supplier$proxy$4_21_2;
     var$5.$proxyCapture0442 = var$2;
-    var$4.$value2 = var$5;
-    var$3 = otft_DomBuilder_text(otft_DomBuilder_add(var$3, var$4), $rt_s(822));
-    var$4 = otft_Slot_create();
-    var$5 = new otfch_TextComponent;
-    otft_AbstractComponent__init_(var$5, var$4);
-    var$4 = var$5;
-    var$5 = new juf_Supplier$proxy$4_23_3;
-    var$5.$proxyCapture0443 = var$2;
-    var$4.$value2 = var$5;
-    otft_DomBuilder_add(var$3, var$4);
-    otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_open(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(otft_DomBuilder_close(otft_DomBuilder_text(var$1, $rt_s(823))), $rt_s(355))), $rt_s(355)), $rt_s(438))), $rt_s(353))), $rt_s(350));
+    var$4.$modelSupplier = var$5;
+    var$2 = new juf_Supplier$proxy$4_21_3;
+    var$2.$proxyCapture0443 = var$3;
+    var$4.$tutorialSupplier = var$2;
+    otft_DomBuilder_text(otft_DomBuilder_add(var$1, var$4), $rt_s(350));
 }
 function otfjs_JsonSerializer$proxy$4_1_1() {
     jl_Object.call(this);
@@ -28191,28 +28191,14 @@ function otfjs_JsonSerializer$proxy$4_4_3() {
 function otfjs_JsonSerializer$proxy$4_4_3_serialize(var$0, var$1, var$2) {
     return otfj_JSON_serialize(var$1, var$2);
 }
-function juf_Supplier$proxy$4_20_2() {
-    jl_Object.call(this);
-    this.$proxyCapture0439 = null;
-}
-function juf_Supplier$proxy$4_20_2_get(var$0) {
-    return var$0.$proxyCapture0439.$value5;
-}
-function juf_Supplier$proxy$4_20_3() {
-    jl_Object.call(this);
-    this.$proxyCapture0440 = null;
-}
-function juf_Supplier$proxy$4_20_3_get(var$0) {
-    return ecdb_ModelWidget_getModel(var$0.$proxyCapture0440);
-}
 function otft_Modifier$proxy$4_23_0() {
     var a = this; jl_Object.call(a);
-    a.$proxyCapture0441 = null;
+    a.$proxyCapture0437 = null;
     a.$proxyCapture173 = null;
 }
 function otft_Modifier$proxy$4_23_0_apply(var$0, var$1) {
     var var$2, var$3, var$4;
-    var$2 = var$0.$proxyCapture0441;
+    var$2 = var$0.$proxyCapture0437;
     var$3 = var$0.$proxyCapture173;
     var$1 = otfch_LinkComponent__init_(var$1);
     var$4 = new juf_Consumer$proxy$4_23_0;
@@ -28223,49 +28209,63 @@ function otft_Modifier$proxy$4_23_0_apply(var$0, var$1) {
 }
 function juf_Supplier$proxy$4_23_2() {
     jl_Object.call(this);
-    this.$proxyCapture0442 = null;
+    this.$proxyCapture0438 = null;
 }
 function juf_Supplier$proxy$4_23_2_get(var$0) {
-    return var$0.$proxyCapture0442.$value5.$title;
+    return var$0.$proxyCapture0438.$value5.$title;
 }
 function juf_Supplier$proxy$4_23_3() {
     jl_Object.call(this);
-    this.$proxyCapture0443 = null;
+    this.$proxyCapture0439 = null;
 }
 function juf_Supplier$proxy$4_23_3_get(var$0) {
     var var$1, var$2;
-    var$1 = var$0.$proxyCapture0443;
+    var$1 = var$0.$proxyCapture0439;
     var$2 = $rt_createArray(jl_Object, 1).data;
     var$2[0] = jl_Integer_valueOf(var$1.$value5.$topics.$size);
     return jl_Integer_valueOf(var$2[0].$value);
 }
-function juf_Supplier$proxy$4_21_2() {
+function juf_Supplier$proxy$4_22_2() {
     jl_Object.call(this);
     this.$proxyCapture0435 = null;
 }
-function juf_Supplier$proxy$4_21_2_get(var$0) {
-    return ecdb_ModelWidget_getModel(var$0.$proxyCapture0435);
-}
-function juf_Supplier$proxy$4_21_3() {
-    jl_Object.call(this);
-    this.$proxyCapture0436 = null;
-}
-function juf_Supplier$proxy$4_21_3_get(var$0) {
-    return var$0.$proxyCapture0436.$value5;
-}
-function juf_Supplier$proxy$4_22_2() {
-    jl_Object.call(this);
-    this.$proxyCapture0437 = null;
-}
 function juf_Supplier$proxy$4_22_2_get(var$0) {
-    return var$0.$proxyCapture0437.$value5;
+    return var$0.$proxyCapture0435.$value5;
 }
 function juf_Supplier$proxy$4_22_3() {
     jl_Object.call(this);
-    this.$proxyCapture0438 = null;
+    this.$proxyCapture0436 = null;
 }
 function juf_Supplier$proxy$4_22_3_get(var$0) {
-    return ecdb_ModelWidget_getModel(var$0.$proxyCapture0438);
+    return ecdb_ModelWidget_getModel(var$0.$proxyCapture0436);
+}
+function juf_Supplier$proxy$4_21_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0442 = null;
+}
+function juf_Supplier$proxy$4_21_2_get(var$0) {
+    return ecdb_ModelWidget_getModel(var$0.$proxyCapture0442);
+}
+function juf_Supplier$proxy$4_21_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0443 = null;
+}
+function juf_Supplier$proxy$4_21_3_get(var$0) {
+    return var$0.$proxyCapture0443.$value5;
+}
+function juf_Supplier$proxy$4_20_2() {
+    jl_Object.call(this);
+    this.$proxyCapture0440 = null;
+}
+function juf_Supplier$proxy$4_20_2_get(var$0) {
+    return var$0.$proxyCapture0440.$value5;
+}
+function juf_Supplier$proxy$4_20_3() {
+    jl_Object.call(this);
+    this.$proxyCapture0441 = null;
+}
+function juf_Supplier$proxy$4_20_3_get(var$0) {
+    return ecdb_ModelWidget_getModel(var$0.$proxyCapture0441);
 }
 function juf_Consumer$proxy$4_23_0() {
     var a = this; jl_Object.call(a);
@@ -28634,7 +28634,7 @@ otft_Fragment$proxy$4_1_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", 
 otft_Fragment$proxy$4_2_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_2_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_2_1_create(this); }],
 otft_Fragment$proxy$4_3_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
-otft_Fragment$proxy$4_3_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_3_1_create(this); }],
+otft_Fragment$proxy$4_3_8, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_3_8_create(this); }],
 otft_Fragment$proxy$4_4_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_4_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_4_1_create(this); }],
 otft_Fragment$proxy$4_5_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
@@ -28644,17 +28644,17 @@ otft_Fragment$proxy$4_6_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", 
 otft_Fragment$proxy$4_7_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_7_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_7_1_create(this); }],
 otft_Fragment$proxy$4_8_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
-otft_Fragment$proxy$4_8_9, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_8_9_create(this); }],
+otft_Fragment$proxy$4_8_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_8_1_create(this); }],
 otft_Fragment$proxy$4_9_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_9_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_9_1_create(this); }],
 otft_Fragment$proxy$4_10_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
-otft_Fragment$proxy$4_10_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_10_1_create(this); }],
+otft_Fragment$proxy$4_10_9, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_10_9_create(this); }],
 otft_Fragment$proxy$4_11_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_11_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_11_1_create(this); }],
 otft_Fragment$proxy$4_12_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_12_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_12_1_create(this); }],
 otft_Fragment$proxy$4_13_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
-otft_Fragment$proxy$4_13_8, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_13_8_create(this); }],
+otft_Fragment$proxy$4_13_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_13_1_create(this); }],
 ecdm_Model$getAssignment$lambda$_7_0, 0, jl_Object, [juf_Predicate], 0, 3, 0, ["$test", function(var_1) { return ecdm_Model$getAssignment$lambda$_7_0_test(this, var_1); }],
 ecdm_Model$getTutorial$lambda$_6_0, 0, jl_Object, [juf_Predicate], 0, 3, 0, ["$test", function(var_1) { return ecdm_Model$getTutorial$lambda$_6_0_test(this, var_1); }],
 ecdm_Model$getLecture$lambda$_5_0, 0, jl_Object, [juf_Predicate], 0, 3, 0, ["$test", function(var_1) { return ecdm_Model$getLecture$lambda$_5_0_test(this, var_1); }],
@@ -28667,9 +28667,9 @@ otft_Templates$PROXY$4_14, 0, jl_Object, [], 0, 3, 0, 0,
 otft_Templates$PROXY$4_15, 0, jl_Object, [], 0, 3, 0, 0,
 otft_Templates$PROXY$4_16, 0, jl_Object, [], 0, 3, 0, 0,
 otft_Fragment$proxy$4_14_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
-otft_Fragment$proxy$4_14_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_14_1_create(this); }],
+otft_Fragment$proxy$4_14_5, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_14_5_create(this); }],
 otft_Fragment$proxy$4_15_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
-otft_Fragment$proxy$4_15_5, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_15_5_create(this); }],
+otft_Fragment$proxy$4_15_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_15_1_create(this); }],
 jusi_WrappingStreamImpl, 0, jusi_SimpleStreamImpl, [], 1, 3, 0, 0,
 jusi_FilteringStreamImpl, 0, jusi_WrappingStreamImpl, [], 0, 3, 0, 0,
 otft_Fragment$proxy$4_16_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
@@ -28693,27 +28693,44 @@ ju_NoSuchElementException, 0, jl_RuntimeException, [], 0, 3, 0, 0,
 jusi_LimitingStreamImpl, 0, jusi_SimpleStreamImpl, [], 0, 3, 0, 0,
 otft_Modifier, 0, jl_Object, [], 3, 3, 0, 0,
 otft_Modifier$proxy$4_1_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_1_0_apply(this, var_1); }],
-ecdc_LecturesListComponent, "LecturesListComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, ["$getLectures", function() { return ecdc_LecturesListComponent_getLectures(this); }],
+otft_Modifier$proxy$4_1_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_1_1_apply(this, var_1); }],
+otfch_TextComponent, "TextComponent", 10, otft_AbstractComponent, [], 0, 3, 0, ["$render", function() { otfch_TextComponent_render(this); }],
 juf_Supplier$proxy$4_1_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_1_0_get(this); }],
+ecdc_AssignmentComponent, "AssignmentComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, 0,
 juf_Supplier$proxy$4_1_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_1_1_get(this); }],
+juf_Supplier$proxy$4_1_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_1_2_get(this); }],
 otft_Modifier$proxy$4_2_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_2_0_apply(this, var_1); }],
-ecdc_ForumsListComponent, "ForumsListComponent", 19, ecdb_RouteWidget, [], 0, 3, 0, 0,
+otft_Modifier$proxy$4_2_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_2_1_apply(this, var_1); }],
 juf_Supplier$proxy$4_2_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_2_0_get(this); }],
+ecdc_LectureComponent, "LectureComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, 0,
+juf_Supplier$proxy$4_2_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_2_1_get(this); }],
+juf_Supplier$proxy$4_2_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_2_2_get(this); }],
 otft_Modifier$proxy$4_3_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_0_apply(this, var_1); }],
-ecdc_TutorialsListComponent, "TutorialsListComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, ["$getTutorials", function() { return ecdc_TutorialsListComponent_getTutorials(this); }],
+otft_Modifier$proxy$4_3_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_1_apply(this, var_1); }],
+otft_Modifier$proxy$4_3_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_2_apply(this, var_1); }],
 juf_Supplier$proxy$4_3_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_0_get(this); }],
 juf_Supplier$proxy$4_3_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_1_get(this); }],
+otfcs_WithComponent, "WithComponent", 8, otft_AbstractComponent, [], 0, 3, 0, ["$render", function() { otfcs_WithComponent_render(this); }, "$destroy", function() { otfcs_WithComponent_destroy(this); }],
+juf_Supplier$proxy$4_3_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_2_get(this); }]]);
+$rt_metadata([otft_Fragment$proxy$4_3_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_3_1_create(this); }],
 otft_Modifier$proxy$4_4_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_4_0_apply(this, var_1); }],
-otft_Modifier$proxy$4_4_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_4_1_apply(this, var_1); }],
-otfch_TextComponent, "TextComponent", 10, otft_AbstractComponent, [], 0, 3, 0, ["$render", function() { otfch_TextComponent_render(this); }],
+ecdc_LecturesListComponent, "LecturesListComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, ["$getLectures", function() { return ecdc_LecturesListComponent_getLectures(this); }],
 juf_Supplier$proxy$4_4_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_4_0_get(this); }],
-ecdc_LectureComponent, "LectureComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, 0,
 juf_Supplier$proxy$4_4_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_4_1_get(this); }],
-juf_Supplier$proxy$4_4_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_4_2_get(this); }],
+otft_Modifier$proxy$4_4_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_4_1_apply(this, var_1); }],
+otft_Modifier$proxy$4_4_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_4_2_apply(this, var_1); }],
+otft_Modifier$proxy$4_4_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_4_3_apply(this, var_1); }],
+otft_Modifier$proxy$4_4_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_4_4_apply(this, var_1); }],
+otft_Modifier$proxy$4_4_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_4_5_apply(this, var_1); }],
 otft_Modifier$proxy$4_5_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_5_0_apply(this, var_1); }],
-ecdc_AssignmentsListComponent, "AssignmentsListComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, ["$getAssignments", function() { return ecdc_AssignmentsListComponent_getAssignments(this); }]]);
-$rt_metadata([juf_Supplier$proxy$4_5_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_5_0_get(this); }],
+ecdc_AssignmentsListComponent, "AssignmentsListComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, ["$getAssignments", function() { return ecdc_AssignmentsListComponent_getAssignments(this); }],
+juf_Supplier$proxy$4_5_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_5_0_get(this); }],
 juf_Supplier$proxy$4_5_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_5_1_get(this); }],
+otft_Modifier$proxy$4_5_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_5_1_apply(this, var_1); }],
+otft_Modifier$proxy$4_5_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_5_2_apply(this, var_1); }],
+otft_Modifier$proxy$4_5_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_5_3_apply(this, var_1); }],
+otft_Modifier$proxy$4_5_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_5_4_apply(this, var_1); }],
+otft_Modifier$proxy$4_5_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_5_5_apply(this, var_1); }],
 otft_Modifier$proxy$4_6_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_6_0_apply(this, var_1); }],
 otft_Modifier$proxy$4_6_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_6_1_apply(this, var_1); }],
 juf_Supplier$proxy$4_6_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_6_0_get(this); }],
@@ -28721,69 +28738,52 @@ ecdc_TutorialComponent, "TutorialComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, 
 juf_Supplier$proxy$4_6_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_6_1_get(this); }],
 juf_Supplier$proxy$4_6_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_6_2_get(this); }],
 otft_Modifier$proxy$4_7_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_7_0_apply(this, var_1); }],
-otft_Modifier$proxy$4_7_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_7_1_apply(this, var_1); }],
+ecdc_TutorialsListComponent, "TutorialsListComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, ["$getTutorials", function() { return ecdc_TutorialsListComponent_getTutorials(this); }],
 juf_Supplier$proxy$4_7_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_7_0_get(this); }],
-ecdc_AssignmentComponent, "AssignmentComponent", 19, ecdb_ModelWidget, [], 0, 3, 0, 0,
 juf_Supplier$proxy$4_7_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_7_1_get(this); }],
-juf_Supplier$proxy$4_7_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_7_2_get(this); }],
-otft_Modifier$proxy$4_8_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_0_apply(this, var_1); }],
-otft_Modifier$proxy$4_8_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_1_apply(this, var_1); }],
 juf_Supplier$proxy$4_8_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_0_get(this); }],
-otfcs_ChooseComponent, "ChooseComponent", 8, otft_AbstractComponent, [], 0, 3, 0, ["$render", function() { otfcs_ChooseComponent_render(this); }, "$destroy", function() { otfcs_ChooseComponent_destroy(this); }],
-otfcs_ChooseClause, "ChooseClause", 8, jl_Object, [], 0, 3, 0, 0,
-juf_BooleanSupplier, 0, jl_Object, [], 3, 3, 0, 0,
-juf_BooleanSupplier$proxy$4_8_0, 0, jl_Object, [juf_BooleanSupplier], 0, 3, 0, ["$getAsBoolean", function() { return juf_BooleanSupplier$proxy$4_8_0_getAsBoolean(this); }],
-otfcs_OtherwiseClause, 0, jl_Object, [], 0, 3, 0, 0,
-otft_Fragment$proxy$4_8_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_8_1_create(this); }],
-otft_Fragment$proxy$4_8_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_8_2_create(this); }],
-otft_Modifier$proxy$4_8_6, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_6_apply(this, var_1); }],
-otft_Modifier$proxy$4_8_7, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_7_apply(this, var_1); }],
-otft_Modifier$proxy$4_8_8, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_8_apply(this, var_1); }],
-otft_Modifier$proxy$4_8_9, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_9_apply(this, var_1); }],
-otft_Modifier$proxy$4_8_10, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_10_apply(this, var_1); }],
+juf_Supplier$proxy$4_8_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_1_get(this); }],
+juf_Supplier$proxy$4_8_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_2_get(this); }],
+juf_Supplier$proxy$4_8_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_3_get(this); }],
+juf_Supplier$proxy$4_8_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_4_get(this); }],
+juf_Supplier$proxy$4_8_5, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_5_get(this); }],
+juf_Supplier$proxy$4_8_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_6_get(this); }],
+juf_Supplier$proxy$4_8_7, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_7_get(this); }],
+juf_Supplier$proxy$4_8_8, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_8_get(this); }],
+juf_Supplier$proxy$4_8_9, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_9_get(this); }],
+ecdc_ForumsListComponent, "ForumsListComponent", 19, ecdb_RouteWidget, [], 0, 3, 0, 0,
+juf_Supplier$proxy$4_8_10, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_10_get(this); }],
 otft_Modifier$proxy$4_9_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_9_0_apply(this, var_1); }],
 juf_Supplier$proxy$4_9_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_9_0_get(this); }],
 juf_Supplier$proxy$4_9_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_9_1_get(this); }],
-otft_Modifier$proxy$4_9_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_9_1_apply(this, var_1); }],
-otft_Modifier$proxy$4_9_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_9_2_apply(this, var_1); }],
-otft_Modifier$proxy$4_9_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_9_3_apply(this, var_1); }],
-otft_Modifier$proxy$4_9_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_9_4_apply(this, var_1); }],
-otft_Modifier$proxy$4_9_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_9_5_apply(this, var_1); }],
 otft_Modifier$proxy$4_10_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_0_apply(this, var_1); }],
-juf_Supplier$proxy$4_10_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_0_get(this); }],
-juf_Supplier$proxy$4_10_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_1_get(this); }],
 otft_Modifier$proxy$4_10_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_1_apply(this, var_1); }],
-otft_Modifier$proxy$4_10_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_2_apply(this, var_1); }],
-otft_Modifier$proxy$4_10_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_3_apply(this, var_1); }],
-otft_Modifier$proxy$4_10_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_4_apply(this, var_1); }],
-otft_Modifier$proxy$4_10_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_5_apply(this, var_1); }],
+juf_Supplier$proxy$4_10_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_0_get(this); }],
+otfcs_ChooseComponent, "ChooseComponent", 8, otft_AbstractComponent, [], 0, 3, 0, ["$render", function() { otfcs_ChooseComponent_render(this); }, "$destroy", function() { otfcs_ChooseComponent_destroy(this); }],
+otfcs_ChooseClause, "ChooseClause", 8, jl_Object, [], 0, 3, 0, 0,
+juf_BooleanSupplier, 0, jl_Object, [], 3, 3, 0, 0]);
+$rt_metadata([juf_BooleanSupplier$proxy$4_10_0, 0, jl_Object, [juf_BooleanSupplier], 0, 3, 0, ["$getAsBoolean", function() { return juf_BooleanSupplier$proxy$4_10_0_getAsBoolean(this); }],
+otfcs_OtherwiseClause, 0, jl_Object, [], 0, 3, 0, 0,
+otft_Fragment$proxy$4_10_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_10_1_create(this); }],
+otft_Fragment$proxy$4_10_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_10_2_create(this); }],
+otft_Modifier$proxy$4_10_6, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_6_apply(this, var_1); }],
+otft_Modifier$proxy$4_10_7, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_7_apply(this, var_1); }],
+otft_Modifier$proxy$4_10_8, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_8_apply(this, var_1); }],
+otft_Modifier$proxy$4_10_9, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_9_apply(this, var_1); }],
+otft_Modifier$proxy$4_10_10, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_10_apply(this, var_1); }],
+otft_Modifier$proxy$4_11_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_11_0_apply(this, var_1); }],
 juf_Supplier$proxy$4_11_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_0_get(this); }],
 juf_Supplier$proxy$4_11_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_1_get(this); }],
-juf_Supplier$proxy$4_11_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_2_get(this); }],
-juf_Supplier$proxy$4_11_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_3_get(this); }],
-juf_Supplier$proxy$4_11_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_4_get(this); }]]);
-$rt_metadata([juf_Supplier$proxy$4_11_5, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_5_get(this); }],
-juf_Supplier$proxy$4_11_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_6_get(this); }],
-juf_Supplier$proxy$4_11_7, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_7_get(this); }],
-juf_Supplier$proxy$4_11_8, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_8_get(this); }],
-juf_Supplier$proxy$4_11_9, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_9_get(this); }],
-juf_Supplier$proxy$4_11_10, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_10_get(this); }],
+otft_Modifier$proxy$4_11_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_11_1_apply(this, var_1); }],
+otft_Modifier$proxy$4_11_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_11_2_apply(this, var_1); }],
+otft_Modifier$proxy$4_11_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_11_3_apply(this, var_1); }],
+otft_Modifier$proxy$4_11_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_11_4_apply(this, var_1); }],
+otft_Modifier$proxy$4_11_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_11_5_apply(this, var_1); }],
 otft_Modifier$proxy$4_12_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_12_0_apply(this, var_1); }],
 juf_Supplier$proxy$4_12_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_12_0_get(this); }],
 juf_Supplier$proxy$4_12_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_12_1_get(this); }],
-otft_Modifier$proxy$4_12_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_12_1_apply(this, var_1); }],
-otft_Modifier$proxy$4_12_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_12_2_apply(this, var_1); }],
-otft_Modifier$proxy$4_12_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_12_3_apply(this, var_1); }],
-otft_Modifier$proxy$4_12_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_12_4_apply(this, var_1); }],
-otft_Modifier$proxy$4_12_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_12_5_apply(this, var_1); }],
 otft_Modifier$proxy$4_13_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_0_apply(this, var_1); }],
-otft_Modifier$proxy$4_13_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_1_apply(this, var_1); }],
-otft_Modifier$proxy$4_13_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_2_apply(this, var_1); }],
 juf_Supplier$proxy$4_13_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_0_get(this); }],
-juf_Supplier$proxy$4_13_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_1_get(this); }],
-otfcs_WithComponent, "WithComponent", 8, otft_AbstractComponent, [], 0, 3, 0, ["$render", function() { otfcs_WithComponent_render(this); }, "$destroy", function() { otfcs_WithComponent_destroy(this); }],
-juf_Supplier$proxy$4_13_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_2_get(this); }],
-otft_Fragment$proxy$4_13_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_13_1_create(this); }],
 otft_Templates$PROXY$4_17, 0, jl_Object, [], 0, 3, 0, 0,
 otft_Templates$PROXY$4_18, 0, jl_Object, [], 0, 3, 0, 0,
 otft_Templates$PROXY$4_19, 0, jl_Object, [], 0, 3, 0, 0,
@@ -28795,12 +28795,12 @@ otft_DomComponentHandler$proxy$4_14_0, 0, jl_Object, [otft_DomComponentHandler],
 otft_DomComponentHandler$proxy$4_15_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_15_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_15_0_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_16_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_0_buildDom(this, var_1); }],
 otft_Fragment$proxy$4_17_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
-otft_Fragment$proxy$4_17_4, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_17_4_create(this); }],
+otft_Fragment$proxy$4_17_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_17_3_create(this); }],
 otft_Fragment$proxy$4_18_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
-otft_Fragment$proxy$4_18_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_18_3_create(this); }],
+otft_Fragment$proxy$4_18_4, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_18_4_create(this); }],
+ju_Objects, 0, jl_Object, [], 4, 3, 0, 0,
 otft_Fragment$proxy$4_19_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_19_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_19_3_create(this); }],
-ju_Objects, 0, jl_Object, [], 4, 3, 0, 0,
 otft_Fragment$proxy$4_20_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_20_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_20_3_create(this); }],
 otft_Fragment$proxy$4_21_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
@@ -28811,25 +28811,25 @@ otft_Fragment$proxy$4_23_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_23_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_23_3_create(this); }],
 otft_Modifier$proxy$4_14_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_0_apply(this, var_1); }],
 otft_Modifier$proxy$4_14_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_1_apply(this, var_1); }],
-otft_Modifier$proxy$4_14_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_2_apply(this, var_1); }]]);
-$rt_metadata([otft_Modifier$proxy$4_14_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_3_apply(this, var_1); }],
+otfcs_ForEachComponent, "ForEachComponent", 8, otft_AbstractComponent, [], 0, 3, 0, ["$render", function() { otfcs_ForEachComponent_render(this); }, "$destroy", function() { otfcs_ForEachComponent_destroy(this); }]]);
+$rt_metadata([juf_Supplier$proxy$4_14_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_14_0_get(this); }],
+otft_Fragment$proxy$4_14_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_14_1_create(this); }],
+otft_Modifier$proxy$4_14_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_3_apply(this, var_1); }],
+otft_Modifier$proxy$4_14_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_4_apply(this, var_1); }],
+juf_Supplier$proxy$4_14_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_14_2_get(this); }],
+otft_Fragment$proxy$4_14_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_14_2_create(this); }],
+otft_Modifier$proxy$4_14_6, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_6_apply(this, var_1); }],
+otft_Modifier$proxy$4_14_7, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_7_apply(this, var_1); }],
+juf_Supplier$proxy$4_14_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_14_4_get(this); }],
+otft_Fragment$proxy$4_14_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_14_3_create(this); }],
+otft_Modifier$proxy$4_14_9, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_9_apply(this, var_1); }],
+otft_Modifier$proxy$4_14_10, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_10_apply(this, var_1); }],
+juf_Supplier$proxy$4_14_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_14_6_get(this); }],
+otft_Fragment$proxy$4_14_4, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_14_4_create(this); }],
 otft_Modifier$proxy$4_15_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_0_apply(this, var_1); }],
 otft_Modifier$proxy$4_15_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_1_apply(this, var_1); }],
-otfcs_ForEachComponent, "ForEachComponent", 8, otft_AbstractComponent, [], 0, 3, 0, ["$render", function() { otfcs_ForEachComponent_render(this); }, "$destroy", function() { otfcs_ForEachComponent_destroy(this); }],
-juf_Supplier$proxy$4_15_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_15_0_get(this); }],
-otft_Fragment$proxy$4_15_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_15_1_create(this); }],
+otft_Modifier$proxy$4_15_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_2_apply(this, var_1); }],
 otft_Modifier$proxy$4_15_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_3_apply(this, var_1); }],
-otft_Modifier$proxy$4_15_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_4_apply(this, var_1); }],
-juf_Supplier$proxy$4_15_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_15_2_get(this); }],
-otft_Fragment$proxy$4_15_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_15_2_create(this); }],
-otft_Modifier$proxy$4_15_6, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_6_apply(this, var_1); }],
-otft_Modifier$proxy$4_15_7, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_7_apply(this, var_1); }],
-juf_Supplier$proxy$4_15_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_15_4_get(this); }],
-otft_Fragment$proxy$4_15_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_15_3_create(this); }],
-otft_Modifier$proxy$4_15_9, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_9_apply(this, var_1); }],
-otft_Modifier$proxy$4_15_10, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_10_apply(this, var_1); }],
-juf_Supplier$proxy$4_15_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_15_6_get(this); }],
-otft_Fragment$proxy$4_15_4, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_15_4_create(this); }],
 ecdc_CollapsibleMenuComponent, "CollapsibleMenuComponent", 19, ecdb_RouteWidget, [], 0, 3, 0, 0,
 juf_Supplier$proxy$4_16_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_0_get(this); }],
 juf_Supplier$proxy$4_16_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_1_get(this); }],
@@ -28845,113 +28845,115 @@ otft_Fragment$proxy$4_16_7, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0",
 otft_Modifier$proxy$4_16_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_16_4_apply(this, var_1); }],
 otft_Modifier$proxy$4_16_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_16_5_apply(this, var_1); }],
 otft_Modifier$proxy$4_16_6, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_16_6_apply(this, var_1); }],
-otft_DomComponentHandler$proxy$4_8_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_8_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_8_1_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_8_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_8_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_8_2_buildDom(this, var_1); }],
 otfte_VariableImpl, 0, jl_Object, [], 0, 3, 0, 0,
-otft_DomComponentHandler$proxy$4_13_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_13_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_13_1_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_3_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_3_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_3_1_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_10_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_10_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_10_1_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_10_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_10_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_10_2_buildDom(this, var_1); }],
 otfch_LinkComponent, "LinkComponent", 10, jl_Object, [otft_Renderable], 0, 3, 0, ["$render", function() { otfch_LinkComponent_render(this); }, "$destroy", function() { otfch_LinkComponent_destroy(this); }],
-juf_Consumer$proxy$4_4_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_4_1_accept(this, var_1); }],
-juf_Consumer$proxy$4_6_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_6_1_accept(this, var_1); }],
-juf_Consumer$proxy$4_7_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_7_1_accept(this, var_1); }],
-juf_Consumer$proxy$4_8_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_8_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_1_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_1_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_2_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_2_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_3_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_3_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_3_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_3_2_accept(this, var_1); }],
 otfch_ValueChangeBinder, "ValueChangeBinder", 10, jl_Object, [otft_Renderable], 0, 3, 0, ["$render", function() { otfch_ValueChangeBinder_render(this); }, "$destroy", function() { otfch_ValueChangeBinder_destroy(this); }],
 otft_ValueChangeListener, 0, jl_Object, [], 3, 3, 0, 0,
-otft_ValueChangeListener$proxy$4_8_0, "ValueChangeListener$proxy$4_8_0", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_8_0_changed(this, var_1); }],
-otft_ValueChangeListener$proxy$4_8_1, "ValueChangeListener$proxy$4_8_1", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_8_1_changed(this, var_1); }],
+otft_ValueChangeListener$proxy$4_4_0, "ValueChangeListener$proxy$4_4_0", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_4_0_changed(this, var_1); }],
 otfce_BaseEventBinder, 0, jl_Object, [otft_Renderable], 1, 3, 0, ["$render", function() { otfce_BaseEventBinder_render(this); }, "$destroy", function() { otfce_BaseEventBinder_destroy(this); }],
 otfce_MouseBinder, "MouseBinder", 11, otfce_BaseEventBinder, [], 0, 3, 0, 0,
-juf_Consumer$proxy$4_8_4, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_8_4_accept(this, var_1); }],
-otft_ValueChangeListener$proxy$4_9_0, "ValueChangeListener$proxy$4_9_0", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_9_0_changed(this, var_1); }]]);
-$rt_metadata([juf_Consumer$proxy$4_9_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_9_2_accept(this, var_1); }],
+juf_Consumer$proxy$4_4_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_4_2_accept(this, var_1); }],
+otft_ValueChangeListener$proxy$4_5_0, "ValueChangeListener$proxy$4_5_0", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_5_0_changed(this, var_1); }],
+juf_Consumer$proxy$4_5_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_5_2_accept(this, var_1); }]]);
+$rt_metadata([juf_Consumer$proxy$4_6_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_6_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_10_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_10_1_accept(this, var_1); }],
 otft_ValueChangeListener$proxy$4_10_0, "ValueChangeListener$proxy$4_10_0", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_10_0_changed(this, var_1); }],
-juf_Consumer$proxy$4_10_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_10_2_accept(this, var_1); }],
-otft_ValueChangeListener$proxy$4_12_0, "ValueChangeListener$proxy$4_12_0", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_12_0_changed(this, var_1); }],
-juf_Consumer$proxy$4_12_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_12_2_accept(this, var_1); }],
-juf_Consumer$proxy$4_13_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_13_1_accept(this, var_1); }],
-juf_Consumer$proxy$4_13_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_13_2_accept(this, var_1); }],
+otft_ValueChangeListener$proxy$4_10_1, "ValueChangeListener$proxy$4_10_1", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_10_1_changed(this, var_1); }],
+juf_Consumer$proxy$4_10_4, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_10_4_accept(this, var_1); }],
+otft_ValueChangeListener$proxy$4_11_0, "ValueChangeListener$proxy$4_11_0", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_11_0_changed(this, var_1); }],
+juf_Consumer$proxy$4_11_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_11_2_accept(this, var_1); }],
 jusi_FindFirstConsumer, 0, jl_Object, [juf_Predicate], 0, 3, 0, 0,
 juf_Consumer$proxy$4_1_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_1_0_accept(this, var_1); }],
 juf_Consumer$proxy$4_2_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_2_0_accept(this, var_1); }],
 juf_Consumer$proxy$4_3_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_3_0_accept(this, var_1); }],
 juf_Consumer$proxy$4_4_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_4_0_accept(this, var_1); }],
+otfca_ComputedAttribute, "ComputedAttribute", 9, jl_Object, [otft_Renderable], 0, 3, 0, ["$render", function() { otfca_ComputedAttribute_render(this); }, "$destroy", function() { otfca_ComputedAttribute_destroy(this); }],
+juf_Supplier$proxy$4_4_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_4_2_get(this); }],
+juf_Consumer$proxy$4_4_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_4_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_4_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_4_3_accept(this, var_1); }],
 juf_Consumer$proxy$4_5_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_5_0_accept(this, var_1); }],
+juf_Supplier$proxy$4_5_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_5_2_get(this); }],
+juf_Consumer$proxy$4_5_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_5_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_5_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_5_3_accept(this, var_1); }],
 juf_Consumer$proxy$4_6_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_6_0_accept(this, var_1); }],
 juf_Consumer$proxy$4_7_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_7_0_accept(this, var_1); }],
-juf_Consumer$proxy$4_8_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_8_0_accept(this, var_1); }],
-otfca_ComputedAttribute, "ComputedAttribute", 9, jl_Object, [otft_Renderable], 0, 3, 0, ["$render", function() { otfca_ComputedAttribute_render(this); }, "$destroy", function() { otfca_ComputedAttribute_destroy(this); }],
-juf_Supplier$proxy$4_8_12, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_12_get(this); }],
-juf_Supplier$proxy$4_8_13, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_13_get(this); }],
 juf_Consumer$proxy$4_9_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_9_0_accept(this, var_1); }],
-juf_Supplier$proxy$4_9_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_9_2_get(this); }],
-juf_Consumer$proxy$4_9_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_9_1_accept(this, var_1); }],
-juf_Consumer$proxy$4_9_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_9_3_accept(this, var_1); }],
 juf_Consumer$proxy$4_10_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_10_0_accept(this, var_1); }],
-juf_Supplier$proxy$4_10_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_2_get(this); }],
-juf_Consumer$proxy$4_10_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_10_1_accept(this, var_1); }],
-juf_Consumer$proxy$4_10_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_10_3_accept(this, var_1); }],
+juf_Supplier$proxy$4_10_12, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_12_get(this); }],
+juf_Supplier$proxy$4_10_13, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_13_get(this); }],
+juf_Consumer$proxy$4_11_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_11_0_accept(this, var_1); }],
+juf_Supplier$proxy$4_11_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_11_2_get(this); }],
+juf_Consumer$proxy$4_11_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_11_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_11_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_11_3_accept(this, var_1); }],
 juf_Consumer$proxy$4_12_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_12_0_accept(this, var_1); }],
-juf_Supplier$proxy$4_12_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_12_2_get(this); }],
-juf_Consumer$proxy$4_12_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_12_1_accept(this, var_1); }],
-juf_Consumer$proxy$4_12_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_12_3_accept(this, var_1); }],
 juf_Consumer$proxy$4_13_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_13_0_accept(this, var_1); }],
 ju_AbstractSequentialList, 0, ju_AbstractList, [], 1, 3, 0, ["$get", function(var_1) { return ju_AbstractSequentialList_get(this, var_1); }],
 ju_LinkedList, 0, ju_AbstractSequentialList, [ju_Deque], 0, 3, 0, ["$size2", function() { return ju_LinkedList_size(this); }, "$listIterator0", function() { return ju_LinkedList_listIterator(this); }, "$listIterator", function(var_1) { return ju_LinkedList_listIterator0(this, var_1); }],
 otfch_LinkComponent$_init_$lambda$_0_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { otfch_LinkComponent$_init_$lambda$_0_0_accept(this, var_1); }],
 otfce_BaseEventBinder$_init_$lambda$_0_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, ["$handleEvent$exported$0", function(var_1) { return otfce_BaseEventBinder$_init_$lambda$_0_0_handleEvent$exported$0(this, var_1); }],
 otft_Templates$PROXY$4_24, 0, jl_Object, [], 0, 3, 0, 0,
-juf_Supplier$proxy$4_8_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_1_get(this); }],
-otft_Fragment$proxy$4_8_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_8_3_create(this); }],
-juf_Supplier$proxy$4_13_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_3_get(this); }],
-otft_Fragment$proxy$4_13_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_13_2_create(this); }],
+juf_Supplier$proxy$4_3_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_3_get(this); }],
+otft_Fragment$proxy$4_3_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_3_2_create(this); }],
+juf_Supplier$proxy$4_10_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_1_get(this); }],
+otft_Fragment$proxy$4_10_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_10_3_create(this); }],
 otft_Fragment$proxy$4_24_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_24_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_24_3_create(this); }],
 otft_DomComponentHandler$proxy$4_17_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_17_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_17_0_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_18_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_18_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_18_0_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_19_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_19_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_19_0_buildDom(this, var_1); }],
 otfce_BaseEventBinder$setHandler$lambda$_2_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, ["$handleEvent$exported$0", function(var_1) { return otfce_BaseEventBinder$setHandler$lambda$_2_0_handleEvent$exported$0(this, var_1); }],
-otft_DomComponentHandler$proxy$4_21_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_21_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_21_0_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_23_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_23_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_23_0_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_21_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_21_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_21_0_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_22_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_22_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_22_0_buildDom(this, var_1); }]]);
 $rt_metadata([otft_DomComponentHandler$proxy$4_20_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_20_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_20_0_buildDom(this, var_1); }],
 jusi_LimitingStreamImpl$next$lambda$_1_0, 0, jl_Object, [juf_Predicate], 0, 3, 0, 0,
 juf_Consumer$proxy$4_14_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_0_accept(this, var_1); }],
 juf_Consumer$proxy$4_14_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_1_accept(this, var_1); }],
-juf_Consumer$proxy$4_14_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_2_accept(this, var_1); }],
 juf_Consumer$proxy$4_14_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_3_accept(this, var_1); }],
+juf_Consumer$proxy$4_14_4, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_4_accept(this, var_1); }],
+juf_Consumer$proxy$4_14_6, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_6_accept(this, var_1); }],
+juf_Consumer$proxy$4_14_7, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_7_accept(this, var_1); }],
+juf_Consumer$proxy$4_14_9, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_9_accept(this, var_1); }],
+juf_Consumer$proxy$4_14_10, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_10_accept(this, var_1); }],
 juf_Consumer$proxy$4_15_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_0_accept(this, var_1); }],
 juf_Consumer$proxy$4_15_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_15_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_2_accept(this, var_1); }],
 juf_Consumer$proxy$4_15_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_3_accept(this, var_1); }],
-juf_Consumer$proxy$4_15_4, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_4_accept(this, var_1); }],
-juf_Consumer$proxy$4_15_6, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_6_accept(this, var_1); }],
-juf_Consumer$proxy$4_15_7, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_7_accept(this, var_1); }],
-juf_Consumer$proxy$4_15_9, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_9_accept(this, var_1); }],
-juf_Consumer$proxy$4_15_10, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_10_accept(this, var_1); }],
 juf_Consumer$proxy$4_16_4, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_16_4_accept(this, var_1); }],
 juf_Consumer$proxy$4_16_5, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_16_5_accept(this, var_1); }],
 juf_Consumer$proxy$4_16_6, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_16_6_accept(this, var_1); }],
 ju_LinkedList$Entry, 0, jl_Object, [], 0, 0, 0, 0,
-otft_DomComponentHandler$proxy$4_15_4, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_15_4_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_15_4_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_14_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_14_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_14_2_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_14_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_14_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_14_1_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_14_4, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_14_4_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_14_4_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_14_3, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_14_3_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_14_3_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_16_7, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_7_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_7_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_15_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_15_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_15_1_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_15_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_15_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_15_2_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_15_3, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_15_3_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_15_3_buildDom(this, var_1); }],
 ju_ListIterator, 0, jl_Object, [ju_Iterator], 3, 3, 0, 0,
 ju_LinkedList$SequentialListIterator, 0, jl_Object, [ju_ListIterator], 0, 0, 0, ["$hasNext", function() { return ju_LinkedList$SequentialListIterator_hasNext(this); }, "$next", function() { return ju_LinkedList$SequentialListIterator_next(this); }, "$hasPrevious", function() { return ju_LinkedList$SequentialListIterator_hasPrevious(this); }, "$previous1", function() { return ju_LinkedList$SequentialListIterator_previous(this); }, "$nextIndex", function() { return ju_LinkedList$SequentialListIterator_nextIndex(this);
 }, "$previousIndex", function() { return ju_LinkedList$SequentialListIterator_previousIndex(this); }],
 ecdc_CollapsibleContentComponent, "CollapsibleContentComponent", 19, otfw_AbstractWidget, [], 0, 3, 0, 0,
-juf_Supplier$proxy$4_22_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_22_0_get(this); }],
-otft_Fragment$proxy$4_22_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_22_1_create(this); }],
+juf_Supplier$proxy$4_20_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_20_0_get(this); }],
+otft_Fragment$proxy$4_20_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_20_1_create(this); }],
+juf_Supplier$proxy$4_23_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_23_0_get(this); }],
+otft_Fragment$proxy$4_23_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_23_1_create(this); }],
+otft_Modifier$proxy$4_18_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_18_0_apply(this, var_1); }],
+juf_Supplier$proxy$4_18_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_0_get(this); }],
+otft_Modifier$proxy$4_18_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_18_1_apply(this, var_1); }],
+juf_Supplier$proxy$4_18_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_1_get(this); }],
+otft_Fragment$proxy$4_18_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_18_1_create(this); }],
+juf_Supplier$proxy$4_18_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_3_get(this); }],
+otft_Fragment$proxy$4_18_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_18_2_create(this); }],
+juf_Supplier$proxy$4_18_5, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_5_get(this); }],
+otft_Fragment$proxy$4_18_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_18_3_create(this); }],
 juf_Supplier$proxy$4_21_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_21_0_get(this); }],
 otft_Fragment$proxy$4_21_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_21_1_create(this); }],
-otft_Modifier$proxy$4_17_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_17_0_apply(this, var_1); }],
-juf_Supplier$proxy$4_17_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_0_get(this); }],
-otft_Modifier$proxy$4_17_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_17_1_apply(this, var_1); }],
-juf_Supplier$proxy$4_17_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_1_get(this); }],
-otft_Fragment$proxy$4_17_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_17_1_create(this); }],
-juf_Supplier$proxy$4_17_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_3_get(this); }],
-otft_Fragment$proxy$4_17_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_17_2_create(this); }],
-juf_Supplier$proxy$4_17_5, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_5_get(this); }],
-otft_Fragment$proxy$4_17_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_17_3_create(this); }],
 otft_Modifier$proxy$4_19_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_19_0_apply(this, var_1); }],
 juf_Supplier$proxy$4_19_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_19_0_get(this); }],
 otft_Modifier$proxy$4_19_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_19_1_apply(this, var_1); }],
@@ -28960,67 +28962,66 @@ juf_Supplier$proxy$4_19_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", func
 otft_Fragment$proxy$4_19_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_19_1_create(this); }],
 juf_Supplier$proxy$4_19_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_19_3_get(this); }],
 otft_Fragment$proxy$4_19_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_19_2_create(this); }],
-otft_Modifier$proxy$4_18_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_18_0_apply(this, var_1); }],
-juf_Supplier$proxy$4_18_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_0_get(this); }],
-otft_Modifier$proxy$4_18_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_18_1_apply(this, var_1); }]]);
-$rt_metadata([juf_Supplier$proxy$4_18_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_1_get(this); }],
-otft_Fragment$proxy$4_18_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_18_1_create(this); }],
-juf_Supplier$proxy$4_18_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_3_get(this); }],
-otft_Fragment$proxy$4_18_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_18_2_create(this); }],
-juf_Supplier$proxy$4_20_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_20_0_get(this); }],
-otft_Fragment$proxy$4_20_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_20_1_create(this); }],
-juf_Supplier$proxy$4_23_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_23_0_get(this); }],
-otft_Fragment$proxy$4_23_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_23_1_create(this); }],
-otft_DomComponentHandler$proxy$4_8_3, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_8_3_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_8_3_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_13_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_13_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_13_2_buildDom(this, var_1); }],
+otft_Modifier$proxy$4_17_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_17_0_apply(this, var_1); }]]);
+$rt_metadata([juf_Supplier$proxy$4_17_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_0_get(this); }],
+otft_Modifier$proxy$4_17_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_17_1_apply(this, var_1); }],
+juf_Supplier$proxy$4_17_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_1_get(this); }],
+otft_Fragment$proxy$4_17_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_17_1_create(this); }],
+juf_Supplier$proxy$4_17_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_3_get(this); }],
+otft_Fragment$proxy$4_17_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_17_2_create(this); }],
+juf_Supplier$proxy$4_22_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_22_0_get(this); }],
+otft_Fragment$proxy$4_22_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_22_1_create(this); }],
+otft_DomComponentHandler$proxy$4_3_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_3_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_3_2_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_10_3, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_10_3_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_10_3_buildDom(this, var_1); }],
 otft_DomBuilder$Item$createChangeListener$lambda$_6_0, 0, jl_Object, [otjde_EventListener], 0, 3, 0, ["$handleEvent$exported$0", function(var_1) { return otft_DomBuilder$Item$createChangeListener$lambda$_6_0_handleEvent$exported$0(this, var_1); }],
 otft_Templates$PROXY$4_25, 0, jl_Object, [], 0, 3, 0, 0,
-otft_Modifier$proxy$4_15_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_2_apply(this, var_1); }],
-juf_Supplier$proxy$4_15_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_15_1_get(this); }],
-otft_Modifier$proxy$4_13_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_3_apply(this, var_1); }],
-otft_Modifier$proxy$4_13_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_4_apply(this, var_1); }],
-juf_Supplier$proxy$4_13_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_6_get(this); }],
-juf_Supplier$proxy$4_13_7, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_7_get(this); }],
-juf_Supplier$proxy$4_13_8, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_8_get(this); }],
-juf_Supplier$proxy$4_13_9, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_9_get(this); }],
-otft_Fragment$proxy$4_13_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_13_3_create(this); }],
-juf_Supplier$proxy$4_13_11, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_11_get(this); }],
-otft_Fragment$proxy$4_13_4, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_13_4_create(this); }],
-otft_Modifier$proxy$4_13_8, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_8_apply(this, var_1); }],
-otft_Modifier$proxy$4_13_9, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_9_apply(this, var_1); }],
-otft_Modifier$proxy$4_13_10, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_10_apply(this, var_1); }],
-otft_Modifier$proxy$4_13_11, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_11_apply(this, var_1); }],
-otft_Modifier$proxy$4_13_12, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_12_apply(this, var_1); }],
-otft_Modifier$proxy$4_15_11, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_11_apply(this, var_1); }],
-juf_Supplier$proxy$4_15_7, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_15_7_get(this); }],
-juf_Supplier$proxy$4_8_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_2_get(this); }],
-otft_Fragment$proxy$4_8_4, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_8_4_create(this); }],
-otft_Modifier$proxy$4_15_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_5_apply(this, var_1); }],
-juf_Supplier$proxy$4_15_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_15_3_get(this); }],
-otft_Modifier$proxy$4_15_8, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_15_8_apply(this, var_1); }],
-juf_Supplier$proxy$4_15_5, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_15_5_get(this); }],
+otft_Modifier$proxy$4_14_11, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_11_apply(this, var_1); }],
+juf_Supplier$proxy$4_14_7, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_14_7_get(this); }],
+otft_Modifier$proxy$4_14_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_5_apply(this, var_1); }],
+juf_Supplier$proxy$4_14_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_14_3_get(this); }],
+otft_Modifier$proxy$4_3_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_3_apply(this, var_1); }],
+otft_Modifier$proxy$4_3_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_4_apply(this, var_1); }],
+juf_Supplier$proxy$4_3_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_6_get(this); }],
+juf_Supplier$proxy$4_3_7, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_7_get(this); }],
+juf_Supplier$proxy$4_3_8, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_8_get(this); }],
+juf_Supplier$proxy$4_3_9, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_9_get(this); }],
+otft_Fragment$proxy$4_3_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_3_3_create(this); }],
+juf_Supplier$proxy$4_3_11, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_11_get(this); }],
+otft_Fragment$proxy$4_3_4, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_3_4_create(this); }],
+otft_Modifier$proxy$4_3_8, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_8_apply(this, var_1); }],
+otft_Modifier$proxy$4_3_9, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_9_apply(this, var_1); }],
+otft_Modifier$proxy$4_3_10, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_10_apply(this, var_1); }],
+otft_Modifier$proxy$4_3_11, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_11_apply(this, var_1); }],
+otft_Modifier$proxy$4_3_12, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_12_apply(this, var_1); }],
+otft_Modifier$proxy$4_14_8, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_8_apply(this, var_1); }],
+juf_Supplier$proxy$4_14_5, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_14_5_get(this); }],
+otft_Modifier$proxy$4_14_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_14_2_apply(this, var_1); }],
+juf_Supplier$proxy$4_14_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_14_1_get(this); }],
+juf_Supplier$proxy$4_10_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_2_get(this); }],
+otft_Fragment$proxy$4_10_4, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_10_4_create(this); }],
 otft_Modifier$proxy$4_16_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_16_3_apply(this, var_1); }],
 juf_Supplier$proxy$4_16_13, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_13_get(this); }],
 juf_Supplier$proxy$4_16_14, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_14_get(this); }],
 otft_DomComponentHandler$proxy$4_24_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_24_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_24_0_buildDom(this, var_1); }],
 otft_Fragment$proxy$4_25_0, 0, jl_Object, [otft_Fragment], 0, 3, 0, 0,
 otft_Fragment$proxy$4_25_3, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_25_3_create(this); }],
-otft_DomComponentHandler$proxy$4_17_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_17_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_17_1_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_17_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_17_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_17_2_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_17_3, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_17_3_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_17_3_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_19_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_19_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_19_2_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_18_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_18_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_18_1_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_18_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_18_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_18_2_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_18_3, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_18_3_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_18_3_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_19_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_19_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_19_2_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_17_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_17_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_17_2_buildDom(this, var_1); }],
 jusi_FilteringStreamImpl$wrap$lambda$_1_0, 0, jl_Object, [juf_Predicate], 0, 3, 0, 0,
 jusi_StreamOverSpliterator$AdapterAction, 0, jl_Object, [juf_Consumer], 0, 0, 0, 0,
-juf_Consumer$proxy$4_17_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_17_0_accept(this, var_1); }]]);
-$rt_metadata([juf_Consumer$proxy$4_17_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_17_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_18_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_18_0_accept(this, var_1); }]]);
+$rt_metadata([juf_Consumer$proxy$4_18_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_18_1_accept(this, var_1); }],
 juf_Consumer$proxy$4_19_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_19_0_accept(this, var_1); }],
 juf_Consumer$proxy$4_19_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_19_1_accept(this, var_1); }],
-juf_Consumer$proxy$4_18_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_18_0_accept(this, var_1); }],
-juf_Consumer$proxy$4_18_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_18_1_accept(this, var_1); }],
+juf_Consumer$proxy$4_17_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_17_0_accept(this, var_1); }],
+juf_Consumer$proxy$4_17_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_17_1_accept(this, var_1); }],
 jl_Boolean, 0, jl_Object, [ji_Serializable, jl_Comparable], 0, 3, 0, 0,
-otft_DomComponentHandler$proxy$4_18_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_18_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_18_1_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_17_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_17_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_17_1_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_19_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_19_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_19_1_buildDom(this, var_1); }],
+juf_Supplier$proxy$4_18_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_4_get(this); }],
 otft_Modifier$proxy$4_24_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_24_0_apply(this, var_1); }],
 juf_Supplier$proxy$4_24_0, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_24_0_get(this); }],
 otft_Modifier$proxy$4_24_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_24_1_apply(this, var_1); }],
@@ -29029,33 +29030,32 @@ otft_Fragment$proxy$4_24_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0",
 otft_Fragment$proxy$4_24_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_24_2_create(this); }],
 otft_Modifier$proxy$4_24_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_24_2_apply(this, var_1); }],
 juf_Supplier$proxy$4_24_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_24_2_get(this); }],
-juf_Supplier$proxy$4_19_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_19_4_get(this); }],
-juf_Supplier$proxy$4_17_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_4_get(this); }],
-juf_Supplier$proxy$4_17_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_2_get(this); }],
-juf_Supplier$proxy$4_18_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_4_get(this); }],
-juf_Supplier$proxy$4_17_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_6_get(this); }],
-otft_DomComponentHandler$proxy$4_13_3, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_13_3_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_13_3_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_13_4, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_13_4_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_13_4_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_8_4, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_8_4_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_8_4_buildDom(this, var_1); }],
-juf_Consumer$proxy$4_15_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_2_accept(this, var_1); }],
-juf_Supplier$proxy$4_13_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_4_get(this); }],
-juf_Supplier$proxy$4_13_5, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_5_get(this); }],
-juf_Supplier$proxy$4_13_20, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_20_get(this); }],
-juf_Supplier$proxy$4_13_21, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_21_get(this); }],
-juf_Supplier$proxy$4_13_22, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_22_get(this); }],
-otft_ValueChangeListener$proxy$4_13_0, "ValueChangeListener$proxy$4_13_0", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_13_0_changed(this, var_1); }],
-juf_Consumer$proxy$4_13_4, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_13_4_accept(this, var_1); }],
-juf_Consumer$proxy$4_15_11, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_11_accept(this, var_1); }],
-juf_Consumer$proxy$4_15_5, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_5_accept(this, var_1); }],
-juf_Consumer$proxy$4_15_8, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_15_8_accept(this, var_1); }],
-juf_Consumer$proxy$4_16_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_16_3_accept(this, var_1); }],
+juf_Supplier$proxy$4_18_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_6_get(this); }],
 juf_Supplier$proxy$4_18_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_18_2_get(this); }],
-juf_Supplier$proxy$4_8_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_3_get(this); }],
-otft_Fragment$proxy$4_8_5, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_8_5_create(this); }],
+juf_Supplier$proxy$4_17_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_4_get(this); }],
+juf_Supplier$proxy$4_19_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_19_4_get(this); }],
+otft_DomComponentHandler$proxy$4_3_3, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_3_3_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_3_3_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_3_4, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_3_4_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_3_4_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_10_4, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_10_4_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_10_4_buildDom(this, var_1); }],
+juf_Consumer$proxy$4_14_11, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_11_accept(this, var_1); }],
+juf_Consumer$proxy$4_14_5, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_5_accept(this, var_1); }],
+juf_Supplier$proxy$4_3_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_4_get(this); }],
+juf_Supplier$proxy$4_3_5, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_5_get(this); }],
+juf_Supplier$proxy$4_3_20, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_20_get(this); }],
+juf_Supplier$proxy$4_3_21, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_21_get(this); }],
+juf_Supplier$proxy$4_3_22, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_22_get(this); }],
+otft_ValueChangeListener$proxy$4_3_0, "ValueChangeListener$proxy$4_3_0", 12, jl_Object, [otft_ValueChangeListener], 0, 3, 0, ["$changed", function(var_1) { otft_ValueChangeListener$proxy$4_3_0_changed(this, var_1); }],
+juf_Consumer$proxy$4_3_4, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_3_4_accept(this, var_1); }],
+juf_Consumer$proxy$4_14_8, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_8_accept(this, var_1); }],
+juf_Consumer$proxy$4_14_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_14_2_accept(this, var_1); }],
+juf_Consumer$proxy$4_16_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_16_3_accept(this, var_1); }],
+juf_Supplier$proxy$4_3_12, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_12_get(this); }],
+otft_Fragment$proxy$4_3_5, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_3_5_create(this); }],
 juf_Supplier$proxy$4_19_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_19_2_get(this); }],
-juf_Supplier$proxy$4_13_10, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_10_get(this); }],
-juf_Supplier$proxy$4_13_12, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_12_get(this); }],
-otft_Fragment$proxy$4_13_5, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_13_5_create(this); }],
+juf_Supplier$proxy$4_10_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_3_get(this); }],
+otft_Fragment$proxy$4_10_5, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_10_5_create(this); }],
+juf_Supplier$proxy$4_17_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_17_2_get(this); }],
+juf_Supplier$proxy$4_3_10, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_10_get(this); }],
 otft_DomComponentHandler$proxy$4_24_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_24_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_24_1_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_24_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_24_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_24_2_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_25_0, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_25_0_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_25_0_buildDom(this, var_1); }],
@@ -29077,8 +29077,8 @@ otft_Fragment$proxy$4_25_1, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0",
 otft_Fragment$proxy$4_25_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_25_2_create(this); }],
 otft_Modifier$proxy$4_25_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_25_1_apply(this, var_1); }],
 juf_Supplier$proxy$4_25_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_25_2_get(this); }],
-otft_DomComponentHandler$proxy$4_8_5, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_8_5_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_8_5_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_13_5, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_13_5_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_13_5_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_3_5, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_3_5_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_3_5_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_10_5, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_10_5_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_10_5_buildDom(this, var_1); }],
 otfjs_JsonSerializer, 0, jl_Object, [], 3, 3, 0, 0,
 otfjs_JsonSerializer$proxy$4_0_0, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_0_0_serialize(this, var_1, var_2); }],
 ju_IdentityHashMap$HashEntry, 0, ju_MapEntry, [], 0, 0, 0, 0,
@@ -29090,30 +29090,30 @@ otfjs_ListSerializer, 0, otfjs_NullableSerializer, [], 0, 3, 0, 0,
 otfjs_JsonSerializer$proxy$4_0_2, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_0_2_serialize(this, var_1, var_2); }],
 otfjs_JsonSerializer$proxy$4_0_3, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_0_3_serialize(this, var_1, var_2); }],
 otfjs_JsonSerializer$proxy$4_0_4, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_0_4_serialize(this, var_1, var_2); }],
-otft_Modifier$proxy$4_8_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_2_apply(this, var_1); }],
-otft_Modifier$proxy$4_8_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_3_apply(this, var_1); }],
-otft_Modifier$proxy$4_8_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_4_apply(this, var_1); }],
-juf_Supplier$proxy$4_8_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_6_get(this); }],
-juf_Supplier$proxy$4_8_7, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_7_get(this); }],
-juf_Supplier$proxy$4_8_8, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_8_get(this); }],
-juf_Supplier$proxy$4_8_9, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_9_get(this); }],
-otft_Fragment$proxy$4_8_6, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_8_6_create(this); }],
-juf_Supplier$proxy$4_8_11, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_11_get(this); }],
-juf_BooleanSupplier$proxy$4_8_1, 0, jl_Object, [juf_BooleanSupplier], 0, 3, 0, ["$getAsBoolean", function() { return juf_BooleanSupplier$proxy$4_8_1_getAsBoolean(this); }],
-otft_Fragment$proxy$4_8_7, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_8_7_create(this); }],
-otft_Fragment$proxy$4_8_8, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_8_8_create(this); }],
-otft_Modifier$proxy$4_8_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_8_5_apply(this, var_1); }],
-otft_Modifier$proxy$4_13_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_5_apply(this, var_1); }],
-otft_Modifier$proxy$4_13_6, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_6_apply(this, var_1); }],
-juf_Supplier$proxy$4_13_15, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_15_get(this); }],
-juf_Supplier$proxy$4_13_16, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_16_get(this); }],
-juf_Supplier$proxy$4_13_17, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_17_get(this); }],
-otft_Fragment$proxy$4_13_6, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_13_6_create(this); }],
-juf_Supplier$proxy$4_13_19, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_19_get(this); }],
-otft_Fragment$proxy$4_13_7, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_13_7_create(this); }],
-otft_DomComponentHandler$proxy$4_16_3, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_3_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_3_buildDom(this, var_1); }],
+otft_Modifier$proxy$4_3_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_5_apply(this, var_1); }],
+otft_Modifier$proxy$4_3_6, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_6_apply(this, var_1); }],
+juf_Supplier$proxy$4_3_15, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_15_get(this); }],
+juf_Supplier$proxy$4_3_16, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_16_get(this); }],
+juf_Supplier$proxy$4_3_17, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_17_get(this); }],
+otft_Fragment$proxy$4_3_6, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_3_6_create(this); }],
+juf_Supplier$proxy$4_3_19, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_19_get(this); }],
+otft_Fragment$proxy$4_3_7, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_3_7_create(this); }],
+otft_Modifier$proxy$4_10_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_2_apply(this, var_1); }],
+otft_Modifier$proxy$4_10_3, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_3_apply(this, var_1); }],
+otft_Modifier$proxy$4_10_4, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_4_apply(this, var_1); }],
+juf_Supplier$proxy$4_10_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_6_get(this); }],
+juf_Supplier$proxy$4_10_7, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_7_get(this); }],
+juf_Supplier$proxy$4_10_8, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_8_get(this); }],
+juf_Supplier$proxy$4_10_9, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_9_get(this); }],
+otft_Fragment$proxy$4_10_6, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_10_6_create(this); }],
+juf_Supplier$proxy$4_10_11, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_11_get(this); }],
+juf_BooleanSupplier$proxy$4_10_1, 0, jl_Object, [juf_BooleanSupplier], 0, 3, 0, ["$getAsBoolean", function() { return juf_BooleanSupplier$proxy$4_10_1_getAsBoolean(this); }],
+otft_Fragment$proxy$4_10_7, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_10_7_create(this); }],
+otft_Fragment$proxy$4_10_8, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_10_8_create(this); }],
+otft_Modifier$proxy$4_10_5, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_10_5_apply(this, var_1); }],
 otft_DomComponentHandler$proxy$4_16_5, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_5_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_5_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_16_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_1_buildDom(this, var_1); }]]);
+otft_DomComponentHandler$proxy$4_16_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_1_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_16_3, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_3_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_3_buildDom(this, var_1); }]]);
 $rt_metadata([otft_DomComponentHandler$proxy$4_25_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_25_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_25_1_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_25_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_25_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_25_2_buildDom(this, var_1); }],
 juf_Consumer$proxy$4_25_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_25_0_accept(this, var_1); }],
@@ -29266,17 +29266,17 @@ otjc_JSString, 0, jl_Object, [otj_JSObject], 1, 3, 0, 0,
 otciu_UnicodeHelper$Range, "UnicodeHelper$Range", 15, jl_Object, [], 0, 3, 0, 0,
 otci_CharFlow, 0, jl_Object, [], 0, 3, 0, 0,
 otci_Base46, 0, jl_Object, [], 4, 3, 0, 0,
-juf_Supplier$proxy$4_16_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_2_get(this); }],
-otft_Fragment$proxy$4_16_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_16_2_create(this); }],
-juf_Supplier$proxy$4_16_10, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_10_get(this); }],
-otft_Fragment$proxy$4_16_6, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_16_6_create(this); }],
 juf_Supplier$proxy$4_16_6, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_6_get(this); }],
 otft_Fragment$proxy$4_16_4, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_16_4_create(this); }],
-otft_DomComponentHandler$proxy$4_8_6, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_8_6_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_8_6_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_8_7, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_8_7_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_8_7_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_8_8, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_8_8_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_8_8_buildDom(this, var_1); }]]);
-$rt_metadata([otft_DomComponentHandler$proxy$4_13_6, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_13_6_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_13_6_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_13_7, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_13_7_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_13_7_buildDom(this, var_1); }],
+juf_Supplier$proxy$4_16_10, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_10_get(this); }],
+otft_Fragment$proxy$4_16_6, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_16_6_create(this); }],
+juf_Supplier$proxy$4_16_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_2_get(this); }],
+otft_Fragment$proxy$4_16_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_16_2_create(this); }],
+otft_DomComponentHandler$proxy$4_3_6, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_3_6_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_3_6_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_3_7, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_3_7_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_3_7_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_10_6, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_10_6_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_10_6_buildDom(this, var_1); }]]);
+$rt_metadata([otft_DomComponentHandler$proxy$4_10_7, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_10_7_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_10_7_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_10_8, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_10_8_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_10_8_buildDom(this, var_1); }],
 jur_AbstractCharClass$1, "AbstractCharClass$1", 2, jur_AbstractCharClass, [], 0, 0, 0, ["$contains0", function(var_1) { return jur_AbstractCharClass$1_contains(this, var_1); }],
 jur_AbstractCharClass$2, "AbstractCharClass$2", 2, jur_AbstractCharClass, [], 0, 0, 0, ["$contains0", function(var_1) { return jur_AbstractCharClass$2_contains(this, var_1); }],
 jur_CharClass$18, "CharClass$18", 2, jur_AbstractCharClass, [], 0, 0, 0, ["$contains0", function(var_1) { return jur_CharClass$18_contains(this, var_1); }, "$toString", function() { return jur_CharClass$18_toString(this); }],
@@ -29297,40 +29297,40 @@ jur_CharClass$15, 0, jur_AbstractCharClass, [], 0, 0, 0, ["$contains0", function
 jur_CharClass$14, 0, jur_AbstractCharClass, [], 0, 0, 0, ["$contains0", function(var_1) { return jur_CharClass$14_contains(this, var_1); }],
 jur_CharClass$17, 0, jur_AbstractCharClass, [], 0, 0, 0, ["$contains0", function(var_1) { return jur_CharClass$17_contains(this, var_1); }],
 jur_CharClass$16, 0, jur_AbstractCharClass, [], 0, 0, 0, ["$contains0", function(var_1) { return jur_CharClass$16_contains(this, var_1); }],
-juf_Supplier$proxy$4_8_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_4_get(this); }],
-juf_Supplier$proxy$4_8_5, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_5_get(this); }],
-juf_Consumer$proxy$4_8_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_8_2_accept(this, var_1); }],
-juf_Consumer$proxy$4_8_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_8_3_accept(this, var_1); }],
-juf_Supplier$proxy$4_13_13, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_13_get(this); }],
-juf_Supplier$proxy$4_13_14, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_14_get(this); }],
+juf_Supplier$proxy$4_3_13, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_13_get(this); }],
+juf_Supplier$proxy$4_3_14, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_14_get(this); }],
+juf_Supplier$proxy$4_10_4, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_4_get(this); }],
+juf_Supplier$proxy$4_10_5, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_5_get(this); }],
+juf_Consumer$proxy$4_10_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_10_2_accept(this, var_1); }],
+juf_Consumer$proxy$4_10_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_10_3_accept(this, var_1); }],
 jur_BackReferencedSingleSet, "BackReferencedSingleSet", 2, jur_SingleSet, [], 0, 0, 0, ["$find0", function(var_1, var_2, var_3) { return jur_BackReferencedSingleSet_find(this, var_1, var_2, var_3); }, "$findBack", function(var_1, var_2, var_3, var_4) { return jur_BackReferencedSingleSet_findBack(this, var_1, var_2, var_3, var_4); }, "$processBackRefReplacement", function() { return jur_BackReferencedSingleSet_processBackRefReplacement(this); }],
-otft_DomComponentHandler$proxy$4_22_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_22_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_22_1_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_23_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_23_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_23_1_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_21_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_21_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_21_1_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_20_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_20_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_20_1_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_21_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_21_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_21_1_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_22_1, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_22_1_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_22_1_buildDom(this, var_1); }],
 ecdm_Forum$getTopic$lambda$_3_0, 0, jl_Object, [juf_Predicate], 0, 3, 0, ["$test", function(var_1) { return ecdm_Forum$getTopic$lambda$_3_0_test(this, var_1); }],
-juf_Supplier$proxy$4_8_10, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_8_10_get(this); }],
-otft_Modifier$proxy$4_13_7, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_13_7_apply(this, var_1); }],
-juf_Supplier$proxy$4_13_18, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_13_18_get(this); }],
-otft_DomComponentHandler$proxy$4_16_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_2_buildDom(this, var_1); }],
-otft_DomComponentHandler$proxy$4_16_6, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_6_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_6_buildDom(this, var_1); }],
+juf_Supplier$proxy$4_10_10, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_10_10_get(this); }],
+otft_Modifier$proxy$4_3_7, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_3_7_apply(this, var_1); }],
+juf_Supplier$proxy$4_3_18, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_3_18_get(this); }],
 otft_DomComponentHandler$proxy$4_16_4, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_4_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_4_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_16_6, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_6_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_6_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_16_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_16_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_16_2_buildDom(this, var_1); }],
 jur_MatchResult, 0, jl_Object, [], 3, 3, 0, 0,
 jur_Matcher, 0, jl_Object, [jur_MatchResult], 4, 3, 0, 0,
-juf_Supplier$proxy$4_21_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_21_1_get(this); }],
-otft_Fragment$proxy$4_21_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_21_2_create(this); }],
 otft_Modifier$proxy$4_16_1, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_16_1_apply(this, var_1); }],
 juf_Supplier$proxy$4_16_7, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_7_get(this); }],
 juf_Supplier$proxy$4_22_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_22_1_get(this); }],
 otft_Fragment$proxy$4_22_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_22_2_create(this); }],
+juf_Supplier$proxy$4_23_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_23_1_get(this); }],
+otft_Fragment$proxy$4_23_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_23_2_create(this); }],
 otft_Modifier$proxy$4_16_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_16_0_apply(this, var_1); }],
 juf_Supplier$proxy$4_16_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_3_get(this); }]]);
 $rt_metadata([juf_Supplier$proxy$4_20_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_20_1_get(this); }],
 otft_Fragment$proxy$4_20_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_20_2_create(this); }],
 otft_Modifier$proxy$4_16_2, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_16_2_apply(this, var_1); }],
 juf_Supplier$proxy$4_16_11, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_16_11_get(this); }],
-juf_Supplier$proxy$4_23_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_23_1_get(this); }],
-otft_Fragment$proxy$4_23_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_23_2_create(this); }],
+juf_Supplier$proxy$4_21_1, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_21_1_get(this); }],
+otft_Fragment$proxy$4_21_2, 0, jl_Object, [otft_Fragment], 0, 3, 0, ["$create0", function() { return otft_Fragment$proxy$4_21_2_create(this); }],
 jur_AbstractCharClass$LazyJavaLowerCase$1, "AbstractCharClass$LazyJavaLowerCase$1", 2, jur_AbstractCharClass, [], 0, 0, 0, ["$contains0", function(var_1) { return jur_AbstractCharClass$LazyJavaLowerCase$1_contains(this, var_1); }],
 jur_AbstractCharClass$LazyJavaUpperCase$1, "AbstractCharClass$LazyJavaUpperCase$1", 2, jur_AbstractCharClass, [], 0, 0, 0, ["$contains0", function(var_1) { return jur_AbstractCharClass$LazyJavaUpperCase$1_contains(this, var_1); }],
 jur_AbstractCharClass$LazyJavaWhitespace$1, "AbstractCharClass$LazyJavaWhitespace$1", 2, jur_AbstractCharClass, [], 0, 0, 0, ["$contains0", function(var_1) { return jur_AbstractCharClass$LazyJavaWhitespace$1_contains(this, var_1); }],
@@ -29351,7 +29351,7 @@ jur_UnicodeCategory, "UnicodeCategory", 2, jur_AbstractCharClass, [], 0, 0, 0, [
 jur_UnicodeCategoryScope, "UnicodeCategoryScope", 2, jur_UnicodeCategory, [], 0, 0, 0, ["$contains0", function(var_1) { return jur_UnicodeCategoryScope_contains(this, var_1); }],
 ju_AbstractList$SubAbstractList, 0, ju_AbstractList, [], 0, 0, 0, ["$get", function(var_1) { return ju_AbstractList$SubAbstractList_get(this, var_1); }, "$iterator", function() { return ju_AbstractList$SubAbstractList_iterator(this); }, "$listIterator", function(var_1) { return ju_AbstractList$SubAbstractList_listIterator(this, var_1); }, "$size2", function() { return ju_AbstractList$SubAbstractList_size(this); }],
 ju_AbstractList$SubAbstractListRandomAccess, 0, ju_AbstractList$SubAbstractList, [ju_RandomAccess], 4, 0, 0, 0,
-juf_Consumer$proxy$4_13_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_13_3_accept(this, var_1); }],
+juf_Consumer$proxy$4_3_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_3_3_accept(this, var_1); }],
 jur_MatchResultImpl, 0, jl_Object, [jur_MatchResult], 0, 0, 0, 0,
 otfj_JSON$PROXY$4_1, 0, jl_Object, [], 0, 3, 0, 0,
 otfj_JSON$PROXY$4_2, 0, jl_Object, [], 0, 3, 0, 0,
@@ -29363,13 +29363,13 @@ otfjs_JsonSerializer$proxy$4_1_0, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0,
 otfjs_JsonSerializer$proxy$4_2_0, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_2_0_serialize(this, var_1, var_2); }],
 otfjs_JsonSerializer$proxy$4_3_0, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_3_0_serialize(this, var_1, var_2); }],
 otfjs_JsonSerializer$proxy$4_4_0, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_4_0_serialize(this, var_1, var_2); }],
-otft_DomComponentHandler$proxy$4_21_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_21_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_21_2_buildDom(this, var_1); }],
 otft_DomComponentHandler$proxy$4_22_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_22_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_22_2_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_23_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_23_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_23_2_buildDom(this, var_1); }],
 juf_Consumer$proxy$4_16_1, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_16_1_accept(this, var_1); }],
 juf_Consumer$proxy$4_16_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_16_0_accept(this, var_1); }],
 otft_DomComponentHandler$proxy$4_20_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_20_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_20_2_buildDom(this, var_1); }],
 juf_Consumer$proxy$4_16_2, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_16_2_accept(this, var_1); }],
-otft_DomComponentHandler$proxy$4_23_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_23_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_23_2_buildDom(this, var_1); }],
+otft_DomComponentHandler$proxy$4_21_2, 0, jl_Object, [otft_DomComponentHandler], 0, 3, 0, ["$update", function() { otft_DomComponentHandler$proxy$4_21_2_update(this); }, "$buildDom", function(var_1) { otft_DomComponentHandler$proxy$4_21_2_buildDom(this, var_1); }],
 otfjs_JsonSerializer$proxy$4_1_1, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_1_1_serialize(this, var_1, var_2); }],
 otfjs_JsonSerializer$proxy$4_2_1, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_2_1_serialize(this, var_1, var_2); }],
 otfjs_JsonSerializer$proxy$4_2_2, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, 0,
@@ -29378,15 +29378,15 @@ otfjs_JsonSerializer$proxy$4_3_2, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0,
 otfjs_JsonSerializer$proxy$4_4_1, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_4_1_serialize(this, var_1, var_2); }]]);
 $rt_metadata([otfjs_JsonSerializer$proxy$4_4_2, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_4_2_serialize(this, var_1, var_2); }],
 otfjs_JsonSerializer$proxy$4_4_3, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_4_3_serialize(this, var_1, var_2); }],
-juf_Supplier$proxy$4_20_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_20_2_get(this); }],
-juf_Supplier$proxy$4_20_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_20_3_get(this); }],
 otft_Modifier$proxy$4_23_0, 0, jl_Object, [otft_Modifier], 0, 3, 0, ["$apply", function(var_1) { return otft_Modifier$proxy$4_23_0_apply(this, var_1); }],
 juf_Supplier$proxy$4_23_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_23_2_get(this); }],
 juf_Supplier$proxy$4_23_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_23_3_get(this); }],
-juf_Supplier$proxy$4_21_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_21_2_get(this); }],
-juf_Supplier$proxy$4_21_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_21_3_get(this); }],
 juf_Supplier$proxy$4_22_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_22_2_get(this); }],
 juf_Supplier$proxy$4_22_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_22_3_get(this); }],
+juf_Supplier$proxy$4_21_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_21_2_get(this); }],
+juf_Supplier$proxy$4_21_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_21_3_get(this); }],
+juf_Supplier$proxy$4_20_2, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_20_2_get(this); }],
+juf_Supplier$proxy$4_20_3, 0, jl_Object, [juf_Supplier], 0, 3, 0, ["$get1", function() { return juf_Supplier$proxy$4_20_3_get(this); }],
 juf_Consumer$proxy$4_23_0, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_23_0_accept(this, var_1); }],
 otfj_JSON$PROXY$4_5, 0, jl_Object, [], 0, 3, 0, 0,
 otfj_JSON$PROXY$4_6, 0, jl_Object, [], 0, 3, 0, 0,
@@ -29453,26 +29453,26 @@ $rt_stringPool(["@", "0", "#", "Wrong route interface: ", "course-content", "Ann
 "A3-Resources.zip", "/assignments/fall2019/a3/A3-Resources.zip", "marking scheme.txt", "/assignments/fall2019/a3/marking scheme.txt", "Assignment #3 - Trivia Question Web Service", "COMP2406-F19-A4 Specification", "/assignments/fall2019/a4/COMP2406-F19-A4 Specification.pdf", "/assignments/fall2019/a4/database-initializer.js", "COMP2406-F19-A4 Marking Scheme.txt", "/assignments/fall2019/a4/COMP2406-F19-A4 Marking Scheme.txt", "Assignment #4 - Trivia Quiz Builder Using MongoDB", "COMP2406-F19-A5-Specification",
 "/assignments/fall2019/a5/COMP2406-F19-A5-Specification.pdf", "A5-BaseCode.zip", "/assignments/fall2019/a5/A5-BaseCode.zip", "COMP2406-F19-A5 Marking Scheme.txt", "/assignments/fall2019/a5/COMP2406-F19-A5 Marking Scheme.txt", "Assignment #5 - Sessions and User Profiles", "admin", "admin@carleton.ca", "\\\\www.gravatar.com/avatar/a59bead6ed0ffa1b4917370df569b8fb?s=200&r=pg&d=identicon", "student", "student@carleton.ca", "\\\\www.gravatar.com/avatar/e95b53a5008163da29f10fb33185fccf?s=200&r=pg&d=identicon", "Invalid route type: ",
 "Can\'t deserialize node ", " to an instance of ", "Don\'t know how to deserialize class ", "edu.carleton.dev.Router", "edu.carleton.dev.App", "Can\'t deserialize non-array node as a list", "edu.carleton.dev.views.AddTutorialView", "edu.carleton.dev.components.LectureComponent", "edu.carleton.dev.components.AssignmentsListComponent", "edu.carleton.dev.components.ForumsListComponent", "edu.carleton.dev.views.LectureView", "edu.carleton.dev.components.AssignmentComponent", "edu.carleton.dev.components.TutorialComponent",
-"edu.carleton.dev.views.AssignmentsView", "edu.carleton.dev.views.ForumView", "edu.carleton.dev.components.TutorialsListComponent", "edu.carleton.dev.components.FooterComponent", "edu.carleton.dev.components.ActivitiesSidebarComponent", "edu.carleton.dev.views.LecturesView", "edu.carleton.dev.views.TutorialsView", "edu.carleton.dev.views.ForumTopicView", "edu.carleton.dev.views.TutorialView", "edu.carleton.dev.components.HeaderComponent", "edu.carleton.dev.views.AssignmentView", "edu.carleton.dev.views.ForumsView",
+"edu.carleton.dev.views.AssignmentsView", "edu.carleton.dev.views.ForumView", "edu.carleton.dev.components.TutorialsListComponent", "edu.carleton.dev.components.FooterComponent", "edu.carleton.dev.components.ActivitiesSidebarComponent", "edu.carleton.dev.views.LecturesView", "edu.carleton.dev.views.ForumTopicView", "edu.carleton.dev.views.TutorialsView", "edu.carleton.dev.views.TutorialView", "edu.carleton.dev.components.HeaderComponent", "edu.carleton.dev.views.AssignmentView", "edu.carleton.dev.views.ForumsView",
 "edu.carleton.dev.components.CollapsibleMenuComponent", "edu.carleton.dev.views.AddAssignmentView", "edu.carleton.dev.components.LecturesListComponent", "edu.carleton.dev.views.AddLectureView", "edu.carleton.dev.views.IndexView", "edu.carleton.dev.components.CollapsibleContentComponent", "The given space is already hosted by a slot", "Successor does not belong to this slot", "/", "/lectures/single/", "/lectures", "/lectures/add", "/tutorials/single/", "/tutorials", "/tutorials/add", "/assignments/single/", "/assignments",
 "/assignments/add", "/forums/", "/forums", "Can\'t deserialize non-string node as a string", "\n", "section", "class", "\n  ", "div", "container", "\n    ", "tile is-ancestor", "\n      ", "tile is-vertical is-8", "\n        ", "tile is-parent", "article", "tile is-child box", "\n          ", "p", "title", "Activities", "subtitle", "Quick access to class activities", "Can\'t set attribute to root node", "Can\'t apply modifier to root node", "tile is-child", "nav", "breadcrumb", "aria-label", "breadcrumbs", "ul",
-"li", "a", "Home", "COMP2406", "is-active", "Lectures", "Discussion boards", "Tutorials", "\n            Lectures\n          ", "Assignments", "\n            Tutorials\n          ", "\n            Assignments\n          ", "\n            Discussion boards\n          ", "media", "media-content", "h3", "title is-4", "Create a new topic", "field", "control", "\n            ", "input", "type", "text", "placeholder", "What do you want to discuss about?", "textarea", "Add some content", "button", "button is-info",
-"\n          Submit\n        ", "modal is-active", "modal-background", "modal-content", "box", "label", "What is the name of your new lecture?", "Name of the lecture", "field is-grouped", "button is-link", "Submit", "button is-link is-light", "Cancel", "modal-close is-large", "close", "What is the name of your new assignment?", "Name of the assignment", "tile", "tile is-parent is-vertical", "tile is-vertical notification is-primary", "style", "padding-top: 40px; padding-bottom: 40px;", "h1", "Welcome to COMP2406",
-"h2", "\n        The course covers the principles involved in the design and implementation of web applications.\n        Our primary programming language in this offering will be Javascript (on both client and server\n        side). The course will examine programming concepts as they relate to building web applications\n        and will emphasize the computer science fundamentals.\n      ", "COMP2406 - Fundamentals of Web Applications", "content", "level", "level-item has-text-centered", "heading", "\n              ",
-"Forum topics", "hr", "Topics Covered", "\n        Here is a list of the main topics covered:\n      ", "Web Concepts, HTTP", "Javascript", "Markup Languages (HTML, CSS)", "Client and Server side coding (in javascript)", "Javascript execution environments: Browser, Node.js, and Express.js", "Node.js and NPM", "Functional Programming and Closures", "Synchronous and Asynchronous programming", "JSON databases (using MongoDB)", "Server side templating (using Pug)", "Sessions, Cookies, Ajax, and Web Sockets", "What is the name of your new tutorial?",
-"Name of the tutorial", "value", "click", "footer", "content has-text-centered", "columns", "column", "\n          Lectures\n        ", "\n          Tutorials\n        ", "\n          Assignments\n        ", "\n          Discussion boards\n        ", "\n      Built with ", "strong", "Bulma", ".\n    ", "header", "navbar has-shadow is-light", "role", "navigation", "main navigation", "navbar-brand", "navbar-burger burger", "menu", "aria-expanded", "false", "data-target", "navbar", "span", "aria-hidden", "true",
-"id", "navbar-menu", "navbar-start", "navbar-item", "\n            Home\n          ", "navbar-item has-dropdown is-hoverable", "navbar-link", "icon has-text-primary", "\n                ", "i", "fas fa-book", "navbar-dropdown", "navbar-divider", "icon", "\n                  ", "fas fa-plus", "Add a new lecture", "icon has-text-info", "fas fa-flask", "Add a new tutorial", "icon has-text-success", "fas fa-laptop-house", "Add a new assignment", "icon has-text-danger", "fas fa-comments", "Forums", "aside", "menu-label",
-"\n    List of activities\n  ", "menu-list", "\n    Discussion boards\n  ", "\n    Instructor options\n  ", "icon is-small", "\n        Add a new lecture\n      ", "\n        Add a new tutorial\n      ", "\n        Add a new assignment\n      ", "transition: max-height 0.5s cubic-bezier(0, 1, 0, 1); max-height: 0;", "transition: max-height 1s ease-in-out; max-height: 9000px;", "overflow-y: hidden;", "lectures", "tutorials", "assignments", "notification is-info", "margin-top: 20px;", "\n          No topics created in this discussion board\n        ",
-"submit", "panel is-primary", "panel-heading", "has-text-white is-capitalized is-family-monospace", "is-pulled-right", "delete", "panel is-info", "panel is-success", "is-flex", "flex: 1;", "tag is-info", "transition: max-height 0.5s cubic-bezier(0, 1, 0, 1); max-height: 0; padding-bottom: 0;", "transition: max-height 1s ease-in-out; max-height: 9000px; padding-bottom: 20px;", "overflow-y: hidden; margin-left: -20px; padding-left: 20px; margin-right: -20px; padding-right: 20px;", "figure", "media-left", "image is-64x64",
-"img", "content has-text-justified", " ", "small", "\n              Add a comment\n            ", "alt", "src", "icon is-medium", "cursor: pointer;", "panel-block", "panel-icon", "fas fa-file-powerpoint", "fas fa-file-video", "fas fa-file-code", "fas fa-file", "fas fa-file-pdf", "fas fa-chevron-up", "fas fa-chevron-down", "level-left", "level-item", "level-right", "Object has already been serialized: ", "\n                    ", "\n                      ", " \n                      ", "media-right", "\n                        ",
-"<", ":", ">", "fSet", "Is", "In", "Either src or dest is null", "NonCapFSet", "AheadFSet", "BehindFSet", "AtomicFSet", "FinalSet", "<Empty set>", "JointSet", "NonCapJointSet", "PosLookaheadJointSet", "NegLookaheadJointSet", "PosBehindJointSet", "NegBehindJointSet", "<Quant>", "<GroupQuant>", "{", ",", "}", "posFSet", "range:", "^ ", "CompositeRangeSet:  <nonsurrogate> ", " <surrogate> ", "UCI range:", "decomposed Hangul syllable:", "UCI ", "CI ", "decomposed char:", "<DotAllQuant>", "<DotQuant>", "<SOL>", "WordBoundary",
-"PreviousMatch", "<EOL>", "EOI", "^", "DotAll", ".", "<Unix MultiLine $>", "<MultiLine $>", "CI back reference: ", "back reference: ", "UCI back reference: ", "sequence: ", "UCI sequence: ", "CI sequence: ", "Lower", "Upper", "ASCII", "Alpha", "Digit", "Alnum", "Punct", "Graph", "Print", "Blank", "Cntrl", "XDigit", "javaLowerCase", "javaUpperCase", "javaWhitespace", "javaMirrored", "javaDefined", "javaDigit", "javaIdentifierIgnorable", "javaISOControl", "javaJavaIdentifierPart", "javaJavaIdentifierStart", "javaLetter",
-"javaLetterOrDigit", "javaSpaceChar", "javaTitleCase", "javaUnicodeIdentifierPart", "javaUnicodeIdentifierStart", "Space", "w", "W", "s", "S", "d", "D", "BasicLatin", "Latin-1Supplement", "LatinExtended-A", "LatinExtended-B", "IPAExtensions", "SpacingModifierLetters", "CombiningDiacriticalMarks", "Greek", "Cyrillic", "CyrillicSupplement", "Armenian", "Hebrew", "Arabic", "Syriac", "ArabicSupplement", "Thaana", "Devanagari", "Bengali", "Gurmukhi", "Gujarati", "Oriya", "Tamil", "Telugu", "Kannada", "Malayalam",
-"Sinhala", "Thai", "Lao", "Tibetan", "Myanmar", "Georgian", "HangulJamo", "Ethiopic", "EthiopicSupplement", "Cherokee", "UnifiedCanadianAboriginalSyllabics", "Ogham", "Runic", "Tagalog", "Hanunoo", "Buhid", "Tagbanwa", "Khmer", "Mongolian", "Limbu", "TaiLe", "NewTaiLue", "KhmerSymbols", "Buginese", "PhoneticExtensions", "PhoneticExtensionsSupplement", "CombiningDiacriticalMarksSupplement", "LatinExtendedAdditional", "GreekExtended", "GeneralPunctuation", "SuperscriptsandSubscripts", "CurrencySymbols", "CombiningMarksforSymbols",
-"LetterlikeSymbols", "NumberForms", "Arrows", "MathematicalOperators", "MiscellaneousTechnical", "ControlPictures", "OpticalCharacterRecognition", "EnclosedAlphanumerics", "BoxDrawing", "BlockElements", "GeometricShapes", "MiscellaneousSymbols", "Dingbats", "MiscellaneousMathematicalSymbols-A", "SupplementalArrows-A", "BraillePatterns", "SupplementalArrows-B", "MiscellaneousMathematicalSymbols-B", "SupplementalMathematicalOperators", "MiscellaneousSymbolsandArrows", "Glagolitic", "Coptic", "GeorgianSupplement",
-"Tifinagh", "EthiopicExtended", "SupplementalPunctuation", "CJKRadicalsSupplement", "KangxiRadicals", "IdeographicDescriptionCharacters", "CJKSymbolsandPunctuation", "Hiragana", "Katakana", "Bopomofo", "HangulCompatibilityJamo", "Kanbun", "BopomofoExtended", "CJKStrokes", "KatakanaPhoneticExtensions", "EnclosedCJKLettersandMonths", "CJKCompatibility", "CJKUnifiedIdeographsExtensionA", "YijingHexagramSymbols", "CJKUnifiedIdeographs", "YiSyllables", "YiRadicals", "ModifierToneLetters", "SylotiNagri", "HangulSyllables",
-"HighSurrogates", "HighPrivateUseSurrogates", "LowSurrogates", "PrivateUseArea", "CJKCompatibilityIdeographs", "AlphabeticPresentationForms", "ArabicPresentationForms-A", "VariationSelectors", "VerticalForms", "CombiningHalfMarks", "CJKCompatibilityForms", "SmallFormVariants", "ArabicPresentationForms-B", "HalfwidthandFullwidthForms", "all", "Specials", "Cn", "IsL", "Lu", "Ll", "Lt", "Lm", "Lo", "IsM", "Mn", "Me", "Mc", "N", "Nd", "Nl", "No", "IsZ", "Zs", "Zl", "Zp", "IsC", "Cc", "Cf", "Co", "Cs", "IsP", "Pd",
-"Ps", "Pe", "Pc", "Po", "IsS", "Sm", "Sc", "Sk", "So", "Pi", "Pf", "\n                          comments\n                        ", "\n                          comment\n                        ", "\n                          ", "is-capitalized", " - ", " topics\n        "]);
+"li", "a", "Home", "COMP2406", "\n            Assignments\n          ", "is-active", "\n            Lectures\n          ", "\n            Discussion boards\n          ", "\n            ", "Lectures", "modal is-active", "modal-background", "modal-content", "box", "field", "label", "What is the name of your new lecture?", "control", "input", "type", "text", "placeholder", "Name of the lecture", "field is-grouped", "button", "button is-link", "Submit", "button is-link is-light", "Cancel", "modal-close is-large",
+"close", "Assignments", "What is the name of your new assignment?", "Name of the assignment", "\n            Tutorials\n          ", "Tutorials", "tile", "tile is-parent is-vertical", "tile is-vertical notification is-primary", "style", "padding-top: 40px; padding-bottom: 40px;", "h1", "Welcome to COMP2406", "h2", "\n        The course covers the principles involved in the design and implementation of web applications.\n        Our primary programming language in this offering will be Javascript (on both client and server\n        side). The course will examine programming concepts as they relate to building web applications\n        and will emphasize the computer science fundamentals.\n      ",
+"COMP2406 - Fundamentals of Web Applications", "content", "level", "level-item has-text-centered", "heading", "\n              ", "Forum topics", "hr", "Topics Covered", "\n        Here is a list of the main topics covered:\n      ", "Web Concepts, HTTP", "Javascript", "Markup Languages (HTML, CSS)", "Client and Server side coding (in javascript)", "Javascript execution environments: Browser, Node.js, and Express.js", "Node.js and NPM", "Functional Programming and Closures", "Synchronous and Asynchronous programming",
+"JSON databases (using MongoDB)", "Server side templating (using Pug)", "Sessions, Cookies, Ajax, and Web Sockets", "media", "media-content", "h3", "title is-4", "Create a new topic", "What do you want to discuss about?", "textarea", "Add some content", "button is-info", "\n          Submit\n        ", "What is the name of your new tutorial?", "Name of the tutorial", "Discussion boards", "value", "click", "header", "navbar has-shadow is-light", "role", "navigation", "main navigation", "navbar-brand", "navbar-burger burger",
+"menu", "aria-expanded", "false", "data-target", "navbar", "span", "aria-hidden", "true", "id", "navbar-menu", "navbar-start", "navbar-item", "\n            Home\n          ", "navbar-item has-dropdown is-hoverable", "navbar-link", "icon has-text-primary", "\n                ", "i", "fas fa-book", "navbar-dropdown", "navbar-divider", "icon", "\n                  ", "fas fa-plus", "Add a new lecture", "icon has-text-info", "fas fa-flask", "Add a new tutorial", "icon has-text-success", "fas fa-laptop-house", "Add a new assignment",
+"icon has-text-danger", "fas fa-comments", "Forums", "footer", "content has-text-centered", "columns", "column", "\n          Lectures\n        ", "\n          Tutorials\n        ", "\n          Assignments\n        ", "\n          Discussion boards\n        ", "\n      Built with ", "strong", "Bulma", ".\n    ", "aside", "menu-label", "\n    List of activities\n  ", "menu-list", "\n    Discussion boards\n  ", "\n    Instructor options\n  ", "icon is-small", "\n        Add a new lecture\n      ", "\n        Add a new tutorial\n      ",
+"\n        Add a new assignment\n      ", "transition: max-height 0.5s cubic-bezier(0, 1, 0, 1); max-height: 0;", "transition: max-height 1s ease-in-out; max-height: 9000px;", "overflow-y: hidden;", "lectures", "tutorials", "assignments", "notification is-info", "margin-top: 20px;", "\n          No topics created in this discussion board\n        ", "submit", "panel is-success", "panel-heading", "has-text-white is-capitalized is-family-monospace", "is-pulled-right", "delete", "panel is-primary", "panel is-info",
+"is-flex", "flex: 1;", "tag is-info", "transition: max-height 0.5s cubic-bezier(0, 1, 0, 1); max-height: 0; padding-bottom: 0;", "transition: max-height 1s ease-in-out; max-height: 9000px; padding-bottom: 20px;", "overflow-y: hidden; margin-left: -20px; padding-left: 20px; margin-right: -20px; padding-right: 20px;", "figure", "media-left", "image is-64x64", "img", "content has-text-justified", " ", "small", "\n              Add a comment\n            ", "alt", "src", "icon is-medium", "cursor: pointer;", "panel-block",
+"panel-icon", "fas fa-file-powerpoint", "fas fa-file-video", "fas fa-file-code", "fas fa-file", "fas fa-file-pdf", "fas fa-chevron-up", "fas fa-chevron-down", "level-left", "level-item", "level-right", "Object has already been serialized: ", "\n                    ", "\n                      ", "\n                        ", " \n                      ", "media-right", "<", ":", ">", "fSet", "Is", "In", "Either src or dest is null", "NonCapFSet", "AheadFSet", "BehindFSet", "AtomicFSet", "FinalSet", "<Empty set>",
+"JointSet", "NonCapJointSet", "PosLookaheadJointSet", "NegLookaheadJointSet", "PosBehindJointSet", "NegBehindJointSet", "<Quant>", "<GroupQuant>", "{", ",", "}", "posFSet", "range:", "^ ", "CompositeRangeSet:  <nonsurrogate> ", " <surrogate> ", "UCI range:", "decomposed Hangul syllable:", "UCI ", "CI ", "decomposed char:", "<DotAllQuant>", "<DotQuant>", "<SOL>", "WordBoundary", "PreviousMatch", "<EOL>", "EOI", "^", "DotAll", ".", "<Unix MultiLine $>", "<MultiLine $>", "CI back reference: ", "back reference: ",
+"UCI back reference: ", "sequence: ", "UCI sequence: ", "CI sequence: ", "Lower", "Upper", "ASCII", "Alpha", "Digit", "Alnum", "Punct", "Graph", "Print", "Blank", "Cntrl", "XDigit", "javaLowerCase", "javaUpperCase", "javaWhitespace", "javaMirrored", "javaDefined", "javaDigit", "javaIdentifierIgnorable", "javaISOControl", "javaJavaIdentifierPart", "javaJavaIdentifierStart", "javaLetter", "javaLetterOrDigit", "javaSpaceChar", "javaTitleCase", "javaUnicodeIdentifierPart", "javaUnicodeIdentifierStart", "Space",
+"w", "W", "s", "S", "d", "D", "BasicLatin", "Latin-1Supplement", "LatinExtended-A", "LatinExtended-B", "IPAExtensions", "SpacingModifierLetters", "CombiningDiacriticalMarks", "Greek", "Cyrillic", "CyrillicSupplement", "Armenian", "Hebrew", "Arabic", "Syriac", "ArabicSupplement", "Thaana", "Devanagari", "Bengali", "Gurmukhi", "Gujarati", "Oriya", "Tamil", "Telugu", "Kannada", "Malayalam", "Sinhala", "Thai", "Lao", "Tibetan", "Myanmar", "Georgian", "HangulJamo", "Ethiopic", "EthiopicSupplement", "Cherokee", "UnifiedCanadianAboriginalSyllabics",
+"Ogham", "Runic", "Tagalog", "Hanunoo", "Buhid", "Tagbanwa", "Khmer", "Mongolian", "Limbu", "TaiLe", "NewTaiLue", "KhmerSymbols", "Buginese", "PhoneticExtensions", "PhoneticExtensionsSupplement", "CombiningDiacriticalMarksSupplement", "LatinExtendedAdditional", "GreekExtended", "GeneralPunctuation", "SuperscriptsandSubscripts", "CurrencySymbols", "CombiningMarksforSymbols", "LetterlikeSymbols", "NumberForms", "Arrows", "MathematicalOperators", "MiscellaneousTechnical", "ControlPictures", "OpticalCharacterRecognition",
+"EnclosedAlphanumerics", "BoxDrawing", "BlockElements", "GeometricShapes", "MiscellaneousSymbols", "Dingbats", "MiscellaneousMathematicalSymbols-A", "SupplementalArrows-A", "BraillePatterns", "SupplementalArrows-B", "MiscellaneousMathematicalSymbols-B", "SupplementalMathematicalOperators", "MiscellaneousSymbolsandArrows", "Glagolitic", "Coptic", "GeorgianSupplement", "Tifinagh", "EthiopicExtended", "SupplementalPunctuation", "CJKRadicalsSupplement", "KangxiRadicals", "IdeographicDescriptionCharacters", "CJKSymbolsandPunctuation",
+"Hiragana", "Katakana", "Bopomofo", "HangulCompatibilityJamo", "Kanbun", "BopomofoExtended", "CJKStrokes", "KatakanaPhoneticExtensions", "EnclosedCJKLettersandMonths", "CJKCompatibility", "CJKUnifiedIdeographsExtensionA", "YijingHexagramSymbols", "CJKUnifiedIdeographs", "YiSyllables", "YiRadicals", "ModifierToneLetters", "SylotiNagri", "HangulSyllables", "HighSurrogates", "HighPrivateUseSurrogates", "LowSurrogates", "PrivateUseArea", "CJKCompatibilityIdeographs", "AlphabeticPresentationForms", "ArabicPresentationForms-A",
+"VariationSelectors", "VerticalForms", "CombiningHalfMarks", "CJKCompatibilityForms", "SmallFormVariants", "ArabicPresentationForms-B", "HalfwidthandFullwidthForms", "all", "Specials", "Cn", "IsL", "Lu", "Ll", "Lt", "Lm", "Lo", "IsM", "Mn", "Me", "Mc", "N", "Nd", "Nl", "No", "IsZ", "Zs", "Zl", "Zp", "IsC", "Cc", "Cf", "Co", "Cs", "IsP", "Pd", "Ps", "Pe", "Pc", "Po", "IsS", "Sm", "Sc", "Sk", "So", "Pi", "Pf", "\n                          ", "\n                          comments\n                        ", "\n                          comment\n                        ",
+"is-capitalized", " - ", " topics\n        "]);
 jl_String.prototype.toString = function() {
     return $rt_ustr(this);
 };
