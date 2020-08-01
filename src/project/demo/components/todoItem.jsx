@@ -2,7 +2,7 @@
 import { h } from '../../vdom';
 import classNames from 'classnames';
 
-export const TodoItem = ({ todo, model }, { isEditing = false, editTodo = '', setState }) => {
+export const TodoItem = ({ todo, model }, { isEditing = false, editTodo = todo.title, setState }) => {
   const setIsEditing = val => setState('isEditing', val);
   const setEditTodo = val => setState('editTodo', val);
 
@@ -11,13 +11,17 @@ export const TodoItem = ({ todo, model }, { isEditing = false, editTodo = '', se
 
     if (val) {
       model.editTodo(todo.id, val);
-      setEditTodo('');
       setIsEditing(false);
     }
   };
 
   const handleChange = event => {
     setEditTodo(event.target.value);
+  };
+
+  const handleStartEditing = () => {
+    setEditTodo(todo.title);
+    setIsEditing(true);
   };
 
   const handleKeyDown = event => {
@@ -41,7 +45,7 @@ export const TodoItem = ({ todo, model }, { isEditing = false, editTodo = '', se
           checked={todo.completed}
           onchange={() => model.toggle(todo.id)}
         />
-        <label ondoubleclick={() => setIsEditing(true)}>
+        <label ondblclick={handleStartEditing}>
           {todo.title}
         </label>
         <button class="destroy" onclick={() => model.removeTodo(todo.id)} />
