@@ -40,9 +40,15 @@ const vdonizeChildren = child =>
  * @export
  */
 export const createNode = (tag, attributes = {}, ...children) => {
-  // Remove attributes added by JSX
-  // eslint-disable-next-line no-unused-vars
-  const { __self, __source, ...props } = attributes;
+  // protect against null attributes
+  let props = attributes || {};
+
+  // Remove attributes added by JSX in development
+  if (process.env.NODE_ENV === 'development') {
+    // eslint-disable-next-line no-unused-vars
+    const { __self, __source, ...rest } = props;
+    props = rest;
+  }
 
   // Flatten the children so that any array created with things like .map are processed as a single continuous array.
   // TODO: This might be inefficient long term.
