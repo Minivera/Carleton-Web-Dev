@@ -32,6 +32,8 @@ jobs:
           mvn -B package --file src/java-course-website/pom.xml
           mkdir dist/java-course-website && cp src/java-course-website/target/java-course-website-1.0.war dist/java-course-website/app.war
           unzip dist/java-course-website/app.war -d dist/java-course-website
+      - name: Copy the benchmark table to dist
+        run: cp -r src/project/benchmark-data dist/project/benchmark-data
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

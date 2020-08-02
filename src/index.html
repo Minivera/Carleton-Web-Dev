@@ -30,9 +30,7 @@
                 <li>
                     <a href="project/demo/index.html">Project Demo - Todo List</a>
                 </li>
-                <li>
-                    <a href="project/benchmark-data/table.html">Project - Benchmarks (Ran on my own machine)</a>
-                </li>
+                <li id="project-benchmarks-link" />
             </ul>
         </div>
         <script src="./index.js"></script>
@@ -70,6 +68,14 @@
                 anchor.innerText = 'Java Course Website';
 
                 document.querySelector('#course-website-java-link').appendChild(anchor);
+            })();
+            // Loads the link for the project benchmarks, which are already compiled
+            (function() {
+                const anchor = document.createElement('a');
+                anchor.href = 'project/benchmark-data/table.html';
+                anchor.innerText = 'Project benchmarks - Ran on my own machine';
+
+                document.querySelector('#project-benchmarks-link').appendChild(anchor);
             })();
         </script>
     </body>
