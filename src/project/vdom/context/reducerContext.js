@@ -35,7 +35,7 @@ import { applyContext } from './applyContext';
  * @return {contextObject} Returns a valid context object for augmenting a component.
  */
 export const withStateReducer = (defaultState, reducer, component) => {
-  return applyContext({
+  return applyContext(() => ({
     savedState: defaultState,
 
     apply({ requestUpdate, ...rest }) {
@@ -49,5 +49,5 @@ export const withStateReducer = (defaultState, reducer, component) => {
         requestUpdate,
       };
     }
-  }, component);
+  }), component);
 };

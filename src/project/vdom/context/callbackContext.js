@@ -17,12 +17,12 @@ import { applyContext } from './applyContext';
  * @return {contextObject} Returns a valid context object for augmenting a component.
  */
 export const withCallback = (callback, component) => {
-  return applyContext({
+  return applyContext(() => ({
     apply(context) {
       return {
         ...context,
         afterMount: () => callback(context),
       };
     }
-  }, component);
+  }), component);
 };

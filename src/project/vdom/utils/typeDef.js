@@ -4,6 +4,8 @@
  * @param {Object} context - The state and function to set the state for this component.
  * @property {function(Object): Object} contextCreator - Function that is to be executed when applying the
  * context on a component.
+ * @property {Object[]} contextObjects - Array of objects that are applied to the context. Those are only set when the
+ * component is first created through the factory.
  * @returns {TreeNode|TextNode|HtmlNode}
  */
 

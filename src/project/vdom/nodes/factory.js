@@ -54,8 +54,12 @@ export const createNode = (tag, attributes = {}, ...children) => {
   // TODO: This might be inefficient long term.
   const flatChildren = flatten(children);
   if (typeof tag === 'function') {
+    // Clone the tag so components do not share context
+    const cloned = tag.bind({});
+    Object.assign(cloned, tag);
+
     return new TreeNode({
-      factory: tag,
+      factory: cloned,
       attributes: props,
       children: flatChildren.map(vdonizeChildren),
     });

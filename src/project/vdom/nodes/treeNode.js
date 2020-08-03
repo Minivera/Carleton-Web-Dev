@@ -1,4 +1,5 @@
 import '../utils/typeDef';
+import { applyContextToFactory } from '../context/applyContext';
 
 /**
  * Tree node class that manages component based classes. When the node creator hits a function, it will
@@ -19,7 +20,7 @@ export class TreeNode {
      * Stores the factory used to render this component.
      * @type {functionComponent}
      */
-    this.factory = factory;
+    this.factory = applyContextToFactory(factory);
 
     /**
      * The attributes assigned to this node, will be passed to the factory when it is executed.
