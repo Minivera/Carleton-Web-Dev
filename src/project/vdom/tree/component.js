@@ -42,10 +42,55 @@ class ComponentElement extends window.HTMLElement {
     this.factory = () => null;
 
     /**
-     * Object that stores the component's state. Updated with the `setState` method of this class.
+     * The context is a special function that takes in a context object and will return a context object. By executing
+     * the given function, it will run the `apply` function on each of the context objects applied on the component and
+     * return the updated context to augment the component with.
+     * @type {function(Object): Object}
+     */
+    this.contextCreator = context => context;
+
+    /**
+     * Object that stores the component's context data. Updated with state management capabilities for the framework.
      * @type {{}}
      */
-    this.state = {};
+    this.context = {
+      setState: (key, value) => {
+        this.context[key] = value;
+        this.requestUpdate();
+      },
+    };
+
+    /**
+     * Object containing lifecycle listener functions.
+     * @typedef lifecycleListeners
+     * @property {function(ComponentElement)} beforeMount - Hook called after the component has been connected to
+     * the DOM and before it is mounted.
+     * @property {function(ComponentElement)} afterMount - Hook called after the component has been successfully
+     * mounted.
+     * @property {function(ComponentElement)} beforeUpdate - Hook called before the component is updated and before
+     * checking if we should update.
+     * @property {function(ComponentElement): boolean} shouldUpdate - Hook called before the component is updated.
+     * Return false to prevent updating the component. Does not provide the old or new attributes, the developer
+     * is in charge of keep track of those.
+     * @property {function(ComponentElement)} afterUpdate - Hook called after an update has been processed.
+     * @property {function(ComponentElement)} beforeDisconnect - Hook called before the component is disconnected
+     * from the DOM.
+     */
+
+    /**
+     * Object containing functions that listen to the various lifecycle events of a component. These functions
+     * will be executed with the current component as their only parameter.
+     * @type {lifecycleListeners}
+     */
+    this.lifecycleListeners = {
+      afterConnect: () => {},
+      beforeMount: () => {},
+      afterMount: () => {},
+      beforeUpdate: () => {},
+      shouldUpdate: () => true,
+      afterUpdate: () => {},
+      beforeDisconnect: () => {},
+    };
 
     /**
      * The tree mounted on this component. When the component updates, this tree is updated in place.
@@ -61,6 +106,23 @@ class ComponentElement extends window.HTMLElement {
   }
 
   /**
+   * Update the values of the DOM component from the values passed in parameter.
+   * @param {functionComponent} factory - Function to render the component.
+   * @param {{}} props - Properties to give to the factory.
+   * @param {TreeNode|TextNode|HtmlNode} virtualChild - Child to give to the factory.
+   * @param {TreeNode} node - Underlying virtual node backing the DOM node.
+   */
+  setAll(factory, props, virtualChild, node) {
+    this.factory = factory;
+    this.contextCreator = this.factory.contextCreator || (context => context);
+    this.props = props;
+    this.virtualChild = virtualChild;
+    this.node = node;
+
+    this.applyContext();
+  }
+
+  /**
    * The lifecycle method called by the DOM. Will use the fact that the node has been added to the DOM to
    * mount the content of the factory.
    */
@@ -69,15 +131,77 @@ class ComponentElement extends window.HTMLElement {
   }
 
   /**
-   * The setState method that is passed to the factory for setting the state values stored on this component. If the
-   * component has mounted its tree, it will also trigger an update.
-   * @param key {String} - The name of the state value to update or set.
-   * @param value {any} - The value to assign to the part of the state to update.
+   * The lifecycle method called by the DOM with the component is disconnected from it.
    */
-  setState(key, value) {
-    this.state = Object.assign({}, this.state, { [key]: value });
-    // Only update the view if the component has been mounted.
+  disconnectedCallback() {
+    this.lifecycleListeners.beforeDisconnect(this);
+    this.mounted = false;
+  }
+
+  /**
+   * Method that executes the context creator on this nodeand saves the updated context.
+   */
+  applyContext() {
+    // Generate the context from the previous context
+    const finalContext = this.contextCreator({
+      ...this.context,
+      requestUpdate: this.requestUpdate.bind(this),
+    });
+
+    // Loop on each of the available lifecycle hooks
+    [
+      'afterConnect',
+      'beforeMount',
+      'afterMount',
+      'beforeUpdate',
+      'shouldUpdate',
+      'afterUpdate',
+      'beforeDisconnect'
+    ].forEach(hook => {
+      // If the context object has a hook defined and it is a function
+      if (finalContext[hook] && typeof finalContext[hook] === 'function') {
+        // Add that lifecycle hook to the component properties
+        this.listen(hook, finalContext[hook]);
+        delete finalContext[hook];
+      }
+    });
+
+    // Update the element context with the new context.
+    this.context = finalContext;
+  }
+
+  /**
+   * Function that sets a specific lifecycle hook listener. Will do nothing if the lifecycle hook
+   * is unknown.
+   * @see lifecycleListeners
+   * @param {String} hook - Hook to listen to.
+   * @param {function} listener - Listener function to set for the given hook.
+   */
+  listen(hook, listener) {
+    if (Object.prototype.hasOwnProperty.call(this.lifecycleListeners, hook)) {
+      this.lifecycleListeners[hook] = listener;
+    }
+  }
+
+  /**
+   * Mount method that is triggered when the component is mounted to the DOM. Will render the tree for the first time
+   * and diff it against the empty DOM.
+   */
+  mount() {
+    this.lifecycleListeners.beforeMount(this);
+    this.tree = this.render();
+    this.mounted = true;
+    patch(this.node, null, this.tree);
+    this.lifecycleListeners.afterMount(this);
+  }
+
+  /**
+   * Requests and update on the component that will trigger and update if the component is still mounted.
+   * @todo Add ability to batch updates
+   */
+  requestUpdate() {
     if (this.mounted) {
+      this.applyContext();
       this.update();
     }
   }
@@ -86,18 +210,13 @@ class ComponentElement extends window.HTMLElement {
    * Update method that will trigger a new render of this virtual tree and execute the diffing algorithm.
    */
   update() {
+    this.lifecycleListeners.beforeUpdate(this);
+    if (!this.lifecycleListeners.shouldUpdate(this)) {
+      return;
+    }
     const vtree = this.render();
     patch(this.node, this.tree, vtree);
-  }
-
-  /**
-   * Mount method that is triggered when the component is mounted to the DOM. Will render the tree for the first time
-   * and diff it against the empty DOM.
-   */
-  mount() {
-    this.tree = this.render();
-    this.mounted = true;
-    patch(this.node, null, this.tree);
+    this.lifecycleListeners.afterUpdate(this);
   }
 
   /**
@@ -109,7 +228,7 @@ class ComponentElement extends window.HTMLElement {
     return this.factory({
       ...this.props,
       children: this.virtualChild,
-    }, { ...this.state, setState: this.setState.bind(this) });
+    }, this.context);
   }
 }
 

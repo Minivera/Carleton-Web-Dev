@@ -1,6 +1,9 @@
 import './tree/component';
 import { createNode } from './nodes/factory';
 import { TreeNode } from './nodes/treeNode';
+import { applyContext } from './context/applyContext';
+import { withStateReducer } from './context/reducerContext';
+import { withCallback } from './context/callbackContext';
 
 /**
  * Constructor that enables the creation of a virtual DOM tree for the given component. This constructor can be called
@@ -30,12 +33,12 @@ export function VirtualDOM(root) {
         throw new Error('The root of a virtual DOM tree must be a component');
       }
       const rootElement = document.createElement('vdom-component');
-      rootElement.factory = root;
-      rootElement.node = new TreeNode({ factory: root, children: [], attributes: {} });
-      rootElement.node.domNode = rootElement;
+      const virtualNode = new TreeNode({ factory: root, children: [], attributes: {} });
+      virtualNode.domNode = rootElement;
+      rootElement.setAll(root, {}, null, virtualNode);
       element.appendChild(rootElement);
     },
   };
 }
 
-export { createNode as h };
+export { createNode as h, applyContext, withStateReducer, withCallback };

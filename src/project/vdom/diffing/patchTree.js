@@ -61,10 +61,7 @@ const generateNode = virtualNode => {
     return document.createTextNode(virtualNode.text);
   } else if (virtualNode instanceof TreeNode) {
     const rootElement = document.createElement('vdom-component');
-    rootElement.factory = virtualNode.factory;
-    rootElement.props = virtualNode.attributes;
-    rootElement.virtualChild = virtualNode.children;
-    rootElement.node = virtualNode;
+    rootElement.setAll(virtualNode.factory, virtualNode.attributes, virtualNode.children, virtualNode);
     return rootElement;
   }
 };
@@ -87,9 +84,7 @@ const updateNode = (oldNode, newNode) => {
     oldNode.children = newNode.children;
     oldNode.factory = newNode.factory;
     // Update the DOM attributes from the associated web component
-    oldNode.domNode.factory = newNode.factory;
-    oldNode.domNode.props = newNode.attributes;
-    oldNode.domNode.virtualChild = newNode.children;
+    oldNode.domNode.setAll(newNode.factory, newNode.attributes, newNode.children, oldNode);
   }
 };
 

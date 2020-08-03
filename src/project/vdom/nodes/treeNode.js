@@ -28,7 +28,7 @@ export class TreeNode {
     this.attributes = attributes;
 
     /**
-     * Children of the node. Will be passed tot he factory when it is execute. Not to confuse with the children
+     * Children of the node. Will be passed to the factory when it is execute. Not to confuse with the children
      * rendered by the factory.
      * @type {(TreeNode|HtmlNode|TextNode)[]}
      */
