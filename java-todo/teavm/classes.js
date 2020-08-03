@@ -1972,12 +1972,12 @@ function otfj_JSON_serialize($context, $object) {
                                 }
                                 if (!jl_String_equals(var$4, $rt_s(12)))
                                     break b;
-                                $serializer = otfj_JSON$PROXY$4_14_getClassSerializer($serializer);
+                                $serializer = otfj_JSON$PROXY$4_16_getClassSerializer($serializer);
                                 break a;
                             }
                             if (!jl_String_equals(var$4, $rt_s(13)))
                                 break b;
-                            $serializer = otfj_JSON$PROXY$4_20_getClassSerializer($serializer);
+                            $serializer = otfj_JSON$PROXY$4_8_getClassSerializer($serializer);
                             break a;
                         }
                         if (!jl_String_equals(var$4, $rt_s(14)))
@@ -1987,7 +1987,7 @@ function otfj_JSON_serialize($context, $object) {
                     }
                     if (!jl_String_equals(var$4, $rt_s(15)))
                         break b;
-                    $serializer = otfj_JSON$PROXY$4_17_getClassSerializer($serializer);
+                    $serializer = otfj_JSON$PROXY$4_14_getClassSerializer($serializer);
                     break a;
                 }
                 if (!jl_String_equals(var$4, $rt_s(16)))
@@ -1996,7 +1996,7 @@ function otfj_JSON_serialize($context, $object) {
                 break a;
             }
             if (jl_String_equals(var$4, $rt_s(17))) {
-                $serializer = otfj_JSON$PROXY$4_2_getClassSerializer($serializer);
+                $serializer = otfj_JSON$PROXY$4_1_getClassSerializer($serializer);
                 break a;
             }
         }
@@ -5475,33 +5475,33 @@ function jusi_StreamOverSpliterator$AdapterAction() {
 function jusi_StreamOverSpliterator$AdapterAction_accept($this, $t) {
     $this.$wantsMore = jusi_FilteringStreamImpl$wrap$lambda$_1_0_test($this.$consumer, $t);
 }
-function otfj_JSON$PROXY$4_2() {
+function otfj_JSON$PROXY$4_1() {
     jl_Object.call(this);
 }
-function otfj_JSON$PROXY$4_2_getClassSerializer(var$1) {
+function otfj_JSON$PROXY$4_1_getClassSerializer(var$1) {
     return new otfjs_BooleanSerializer;
 }
-function otfj_JSON$PROXY$4_14() {
+function otfj_JSON$PROXY$4_8() {
     jl_Object.call(this);
 }
-function otfj_JSON$PROXY$4_14_getClassSerializer(var$1) {
-    return new otfjs_JsonSerializer$proxy$4_14_0;
-}
-function otfj_JSON$PROXY$4_17() {
-    jl_Object.call(this);
-}
-function otfj_JSON$PROXY$4_17_getClassSerializer(var$1) {
-    return new otfjs_DoubleSerializer;
-}
-function otfj_JSON$PROXY$4_20() {
-    jl_Object.call(this);
-}
-function otfj_JSON$PROXY$4_20_getClassSerializer(var$1) {
+function otfj_JSON$PROXY$4_8_getClassSerializer(var$1) {
     var var$2;
     var$1 = otfjs_ObjectSerializer_INSTANCE;
     var$2 = new otfjs_ArraySerializer;
     var$2.$itemSerializer0 = var$1;
     return var$2;
+}
+function otfj_JSON$PROXY$4_14() {
+    jl_Object.call(this);
+}
+function otfj_JSON$PROXY$4_14_getClassSerializer(var$1) {
+    return new otfjs_DoubleSerializer;
+}
+function otfj_JSON$PROXY$4_16() {
+    jl_Object.call(this);
+}
+function otfj_JSON$PROXY$4_16_getClassSerializer(var$1) {
+    return new otfjs_JsonSerializer$proxy$4_16_0;
 }
 function otfj_JSON$PROXY$4_22() {
     jl_Object.call(this);
@@ -5514,30 +5514,6 @@ function otfjs_BooleanSerializer() {
 }
 function otfjs_BooleanSerializer_serializeNonNull($this, $context, $value) {
     return !!(!!$value.$value2);
-}
-function otfjs_JsonSerializer$proxy$4_14_0() {
-    jl_Object.call(this);
-}
-function otfjs_JsonSerializer$proxy$4_14_0_serialize(var$0, var$1, var$2) {
-    var var$3, var$4;
-    var$1 = var$1;
-    var$3 = otfjt_ObjectNode_create$js_body$_5();
-    otfjs_JsonSerializerContext_touch(var$1, var$2);
-    var$1 = !!(!!var$2.$completed);
-    var$4 = var$3;
-    var$1 = var$1;
-    var$4["completed"] = var$1;
-    var$1 = $rt_ustr(var$2.$title);
-    var$4["title"] = var$1;
-    var$1 = !!(!!var$2.$completed);
-    var$4["isCompleted"] = var$1;
-    return var$3;
-}
-function otfjs_DoubleSerializer() {
-    otfjs_NullableSerializer.call(this);
-}
-function otfjs_DoubleSerializer_serializeNonNull($this, $context, $value) {
-    return $value.$value0;
 }
 function otfjs_ObjectSerializer() {
     jl_Object.call(this);
@@ -5565,6 +5541,30 @@ function otfjs_ArraySerializer_serializeNonNull($this, $context, $value) {
         var$6 = var$6 + 1 | 0;
     }
     return $node;
+}
+function otfjs_DoubleSerializer() {
+    otfjs_NullableSerializer.call(this);
+}
+function otfjs_DoubleSerializer_serializeNonNull($this, $context, $value) {
+    return $value.$value0;
+}
+function otfjs_JsonSerializer$proxy$4_16_0() {
+    jl_Object.call(this);
+}
+function otfjs_JsonSerializer$proxy$4_16_0_serialize(var$0, var$1, var$2) {
+    var var$3, var$4;
+    var$1 = var$1;
+    var$3 = otfjt_ObjectNode_create$js_body$_5();
+    otfjs_JsonSerializerContext_touch(var$1, var$2);
+    var$1 = !!(!!var$2.$completed);
+    var$4 = var$3;
+    var$1 = var$1;
+    var$4["completed"] = var$1;
+    var$1 = $rt_ustr(var$2.$title);
+    var$4["title"] = var$1;
+    var$1 = !!(!!var$2.$completed);
+    var$4["isCompleted"] = var$1;
+    return var$3;
 }
 function otfjs_StringSerializer() {
     otfjs_NullableSerializer.call(this);
@@ -6090,16 +6090,16 @@ juf_Consumer$proxy$4_2_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", fun
 juf_Consumer$proxy$4_1_3, 0, jl_Object, [juf_Consumer], 0, 3, 0, ["$accept", function(var_1) { juf_Consumer$proxy$4_1_3_accept(this, var_1); }],
 jusi_FilteringStreamImpl$wrap$lambda$_1_0, 0, jl_Object, [juf_Predicate], 0, 3, 0, 0,
 jusi_StreamOverSpliterator$AdapterAction, 0, jl_Object, [juf_Consumer], 0, 0, 0, 0,
-otfj_JSON$PROXY$4_2, 0, jl_Object, [], 0, 3, 0, 0,
+otfj_JSON$PROXY$4_1, 0, jl_Object, [], 0, 3, 0, 0,
+otfj_JSON$PROXY$4_8, 0, jl_Object, [], 0, 3, 0, 0,
 otfj_JSON$PROXY$4_14, 0, jl_Object, [], 0, 3, 0, 0,
-otfj_JSON$PROXY$4_17, 0, jl_Object, [], 0, 3, 0, 0,
-otfj_JSON$PROXY$4_20, 0, jl_Object, [], 0, 3, 0, 0,
+otfj_JSON$PROXY$4_16, 0, jl_Object, [], 0, 3, 0, 0,
 otfj_JSON$PROXY$4_22, 0, jl_Object, [], 0, 3, 0, 0,
 otfjs_BooleanSerializer, 0, otfjs_NullableSerializer, [], 0, 3, 0, ["$serializeNonNull", function(var_1, var_2) { return otfjs_BooleanSerializer_serializeNonNull(this, var_1, var_2); }],
-otfjs_JsonSerializer$proxy$4_14_0, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_14_0_serialize(this, var_1, var_2); }],
-otfjs_DoubleSerializer, 0, otfjs_NullableSerializer, [], 0, 3, 0, ["$serializeNonNull", function(var_1, var_2) { return otfjs_DoubleSerializer_serializeNonNull(this, var_1, var_2); }],
 otfjs_ObjectSerializer, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, 0,
 otfjs_ArraySerializer, 0, otfjs_NullableSerializer, [], 0, 3, 0, ["$serializeNonNull", function(var_1, var_2) { return otfjs_ArraySerializer_serializeNonNull(this, var_1, var_2); }],
+otfjs_DoubleSerializer, 0, otfjs_NullableSerializer, [], 0, 3, 0, ["$serializeNonNull", function(var_1, var_2) { return otfjs_DoubleSerializer_serializeNonNull(this, var_1, var_2); }],
+otfjs_JsonSerializer$proxy$4_16_0, 0, jl_Object, [otfjs_JsonSerializer], 0, 3, 0, ["$serialize", function(var_1, var_2) { return otfjs_JsonSerializer$proxy$4_16_0_serialize(this, var_1, var_2); }],
 otfjs_StringSerializer, 0, otfjs_NullableSerializer, [], 0, 3, 0, ["$serializeNonNull", function(var_1, var_2) { return otfjs_StringSerializer_serializeNonNull(this, var_1, var_2); }],
 ecd_Model$clearCompleted$lambda$_10_0, 0, jl_Object, [juf_Predicate], 0, 3, 0, ["$test", function(var_1) { return ecd_Model$clearCompleted$lambda$_10_0_test(this, var_1); }],
 otfjt_ObjectNode, 0, otfjt_Node, [], 1, 3, 0, 0,
