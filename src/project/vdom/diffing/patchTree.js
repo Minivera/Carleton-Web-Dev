@@ -91,6 +91,7 @@ const updateNode = (oldNode, newNode) => {
 /**
  * Main diffing algorithm that will diff nodes and patch them in place, generating DOM mutations alongside virtual DOM
  * mutations. Will be recursively called on all the nodes in the tree until the entire tree has been patched.
+ * @todo Improve performance
  * @param {HtmlNode|TextNode|TreeNode} parent - The parent of the old and new node. Used to add or remove children.
  * @param {HtmlNode|TextNode|TreeNode} oldNode - The node from the tree that is being patched. Is modified by the
  * algorithm.
@@ -98,6 +99,11 @@ const updateNode = (oldNode, newNode) => {
  * @export
  */
 export const patch = (parent, oldNode, newNode) => {
+  if (!newNode) {
+    // If a null or undefined should get here, ignore it.
+    return;
+  }
+
   // If Old node does not exists, then we are mounting for the first time
   if (!oldNode) {
     // Generate the dom node

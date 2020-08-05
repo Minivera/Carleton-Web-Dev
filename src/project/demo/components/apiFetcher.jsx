@@ -1,5 +1,16 @@
 /** @jsx h */
-import { h, withCallback } from '../../vdom';
+import { applyContext, h } from '../../vdom';
+
+const withCallback = (callback, component) => {
+  return applyContext(() => ({
+    apply(context) {
+      return {
+        ...context,
+        afterMount: () => callback(context),
+      };
+    }
+  }), component);
+};
 
 const Username = (_, { username = '' }) => <span>{username}</span>;
 

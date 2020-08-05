@@ -2,8 +2,6 @@ import './tree/component';
 import { createNode } from './nodes/factory';
 import { TreeNode } from './nodes/treeNode';
 import { applyContext } from './context/applyContext';
-import { withStateReducer } from './context/reducerContext';
-import { withCallback } from './context/callbackContext';
 
 /**
  * Constructor that enables the creation of a virtual DOM tree for the given component. This constructor can be called
@@ -41,4 +39,4 @@ export function VirtualDOM(root) {
   };
 }
 
-export { createNode as h, applyContext, withStateReducer, withCallback };
+export { createNode as h, applyContext };

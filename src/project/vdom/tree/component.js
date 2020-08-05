@@ -134,7 +134,7 @@ class ComponentElement extends window.HTMLElement {
    * The lifecycle method called by the DOM with the component is disconnected from it.
    */
   disconnectedCallback() {
-    this.lifecycleListeners.beforeDisconnect(this);
+    this.lifecycleListeners.beforeDisconnect.call(this, this.context);
     this.mounted = false;
   }
 
@@ -188,11 +188,11 @@ class ComponentElement extends window.HTMLElement {
    * and diff it against the empty DOM.
    */
   mount() {
-    this.lifecycleListeners.beforeMount(this);
     this.tree = this.render();
-    this.mounted = true;
+    this.lifecycleListeners.beforeMount.call(this, this.context);
     patch(this.node, null, this.tree);
-    this.lifecycleListeners.afterMount(this);
+    this.mounted = true;
+    this.lifecycleListeners.afterMount.call(this, this.context);
   }
 
   /**
@@ -210,13 +210,13 @@ class ComponentElement extends window.HTMLElement {
    * Update method that will trigger a new render of this virtual tree and execute the diffing algorithm.
    */
   update() {
-    this.lifecycleListeners.beforeUpdate(this);
-    if (!this.lifecycleListeners.shouldUpdate(this)) {
+    this.lifecycleListeners.beforeUpdate.call(this, this.context);
+    if (!this.lifecycleListeners.shouldUpdate.call(this, this.context)) {
       return;
     }
     const vtree = this.render();
     patch(this.node, this.tree, vtree);
-    this.lifecycleListeners.afterUpdate(this);
+    this.lifecycleListeners.afterUpdate.call(this, this.context);
   }
 
   /**

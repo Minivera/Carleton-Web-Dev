@@ -1,5 +1,23 @@
 /** @jsx h */
-import { h, withStateReducer } from '../../vdom';
+import { applyContext, h } from '../../vdom';
+
+const withStateReducer = (defaultState, reducer, component) => {
+  return applyContext(() => ({
+    savedState: defaultState,
+
+    apply({ requestUpdate, ...rest }) {
+      return {
+        ...rest,
+        ...this.savedState,
+        dispatch: action => {
+          this.savedState = reducer({ action, state: this.savedState });
+          requestUpdate();
+        },
+        requestUpdate,
+      };
+    }
+  }), component);
+};
 
 const reducer = ({ action, state }) => {
   switch (action.type) {
