@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://minivera.github.io',
   baseUrl: '/carleton-web-dev/project/docs/',
   favicon: 'img/favicon.ico',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   projectName: 'carleton-web-dev', // Usually your repo name.
   themeConfig: {
     navbar: {

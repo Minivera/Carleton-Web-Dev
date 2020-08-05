@@ -31,6 +31,7 @@
                     <a href="project/demo/index.html">Project Demo - Todo List</a>
                 </li>
                 <li id="project-benchmarks-link" />
+                <li id="project-docs-link" />
             </ul>
         </div>
         <script src="./index.js"></script>
@@ -76,6 +77,14 @@
                 anchor.innerText = 'Project benchmarks - Ran on my own machine';
 
                 document.querySelector('#project-benchmarks-link').appendChild(anchor);
+            })();
+            // Loads the link for the project docs, which are built outside of babel
+            (function() {
+                const anchor = document.createElement('a');
+                anchor.href = 'project/docs/index.html';
+                anchor.innerText = 'Project documentation';
+
+                document.querySelector('#docs').appendChild(anchor);
             })();
         </script>
     </body>

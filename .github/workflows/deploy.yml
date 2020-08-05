@@ -35,9 +35,7 @@ jobs:
       - name: Copy the benchmark table to dist
         run: cp -r src/project/benchmark-data dist/project/benchmark-data
       - name: Build the project documentation
-        run: |
-          (cd src/project/docs & npm run build)
-          cp -r src/project/docs/build dist/project/docs
+        run: npm run build:docs
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
