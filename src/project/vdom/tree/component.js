@@ -1,4 +1,4 @@
-import { patch } from '../diffing/patchTree';
+import { patch } from '../diffing/diffManager';
 import '../utils/typeDef';
 
 /**

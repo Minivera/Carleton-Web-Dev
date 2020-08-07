@@ -1,10 +1,10 @@
 {
-  "name": "js-framework-benchmark-non-keyed-project",
+  "name": "js-framework-benchmark-non-keyed-project-separated",
   "version": "1.1.1",
-  "description": "Project demo",
+  "description": "Project separated diff and patch",
   "main": "index.js",
   "js-framework-benchmark": {
-    "frameworkVersionFromPackage": "project"
+    "frameworkVersionFromPackage": "project-separated"
   },
   "scripts": {
     "build-dev": "webpack --watch",

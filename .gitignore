@@ -109,3 +109,6 @@ dist
 
 # Parcel cache
 .parcel-cache
+
+# JavaScript benchmarks
+js-framework-benchmark

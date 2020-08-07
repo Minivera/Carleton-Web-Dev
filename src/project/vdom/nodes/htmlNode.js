@@ -50,9 +50,6 @@ export class HtmlNode {
     if (this.tag !== other.tag) {
       return false;
     }
-    if (Object.entries(this.attributes).find(([key, value]) => other.attributes[key] !== value)) {
-      return false;
-    }
-    return this.children.length === other.children.length;
+    return !Object.entries(this.attributes).find(([key, value]) => other.attributes[key] !== value);
   }
 }
