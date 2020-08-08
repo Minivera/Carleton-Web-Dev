@@ -93,7 +93,7 @@ export const diff = (parent, oldNode, newNode) => {
     // Start diffing on the new node's children
     if (newNode instanceof HtmlNode) {
       newNode.children.forEach(child => {
-        patches = patches.concat(diff(newNode, null, child));
+        patches.push(...diff(newNode, null, child));
       });
     }
     return patches;
@@ -125,7 +125,7 @@ export const diff = (parent, oldNode, newNode) => {
       const newChild = newNode.children[index];
 
       // Start patching the two nodes
-      patches = patches.concat(diff(oldNode, oldChild, newChild));
+      patches.push(...diff(oldNode, oldChild, newChild));
     }
 
     // Loop in the new children if there are more
@@ -136,7 +136,7 @@ export const diff = (parent, oldNode, newNode) => {
       // Start diffing the new node's children
       if (newChild.children) {
         newChild.children.forEach(child => {
-          patches = patches.concat(diff(newChild, null, child));
+          patches.push(...diff(newChild, null, child));
         });
       }
     }

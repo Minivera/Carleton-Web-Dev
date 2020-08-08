@@ -13,6 +13,10 @@ module.exports = {
       'context/react-context',
       'context/react-hooks',
     ],
+    Benchmarks: [
+      'benchmarks/overview',
+      'benchmarks/benchmark-report',
+    ],
     Recipes: [
       'recipes/recipe-index',
       'recipes/multiple-hooks',

@@ -103,6 +103,13 @@ class ComponentElement extends window.HTMLElement {
      * @type {TreeNode}
      */
     this.node = null;
+
+    /**
+     * Saves the animation frame ID where the component expects to be updated. If null, then we are not updating.
+     * Otherwise, we should cancel the last update and trigger a new one if not null.
+     * @type {number}
+     */
+    this.updateFrameId = null;
   }
 
   /**
@@ -197,12 +204,18 @@ class ComponentElement extends window.HTMLElement {
 
   /**
    * Requests and update on the component that will trigger and update if the component is still mounted.
-   * @todo Add ability to batch updates
    */
   requestUpdate() {
     if (this.mounted) {
       this.applyContext();
-      this.update();
+
+      if (this.updateFrameId !== null) {
+        window.cancelAnimationFrame(this.updateFrameId);
+      }
+      this.updateFrameId = window.requestAnimationFrame(() => {
+        this.update();
+        this.updateFrameId = null;
+      });
     }
   }
 

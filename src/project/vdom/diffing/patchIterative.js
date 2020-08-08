@@ -76,7 +76,7 @@ export const patch = (parent, oldNode, newNode) => {
       if (currentNew instanceof HtmlNode) {
         applyAttributes({}, currentNew.attributes, domNode);
         // If the new node was an HTML node, then we also need to set its children to be added
-        newChildrenQueue = newChildrenQueue.concat(currentNew.children.map(child => {
+        newChildrenQueue.push(...currentNew.children.map(child => {
           const newItem = createQueueItem(currentNew)(child);
           newItem.toAdd = true;
           return newItem;
@@ -143,7 +143,7 @@ export const patch = (parent, oldNode, newNode) => {
       } else if (currentNew instanceof HtmlNode) {
         // If the new node was an HTML node, then we know the oldNode was of a different type
         // and we need to add all children
-        newChildrenQueue = newChildrenQueue.concat(currentNew.children.map(child => {
+        newChildrenQueue.push(...currentNew.children.map(child => {
           const newItem = createQueueItem(currentOld)(child);
           newItem.toAdd = true;
           return newItem;

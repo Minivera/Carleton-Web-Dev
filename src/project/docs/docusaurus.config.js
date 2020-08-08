@@ -21,6 +21,11 @@ module.exports = {
           position: 'left'
         },
         {
+          label: 'Benchmarks',
+          to: 'benchmarks/overview',
+          position: 'left'
+        },
+        {
           label: 'Recipes',
           to: 'recipes/recipe-index',
           position: 'left'
