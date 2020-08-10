@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import StoryRouter from 'storybook-react-router';
 
 import { ForumTopicPage } from '../../layout/forumTopic';

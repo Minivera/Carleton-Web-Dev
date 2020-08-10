@@ -1,4 +1,3 @@
-import { databaseManager } from '../database';
 import { DatabaseConsumer } from './base/databaseConsumer';
 import { createUrl } from '../utilities/createUrl';
 

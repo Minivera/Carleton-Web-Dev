@@ -8,6 +8,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
+  "ignorePatterns": ["src/project/**"],
   "rules": {
     "no-var": "error", // optional, recommended when using es6+
     "no-unused-vars": 1, // recommended
