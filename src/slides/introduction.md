@@ -20,7 +20,7 @@ class: center, middle, inverse
 
 # Why are we here?
 
-This presentation was created as a part of a Directed Studies (COMP4901) course supervised Prof. Dave McKenney. The
+This presentation was created as a part of a Directed Studies (COMP4901) course supervised by Dave McKenney. The
  goal of the study was to explore various technologies and raise interest in these technologies by giving a
   presentation on the subject.
 
@@ -53,9 +53,8 @@ layout: false
   ## Why study web development?
 ]
 .right-column[
-  Web Development is a fascinating field that requires thinking outside the box and wearing many hats. It is both
-   challenging and rewarding, yet lets you explore the field like no other. For example, many web developers - or
-    "engineers" - are now expected to have experience in:
+  Web Development is a fascinating field that requires thinking outside the box and wearing many hats. For example, 
+  many web developers are now expected to have experience in:
   
   - Cryptography and security
   - AI and Machine Learning
@@ -65,9 +64,12 @@ layout: false
   - Design and UX design
   - Sales
   
-  Only to name a few. Try thinking of a system you use that doesn't have a component that calls a web service?
+  Only to name a few.
 ]
 
+???
+Web development is challenging and rewarding, yet lets you explore the field like no other. 
+Ask to try thinking of a system you use that doesn't have a component that calls a web service?
 ---
 
 layout: false
@@ -77,17 +79,18 @@ layout: false
 ]
 .right-column[
   Frontend development is the sub-field of web development that covers any work seen or used by a user, think a
-   website. But it can also include working on CLI tools, working on user facing APIs, or even working on Desktop
-    applications.
+   website. It can also include working on CLI tools, user facing APIs, or even Desktop applications.
   
   **You do not need to know or work in JavaScript to be a frontend developer.**
   
   I once interviewed with a company that builds their frontend in OCaml (Darklang, if you are interested).
   
-  Frontend development is often - and rightfully so - called a mess. If you like tearing your hair off, but feel
-   rewarded when users mention how slick your UI is, frontend is for you.
+  Frontend development is often called a mess. If you like tearing your hair off, but feel rewarded when users
+   mention how slick your UI is, frontend is for you.
 ]
 
+???
+Mention that frontend development can be rigthfully called a mess.
 ---
 
 layout: false
@@ -101,15 +104,24 @@ layout: false
   
   In particular:
 
-  - We explored the DOM API as a way to manipulate a static web page and its modern evolution, the virtual DOM. We
+  - The DOM API and the virtual DOM, with a focus on React and algorithms.
+    
+  - Web Components and dynamic UI elements.
+  
+  - Web Assembly and TeaVM .
+   
+  - Lots of code, and a lot more documentation.
+]
+
+???
+- We explored the DOM API as a way to manipulate a static web page and its modern evolution, the virtual DOM. We
    created a couple of applications in React, studied the algorithms that power than framework and 6 others, and
     finally created our own framework using the technology.
     
-  - We explored Web Components as a way to create new HTML tags using JavaScript to create portable and dynamic UI
+- We explored Web Components as a way to create new HTML tags using JavaScript to create portable and dynamic UI
    elements, but also as a way to create complete applications natively.
   
-  - We explored the Web Assembly format for executing code in any language on the browser. We then studied TeaVM as a
+- We explored the Web Assembly format for executing code in any language on the browser. We then studied TeaVM as a
    way to use Java in the browser to render web applications.
    
-  - We wrote a lot of code, and a lot more documentation.
-]
+- We wrote a lot of code, and a lot more documentation.

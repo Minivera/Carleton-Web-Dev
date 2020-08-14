@@ -33,7 +33,7 @@ const Clock = (_, { time = new Date(), setState }) => {
 new VirtualDOM(Clock).renderInto(document.querySelector('#app'));
 ```
 
-`App` is our component. It takes two parameters, the properties given to this component when it is created and the
+`Clock` is our component. It takes two parameters, the properties given to this component when it is created and the
  component's context. By default, the context only contains the `setState` and `requestUpdate` functions. When we
  call the `setState`, a new property will be added to the context under the key given in the first parameter. This
  new attribute can then be use in subsequent renders. In this specific example, we give a default value to the `time

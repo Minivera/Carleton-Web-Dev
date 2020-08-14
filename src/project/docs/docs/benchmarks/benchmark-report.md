@@ -110,3 +110,20 @@ The separated algorithms fare a little worse than the recursive algorithm - with
 
 One thing to note is that this algorithm does not use more memory than the base recursive, confirming our
  patches have a very small footprint and do not cause any unnecessary weight.
+ 
+## Future of the algorithms
+The benchmarks have shown that the framework's performance is acceptable and using it should not cause any
+ performance issues for the users. Let's identify some areas we could work on to improve performance and detect areas
+ of improvement better.
+
+First, the report has shown that the recursive algorithm is the better algorithm to use within the framework. This is
+ definitely the algorithm we should focus on when starting to work on performance.
+
+The next step could potentially be to try to implement keys inside of the framework to improve replace, swap and
+ delete performance. By giving each row a key, it can help to know the order of the diffed tree and make sure we swap
+ elements rather than delete and create new ones. Another avenue of improvement are the datastructures and DOM access,
+ as explained in the algorithms section.
+
+Finally, it would be interesting to improve the benchmarking tool to take advantage of the web component aspect of
+ the framework and test if rendering very complex trees and updating deep parts of the tree is faster with VirtualDOM
+ compared to other frameworks like React.

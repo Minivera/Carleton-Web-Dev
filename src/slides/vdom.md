@@ -4,8 +4,17 @@ class: center, middle, inverse
 # The virtual DOM and React
 
 ---
-class: center
+class: center, middle
 
+Ember.js or backbone created the basis for modern frontend frameworks.
+
+React changed everything by introducing the concept of the Virtual DOM.
+
+In 2020, you can't move three feet without hitting a Virtual DOM powered framework.
+
+React is still widely used, see the [2020 state of frontend survey](https://tsh.io/state-of-frontend/#frameworks).
+
+???
 React was not the first frontend framework, nor will it be the last. It also was not the first to try to solve the
  issues devs had with working with the DOM. Predecessors like Ember.js or backbone.js paved the way to improving the
   developer experience on the frontend.
@@ -25,17 +34,26 @@ layout: false
   ## What is the virtual DOM?
 ]
 .right-column[
-  The virtual DOM, as the name implies, is a virtual version of the DOM. It mirrors the DOM structure of a web pages
-   using common JavaScript objects. This allows developers to manipulate the DOM without having to go through the DOM
-    API.
+  The virtual DOM is a virtual version of the DOM. It mirrors the DOM structure of a web pages using
+   JavaScript objects.
    
-  Framework creators can use this newfound power to create complex frameworks that provide a familiar experience to
-   the developer, while still allowing them to manipulate the DOM freely.
+  This allows developers to manipulate the DOM without having to go through the DOM API.
+   
+  Framework creators use the Virtual DOM to create experiences close to what you'd expect from JavaScript.
   
-  Developers can now focus on creating testable and maintainable code while the framework takes care of all the DOM
-   operations.
+  Developers can now focus on creating testable and maintainable code.
 ]
 
+???
+The virtual DOM, as the name implies, is a virtual version of the DOM. It mirrors the DOM structure of a web pages
+using common JavaScript objects. This allows developers to manipulate the DOM without having to go through the DOM
+API.
+
+Framework creators can use this newfound power to create complex frameworks that provide a familiar experience to
+the developer, while still allowing them to manipulate the DOM freely.
+
+Developers can now focus on creating testable and maintainable code while the framework takes care of all the DOM
+operations.
 ---
 
 layout: false
@@ -43,17 +61,21 @@ layout: false
   ## What is the virtual DOM?
 ]
 .right-column[
-  The Virtual DOM, in the simplest of terms, can be described as a function of state.
+  The Virtual DOM can be described as a function of state.
 
-  VDOM frameworks provide mechanisms to detect state changes in the virtual tree, which is then processed by the
-   framework to find what has changed. The changes are finally applied to the DOM tree so both trees keep matching,
-    and the UI has been updated.
+  VDOM frameworks detect state changes in the virtual tree and apply the changes on the DOM
   
   .image.center[![VDOM](https://i1.wp.com/programmingwithmosh.com/wp-content/uploads/2018/11/lnrn_0201.png?resize=1024
   %2C685
   &ssl=1)]
 ]
 
+???
+The Virtual DOM, in the simplest of terms, can be described as a function of state.
+
+VDOM frameworks provide mechanisms to detect state changes in the virtual tree, which is then processed by the
+framework to find what has changed. The changes are finally applied to the DOM tree so both trees keep matching,
+and the UI has been updated.
 ---
 
 layout: false
@@ -62,10 +84,11 @@ layout: false
   ## How does React do this?
 ]
 .right-column[
-  React implements their virtual DOM through the use of components. Components are pieces of code that produce a
-   virtual tree. When React detects a change in the state, it asks the component to rerender, and computes the
-    difference between the tree before and after the rerender, or diff. The diff is applied to the DOM to keep both
-     up to date.
+  React implements their virtual DOM through the use of components.
+  
+  Components are reusable pieces of code that produce a virtual tree
+  
+  When React re-renders, it computes the difference in the component's output and apply the changes to the DOM.
   
   ```javascript
 // A component is often a function in React, it should return a virtual tree of nodes.
@@ -81,6 +104,11 @@ const Component = (props) => {
   ```
 ]
 
+???
+React implements their virtual DOM through the use of components. Components are pieces of code that produce a
+virtual tree. When React detects a change in the state, it asks the component to rerender, and computes the
+difference between the tree before and after the rerender, or diff. The diff is applied to the DOM to keep both
+up to date.
 ---
 
 layout: false
@@ -92,8 +120,9 @@ layout: false
 .right-column[
   Returning strings is nice and all, but we want to return a structure that can be transformed into DOM nodes.
   
-  To do this, React provides us with a new expanded subset of JavaScript called JSX. JSX allows us to write HTML-like
-   code directly into our component. React will automatically transform that structure into a Virtual DOM tree for us.
+  JSX is a new syntax for JavaScript that combines HTML and JavaScript.
+  
+  React will automatically transform that structure into a Virtual DOM tree for us.
   
   ```jsx
 const Component = ({ someState }) => {
@@ -115,6 +144,11 @@ const Component = ({ someState }) => {
   ```
 ]
 
+???
+Returning strings is nice and all, but we want to return a structure that can be transformed into DOM nodes.
+
+To do this, React provides us with a new expanded subset of JavaScript called JSX. JSX allows us to write HTML-like
+code directly into our component. React will automatically transform that structure into a Virtual DOM tree for us.
 ---
 
 layout: false
@@ -154,16 +188,30 @@ layout: false
   ## And so much more
 ]
 .right-column[
-  React provides us with many more tools. For example, we can use hooks, small functions that store state directly
-   into the React framework, to make our application more dynamic. The `useState` hook can be used to
-    store state, to name only one.
+  React provides us with many more tools. For example:
   
-  ReactDOM is the tool used to render React components in the DOM, but its companion, React Native, can be used to
-   render JavaScript React components as native applications on mobile devices.
+  - Hooks can be used to implement state or callbacks in our components.
   
-  ReactRouter can be used to listen to changes in the URL and render different pages accordingly without ever
-   refreshing the page, making the experience truly seamless.
+  - ReactDOM is used to render React components in the DOM.
   
-  We could fill an entire talk only talking about React, you can start reading more here after the presentation
-  : https://github.com/Minivera/carleton-web-dev/tree/master/src/react-course-website.
+  - React Native can take our React JS code and compile it to native mobile applications.
+  
+  - ReactRouter can be used to listen to changes in the URL and render different pages.
+  
+  You can start reading more here after the presentation: https://github.com/Minivera/carleton-web-dev/tree/master
+  /src/react-course-website.
 ]
+
+???
+React provides us with many more tools. For example, we can use hooks, small functions that store state directly
+into the React framework, to make our application more dynamic. The `useState` hook can be used to
+store state, to name only one.
+
+ReactDOM is the tool used to render React components in the DOM, but its companion, React Native, can be used to
+render JavaScript React components as native applications on mobile devices.
+
+ReactRouter can be used to listen to changes in the URL and render different pages accordingly without ever
+refreshing the page, making the experience truly seamless.
+
+We could fill an entire talk only talking about React, you can start reading more here after the presentation
+: https://github.com/Minivera/carleton-web-dev/tree/master/src/react-course-website.
