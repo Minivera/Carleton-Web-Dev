@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Carleton directed studies - Slides</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <textarea id="source">
+<include src='./slides/introduction.md' raw></include>
+<include src='./slides/dom.md' raw></include>
+<include src='./slides/vdom.md' raw></include>
+<include src='./slides/webcomponents.md' raw></include>
+<include src='./slides/wasm.md' raw></include>
+<include src='./slides/conclusion.md' raw></include>
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script>
+      hljs = remark.highlighter.engine;
+    </script>
+    <script src="https://remarkjs.com/remark.language.js"></script>
+    <script>
+      slideshow = remark.create({
+        highlightStyle: 'monokai',
+        highlightLanguage: 'remark',
+        highlightLines: true
+      });
+    </script>
+  </body>
+</html>
