@@ -21,7 +21,7 @@ class: center, middle, inverse
 
 # Why are we here?
 
-This presentation was created as a part of a Directed Studies (COMP4901) course supervised Prof. Dave McKenney. The
+This presentation was created as a part of a Directed Studies (COMP4901) course supervised by Dave McKenney. The
  goal of the study was to explore various technologies and raise interest in these technologies by giving a
   presentation on the subject.
 
@@ -54,9 +54,8 @@ layout: false
   ## Why study web development?
 ]
 .right-column[
-  Web Development is a fascinating field that requires thinking outside the box and wearing many hats. It is both
-   challenging and rewarding, yet lets you explore the field like no other. For example, many web developers - or
-    "engineers" - are now expected to have experience in:
+  Web Development is a fascinating field that requires thinking outside the box and wearing many hats. For example, 
+  many web developers are now expected to have experience in:
   
   - Cryptography and security
   - AI and Machine Learning
@@ -66,9 +65,12 @@ layout: false
   - Design and UX design
   - Sales
   
-  Only to name a few. Try thinking of a system you use that doesn't have a component that calls a web service?
+  Only to name a few.
 ]
 
+???
+Web development is challenging and rewarding, yet lets you explore the field like no other. 
+Ask to try thinking of a system you use that doesn't have a component that calls a web service?
 ---
 
 layout: false
@@ -78,17 +80,18 @@ layout: false
 ]
 .right-column[
   Frontend development is the sub-field of web development that covers any work seen or used by a user, think a
-   website. But it can also include working on CLI tools, working on user facing APIs, or even working on Desktop
-    applications.
+   website. It can also include working on CLI tools, user facing APIs, or even Desktop applications.
   
   **You do not need to know or work in JavaScript to be a frontend developer.**
   
   I once interviewed with a company that builds their frontend in OCaml (Darklang, if you are interested).
   
-  Frontend development is often - and rightfully so - called a mess. If you like tearing your hair off, but feel
-   rewarded when users mention how slick your UI is, frontend is for you.
+  Frontend development is often called a mess. If you like tearing your hair off, but feel rewarded when users
+   mention how slick your UI is, frontend is for you.
 ]
 
+???
+Mention that frontend development can be rigthfully called a mess.
 ---
 
 layout: false
@@ -102,18 +105,27 @@ layout: false
   
   In particular:
 
-  - We explored the DOM API as a way to manipulate a static web page and its modern evolution, the virtual DOM. We
+  - The DOM API and the virtual DOM, with a focus on React and algorithms.
+    
+  - Web Components and dynamic UI elements.
+  
+  - Web Assembly and TeaVM .
+   
+  - Lots of code, and a lot more documentation.
+]
+
+???
+- We explored the DOM API as a way to manipulate a static web page and its modern evolution, the virtual DOM. We
    created a couple of applications in React, studied the algorithms that power than framework and 6 others, and
     finally created our own framework using the technology.
     
-  - We explored Web Components as a way to create new HTML tags using JavaScript to create portable and dynamic UI
+- We explored Web Components as a way to create new HTML tags using JavaScript to create portable and dynamic UI
    elements, but also as a way to create complete applications natively.
   
-  - We explored the Web Assembly format for executing code in any language on the browser. We then studied TeaVM as a
+- We explored the Web Assembly format for executing code in any language on the browser. We then studied TeaVM as a
    way to use Java in the browser to render web applications.
    
-  - We wrote a lot of code, and a lot more documentation.
-]
+- We wrote a lot of code, and a lot more documentation.
 
 ---
 class: center, middle, inverse
@@ -123,12 +135,15 @@ class: center, middle, inverse
 ---
 class: center
 
-The Domain Object Model - or DOM - is the system that powers all modern web pages. When your browser loads an HTML
- file and processes it, it creates a DOM structure that mirrors the HTML structure. This structure is rendered by the
-  browser and can be manipulated in JavaScript.
+The Domain Object Model - or DOM - is the technology that powers your web pages. It transforms the HTML structure
+ into a tree of nodes.
 
 ![DOM](https://miro.medium.com/max/560/1*h5XbI4n8eIKnmaeWPRmKOQ.png)
 
+???
+The Domain Object Model - or DOM - is the system that powers all modern web pages. When your browser loads an HTML
+ file and processes it, it creates a DOM structure that mirrors the HTML structure. This structure is rendered by the
+  browser and can be manipulated in JavaScript.
 ---
 
 layout: false
@@ -136,9 +151,7 @@ layout: false
   ## Why the DOM?
 ]
 .right-column[
-  In the mid 90s, Netscape and Microsoft were trying to gain an edge in the so called "browser wars". JavaScript
-   first appeared at Netscape, but it was then followed by JScript at Microsoft, which implemented the first draft of
-    the DOM.
+  Created in the mid 90s both by Netscape and Microsoft.
   
   Developers wanted a way to create interactive web pages rather than simply deliver static web pages with funny GIFs.
   
@@ -147,6 +160,10 @@ layout: false
   As JavaScript evolved and browsers changed, the DOM became the _de-facto_ standard for manipulating Web pages.
 ]
 
+???
+In the mid 90s, Netscape and Microsoft were trying to gain an edge in the so called "browser wars". JavaScript
+   first appeared at Netscape, but it was then followed by JScript at Microsoft, which implemented the first draft of
+    the DOM.
 ---
 
 layout: false
@@ -155,9 +172,9 @@ layout: false
   ## How does it work?
 ]
 .right-column[
-  The DOM is embedded directly into JavaScript, one cannot go without the other. Remember the `document` node from
-   the earlier image? This node is available as a JavaScript global object. From there, you can walk the DOM tree
-    using multiple functions.
+  The global document object can be used to walk the DOM tree.
+  
+  There are multiple functions available to fetching and manipulating nodes.
     
   ```javascript
 // You can find nodes in the document using standard CSS selectors
@@ -167,6 +184,10 @@ document.getElementsByClassName('main');
   ```
 ]
 
+???
+The DOM is embedded directly into JavaScript, one cannot go without the other. Remember the `document` node from
+   the earlier image? This node is available as a JavaScript global object. From there, you can walk the DOM tree
+    using multiple functions.
 ---
 
 layout: false
@@ -207,18 +228,31 @@ layout: false
   ## Why use something else?
 ]
 .right-column[
-  While very useful, the DOM API can be inconsistent and clunky due to its complex history. It is not intended to
-   power complete applications, but to power small elements in a web page.
+  The DOM API can be inconsistent and clunky due to its complex history. It is not intended to power complete
+   applications.
   
-  You could create an entire application only using the DOM API, but it would be a massive bloat of complex and hard
-   to test JavaScript code. Each potential substitution in the UI would need to manually be accounted for.
+  You could create an entire application only using the DOM API, but each potential substitution in the UI would need
+   to manually be accounted for.
   
-  Sadly, this is what we did for years. New tools would come to simplify and unify the operations (Each browser did
-   pretty much their own thing with the DOM), and we used cheap hacks to get around the pain of working with
-    JavaScript.
+  This is what we did for years. It wasn't great and very hacky.
+  
+  JQuery helped, but yeah...
   
   Something had to be done.
 ]
+
+???
+While very useful, the DOM API can be inconsistent and clunky due to its complex history. It is not intended to
+power complete applications, but to power small elements in a web page.
+
+You could create an entire application only using the DOM API, but it would be a massive bloat of complex and hard
+to test JavaScript code. Each potential substitution in the UI would need to manually be accounted for.
+
+Sadly, this is what we did for years. New tools would come to simplify and unify the operations (Each browser did
+pretty much their own thing with the DOM), and we used cheap hacks to get around the pain of working with
+JavaScript.
+
+Something had to be done.
 
 ---
 class: center, middle, inverse
@@ -226,8 +260,17 @@ class: center, middle, inverse
 # The virtual DOM and React
 
 ---
-class: center
+class: center, middle
 
+Ember.js or backbone created the basis for modern frontend frameworks.
+
+React changed everything by introducing the concept of the Virtual DOM.
+
+In 2020, you can't move three feet without hitting a Virtual DOM powered framework.
+
+React is still widely used, see the [2020 state of frontend survey](https://tsh.io/state-of-frontend/#frameworks).
+
+???
 React was not the first frontend framework, nor will it be the last. It also was not the first to try to solve the
  issues devs had with working with the DOM. Predecessors like Ember.js or backbone.js paved the way to improving the
   developer experience on the frontend.
@@ -247,17 +290,26 @@ layout: false
   ## What is the virtual DOM?
 ]
 .right-column[
-  The virtual DOM, as the name implies, is a virtual version of the DOM. It mirrors the DOM structure of a web pages
-   using common JavaScript objects. This allows developers to manipulate the DOM without having to go through the DOM
-    API.
+  The virtual DOM is a virtual version of the DOM. It mirrors the DOM structure of a web pages using
+   JavaScript objects.
    
-  Framework creators can use this newfound power to create complex frameworks that provide a familiar experience to
-   the developer, while still allowing them to manipulate the DOM freely.
+  This allows developers to manipulate the DOM without having to go through the DOM API.
+   
+  Framework creators use the Virtual DOM to create experiences close to what you'd expect from JavaScript.
   
-  Developers can now focus on creating testable and maintainable code while the framework takes care of all the DOM
-   operations.
+  Developers can now focus on creating testable and maintainable code.
 ]
 
+???
+The virtual DOM, as the name implies, is a virtual version of the DOM. It mirrors the DOM structure of a web pages
+using common JavaScript objects. This allows developers to manipulate the DOM without having to go through the DOM
+API.
+
+Framework creators can use this newfound power to create complex frameworks that provide a familiar experience to
+the developer, while still allowing them to manipulate the DOM freely.
+
+Developers can now focus on creating testable and maintainable code while the framework takes care of all the DOM
+operations.
 ---
 
 layout: false
@@ -265,17 +317,21 @@ layout: false
   ## What is the virtual DOM?
 ]
 .right-column[
-  The Virtual DOM, in the simplest of terms, can be described as a function of state.
+  The Virtual DOM can be described as a function of state.
 
-  VDOM frameworks provide mechanisms to detect state changes in the virtual tree, which is then processed by the
-   framework to find what has changed. The changes are finally applied to the DOM tree so both trees keep matching,
-    and the UI has been updated.
+  VDOM frameworks detect state changes in the virtual tree and apply the changes on the DOM
   
   .image.center[![VDOM](https://i1.wp.com/programmingwithmosh.com/wp-content/uploads/2018/11/lnrn_0201.png?resize=1024
   %2C685
   &ssl=1)]
 ]
 
+???
+The Virtual DOM, in the simplest of terms, can be described as a function of state.
+
+VDOM frameworks provide mechanisms to detect state changes in the virtual tree, which is then processed by the
+framework to find what has changed. The changes are finally applied to the DOM tree so both trees keep matching,
+and the UI has been updated.
 ---
 
 layout: false
@@ -284,10 +340,11 @@ layout: false
   ## How does React do this?
 ]
 .right-column[
-  React implements their virtual DOM through the use of components. Components are pieces of code that produce a
-   virtual tree. When React detects a change in the state, it asks the component to rerender, and computes the
-    difference between the tree before and after the rerender, or diff. The diff is applied to the DOM to keep both
-     up to date.
+  React implements their virtual DOM through the use of components.
+  
+  Components are reusable pieces of code that produce a virtual tree
+  
+  When React re-renders, it computes the difference in the component's output and apply the changes to the DOM.
   
   ```javascript
 // A component is often a function in React, it should return a virtual tree of nodes.
@@ -303,6 +360,11 @@ const Component = (props) => {
   ```
 ]
 
+???
+React implements their virtual DOM through the use of components. Components are pieces of code that produce a
+virtual tree. When React detects a change in the state, it asks the component to rerender, and computes the
+difference between the tree before and after the rerender, or diff. The diff is applied to the DOM to keep both
+up to date.
 ---
 
 layout: false
@@ -314,8 +376,9 @@ layout: false
 .right-column[
   Returning strings is nice and all, but we want to return a structure that can be transformed into DOM nodes.
   
-  To do this, React provides us with a new expanded subset of JavaScript called JSX. JSX allows us to write HTML-like
-   code directly into our component. React will automatically transform that structure into a Virtual DOM tree for us.
+  JSX is a new syntax for JavaScript that combines HTML and JavaScript.
+  
+  React will automatically transform that structure into a Virtual DOM tree for us.
   
   ```jsx
 const Component = ({ someState }) => {
@@ -337,6 +400,11 @@ const Component = ({ someState }) => {
   ```
 ]
 
+???
+Returning strings is nice and all, but we want to return a structure that can be transformed into DOM nodes.
+
+To do this, React provides us with a new expanded subset of JavaScript called JSX. JSX allows us to write HTML-like
+code directly into our component. React will automatically transform that structure into a Virtual DOM tree for us.
 ---
 
 layout: false
@@ -376,19 +444,33 @@ layout: false
   ## And so much more
 ]
 .right-column[
-  React provides us with many more tools. For example, we can use hooks, small functions that store state directly
-   into the React framework, to make our application more dynamic. The `useState` hook can be used to
-    store state, to name only one.
+  React provides us with many more tools. For example:
   
-  ReactDOM is the tool used to render React components in the DOM, but its companion, React Native, can be used to
-   render JavaScript React components as native applications on mobile devices.
+  - Hooks can be used to implement state or callbacks in our components.
   
-  ReactRouter can be used to listen to changes in the URL and render different pages accordingly without ever
-   refreshing the page, making the experience truly seamless.
+  - ReactDOM is used to render React components in the DOM.
   
-  We could fill an entire talk only talking about React, you can start reading more here after the presentation
-  : https://github.com/Minivera/carleton-web-dev/tree/master/src/react-course-website.
+  - React Native can take our React JS code and compile it to native mobile applications.
+  
+  - ReactRouter can be used to listen to changes in the URL and render different pages.
+  
+  You can start reading more here after the presentation: https://github.com/Minivera/carleton-web-dev/tree/master
+  /src/react-course-website.
 ]
+
+???
+React provides us with many more tools. For example, we can use hooks, small functions that store state directly
+into the React framework, to make our application more dynamic. The `useState` hook can be used to
+store state, to name only one.
+
+ReactDOM is the tool used to render React components in the DOM, but its companion, React Native, can be used to
+render JavaScript React components as native applications on mobile devices.
+
+ReactRouter can be used to listen to changes in the URL and render different pages accordingly without ever
+refreshing the page, making the experience truly seamless.
+
+We could fill an entire talk only talking about React, you can start reading more here after the presentation
+: https://github.com/Minivera/carleton-web-dev/tree/master/src/react-course-website.
 </Message>
 ---
 class: center, middle, inverse
@@ -398,6 +480,15 @@ class: center, middle, inverse
 ---
 class: center, middle
 
+Other technologies have appeared in the last decade to offer more tools to frontend developers.
+
+Web components are another way to create UI components through custom HTML element.
+
+.image.center[<img src="/carleton-web-dev/web_component.b1c6623d.png">]
+
+This alternative technology for creating components and applications was a very interesting target for study.
+
+???
 While React was becoming more popular, other technologies started to appear to provide similar experiences to developers
 . In particular, browser implementors started investigating the ability to create custom HTML elements with
  JavaScript. The same way you would be able to create a `<div>` element, you could create a `<my-card>` element to
@@ -406,7 +497,6 @@ While React was becoming more popular, other technologies started to appear to p
 That project evolved into custom elements and the Shadow DOM, or, as they are more commonly called, Web Components.
 
 This alternative technology for creating components and applications was a very interesting target for study.
-
 ---
 
 layout: false
@@ -414,14 +504,22 @@ layout: false
   ## What are web components?
 ]
 .right-column[
-  Web Components are a framework to create custom HTML elements that use the DOM API to display content based on some
-   arbitrary HTML code. They follow the React component pattern, but stick close to the DOM API.
+  Web components are a framework for creating custom HTML elements.
+  
+  We use JavaScript code, and the DOM, to display whatever we want in those elements.
+  
+  They follow the React component pattern, but stick close to the DOM API.
    
-  In fact, Web Components are often described as complementary to the Virtual DOM. On one side, they enable theme
-   developers to provide custom elements with all the CSS and JavaScript embedded. On the other, their reliance on
-    the DOM API means we can use Virtual DOM frameworks in them.
+  Web Components are often described as complementary to the Virtual DOM.
 ]
 
+???
+Web Components are a framework to create custom HTML elements that use the DOM API to display content based on some
+arbitrary HTML code. They follow the React component pattern, but stick close to the DOM API.
+
+In fact, Web Components are often described as complementary to the Virtual DOM. On one side, they enable theme
+developers to provide custom elements with all the CSS and JavaScript embedded. On the other, their reliance on
+the DOM API means we can use Virtual DOM frameworks in them.
 ---
 
 layout: false
@@ -490,9 +588,7 @@ layout: false
   ## The shadow DOM
 ]
 .right-column[
-  The shadowDOM is a special structure you can add to a web component to hide its content from the rest of the DOM
-  . JavaScript executed outside of the web component cannot interact with this structure and styling is scoped to
-   that component.
+  The shadowDOM can be added to web components to hide the content and CSS from the rest of the DOM.
    
    **This enables truly modular CSS.**.red[*]
    
@@ -506,9 +602,13 @@ layout: false
 </custom-element>
    ```
 
-  .footnote[.red[*] Like alcool, the Shadow DOM is best consumed in moderation]
+  .footnote[.red[*] Like alcohol, the Shadow DOM is best consumed in moderation]
 ]
 
+???
+The shadowDOM is a special structure you can add to a web component to hide its content from the rest of the DOM
+. JavaScript executed outside of the web component cannot interact with this structure and styling is scoped to
+that component.
 ---
 
 layout: false
@@ -519,17 +619,17 @@ layout: false
   ## That's it?
 ]
 .right-column[
-  There are few more functionalities that web components provide, but these last three slides cover most of it.
-  
-  Web components are a new standard, they provide a tool, it's the community's job to expand on it.
-  
-  Many projects have sprung up to improve the technology and make apps possible, here are a few I recommend checking out:
-  - Stencil
-  - Ionic
-  - The Polymer Project
- 
-  You can read more by following this tutorial: https://github.com/Minivera/carleton-web-dev/tree/master/src/wc-course
-  -website.
+These last three slides cover most of the standard.
+
+Web components provide a tool, it's the community's job to expand on it.
+
+Many projects have sprung up to improve the technology and make apps possible, here are a few recommendations:
+- Stencil
+- Ionic
+- The Polymer Project
+
+You can read more by following this tutorial: https://github.com/Minivera/carleton-web-dev/tree/master/src/wc-course
+-website.
 ]
 </a></custom-element></my-card></div>
 ---
@@ -540,6 +640,18 @@ class: center, middle, inverse
 ---
 class: center, middle
 
+Web Assembly is yet another technology created by browsers implementors.
+
+Contrary to web components or the Virtual DOM, WASM's goal is not to only provide a way to create UIs
+
+Web Assembly will finally allow you to write frontend code in any language.
+ 
+It was first released with support for C++ and Rust, but has since grown to support many languages.
+
+It is backed by Microsoft and other big corporations and has a very active community.
+
+
+???
 Web Assembly is yet another technology created by browsers implementors, yet, it couldn't be more different to the
  other technologies we studied.
  
@@ -557,18 +669,26 @@ layout: false
   ## What is Web Assembly?
 ]
 .right-column[
-  Web Assembly - or WASM - is a text language that can be interpreted by a virtual machine at near native speed in
-   browsers. It lives near the JavaScript VM and can even call scripts in JavaScript. This a browser based JVM.
+  Web Assembly is a text/binary language that can be interpreted by a virtual machine at near native speed in browsers.
+   
+  It lives near the JavaScript VM and can even call scripts in JavaScript. This a browser based JVM.
   
   It is much more isolated and secure than the JavaScript virtual machine.
   
-  Languages that want to support WASM have to provide a compile target to WASM in their compiler. WASM can
-   be written both in text and as a binary file means it can be read, making it easier to understand and to retro
-   -engineer than the JVM.
+  Languages that want to support WASM have to provide a compile target to WASM in their compiler.
 
   .footnote[WASM text code looks a lot like LISP]
 ]
 
+???
+Web Assembly - or WASM - is a text language that can be interpreted by a virtual machine at near native speed in
+browsers. It lives near the JavaScript VM and can even call scripts in JavaScript. This a browser based JVM.
+
+It is much more isolated and secure than the JavaScript virtual machine.
+
+Languages that want to support WASM have to provide a compile target to WASM in their compiler. WASM can
+be written both in text and as a binary file means it can be read, making it easier to understand and to retro
+-engineer than the JVM.
 ---
 
 layout: false
@@ -576,15 +696,23 @@ layout: false
   ## What is Web Assembly?
 ]
 .right-column[
-  Web Assembly does not stop at your browser however, it can now be executed in desktop environments thanks to the
+  Web Assembly does not stop at your browser, it can now be executed in desktop environments thanks to the
    WASI standard.
    
   WASI enables developers to create portable applications in any language they want without having to compile for all
-   ossible architectures. Like the JVM, but without Java.
+   possible architectures. Like the JVM, but without Java.
   
   If you hate cross-compilation, WASI is one project to follow.
 ]
 
+???
+Web Assembly does not stop at your browser however, it can now be executed in desktop environments thanks to the
+WASI standard.
+
+WASI enables developers to create portable applications in any language they want without having to compile for all
+ossible architectures. Like the JVM, but without Java.
+
+If you hate cross-compilation, WASI is one project to follow.
 ---
 
 layout: false
@@ -593,20 +721,33 @@ layout: false
   ## TeaVM
 ]
 .right-column[
-  TeaVM was originally a project to create frontend application in java. The tool would compile your Java code to
-   optimized JavaScript code with sourcemap support. It has since added WASM support, creating a more native experience.
-  
-  It provides a complex framework for creating dynamic frontend applications in Java. It has all the tools you would
-   except, like:
-   
-  - A routing system to track URL changes
-  - A REST client
-  - Widgets for common elements like paginates lists
-  
-  You can read more by following this tutorial: https://github.com/Minivera/carleton-web-dev/tree/master/src/java-course
-    -website.
+TeaVM is a project to create frontend application in java.
+
+It provides a complex framework for creating dynamic frontend applications in Java.
+
+It has all the tools you would except, like:
+
+- A routing system to track URL changes
+- A REST client
+- Widgets for common elements like paginates lists
+
+You can read more by following this tutorial: https://github.com/Minivera/carleton-web-dev/tree/master/src/java-course
+-website.
 ]
 
+???
+TeaVM was originally a project to create frontend application in java. The tool would compile your Java code to
+optimized JavaScript code with sourcemap support. It has since added WASM support, creating a more native experience.
+
+It provides a complex framework for creating dynamic frontend applications in Java. It has all the tools you would
+except, like:
+
+- A routing system to track URL changes
+- A REST client
+- Widgets for common elements like paginates lists
+
+You can read more by following this tutorial: https://github.com/Minivera/carleton-web-dev/tree/master/src/java-course
+-website.
 ---
 
 layout: false
@@ -618,8 +759,8 @@ layout: false
 .right-column[
   Web Assembly can be used to create UIs in other languages that Java, for example:
   
-  - Blazor from Microsoft is a well documented and support framework for creating WPF-like applications for the web
-  . It ships with modern versions of the .NET framework and synergies perfectly with ASP.NET MVC applications.
+  - Blazor from Microsoft is a framework for creating frontend applications. It ships with the
+   .NET framework and is a part of ASP.NET MVC applications.
   
   - asm-dom in C++ is a VirtualDOM implementation usable with WASM.
   
@@ -638,16 +779,27 @@ layout: false
   ## Should you create UIs in WASM?
 ]
 .right-column[
-  When it was first announced, WASM was shown running Unity at native speed in a browser. The expected use case was
-   to run complex computations that JavaScript is not equipped for.
+  When it was first announced, WASM was shown running Unity at native speed in a browser.
   
-  While there was a lot of traction for UIs with WASM in the early days, it has not evolved much in that direction.
+  The expected use case was to run complex computations that JavaScript is not equipped for.
   
-  WASI complicates things as there are no intended support for any sort of DOM-like API, making any VirtualDOM
-   frameworks difficult to port over to WASI.
+  The tech has not evolved as much as we expected in the direction of building UIs.
+  
+  WASI complicates things as there are no intended support for any sort of DOM-like API.
   
   Creating UIs in WASM is more than possible, but it is better used to support a JavaScript UI in my opinion.
 ]
+
+???
+When it was first announced, WASM was shown running Unity at native speed in a browser. The expected use case was
+to run complex computations that JavaScript is not equipped for.
+
+While there was a lot of traction for UIs with WASM in the early days, it has not evolved much in that direction.
+
+WASI complicates things as there are no intended support for any sort of DOM-like API, making any VirtualDOM
+frameworks difficult to port over to WASI.
+
+Creating UIs in WASM is more than possible, but it is better used to support a JavaScript UI in my opinion.
 
 ---
 class: center, middle, inverse
@@ -657,17 +809,33 @@ class: center, middle, inverse
 ---
 class: center, middle
 
+This presentation was intended to compare all three techs. 
+
+Through the semester, it became clear such a comparison was not a good way to think about
+ those technologies.
+
+In my opinion **all three techs are complementary and will become the new frontend stack.**
+
+???
 When we were planning the directed studies, the presentation was expected to be about comparing all three
  technologies and thinking about their pros and cons for building UIs. 
 
 As we researched and studied the techs more, it became clear such a comparison was not a good way to think about
  those technologies.
 
-In my opinion **all three techs are complementary and will become the new frontend stack.**
-
 ---
 class: center, middle
 .text-left[
+- React, and the Virtual DOM, are best suited to create reactive single page applications.
+
+- Web Component are best suited to create portable elements that can be reused regardless of the codebase.
+
+- Web Assembly is best suited for running complex computations and existing codebase with high speed and security. 
+
+Learning all three technologies is a plus for any budding frontend developer.
+]
+ 
+???
 - React, and the Virtual DOM, are best suited to create reactive single page applications.
 
 - Web Component are best suited to create portable elements that can be reused regardless of the codebase. They
@@ -675,11 +843,9 @@ class: center, middle
  by offering a way to create their content.
 
 - Web Assembly is best suited for running complex computations and existing codebase with high speed and security. 
-]
 
 Learning all three technologies may become mandatory as web development evolves and other languages start to be used
  on the frontend.
- 
 ---
 class: center, middle
 
@@ -695,16 +861,19 @@ In this presentation, we quickly explored some technologies used in frontend dev
 - Comparing all three techs and their uses cases.
 ]
 
-If any of those topics are of any interest to you, check out the repository for the directed study. Let me know if
- you would like more in-depth talks in the future!
+If any of those topics are of any interest to you, check out the repository for the directed study.
 
+Let me know if you would like more in-depth talks in the future!
+
+???
+Review of the presentation topics.
 ---
 class: center, middle, inverse
 
 # Questions
 
     </textarea> <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script> <script>hljs=remark.highlighter.engine;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJtYXBwaW5ncyI6IkFBQUFBLEtBQU9DLE9BQU9DLFlBQVlDIiwic291cmNlcyI6WyJzcmMvc2xpZGVzL2luZGV4Lmh0bWwiXSwibmFtZXMiOlsiaGxqcyIsInJlbWFyayIsImhpZ2hsaWdodGVyIiwiZW5naW5lIl0sInZlcnNpb24iOjMsImZpbGUiOiJzbGlkZXMuSEFTSF9SRUZfYTJlNTllYWE4NGUwZjljN2M5MzE3MzY5MzgzMzEwZGIuanMubWFwIiwic291cmNlc0NvbnRlbnQiOlsiPCFET0NUWVBFIGh0bWw+XG48aHRtbD5cbiAgPGhlYWQ+XG4gICAgPHRpdGxlPkNhcmxldG9uIGRpcmVjdGVkIHN0dWRpZXMgLSBTbGlkZXM8L3RpdGxlPlxuICAgIDxtZXRhIGNoYXJzZXQ9XCJ1dGYtOFwiPlxuICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiaW5kZXguY3NzXCIgLz5cbiAgPC9oZWFkPlxuICA8Ym9keT5cbiAgICA8dGV4dGFyZWEgaWQ9XCJzb3VyY2VcIj5cbjxpbmNsdWRlIHNyYz0nLi9zbGlkZXMvaW50cm9kdWN0aW9uLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy9kb20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3Zkb20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3dlYmNvbXBvbmVudHMubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3dhc20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL2NvbmNsdXNpb24ubWQnIHJhdz48L2luY2x1ZGU+XG4gICAgPC90ZXh0YXJlYT5cbiAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8vcmVtYXJranMuY29tL2Rvd25sb2Fkcy9yZW1hcmstbGF0ZXN0Lm1pbi5qc1wiPjwvc2NyaXB0PlxuICAgIDxzY3JpcHQ+XG4gICAgICBobGpzID0gcmVtYXJrLmhpZ2hsaWdodGVyLmVuZ2luZTtcbiAgICA8L3NjcmlwdD5cbiAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8vcmVtYXJranMuY29tL3JlbWFyay5sYW5ndWFnZS5qc1wiPjwvc2NyaXB0PlxuICAgIDxzY3JpcHQ+XG4gICAgICBzbGlkZXNob3cgPSByZW1hcmsuY3JlYXRlKHtcbiAgICAgICAgaGlnaGxpZ2h0U3R5bGU6ICdtb25va2FpJyxcbiAgICAgICAgaGlnaGxpZ2h0TGFuZ3VhZ2U6ICdyZW1hcmsnLFxuICAgICAgICBoaWdobGlnaHRMaW5lczogdHJ1ZVxuICAgICAgfSk7XG4gICAgPC9zY3JpcHQ+XG4gIDwvYm9keT5cbjwvaHRtbD5cbiJdfQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJtYXBwaW5ncyI6IkFBQUFBLEtBQU9DLE9BQU9DLFlBQVlDIiwic291cmNlcyI6WyJzcmMvc2xpZGVzL2luZGV4Lmh0bWwiXSwibmFtZXMiOlsiaGxqcyIsInJlbWFyayIsImhpZ2hsaWdodGVyIiwiZW5naW5lIl0sInZlcnNpb24iOjMsImZpbGUiOiJzbGlkZXMuSEFTSF9SRUZfYmU4YzdjYjc2MmE4Yjc2ZTc5YzVhNmViYTBmMGE1YjIuanMubWFwIiwic291cmNlc0NvbnRlbnQiOlsiPCFET0NUWVBFIGh0bWw+XG48aHRtbD5cbiAgPGhlYWQ+XG4gICAgPHRpdGxlPkNhcmxldG9uIGRpcmVjdGVkIHN0dWRpZXMgLSBTbGlkZXM8L3RpdGxlPlxuICAgIDxtZXRhIGNoYXJzZXQ9XCJ1dGYtOFwiPlxuICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiaW5kZXguY3NzXCIgLz5cbiAgPC9oZWFkPlxuICA8Ym9keT5cbiAgICA8dGV4dGFyZWEgaWQ9XCJzb3VyY2VcIj5cbjxpbmNsdWRlIHNyYz0nLi9zbGlkZXMvaW50cm9kdWN0aW9uLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy9kb20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3Zkb20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3dlYmNvbXBvbmVudHMubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3dhc20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL2NvbmNsdXNpb24ubWQnIHJhdz48L2luY2x1ZGU+XG4gICAgPC90ZXh0YXJlYT5cbiAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8vcmVtYXJranMuY29tL2Rvd25sb2Fkcy9yZW1hcmstbGF0ZXN0Lm1pbi5qc1wiPjwvc2NyaXB0PlxuICAgIDxzY3JpcHQ+XG4gICAgICBobGpzID0gcmVtYXJrLmhpZ2hsaWdodGVyLmVuZ2luZTtcbiAgICA8L3NjcmlwdD5cbiAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8vcmVtYXJranMuY29tL3JlbWFyay5sYW5ndWFnZS5qc1wiPjwvc2NyaXB0PlxuICAgIDxzY3JpcHQ+XG4gICAgICBzbGlkZXNob3cgPSByZW1hcmsuY3JlYXRlKHtcbiAgICAgICAgaGlnaGxpZ2h0U3R5bGU6ICdtb25va2FpJyxcbiAgICAgICAgaGlnaGxpZ2h0TGFuZ3VhZ2U6ICdyZW1hcmsnLFxuICAgICAgICBoaWdobGlnaHRMaW5lczogdHJ1ZVxuICAgICAgfSk7XG4gICAgPC9zY3JpcHQ+XG4gIDwvYm9keT5cbjwvaHRtbD5cbiJdfQ==
 </script> <script src="https://remarkjs.com/remark.language.js"></script> <script>slideshow=remark.create({highlightStyle:"monokai",highlightLanguage:"remark",highlightLines:!0});
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJtYXBwaW5ncyI6IkFBQUFBLFVBQVlDLE9BQU9DLE9BQU8sQ0FDbEJDLGVBQWdCLFVBQ2hCQyxrQkFBbUIsU0FDbkJDLGdCQUFnQiIsInNvdXJjZXMiOlsic3JjL3NsaWRlcy9pbmRleC5odG1sIl0sIm5hbWVzIjpbInNsaWRlc2hvdyIsInJlbWFyayIsImNyZWF0ZSIsImhpZ2hsaWdodFN0eWxlIiwiaGlnaGxpZ2h0TGFuZ3VhZ2UiLCJoaWdobGlnaHRMaW5lcyJdLCJ2ZXJzaW9uIjozLCJmaWxlIjoic2xpZGVzLkhBU0hfUkVGXzQzMzc1M2M5NGVlYmFjM2JkZTY4YTlhNGJjMGVjYmYxLmpzLm1hcCIsInNvdXJjZXNDb250ZW50IjpbIjwhRE9DVFlQRSBodG1sPlxuPGh0bWw+XG4gIDxoZWFkPlxuICAgIDx0aXRsZT5DYXJsZXRvbiBkaXJlY3RlZCBzdHVkaWVzIC0gU2xpZGVzPC90aXRsZT5cbiAgICA8bWV0YSBjaGFyc2V0PVwidXRmLThcIj5cbiAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImluZGV4LmNzc1wiIC8+XG4gIDwvaGVhZD5cbiAgPGJvZHk+XG4gICAgPHRleHRhcmVhIGlkPVwic291cmNlXCI+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL2ludHJvZHVjdGlvbi5tZCcgcmF3PjwvaW5jbHVkZT5cbjxpbmNsdWRlIHNyYz0nLi9zbGlkZXMvZG9tLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy92ZG9tLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy93ZWJjb21wb25lbnRzLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy93YXNtLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy9jb25jbHVzaW9uLm1kJyByYXc+PC9pbmNsdWRlPlxuICAgIDwvdGV4dGFyZWE+XG4gICAgPHNjcmlwdCBzcmM9XCJodHRwczovL3JlbWFya2pzLmNvbS9kb3dubG9hZHMvcmVtYXJrLWxhdGVzdC5taW4uanNcIj48L3NjcmlwdD5cbiAgICA8c2NyaXB0PlxuICAgICAgaGxqcyA9IHJlbWFyay5oaWdobGlnaHRlci5lbmdpbmU7XG4gICAgPC9zY3JpcHQ+XG4gICAgPHNjcmlwdCBzcmM9XCJodHRwczovL3JlbWFya2pzLmNvbS9yZW1hcmsubGFuZ3VhZ2UuanNcIj48L3NjcmlwdD5cbiAgICA8c2NyaXB0PlxuICAgICAgc2xpZGVzaG93ID0gcmVtYXJrLmNyZWF0ZSh7XG4gICAgICAgIGhpZ2hsaWdodFN0eWxlOiAnbW9ub2thaScsXG4gICAgICAgIGhpZ2hsaWdodExhbmd1YWdlOiAncmVtYXJrJyxcbiAgICAgICAgaGlnaGxpZ2h0TGluZXM6IHRydWVcbiAgICAgIH0pO1xuICAgIDwvc2NyaXB0PlxuICA8L2JvZHk+XG48L2h0bWw+XG4iXX0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJtYXBwaW5ncyI6IkFBQUFBLFVBQVlDLE9BQU9DLE9BQU8sQ0FDbEJDLGVBQWdCLFVBQ2hCQyxrQkFBbUIsU0FDbkJDLGdCQUFnQiIsInNvdXJjZXMiOlsic3JjL3NsaWRlcy9pbmRleC5odG1sIl0sIm5hbWVzIjpbInNsaWRlc2hvdyIsInJlbWFyayIsImNyZWF0ZSIsImhpZ2hsaWdodFN0eWxlIiwiaGlnaGxpZ2h0TGFuZ3VhZ2UiLCJoaWdobGlnaHRMaW5lcyJdLCJ2ZXJzaW9uIjozLCJmaWxlIjoic2xpZGVzLkhBU0hfUkVGX2IzYzcwYzU0ODE1ZDc1NTQyNDI5ZmJhOGRkZjg1ODBhLmpzLm1hcCIsInNvdXJjZXNDb250ZW50IjpbIjwhRE9DVFlQRSBodG1sPlxuPGh0bWw+XG4gIDxoZWFkPlxuICAgIDx0aXRsZT5DYXJsZXRvbiBkaXJlY3RlZCBzdHVkaWVzIC0gU2xpZGVzPC90aXRsZT5cbiAgICA8bWV0YSBjaGFyc2V0PVwidXRmLThcIj5cbiAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImluZGV4LmNzc1wiIC8+XG4gIDwvaGVhZD5cbiAgPGJvZHk+XG4gICAgPHRleHRhcmVhIGlkPVwic291cmNlXCI+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL2ludHJvZHVjdGlvbi5tZCcgcmF3PjwvaW5jbHVkZT5cbjxpbmNsdWRlIHNyYz0nLi9zbGlkZXMvZG9tLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy92ZG9tLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy93ZWJjb21wb25lbnRzLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy93YXNtLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy9jb25jbHVzaW9uLm1kJyByYXc+PC9pbmNsdWRlPlxuICAgIDwvdGV4dGFyZWE+XG4gICAgPHNjcmlwdCBzcmM9XCJodHRwczovL3JlbWFya2pzLmNvbS9kb3dubG9hZHMvcmVtYXJrLWxhdGVzdC5taW4uanNcIj48L3NjcmlwdD5cbiAgICA8c2NyaXB0PlxuICAgICAgaGxqcyA9IHJlbWFyay5oaWdobGlnaHRlci5lbmdpbmU7XG4gICAgPC9zY3JpcHQ+XG4gICAgPHNjcmlwdCBzcmM9XCJodHRwczovL3JlbWFya2pzLmNvbS9yZW1hcmsubGFuZ3VhZ2UuanNcIj48L3NjcmlwdD5cbiAgICA8c2NyaXB0PlxuICAgICAgc2xpZGVzaG93ID0gcmVtYXJrLmNyZWF0ZSh7XG4gICAgICAgIGhpZ2hsaWdodFN0eWxlOiAnbW9ub2thaScsXG4gICAgICAgIGhpZ2hsaWdodExhbmd1YWdlOiAncmVtYXJrJyxcbiAgICAgICAgaGlnaGxpZ2h0TGluZXM6IHRydWVcbiAgICAgIH0pO1xuICAgIDwvc2NyaXB0PlxuICA8L2JvZHk+XG48L2h0bWw+XG4iXX0=
 </script> </body></html>
