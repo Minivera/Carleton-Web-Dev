@@ -66,11 +66,14 @@ class CustomElement extends HTMLElement {
   // Called when the element is added to the DOM
   connectedCallback() {
     // From here, the DOM API is used.
-    this.appendChild(...);
+    this.appendChild(/* ... */);
   }
 }
 
-window.customElements.define('custom-element', CustomElement);
+window.customElements.define(
+  'custom-element', 
+  CustomElement
+);
   ```
 
 ```html
@@ -97,7 +100,11 @@ class CustomElement extends HTMLAnchorElement {
   // Add any functionality you want!
 }
 
-window.customElements.define('custom-element', CustomElement, { extends: 'a' });
+window.customElements.define(
+  'custom-element', 
+  CustomElement, 
+  { extends: 'a' }
+);
   ```
 
 ```html
@@ -121,12 +128,10 @@ layout: false
    ```html
 <custom-element>
   #ShadowRoot
-    <style>
-      /* This style won't "bleed" out of this element! */
-    </style>
-    <div>
-      <!-- And these elements are safe from external code! -->
-    </div>
+    /* This style won't "bleed" out of this element! */
+    <style></style>
+    <!-- And these elements are safe from external code! -->
+    <div></div>
 </custom-element>
    ```
 

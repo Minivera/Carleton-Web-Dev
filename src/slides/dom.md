@@ -1,4 +1,4 @@
----
+_---
 class: center, middle, inverse
 
 # HTML and the DOM
@@ -48,7 +48,8 @@ layout: false
   There are multiple functions available to fetching and manipulating nodes.
     
   ```javascript
-// You can find nodes in the document using standard CSS selectors
+// You can find nodes in the document
+// using standard CSS selectors
 document.querySelector('.main');
 // You can also use older functions
 document.getElementsByClassName('main');
@@ -70,7 +71,7 @@ layout: false
   Once you have a reference to a node, you can do whatever you want with it.
     
   ```javascript
-// You can very easilyc reate a node
+// You can very easily create a node
 const node = document.createElement(a);
 
 // You can change its content
@@ -123,4 +124,4 @@ Sadly, this is what we did for years. New tools would come to simplify and unify
 pretty much their own thing with the DOM), and we used cheap hacks to get around the pain of working with
 JavaScript.
 
-Something had to be done.
+Something had to be done._

@@ -91,11 +91,13 @@ layout: false
   When React re-renders, it computes the difference in the component's output and apply the changes to the DOM.
   
   ```javascript
-// A component is often a function in React, it should return a virtual tree of nodes.
+// A component is often a function in React,
+// it should return a virtual tree of nodes.
 const Component = (props) => {
   const { someState } = props;
-  // Render something different depending on state, React will take care of updating the DOM
-  // by calling this component again when the state changes.
+  // Render something different depending on state,
+  // React will take care of updating the DOM by
+  // calling this component again when the state changes.
   if (someState) {
     return 'foo';
   }
@@ -129,15 +131,18 @@ const Component = ({ someState }) => {
   if (someState) {
     return (
       <div>
-        <span>By having it between brackets, you can execute any JavaScript code you want.</span>
+        <span>
+          By having it between brackets, you can
+          execute any JavaScript code you want.
+        </span>
         <code>{someState}</code>
       </div>
     );
   }
   return (
     <div>
-      JSX is still JavaScript at the end of the day, so things like {'this'}
-      {['are', 'possible'].join(' ')}.
+      JSX is still JavaScript at the end of the day, so
+      {'this'} {['is', 'possible'].join(' ')}.
     </div>
   );
 };
@@ -170,7 +175,8 @@ const Message = ({ message }) => {
 };
 
 const App = () => {
-  // We can pass attributes to components, which are then available in the props parameter
+  // We can pass attributes to components,
+  // which are then available in the props parameter
   return (
     <Message message="Hello, World!" />
   );

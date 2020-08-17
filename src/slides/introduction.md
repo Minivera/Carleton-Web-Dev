@@ -83,13 +83,13 @@ layout: false
   
   **You do not need to know or work in JavaScript to be a frontend developer.**
   
-  I once interviewed with a company that builds their frontend in OCaml (Darklang, if you are interested).
-  
   Frontend development is often called a mess. If you like tearing your hair off, but feel rewarded when users
    mention how slick your UI is, frontend is for you.
 ]
 
 ???
+I once interviewed with a company that builds their frontend in OCaml (Darklang, if you are interested).
+
 Mention that frontend development can be rigthfully called a mess.
 ---
 
