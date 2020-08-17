@@ -84,13 +84,13 @@ layout: false
   
   **You do not need to know or work in JavaScript to be a frontend developer.**
   
-  I once interviewed with a company that builds their frontend in OCaml (Darklang, if you are interested).
-  
   Frontend development is often called a mess. If you like tearing your hair off, but feel rewarded when users
    mention how slick your UI is, frontend is for you.
 ]
 
 ???
+I once interviewed with a company that builds their frontend in OCaml (Darklang, if you are interested).
+
 Mention that frontend development can be rigthfully called a mess.
 ---
 
@@ -127,7 +127,7 @@ layout: false
    
 - We wrote a lot of code, and a lot more documentation.
 
----
+_---
 class: center, middle, inverse
 
 # HTML and the DOM
@@ -177,7 +177,8 @@ layout: false
   There are multiple functions available to fetching and manipulating nodes.
     
   ```javascript
-// You can find nodes in the document using standard CSS selectors
+// You can find nodes in the document
+// using standard CSS selectors
 document.querySelector('.main');
 // You can also use older functions
 document.getElementsByClassName('main');
@@ -199,7 +200,7 @@ layout: false
   Once you have a reference to a node, you can do whatever you want with it.
     
   ```javascript
-// You can very easilyc reate a node
+// You can very easily create a node
 const node = document.createElement(a);
 
 // You can change its content
@@ -252,7 +253,7 @@ Sadly, this is what we did for years. New tools would come to simplify and unify
 pretty much their own thing with the DOM), and we used cheap hacks to get around the pain of working with
 JavaScript.
 
-Something had to be done.
+Something had to be done._
 
 ---
 class: center, middle, inverse
@@ -347,11 +348,13 @@ layout: false
   When React re-renders, it computes the difference in the component's output and apply the changes to the DOM.
   
   ```javascript
-// A component is often a function in React, it should return a virtual tree of nodes.
+// A component is often a function in React,
+// it should return a virtual tree of nodes.
 const Component = (props) => {
   const { someState } = props;
-  // Render something different depending on state, React will take care of updating the DOM
-  // by calling this component again when the state changes.
+  // Render something different depending on state,
+  // React will take care of updating the DOM by
+  // calling this component again when the state changes.
   if (someState) {
     return 'foo';
   }
@@ -385,15 +388,18 @@ const Component = ({ someState }) => {
   if (someState) {
     return (
       <div>
-        <span>By having it between brackets, you can execute any JavaScript code you want.</span>
+        <span>
+          By having it between brackets, you can
+          execute any JavaScript code you want.
+        </span>
         <code>{someState}</code>
       </div>
     );
   }
   return (
     <div>
-      JSX is still JavaScript at the end of the day, so things like {'this'}
-      {['are', 'possible'].join(' ')}.
+      JSX is still JavaScript at the end of the day, so
+      {'this'} {['is', 'possible'].join(' ')}.
     </div>
   );
 };
@@ -426,7 +432,8 @@ const Message = ({ message }) => {
 };
 
 const App = () => {
-  // We can pass attributes to components, which are then available in the props parameter
+  // We can pass attributes to components,
+  // which are then available in the props parameter
   return (
     <Message message="Hello, World!">
   );
@@ -540,11 +547,14 @@ class CustomElement extends HTMLElement {
   // Called when the element is added to the DOM
   connectedCallback() {
     // From here, the DOM API is used.
-    this.appendChild(...);
+    this.appendChild(/* ... */);
   }
 }
 
-window.customElements.define('custom-element', CustomElement);
+window.customElements.define(
+  'custom-element', 
+  CustomElement
+);
   ```
 
 ```html
@@ -571,7 +581,11 @@ class CustomElement extends HTMLAnchorElement {
   // Add any functionality you want!
 }
 
-window.customElements.define('custom-element', CustomElement, { extends: 'a' });
+window.customElements.define(
+  'custom-element', 
+  CustomElement, 
+  { extends: 'a' }
+);
   ```
 
 ```html
@@ -595,10 +609,10 @@ layout: false
    ```html
 <custom-element>
   #ShadowRoot
+    /* This style won't "bleed" out of this element! */
     <style></style>
-    <div>
-      
-    </div>
+    
+    <div></div>
 </custom-element>
    ```
 
@@ -873,7 +887,7 @@ class: center, middle, inverse
 # Questions
 
     </textarea> <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script> <script>hljs=remark.highlighter.engine;
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJtYXBwaW5ncyI6IkFBQUFBLEtBQU9DLE9BQU9DLFlBQVlDIiwic291cmNlcyI6WyJzcmMvc2xpZGVzL2luZGV4Lmh0bWwiXSwibmFtZXMiOlsiaGxqcyIsInJlbWFyayIsImhpZ2hsaWdodGVyIiwiZW5naW5lIl0sInZlcnNpb24iOjMsImZpbGUiOiJzbGlkZXMuSEFTSF9SRUZfYmU4YzdjYjc2MmE4Yjc2ZTc5YzVhNmViYTBmMGE1YjIuanMubWFwIiwic291cmNlc0NvbnRlbnQiOlsiPCFET0NUWVBFIGh0bWw+XG48aHRtbD5cbiAgPGhlYWQ+XG4gICAgPHRpdGxlPkNhcmxldG9uIGRpcmVjdGVkIHN0dWRpZXMgLSBTbGlkZXM8L3RpdGxlPlxuICAgIDxtZXRhIGNoYXJzZXQ9XCJ1dGYtOFwiPlxuICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiaW5kZXguY3NzXCIgLz5cbiAgPC9oZWFkPlxuICA8Ym9keT5cbiAgICA8dGV4dGFyZWEgaWQ9XCJzb3VyY2VcIj5cbjxpbmNsdWRlIHNyYz0nLi9zbGlkZXMvaW50cm9kdWN0aW9uLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy9kb20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3Zkb20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3dlYmNvbXBvbmVudHMubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3dhc20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL2NvbmNsdXNpb24ubWQnIHJhdz48L2luY2x1ZGU+XG4gICAgPC90ZXh0YXJlYT5cbiAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8vcmVtYXJranMuY29tL2Rvd25sb2Fkcy9yZW1hcmstbGF0ZXN0Lm1pbi5qc1wiPjwvc2NyaXB0PlxuICAgIDxzY3JpcHQ+XG4gICAgICBobGpzID0gcmVtYXJrLmhpZ2hsaWdodGVyLmVuZ2luZTtcbiAgICA8L3NjcmlwdD5cbiAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8vcmVtYXJranMuY29tL3JlbWFyay5sYW5ndWFnZS5qc1wiPjwvc2NyaXB0PlxuICAgIDxzY3JpcHQ+XG4gICAgICBzbGlkZXNob3cgPSByZW1hcmsuY3JlYXRlKHtcbiAgICAgICAgaGlnaGxpZ2h0U3R5bGU6ICdtb25va2FpJyxcbiAgICAgICAgaGlnaGxpZ2h0TGFuZ3VhZ2U6ICdyZW1hcmsnLFxuICAgICAgICBoaWdobGlnaHRMaW5lczogdHJ1ZVxuICAgICAgfSk7XG4gICAgPC9zY3JpcHQ+XG4gIDwvYm9keT5cbjwvaHRtbD5cbiJdfQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJtYXBwaW5ncyI6IkFBQUFBLEtBQU9DLE9BQU9DLFlBQVlDIiwic291cmNlcyI6WyJzcmMvc2xpZGVzL2luZGV4Lmh0bWwiXSwibmFtZXMiOlsiaGxqcyIsInJlbWFyayIsImhpZ2hsaWdodGVyIiwiZW5naW5lIl0sInZlcnNpb24iOjMsImZpbGUiOiJzbGlkZXMuSEFTSF9SRUZfYTJlNTllYWE4NGUwZjljN2M5MzE3MzY5MzgzMzEwZGIuanMubWFwIiwic291cmNlc0NvbnRlbnQiOlsiPCFET0NUWVBFIGh0bWw+XG48aHRtbD5cbiAgPGhlYWQ+XG4gICAgPHRpdGxlPkNhcmxldG9uIGRpcmVjdGVkIHN0dWRpZXMgLSBTbGlkZXM8L3RpdGxlPlxuICAgIDxtZXRhIGNoYXJzZXQ9XCJ1dGYtOFwiPlxuICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiaW5kZXguY3NzXCIgLz5cbiAgPC9oZWFkPlxuICA8Ym9keT5cbiAgICA8dGV4dGFyZWEgaWQ9XCJzb3VyY2VcIj5cbjxpbmNsdWRlIHNyYz0nLi9zbGlkZXMvaW50cm9kdWN0aW9uLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy9kb20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3Zkb20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3dlYmNvbXBvbmVudHMubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL3dhc20ubWQnIHJhdz48L2luY2x1ZGU+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL2NvbmNsdXNpb24ubWQnIHJhdz48L2luY2x1ZGU+XG4gICAgPC90ZXh0YXJlYT5cbiAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8vcmVtYXJranMuY29tL2Rvd25sb2Fkcy9yZW1hcmstbGF0ZXN0Lm1pbi5qc1wiPjwvc2NyaXB0PlxuICAgIDxzY3JpcHQ+XG4gICAgICBobGpzID0gcmVtYXJrLmhpZ2hsaWdodGVyLmVuZ2luZTtcbiAgICA8L3NjcmlwdD5cbiAgICA8c2NyaXB0IHNyYz1cImh0dHBzOi8vcmVtYXJranMuY29tL3JlbWFyay5sYW5ndWFnZS5qc1wiPjwvc2NyaXB0PlxuICAgIDxzY3JpcHQ+XG4gICAgICBzbGlkZXNob3cgPSByZW1hcmsuY3JlYXRlKHtcbiAgICAgICAgaGlnaGxpZ2h0U3R5bGU6ICdtb25va2FpJyxcbiAgICAgICAgaGlnaGxpZ2h0TGFuZ3VhZ2U6ICdyZW1hcmsnLFxuICAgICAgICBoaWdobGlnaHRMaW5lczogdHJ1ZVxuICAgICAgfSk7XG4gICAgPC9zY3JpcHQ+XG4gIDwvYm9keT5cbjwvaHRtbD5cbiJdfQ==
 </script> <script src="https://remarkjs.com/remark.language.js"></script> <script>slideshow=remark.create({highlightStyle:"monokai",highlightLanguage:"remark",highlightLines:!0});
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJtYXBwaW5ncyI6IkFBQUFBLFVBQVlDLE9BQU9DLE9BQU8sQ0FDbEJDLGVBQWdCLFVBQ2hCQyxrQkFBbUIsU0FDbkJDLGdCQUFnQiIsInNvdXJjZXMiOlsic3JjL3NsaWRlcy9pbmRleC5odG1sIl0sIm5hbWVzIjpbInNsaWRlc2hvdyIsInJlbWFyayIsImNyZWF0ZSIsImhpZ2hsaWdodFN0eWxlIiwiaGlnaGxpZ2h0TGFuZ3VhZ2UiLCJoaWdobGlnaHRMaW5lcyJdLCJ2ZXJzaW9uIjozLCJmaWxlIjoic2xpZGVzLkhBU0hfUkVGX2IzYzcwYzU0ODE1ZDc1NTQyNDI5ZmJhOGRkZjg1ODBhLmpzLm1hcCIsInNvdXJjZXNDb250ZW50IjpbIjwhRE9DVFlQRSBodG1sPlxuPGh0bWw+XG4gIDxoZWFkPlxuICAgIDx0aXRsZT5DYXJsZXRvbiBkaXJlY3RlZCBzdHVkaWVzIC0gU2xpZGVzPC90aXRsZT5cbiAgICA8bWV0YSBjaGFyc2V0PVwidXRmLThcIj5cbiAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImluZGV4LmNzc1wiIC8+XG4gIDwvaGVhZD5cbiAgPGJvZHk+XG4gICAgPHRleHRhcmVhIGlkPVwic291cmNlXCI+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL2ludHJvZHVjdGlvbi5tZCcgcmF3PjwvaW5jbHVkZT5cbjxpbmNsdWRlIHNyYz0nLi9zbGlkZXMvZG9tLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy92ZG9tLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy93ZWJjb21wb25lbnRzLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy93YXNtLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy9jb25jbHVzaW9uLm1kJyByYXc+PC9pbmNsdWRlPlxuICAgIDwvdGV4dGFyZWE+XG4gICAgPHNjcmlwdCBzcmM9XCJodHRwczovL3JlbWFya2pzLmNvbS9kb3dubG9hZHMvcmVtYXJrLWxhdGVzdC5taW4uanNcIj48L3NjcmlwdD5cbiAgICA8c2NyaXB0PlxuICAgICAgaGxqcyA9IHJlbWFyay5oaWdobGlnaHRlci5lbmdpbmU7XG4gICAgPC9zY3JpcHQ+XG4gICAgPHNjcmlwdCBzcmM9XCJodHRwczovL3JlbWFya2pzLmNvbS9yZW1hcmsubGFuZ3VhZ2UuanNcIj48L3NjcmlwdD5cbiAgICA8c2NyaXB0PlxuICAgICAgc2xpZGVzaG93ID0gcmVtYXJrLmNyZWF0ZSh7XG4gICAgICAgIGhpZ2hsaWdodFN0eWxlOiAnbW9ub2thaScsXG4gICAgICAgIGhpZ2hsaWdodExhbmd1YWdlOiAncmVtYXJrJyxcbiAgICAgICAgaGlnaGxpZ2h0TGluZXM6IHRydWVcbiAgICAgIH0pO1xuICAgIDwvc2NyaXB0PlxuICA8L2JvZHk+XG48L2h0bWw+XG4iXX0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJtYXBwaW5ncyI6IkFBQUFBLFVBQVlDLE9BQU9DLE9BQU8sQ0FDbEJDLGVBQWdCLFVBQ2hCQyxrQkFBbUIsU0FDbkJDLGdCQUFnQiIsInNvdXJjZXMiOlsic3JjL3NsaWRlcy9pbmRleC5odG1sIl0sIm5hbWVzIjpbInNsaWRlc2hvdyIsInJlbWFyayIsImNyZWF0ZSIsImhpZ2hsaWdodFN0eWxlIiwiaGlnaGxpZ2h0TGFuZ3VhZ2UiLCJoaWdobGlnaHRMaW5lcyJdLCJ2ZXJzaW9uIjozLCJmaWxlIjoic2xpZGVzLkhBU0hfUkVGXzQzMzc1M2M5NGVlYmFjM2JkZTY4YTlhNGJjMGVjYmYxLmpzLm1hcCIsInNvdXJjZXNDb250ZW50IjpbIjwhRE9DVFlQRSBodG1sPlxuPGh0bWw+XG4gIDxoZWFkPlxuICAgIDx0aXRsZT5DYXJsZXRvbiBkaXJlY3RlZCBzdHVkaWVzIC0gU2xpZGVzPC90aXRsZT5cbiAgICA8bWV0YSBjaGFyc2V0PVwidXRmLThcIj5cbiAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImluZGV4LmNzc1wiIC8+XG4gIDwvaGVhZD5cbiAgPGJvZHk+XG4gICAgPHRleHRhcmVhIGlkPVwic291cmNlXCI+XG48aW5jbHVkZSBzcmM9Jy4vc2xpZGVzL2ludHJvZHVjdGlvbi5tZCcgcmF3PjwvaW5jbHVkZT5cbjxpbmNsdWRlIHNyYz0nLi9zbGlkZXMvZG9tLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy92ZG9tLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy93ZWJjb21wb25lbnRzLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy93YXNtLm1kJyByYXc+PC9pbmNsdWRlPlxuPGluY2x1ZGUgc3JjPScuL3NsaWRlcy9jb25jbHVzaW9uLm1kJyByYXc+PC9pbmNsdWRlPlxuICAgIDwvdGV4dGFyZWE+XG4gICAgPHNjcmlwdCBzcmM9XCJodHRwczovL3JlbWFya2pzLmNvbS9kb3dubG9hZHMvcmVtYXJrLWxhdGVzdC5taW4uanNcIj48L3NjcmlwdD5cbiAgICA8c2NyaXB0PlxuICAgICAgaGxqcyA9IHJlbWFyay5oaWdobGlnaHRlci5lbmdpbmU7XG4gICAgPC9zY3JpcHQ+XG4gICAgPHNjcmlwdCBzcmM9XCJodHRwczovL3JlbWFya2pzLmNvbS9yZW1hcmsubGFuZ3VhZ2UuanNcIj48L3NjcmlwdD5cbiAgICA8c2NyaXB0PlxuICAgICAgc2xpZGVzaG93ID0gcmVtYXJrLmNyZWF0ZSh7XG4gICAgICAgIGhpZ2hsaWdodFN0eWxlOiAnbW9ub2thaScsXG4gICAgICAgIGhpZ2hsaWdodExhbmd1YWdlOiAncmVtYXJrJyxcbiAgICAgICAgaGlnaGxpZ2h0TGluZXM6IHRydWVcbiAgICAgIH0pO1xuICAgIDwvc2NyaXB0PlxuICA8L2JvZHk+XG48L2h0bWw+XG4iXX0=
 </script> </body></html>
