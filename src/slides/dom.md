@@ -1,4 +1,4 @@
-_---
+---
 class: center, middle, inverse
 
 # HTML and the DOM
